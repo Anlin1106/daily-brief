@@ -522,6 +522,8 @@
   const AEL = new Audio();               // 预生成神经语音 MP3 播放器
   AEL.preload = 'auto';
   const A = { mode:false };              // mode=true 表示当前在播预生成音频
+  const B = { active:false, segs:[], cur:-1 };   // 整期连播模式: 单文件 broadcast.mp3 + 各条目起始时间表
+                                         // 手机浏览器后台会冻结脚本, 单连续文件才能整期后台播放
   const P = {
     on:false, paused:false, idx:-1, sentences:[], bodySents:[], sentOff:0, si:0, gen:0, intro:false
   };
@@ -638,7 +640,7 @@
     if(!sel || !synth) return;
     if(state.ttsLang === 'en'){
       // EN 模式默认播预生成神经语音 MP3, 本地发音人仅在音频缺失回退时生效
-      sel.innerHTML = '<option>Kokoro 男声 Michael（音质最佳）</option>';
+      sel.innerHTML = '<option>Kokoro 双主播 · 男声 Michael / 女声 Heart 交替</option>';
       sel.disabled = true;
       return;
     }
@@ -772,12 +774,24 @@
     }
   }
 
-  // 预生成神经语音 MP3(Kokoro 双主播: 开场 Heart 女声 / 正文 Michael 男声); 加载失败自动回退浏览器本地 TTS
+  // 预生成神经语音 MP3(Kokoro 双主播: 男声 Michael / 女声 Heart 交替); 加载失败自动回退浏览器本地 TTS
+  function setMediaSession(title){
+    if(!('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: title,
+        artist: 'The Daily Brief · 英文财经早报',
+        album: 'The Daily Brief'
+      });
+    } catch(e){}
+  }
   function playNeural(name, gen){
     A.mode = true;
+    B.active = false;
     AEL.src = `data/audio/${ed().date}/${name}`;
     AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate));
-    $('#npLabel').textContent = 'Kokoro 主播 Michael · Now Playing';
+    $('#npLabel').textContent = 'Kokoro 双主播 · Now Playing';
+    setMediaSession($('#npTitle').textContent || 'The Daily Brief');
     AEL.onended = () => {
       if(gen !== P.gen || !A.mode) return;
       P.introDone = true;
@@ -792,13 +806,96 @@
     if(pr && pr.catch) pr.catch(() => {});   // 播放失败由 onerror 接管
   }
 
+  /* 整期连播: 播放单文件 broadcast.mp3(intro+全部条目已合并)。
+     后台时浏览器不再需要"播完一条触发下一条"的脚本动作, 可以整期播完。
+     播放进度通过 timeupdate 对照各条目起始时间, 同步高亮当前新闻。 */
+  function playBroadcast(){
+    const b = ed().broadcast;
+    const list = itemsOf();
+    if(!b || !b.segments || !b.segments.length || !list.length){
+      P.introDone = false;                   // 无合并文件(旧数据), 走逐条模式
+      playFrom(0);
+      return;
+    }
+    stopQuiet();
+    P.gen++;
+    P.on = true; P.paused = false; P.idx = 0; P.introDone = true;
+    A.mode = true;
+    B.active = true;
+    B.segs = b.segments;
+    B.cur = -1;
+    AEL.src = `data/audio/${ed().date}/${b.file}`;
+    AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate));
+    highlight(0);
+    updatePlayer(list[0].title_en || list[0].title_zh, 'Kokoro 双主播 · 连播');
+    setPlayIcon(true);
+    setMediaSession('The Daily Brief · ' + ed().date);
+    AEL.ontimeupdate = () => {
+      if(!B.active) return;
+      const t = AEL.currentTime;
+      let k = 0;
+      for(let j = 0; j < B.segs.length; j++){
+        if(t >= B.segs[j].start - 0.15) k = j; else break;
+      }
+      if(k === B.cur) return;
+      B.cur = k;
+      const isIntro = B.segs[k].file === 'intro.mp3';
+      const idx = isIntro ? 0 : Math.min(k, itemsOf().length - 1);
+      P.idx = idx;
+      highlight(idx);
+      const it = itemsOf()[idx];
+      if(it) updatePlayer(it.title_en || it.title_zh,
+        isIntro ? 'Opening · 开场' : (it.title_en ? 'EN · ' + (idx+1) : 'Now Playing'));
+    };
+    AEL.onended = () => {
+      if(!B.active) return;
+      stop();
+      toast('本期播报结束 ✓');
+    };
+    AEL.onerror = () => {
+      if(!B.active) return;
+      B.active = false;
+      P.introDone = false;
+      playFrom(0);                           // 合并文件加载失败 → 回退逐条模式
+    };
+    const pr = AEL.play();
+    if(pr && pr.catch) pr.catch(() => {});
+  }
+
+  function bsegStart(idx){
+    // 连播文件里条目 idx 对应的段落起点(segs[0] 是导语时整体后移一位)
+    const off = (B.segs[0] && B.segs[0].file === 'intro.mp3') ? 1 : 0;
+    const seg = B.segs[idx + off];
+    return seg ? seg.start : 0;
+  }
   function nextItem(){
+    if(B.active){
+      const list = itemsOf();
+      if(P.idx + 1 >= list.length){ stop(); toast('本期播报结束 ✓'); return; }
+      P.idx++;
+      B.cur = -1;
+      try{ AEL.currentTime = bsegStart(P.idx); }catch(e){}
+      highlight(P.idx);
+      const it = list[P.idx];
+      if(it) updatePlayer(it.title_en || it.title_zh);
+      return;
+    }
     const list = itemsOf();
     if(P.idx + 1 >= list.length){ stop(); toast('本期播报结束 ✓'); return; }
     P.introDone = true;
     playFrom(P.idx + 1);
   }
   function prevItem(){
+    if(B.active){
+      if(P.idx <= 0){ B.cur = -1; try{ AEL.currentTime = 0; }catch(e){} return; }
+      P.idx--;
+      B.cur = -1;
+      try{ AEL.currentTime = bsegStart(P.idx); }catch(e){}
+      highlight(P.idx);
+      const it = itemsOf()[P.idx];
+      if(it) updatePlayer(it.title_en || it.title_zh);
+      return;
+    }
     const list = itemsOf();
     if(P.idx <= 0){ P.introDone = true; playFrom(0); return; }
     P.introDone = true;
@@ -812,7 +909,10 @@
   function stopQuiet(){
     P.gen++;
     A.mode = false;
+    B.active = false;
     AEL.pause();
+    AEL.onended = null;
+    AEL.ontimeupdate = null;
     if(synth) synth.cancel();
     P.queue = [];
     P.on = false;
@@ -848,11 +948,15 @@
   $('#playAll').onclick = () => {
     if(P.on && !P.paused){ pause(); return; }
     if(P.paused){ resume(); return; }
+    if(state.ttsLang === 'en'){ playBroadcast(); return; }   // 首选: 单文件整期连播(后台可播)
     P.introDone = false;
     playFrom(0);
   };
   $('#playPause').onclick = () => {
-    if(!P.on && P.idx < 0){ playFrom(0); return; }
+    if(!P.on && P.idx < 0){
+      if(state.ttsLang === 'en'){ playBroadcast(); return; }
+      playFrom(0); return;
+    }
     if(P.on && !P.paused) pause(); else resume();
   };
   $('#next').onclick = () => { P.introDone = true; nextItem(); };
@@ -895,6 +999,16 @@
     if(e.code === 'ArrowLeft'){ $('#prev').click(); }
   });
   window.addEventListener('beforeunload', () => { AEL.pause(); if(synth) synth.cancel(); });
+
+  // 锁屏/通知栏媒体控制(手机后台播放时, 可从系统播放面板控制)
+  if('mediaSession' in navigator){
+    try {
+      navigator.mediaSession.setActionHandler('play', () => resume());
+      navigator.mediaSession.setActionHandler('pause', () => pause());
+      navigator.mediaSession.setActionHandler('previoustrack', () => prevItem());
+      navigator.mediaSession.setActionHandler('nexttrack', () => nextItem());
+    } catch(e){}
+  }
 
   /* ============================== 启动 ============================== */
   $('#rate').textContent = state.rate.toFixed(1) + '×';
