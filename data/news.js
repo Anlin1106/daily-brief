@@ -3,17 +3,17 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-02 18:10",
+  "updated_at": "2026-11-02 18:28",
   "latest": "2026-11-02",
   "count": 18,
-  "mt_calls": 21
+  "mt_calls": 10
  },
  "editions": [
   {
    "date": "2026-11-02",
    "weekday_en": "Monday",
    "weekday_zh": "周一",
-   "generated_at": "2026-11-02 18:10",
+   "generated_at": "2026-11-02 18:28",
    "lead_en": "",
    "lead_zh": "",
    "indices": [
@@ -146,34 +146,6 @@ window.__BRIEF__ = {
      "id": "wscn-3192040"
     },
     {
-     "ts": 1793611013,
-     "source": "华尔街见闻",
-     "title_zh": "张国清在江苏调研时强调 大力发展先进制造业 培育壮大专精特新企业",
-     "body_zh": "中共中央政治局委员、国务院副总理张国清1日至2日在江苏调研先进制造业、专精特新企业发展等工作。",
-     "url": "https://wallstreetcn.com/livenews/3192464",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "17:16",
-     "title_en": "During his inspection tour in Jiangsu, Zhang Guoqing emphasized the need to vigorously develop advanced manufacturing and cultivate and strengthen specialized and innovative enterprises.",
-     "body_en": "Zhang Guoqing, member of the Political Bureau of the CPC Central Committee and Deputy Premier of the State Council, conducted research in Jiangsu Province from January 1 to 2 on the development of advanced manufacturing and specialized and innovative enterprises.",
-     "id": "wscn-3192464"
-    },
-    {
-     "ts": 1793610668,
-     "source": "华尔街见闻",
-     "title_zh": "中国上市公司协会：前三季度上市公司合计实现营业收入56.8万亿元 同比增长5.9%",
-     "body_zh": "据中国上市公司协会消息，截至10月31日，我国境内股票市场（沪、深、北三家证券交易所，简称“全市场”）共5578家上市公司披露2026年三季度报告。前三季度，上市公司合计实现营业收入56.8万亿元，同比增长5.9%；实现归母净利润5.1万亿元，增长8.5%。全市场4079家上市公司实现盈利，营收正增长公司数量占比较去年全年提高3.8个百分点，超三成公司营收、净利双增长。",
-     "url": "https://wallstreetcn.com/livenews/3192457",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "17:11",
-     "title_en": "China Listed Companies Association: Listed companies achieved a total revenue of 56.8 trillion yuan in the first three quarters, up year on year 5.9%.",
-     "body_en": "According to the China Association of Listed Companies, as of October 31, a total of 5,578 listed companies in China's domestic stock market (Shanghai, Shenzhen, and North Stock Exchanges, referred to as the \"Whole Market\") disclosed the third quarter report of 2026. In the first three quarters, listed companies achieved a total revenue of 56.8 trillion yuan, up year on year 5.9%; net profit attributable to shareholders 5.1 trillion yuan, an increase of 8.5%. 4,079 listed companies in the whole market achieved profitability, and the number of companies with positive revenue growth increased by 3.8 percentage points compared with the whole year of last year. The revenue and net profit of more than 30% of companies increased.",
-     "id": "wscn-3192457"
-    },
-    {
      "ts": 1793603903,
      "source": "华尔街见闻",
      "title_zh": "香港证监会公布首份AI准备情况调查",
@@ -186,6 +158,62 @@ window.__BRIEF__ = {
      "title_en": "Hong Kong's the CSRC Releases First AI Readiness Survey.",
      "body_en": "On November 2, the Hong Kong Securities and Futures Commission (hereinafter referred to as the CSRC) released its first &quot;Survey on the Application and Readiness of Artificial Intelligence in Large Institutions&quot;. The results showed that institutions have widely applied artificial intelligence (AI) in their business and monitoring functions, but pointed out that scaling up the application in a responsible manner is facing challenges.",
      "id": "wscn-3192324"
+    },
+    {
+     "ts": 1793614799,
+     "source": "华尔街见闻",
+     "title_zh": "海天味业",
+     "body_zh": "10月回购30万股，支付金额1036.63万元。截至10月底累计回购2233.53万股，占总股本0.3822%，累计支付7.65亿元，回购价格区间32.94元/股至37.37元/股。",
+     "url": "https://wallstreetcn.com/livenews/3192529",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "18:19",
+     "title_en": "Haitian Flavouring.",
+     "body_en": "In October, share buyback was 300,000 shares, with a payment amount of 10,366,300 yuan. As of the end of October, the cumulative share buyback was 22.3353 million shares, accounting for 0.3822% of the total share capital, and the cumulative payment was 765 million yuan, with the share buyback price range of 32.94 yuan/share to 37.37 yuan/share.",
+     "id": "wscn-3192529"
+    },
+    {
+     "ts": 1793614357,
+     "source": "华尔街见闻",
+     "title_zh": "大族激光",
+     "body_zh": "拟以集中竞价交易方式回购公司股份，回购金额不低于2亿元且不超过3亿元，回购价格不超过85元/股，预计回购235.29万股至352.94万股，占总股本0.23%至0.34%，用于维护公司价值及股东权益（出售），实施期限为自董事会审议通过回购股份方案之日起2个月内。",
+     "url": "https://wallstreetcn.com/livenews/3192525",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "18:12",
+     "title_en": "Han's Laser.",
+     "body_en": "It is proposed to share buyback the shares of the company in the form of a centralized auction transaction. The share buyback amount is not less than 200 million yuan and does not exceed 300 million yuan. The share buyback price does not exceed 85 yuan/share. It is expected that share buyback will be 2,352,900 to 3,529,400 shares, accounting for 0.23% to 0.34% of the total share capital, which will be used to maintain the value of the company and shareholders' equity (sale). The implementation period is within 2 months from the date of the board's consideration and approval of the share buyback plan.",
+     "id": "wscn-3192525"
+    },
+    {
+     "ts": 1793614311,
+     "source": "华尔街见闻",
+     "title_zh": "金风科技",
+     "body_zh": "10月回购168.91万股，占总股本0.04%；截至10月31日累计回购1470.57万股，占总股本0.35%，成交总金额3.25亿元，成交价14.41元/股至24.00元/股，回购股份将全部注销并减少注册资本。",
+     "url": "https://wallstreetcn.com/livenews/3192522",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "18:11",
+     "title_en": "Xinjiang Goldwind Science &amp; Technology Co.",
+     "body_en": "In October, 1.6891 million shares were bought back, representing 0.04% of the total share capital. As of October 31, a total of 14.7057 million shares had been bought back, representing 0.35% of the total share capital, with a total transaction amount of 325 million yuan and transaction prices ranging from 14.41 yuan/share to 24.00 yuan/share. All shares bought back will be cancelled, reducing the registered capital.",
+     "id": "wscn-3192522"
+    },
+    {
+     "ts": 1793614305,
+     "source": "华尔街见闻",
+     "title_zh": "国联民生",
+     "body_zh": "截至2026年10月31日，公司以集中竞价交易方式累计回购A股股份1148万股，占总股本0.20%，已支付金额1亿元（不含交易费用），回购价格区间为8.44元/股至8.90元/股，回购用途为维护公司价值及股东权益。",
+     "url": "https://wallstreetcn.com/livenews/3192521",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "18:11",
+     "title_en": "Guolian Minsheng.",
+     "body_en": "As of October 31, 2026, the company has accumulated 11.48 million shares of share buyback A-shares through centralized bidding transactions, accounting for 0.20% of the total share capital, and has paid an amount of 100 million yuan (excluding transaction fees). The share buyback price range is 8.44 yuan/share to 8.90 yuan/share. The share buyback is used to maintain the company's value and shareholders' rights and interests.",
+     "id": "wscn-3192521"
     },
     {
      "ts": 1793614005,
@@ -216,34 +244,6 @@ window.__BRIEF__ = {
      "id": "wscn-3192510"
     },
     {
-     "ts": 1793613641,
-     "source": "华尔街见闻",
-     "title_zh": "兴业银锡",
-     "body_zh": "董事、总裁张树成及董事、副总裁兼董事会秘书孙凯各增持4万股，增持计划实施完毕，增持均价分别为22.03元/股、22.1915元/股，金额约88.12万元、88.77万元；增持后持股比例分别为0.0084%、0.0158%。董事长吉兴业、副董事长吉祥尚未实施增持计划。",
-     "url": "https://wallstreetcn.com/livenews/3192509",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:00",
-     "title_en": "Industrial silver tin.",
-     "body_en": "Zhang Shucheng, the director and president, and Sun Kai, the director, vice president and secretary of the board of directors, each increased their holdings by 40,000 shares. The implementation of the increase plan was completed. The average price of the increase in shareholdings was 22.03 yuan/share and 22.1915 yuan/share, respectively, with the amounts of about 881,200 yuan and 887,000 yuan; the shareholdings after the increase were 0.0084% and 0.0158%, respectively. Chairman Jixingye and Vice Chairman Jixiang have not implemented the plan to increase their holdings.",
-     "id": "wscn-3192509"
-    },
-    {
-     "ts": 1793613510,
-     "source": "华尔街见闻",
-     "title_zh": "新天科技",
-     "body_zh": "截至2026年10月31日，公司以集中竞价方式累计出售回购股份200万股，占总股本0.1731%，出售所得资金总额896.14万元，成交均价4.48元/股，价格区间4.38元/股至4.54元/股。",
-     "url": "https://wallstreetcn.com/livenews/3192505",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "17:58",
-     "title_en": "Xintian Technology.",
-     "body_en": "As of October 31, 2026, the company sold a total of 2 million shares of share buyback by centralized bidding, accounting for 0.1731% of the total share capital, with a total capital of 8.9614 million yuan, the average transaction price of 4.48 yuan/share, and the price range of 4.38 yuan/share to 4.54 yuan/share.",
-     "id": "wscn-3192505"
-    },
-    {
      "ts": 1793584669,
      "source": "华尔街见闻",
      "title_zh": "美国农民不满 共和党票仓“摇摆”",
@@ -258,18 +258,18 @@ window.__BRIEF__ = {
      "id": "wscn-3192183"
     },
     {
-     "ts": 1793611830,
-     "source": "华尔街见闻",
-     "title_zh": "香港交易所旗下衍生产品结算所接受中国国债、政策性银行债券及财政部债券作抵押品",
-     "body_zh": "香港交易所今天宣布，旗下衍生产品结算所——香港期货结算有限公司及香港联合交易所期权结算所有限公司——已开始接受合资格人民币定息资产作为非现金抵押品，以满足保证金要求。首日共有七间机构提交合资格债券作为抵押品，总值超过人民币四亿元。",
-     "url": "https://wallstreetcn.com/livenews/3192483",
+     "ts": 1793613032,
+     "source": "新浪财经",
+     "title_zh": "央行将开展证券、基金、保险公司互换便利第三次操作",
+     "body_zh": "新华社北京11月2日电（记者吴雨、任军）中国人民银行11月2日发布公告称，将于11月3日开展证券、基金、保险公司互换便利（SFISF）操作，互换期限1年，可视情展期。",
+     "url": "https://finance.sina.com.cn/china/2026-11-02/doc-inixiynw2816332.shtml",
      "category": "macro",
      "category_zh": "宏观",
      "category_en": "Macro",
-     "time": "17:30",
-     "title_en": "The Hong Kong Stock Exchange&#39;s derivatives clearinghouse accepts Chinese government bonds, policy bank bonds, and bonds issued by the Ministry of Finance as collateral.",
-     "body_en": "Hong Kong Exchanges and Clearing Limited (HKEX) announced today that its derivatives clearing houses, Hong Kong Futures Clearing Limited and Hong Kong Exchanges and Clearing Limited (HKEX Options Clearing Limited), have begun accepting eligible RMB fixed-income assets as non-cash collateral to meet margin requirements. On the first day, seven institutions submitted eligible bonds as collateral, totaling over RMB400 million.",
-     "id": "wscn-3192483"
+     "time": "17:50",
+     "title_en": "the PBOC will conduct a third operation to facilitate the exchange of securities, funds, and insurance companies.",
+     "body_en": "Xinhua News Agency, Beijing, November 2 (Reporter Wu Yu, Ren Jun) The People's Bank of China announced on November 2 that it will launch the Securities, Funds and Insurance Company Swap Facility (SFISF) operation on November 3. The swap period is 1 year, which can be extended depending on the circumstances.",
+     "id": "sina-comos:nixiynw2816332"
     },
     {
      "ts": 1793602292,
