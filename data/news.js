@@ -3,17 +3,17 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-02 18:53",
+  "updated_at": "2026-11-02 19:02",
   "latest": "2026-11-02",
   "count": 18,
-  "mt_calls": 16
+  "mt_calls": 4
  },
  "editions": [
   {
    "date": "2026-11-02",
    "weekday_en": "Monday",
    "weekday_zh": "周一",
-   "generated_at": "2026-11-02 18:53",
+   "generated_at": "2026-11-02 19:02",
    "lead_en": "",
    "lead_zh": "",
    "indices": [
@@ -132,6 +132,20 @@ window.__BRIEF__ = {
      "id": "sina-comos:nixiuey2917034"
     },
     {
+     "ts": 1793617172,
+     "source": "华尔街见闻",
+     "title_zh": "万辰集团",
+     "body_zh": "因涉嫌未及时履行关联交易临时信息披露义务等信息披露违法违规，中国证监会决定对公司立案。本次立案调查主要涉及未及时履行信息披露义务事项，与公司日常经营活动无关，相关信息披露事项已经整改完毕。",
+     "url": "https://wallstreetcn.com/livenews/3192571",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "18:59",
+     "title_en": "Wanchen Group.",
+     "body_en": "The CSRC in China decided to file a case against the company for allegedly not timely fulfilling the temporary information disclosure obligations of connected transactions and other information disclosure violations. This case-filing investigation mainly involves the failure to fulfill the information disclosure obligations in a timely manner, which is not related to the company's daily business activities, and the relevant information disclosure matters have been rectified.",
+     "id": "wscn-3192571"
+    },
+    {
      "ts": 1793615683,
      "source": "新浪财经",
      "title_zh": "美联储主席沃什两个关键词在华尔街引发回响，令投资者心生不安",
@@ -144,6 +158,20 @@ window.__BRIEF__ = {
      "title_en": "the Federal Reserve Chairman Kevin Warsh's two keywords reverberated on Wall Street, upsetting investors.",
      "body_en": "Author: Sean Williams, The Motley Fool In addition to the Social Security cost of living adjustment plan, the most notable news in October was last week's FOMC (Federal Open Market Committee) meeting.",
      "id": "sina-comos:nixiynw2823455"
+    },
+    {
+     "ts": 1793617000,
+     "source": "华尔街见闻",
+     "title_zh": "万辰集团：因涉嫌信息披露违法违规被中国证监会立案",
+     "body_zh": "万辰集团公告，公司于2026年11月2日收到中国证监会下发的《立案告知书》，因涉嫌未及时履行关联交易临时信息披露义务等信息披露违法违规事项，中国证监会决定对公司立案。公司称，本次立案调查主要涉及未及时履行信息披露义务事项，与日常经营活动无关，相关信息披露事项已经整改完毕；目前公司经营秩序稳定，各项经营活动正常开展，日常经营管理及业务合作未受影响。公司将积极配合调查并按监管要求履行信息披露义务。",
+     "url": "https://wallstreetcn.com/livenews/3192570",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "18:56",
+     "title_en": "Wanchen Group: Case filed by the CSRC in China for suspected information disclosure violations.",
+     "body_en": "Wanchen Group announced that on November 2, 2026, the company received the \"Notice of Case Filing\" issued by the CSRC of China, and the CSRC of China decided to file a case against the company for allegedly not timely fulfilling the temporary information disclosure obligations of connected transactions and other information disclosure violations. The company said that this case-filing investigation mainly involves the failure to fulfill the information disclosure obligations in a timely manner, which is not related to daily business activities, and the relevant information disclosure matters have been rectified; at present, the company's business order is stable, various business activities are carried out normally, and daily business management and business cooperation have not been affected. The company will actively cooperate with the investigation and fulfill its information disclosure obligations in accordance with regulatory requirements.",
+     "id": "wscn-3192570"
     },
     {
      "ts": 1793603903,
@@ -172,20 +200,6 @@ window.__BRIEF__ = {
      "title_en": "Changan.",
      "body_en": "As of October 30, 2026, the cumulative share buyback was 215 million shares, accounting for 216,941% of the total share capital. Among them, A-shares accounted for 77.2625 million shares, accounting for 0.77941%, with a turnover of 637 million yuan; B shares accounted for 138 million shares, accounting for 139,000%, with a turnover of HK $481 million, equivalent to RMB 411 million.",
      "id": "wscn-3192536"
-    },
-    {
-     "ts": 1793616541,
-     "source": "华尔街见闻",
-     "title_zh": "行云科技",
-     "body_zh": "董事长、总经理张文提议公司以集中竞价方式回购股份，资金总额不低于2亿元且不超过3亿元，价格上限为董事会审议通过回购方案决议前30个交易日股票交易均价的150%，回购股份用于维护公司价值及股东权益或员工持股计划、股权激励。",
-     "url": "https://wallstreetcn.com/livenews/3192567",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "18:49",
-     "title_en": "Xingyun Technology.",
-     "body_en": "Zhang Wen, chairman and general manager, proposed that the company share buyback shares in the form of centralized bidding, with a total capital of not less than 200 million yuan and not more than 300 million yuan. The price cap is 150% of the average transaction price of shares 30 trading days before the resolution of the board of directors' consideration of the share buyback plan. The share buyback shares are used to maintain the value of the company and shareholders' equity or employee shareholding plans and equity incentives.",
-     "id": "wscn-3192567"
     },
     {
      "ts": 1793616482,
@@ -228,20 +242,6 @@ window.__BRIEF__ = {
      "title_en": "Hubei Energy.",
      "body_en": "The controlling shareholder, China Yangtze Three Gorges Group Co., Ltd., intends to increase its shareholding in the company within six months from the date of the announcement through concentrated bidding, bulk transactions, etc., with an amount of not less than 400 million yuan and not more than 800 million yuan, without a fixed price range, and the source of funds is its own funds or self-financing.",
      "id": "wscn-3192554"
-    },
-    {
-     "ts": 1793615829,
-     "source": "华尔街见闻",
-     "title_zh": "交投生态",
-     "body_zh": "公司牵头的联合体被确定为马关县马白镇马鞍山村农用地周边历史遗留废渣整治项目（EPC）中标人，项目计划投资8600.74万元，公司负责该项目涉及的工程施工、工程设备采购等工作。",
-     "url": "https://wallstreetcn.com/livenews/3192552",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:37",
-     "title_en": "Transportation Ecosystem.",
-     "body_en": "The consortium led by the company was identified as the historic residue remediation project (EPC) won the bid for people around the agricultural land in Ma 'anshan Village, Mabai Township, Maguan County. The project is planned to invest RMB 8,600.74 million. The company is responsible for the construction of the project, procurement of engineering equipment and other work involved in the project.",
-     "id": "wscn-3192552"
     },
     {
      "ts": 1793584669,
@@ -327,7 +327,130 @@ window.__BRIEF__ = {
      "body_en": "The Yichun Municipal Bureau of Ecology and Environment hereby announces that, in accordance with the relevant provisions of the environmental impact assessment approval procedures for construction projects, the Bureau intends to accept the environmental impact assessment documents for the Yichun Guoxuan Mining Co., Ltd.&#39;s lithium mine project in the Shuainan mining area of ​​Yifeng County, Jiangxi Province. This is hereby publicized for a period of 10 working days, from November 2, 2026 to November 13, 2026. The mining area is located in Huaqiao Township, Yifeng County, Yichun City, Jiangxi Province. The designated mining area is 0.2546 square meters, with an annual mining capacity of 1.8 million tons of lithium (co-existing ceramic clay) ore.",
      "id": "wscn-3192492"
     }
-   ]
+   ],
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "ce2f6310ac65",
+    "item-00.mp3": "24c3c2ca4ae9",
+    "item-01.mp3": "e01d8cc823aa",
+    "item-02.mp3": "8344690076eb",
+    "item-03.mp3": "ec6e09c37bfc",
+    "item-04.mp3": "e38af6d38532",
+    "item-05.mp3": "677fabbe13d3",
+    "item-06.mp3": "c5fa56b995bb",
+    "item-07.mp3": "cb8ab828c9e4",
+    "item-08.mp3": "c105a236aaa9",
+    "item-09.mp3": "4855b744d288",
+    "item-10.mp3": "753d3247e1ba",
+    "item-11.mp3": "b7a6bbc275e2",
+    "item-12.mp3": "a8455900866b",
+    "item-13.mp3": "f649936207a1",
+    "item-14.mp3": "6f986562299f",
+    "item-15.mp3": "96c58b209fb1",
+    "item-16.mp3": "3ab0c1b0761f",
+    "item-17.mp3": "bee65b8d102d"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.161
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.061,
+      "dur": 19.103
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 29.063,
+      "dur": 53.115
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 83.079,
+      "dur": 38.747
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 122.725,
+      "dur": 32.351
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 155.976,
+      "dur": 35.225
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 192.101,
+      "dur": 20.565
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 213.566,
+      "dur": 75.628
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 290.094,
+      "dur": 34.127
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 325.121,
+      "dur": 47.359
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 373.381,
+      "dur": 31.872
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 406.153,
+      "dur": 38.95
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 446.003,
+      "dur": 28.543
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 475.445,
+      "dur": 49.719
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 526.065,
+      "dur": 42.83
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 569.795,
+      "dur": 34.911
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 605.606,
+      "dur": 72.345
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 678.851,
+      "dur": 23.321
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 703.072,
+      "dur": 71.102
+     }
+    ]
+   }
   },
   {
    "date": "2026-10-30",
@@ -634,7 +757,123 @@ window.__BRIEF__ = {
      "id": "wscn-3190784"
     }
    ],
-   "audio_ready": true
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "3e13b92c4b98",
+    "item-00.mp3": "456206bd9e3b",
+    "item-01.mp3": "1d78d0e7e9c8",
+    "item-02.mp3": "fee79739b0ec",
+    "item-03.mp3": "c8be642204f0",
+    "item-04.mp3": "f1850a021b1c",
+    "item-05.mp3": "1b584150a3eb",
+    "item-06.mp3": "64265e7ee9eb",
+    "item-07.mp3": "f1ed21a76114",
+    "item-08.mp3": "4e402f2dc337",
+    "item-09.mp3": "de8c015f49a7",
+    "item-10.mp3": "26548da71654",
+    "item-11.mp3": "360798f63f4b",
+    "item-12.mp3": "99f00a4d2156",
+    "item-13.mp3": "534412430192",
+    "item-14.mp3": "83de4eaebabd",
+    "item-15.mp3": "10f2d7233b5c",
+    "item-16.mp3": "83844f439fef"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 41.956
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 42.856,
+      "dur": 50.633
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 94.389,
+      "dur": 38.511
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 133.8,
+      "dur": 20.311
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 155.011,
+      "dur": 41.233
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 197.143,
+      "dur": 36.121
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 234.164,
+      "dur": 11.301
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 246.365,
+      "dur": 38.978
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 286.243,
+      "dur": 33.303
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 320.447,
+      "dur": 37.329
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 358.675,
+      "dur": 32.179
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 391.754,
+      "dur": 32.621
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 425.275,
+      "dur": 31.057
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 457.231,
+      "dur": 45.979
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 504.11,
+      "dur": 27.715
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 532.725,
+      "dur": 41.425
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 575.05,
+      "dur": 26.809
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 602.759,
+      "dur": 14.821
+     }
+    ]
+   }
   },
   {
    "date": "2026-10-29",
@@ -934,7 +1173,123 @@ window.__BRIEF__ = {
      "id": "wscn-3190440"
     }
    ],
-   "audio_ready": true
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "9d0527bf8fd4",
+    "item-00.mp3": "4b408a8de9e6",
+    "item-01.mp3": "b1f16671aff6",
+    "item-02.mp3": "423455329386",
+    "item-03.mp3": "92484c27b177",
+    "item-04.mp3": "a030c52f3be1",
+    "item-05.mp3": "311a1bbf49c0",
+    "item-06.mp3": "d69c7c7f90f5",
+    "item-07.mp3": "b5e69595bda3",
+    "item-08.mp3": "7fc8d979a053",
+    "item-09.mp3": "e06f29916c54",
+    "item-10.mp3": "f6590e13c200",
+    "item-11.mp3": "8e09b3c03e11",
+    "item-12.mp3": "c840929b0d99",
+    "item-13.mp3": "36c844448b49",
+    "item-14.mp3": "8e2a6344a159",
+    "item-15.mp3": "0bd6fea06006",
+    "item-16.mp3": "ce75ce9bd15b"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 37.768
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 38.668,
+      "dur": 46.485
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 86.053,
+      "dur": 15.867
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 102.819,
+      "dur": 22.425
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 126.144,
+      "dur": 39.902
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 166.946,
+      "dur": 41.136
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 208.982,
+      "dur": 23.969
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 233.851,
+      "dur": 45.04
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 279.791,
+      "dur": 43.141
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 323.832,
+      "dur": 39.895
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 364.627,
+      "dur": 33.639
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 399.167,
+      "dur": 34.918
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 434.985,
+      "dur": 39.592
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 475.477,
+      "dur": 19.045
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 495.422,
+      "dur": 14.473
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 510.795,
+      "dur": 27.075
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 538.771,
+      "dur": 27.822
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 567.493,
+      "dur": 20.135
+     }
+    ]
+   }
   }
  ]
 };
