@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 """为英文财经早报预生成 MP3 广播音频。
 主引擎: Kokoro 本地神经语音（免费、稳定，新闻主播式双声配置）
-  - 开场导语 intro → af_heart (美式女声, 清晰明亮)
-  - 正文条目     → am_michael (美式男声, 沉稳)
-备选音色: bm_george (英式男声) 可在 VOICE_PLAN 里替换
-兜底引擎: Edge 神经语音 (en-US-AndrewNeural), Kokoro 不可用时自动切换
+  - 开场导语 intro → am_michael (美式男声, 沉稳)
+  - 正文条目     → 男女交替播报: 偶数条 am_michael 男声 / 奇数条 af_heart 女声
+备选音色: bm_george (英式男声) / af_bella, af_sky (女声) 可在 VOICE_* 里替换
+兜底引擎: Edge 神经语音 (男 Andrew / 女 Jenny), Kokoro 不可用时自动切换
+每期还会把 intro + 全部条目合并成 broadcast.mp3 (单文件连播):
+  手机浏览器在后台会冻结网页脚本, "一条播完再触发下一条"会失效,
+  单个连续音频文件则可以在后台一直播完 —— 这是解决后台连播的关键。
 用法: python gen_audio.py [--force]
-为 data/news.json 中每期生成 data/audio/<date>/intro.mp3 与 item-XX.mp3，
+为 data/news.json 中每期生成 data/audio/<date>/intro.mp3、item-XX.mp3 与 broadcast.mp3，
+并把每条在 broadcast.mp3 里的起始时间写进 news.json 的 ed["broadcast"]["segments"]，
 已存在的文件自动跳过（--force 重新生成）。
 """
 import asyncio, json, os, re, sys, shutil, time, tempfile
@@ -19,10 +23,16 @@ MODELS = os.path.join(ROOT, "models")
 MIN_VALID_SIZE = 2000                # 小于该字节数视为损坏文件, 重新生成
 # 语速固定 1.0 —— 与用户认可的试听样本一致; 播放端可用 playbackRate 微调
 
-# 播报配置: 用户指定全部用男声(男声更稳、更适合财经文)
+# 播报配置: 双主播 —— 男声 Michael 播导语和偶数条, 女声 Heart 播奇数条, 交替像双人新闻节目
 VOICE_INTRO_KOKORO = "am_michael"
-VOICE_ITEM_KOKORO = "am_michael"
-VOICE_EDGE = "en-US-AndrewNeural"
+VOICE_MALE_KOKORO = "am_michael"        # 男声 (备选: bm_george)
+VOICE_FEMALE_KOKORO = "af_heart"        # 女声 (备选: af_bella / af_sky)
+VOICE_MALE_EDGE = "en-US-AndrewNeural"
+VOICE_FEMALE_EDGE = "en-US-JennyNeural"
+BROADCAST_GAP = 0.9                     # broadcast.mp3 里条目之间的间隔秒数
+# 声音方案版本号: 写入每期 news.json 的 voice_plan 字段。
+# 改动音色/交替规则时把它 +1, 旧音频会在下一次运行时自动按新方案重新生成(无需 --force)。
+VOICE_PLAN = "intro-michael+items-michael-heart-alt-v2"
 
 _kokoro = None
 _edge_ok = True
@@ -163,16 +173,18 @@ def synth_kokoro(text, path, voice):
     return True
 
 
-async def synth_edge(text, path):
-    c = edge_tts.Communicate(tts_sanitize(text), VOICE_EDGE, rate="+6%")
+async def synth_edge(text, path, gender):
+    voice = VOICE_MALE_EDGE if gender == "M" else VOICE_FEMALE_EDGE
+    c = edge_tts.Communicate(tts_sanitize(text), voice, rate="+6%")
     await c.save(path)
 
 
-async def synth(text, path, is_intro):
+async def synth(text, path, gender="M"):
+    """gender: 'M' 男声 / 'F' 女声"""
     text = tts_sanitize(text)
     k = get_kokoro()
     if k is not None:
-        voice = VOICE_INTRO_KOKORO if is_intro else VOICE_ITEM_KOKORO
+        voice = VOICE_MALE_KOKORO if gender == "M" else VOICE_FEMALE_KOKORO
         for attempt in range(2):
             try:
                 synth_kokoro(text, path, voice)
@@ -181,7 +193,7 @@ async def synth(text, path, is_intro):
                 print(f"    Kokoro 尝试 {attempt+1}/2 失败: {type(e).__name__} {e}")
                 get_kokoro_force_reload()
     if _edge_ok:
-        await synth_edge(text, path)
+        await synth_edge(text, path, gender)
         return "edge"
     raise RuntimeError("无可用语音引擎")
 
@@ -192,19 +204,63 @@ def get_kokoro_force_reload():
 
 
 def build_jobs(ed):
+    """返回 (文件名, 文本, 声音性别) 列表。
+    导语男声; 正文条目男女交替: 偶数条男声、奇数条女声。"""
     jobs = []
     intro = "The Daily Brief. {}, {}. {} stories.".format(
         ed.get("weekday_en", ""), ed.get("date", ""), len(ed.get("items", [])))
     if ed.get("lead_en"):
         intro += " " + ed["lead_en"]
-    jobs.append(("intro.mp3", intro, True))
+    jobs.append(("intro.mp3", intro, "M"))
     for i, it in enumerate(ed.get("items", [])):
         title = (it.get("title_en") or it.get("title_zh") or "").strip().rstrip(".") + "."
         body = (it.get("body_en") or "").strip()
         txt = (title + " " + body).strip()
         if len(txt) > 3:
-            jobs.append((f"item-{i:02d}.mp3", txt, False))
+            jobs.append((f"item-{i:02d}.mp3", txt, "M" if i % 2 == 0 else "F"))
     return jobs
+
+
+def valid_audio(path):
+    return os.path.exists(path) and os.path.getsize(path) > MIN_VALID_SIZE
+
+
+def job_hash(txt, gender):
+    """音频内容指纹: 文案或音色方案一变就翻转 → 自动重生成, 杜绝"文字更新了音频还是旧的"。
+    (fetch_news 每天会重抓同一天的新闻, 条目内容可能和上一次不同)"""
+    import hashlib
+    raw = f"{VOICE_PLAN}|{gender}|{txt.strip()}"
+    return hashlib.md5(raw.encode("utf-8")).hexdigest()[:12]
+
+
+def merge_broadcast(adir, jobs):
+    """把 intro + 全部条目合并成单文件 broadcast.mp3, 条目间留 0.9s 停顿。
+    同时返回各条目在合并文件中的起始时间(秒)与时长, 供前端同步高亮。
+    手机浏览器后台会冻结脚本, 单连续文件才能整期后台连播。"""
+    import numpy as np, soundfile as sf
+    sr = 24000
+    gap = np.zeros(int(sr * BROADCAST_GAP), dtype=np.float32)
+    parts, segments, cursor = [], [], 0.0
+    for fname, _txt, _g in jobs:
+        p = os.path.join(adir, fname)
+        data, file_sr = sf.read(p, dtype="float32")
+        if data.ndim > 1:
+            data = data[:, 0]
+        if file_sr != sr:                       # 理论上都是 24k, 保险起见用 numpy 线性重采样
+            n_out = int(round(len(data) * sr / file_sr))
+            g = np.interp(
+                np.linspace(0.0, len(data) - 1, n_out),
+                np.arange(len(data)), data).astype(np.float32)
+        else:
+            g = data
+        dur = len(g) / sr
+        segments.append({"file": fname, "start": round(cursor, 3), "dur": round(dur, 3)})
+        parts.append(g)
+        parts.append(gap.copy())
+        cursor += dur + BROADCAST_GAP
+    out = os.path.join(adir, "broadcast.mp3")
+    sf.write(out, np.concatenate(parts), sr, format="MP3")
+    return segments
 
 
 def clean_old_audio(editions):
@@ -228,14 +284,24 @@ async def main(force=False):
         adir = os.path.join(ROOT, "data", "audio", date)
         os.makedirs(adir, exist_ok=True)
         jobs = build_jobs(ed)
-        for fname, txt, is_intro in jobs:
+        regen = False
+        # 声音方案与当前不一致(或 --force)时, 该期全部重新生成 —— 用于双主播方案上线后自动迁移旧音频
+        need = force or ed.get("voice_plan") != VOICE_PLAN
+        if need and not force:
+            print(f"  {date}: 声音方案变更({ed.get('voice_plan', '旧版')} → {VOICE_PLAN}), 重新生成")
+        old_hashes = ed.get("audio_hashes") or {}
+        hashes = {}
+        for fname, txt, gender in jobs:
             fpath = os.path.join(adir, fname)
-            if not force and os.path.exists(fpath) and os.path.getsize(fpath) > MIN_VALID_SIZE:
+            h = job_hash(txt, gender)
+            hashes[fname] = h
+            # 只有"文案+音色都没变且文件有效"才跳过; 文案改了(当天重抓新闻)必须重生成
+            if not need and old_hashes.get(fname) == h and valid_audio(fpath):
                 continue
             ok = engine = False
             for attempt in range(3):
                 try:
-                    engine = await synth(txt, fpath, is_intro)
+                    engine = await synth(txt, fpath, gender)
                     ok = True
                     break
                 except Exception as e:
@@ -243,13 +309,48 @@ async def main(force=False):
                     await asyncio.sleep(2.5)
             if ok:
                 made += 1
+                regen = True
                 print(f"  {date}/{fname}  {os.path.getsize(fpath)//1024} KB  [{engine}]")
             else:
                 failed += 1
                 print(f"  失败 {date}/{fname}")
         ed["audio_ready"] = failed == 0
+        if failed == 0:
+            ed["voice_plan"] = VOICE_PLAN
+            ed["audio_hashes"] = hashes
+            # 清掉本期已不存在条目的残留音频(条目数变少时, 旧 item-XX.mp3 会串进连播/被误点)
+            keep_names = {j[0] for j in jobs} | {"broadcast.mp3"}
+            for fn in os.listdir(adir):
+                if fn.endswith(".mp3") and fn not in keep_names:
+                    try:
+                        os.remove(os.path.join(adir, fn))
+                        print(f"  清理多余音频: {date}/{fn}")
+                    except Exception:
+                        pass
+        # 合并整期连播文件: 有新音频 / 文件缺失 / 段列表与当前条目不一致 时重建
+        bpath = os.path.join(adir, "broadcast.mp3")
+        job_files = [j[0] for j in jobs]
+        seg_files = [s.get("file") for s in (ed.get("broadcast") or {}).get("segments", [])]
+        if failed == 0 and (regen or not valid_audio(bpath) or seg_files != job_files):
+            try:
+                segs = merge_broadcast(adir, jobs)
+                ed["broadcast"] = {"file": "broadcast.mp3", "segments": segs}
+                print(f"  {date}/broadcast.mp3  {os.path.getsize(bpath)//1024} KB  ({len(segs)} 段)")
+            except Exception as e:
+                print(f"  broadcast 合并失败 {date}: {type(e).__name__} {e}")
+                ed.pop("broadcast", None)
     save_editions(data)
     print(f"完成: 生成 {made} 个文件, 失败 {failed}, 用时 {time.time()-t0:.0f}s")
+    # 关键: 本脚本会给 news.json 补上 broadcast 时间轴/voice_plan/音频指纹,
+    # 而流水线里 build_data.py 排在配音之前 —— 不在这里重跑一次, 页面就拿不到连播数据
+    # (表现为: 手机后台播完一条不自动接一条)。故收尾时强制刷新 news.js。
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        import build_data
+        build_data.main()
+        print("  已刷新 data/news.js")
+    except Exception as e:
+        print(f"  刷新 news.js 失败: {type(e).__name__} {e}")
 
 
 if __name__ == "__main__":
