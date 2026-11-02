@@ -839,13 +839,15 @@
       }
       if(k === B.cur) return;
       B.cur = k;
-      const isIntro = B.segs[k].file === 'intro.mp3';
-      const idx = isIntro ? 0 : Math.min(k, itemsOf().length - 1);
+      const seg = B.segs[k];
+      const mm = /item-(\d+)/.exec(seg.file);
+      const isIntro = seg.file === 'intro.mp3';
+      // 按文件名里的条目编号定位(不能用第几段推算: 文本过短的条目可能没生成音频, 位置会整体错位)
+      const idx = mm ? Math.min(+mm[1], itemsOf().length - 1) : 0;
       P.idx = idx;
       highlight(idx);
       const it = itemsOf()[idx];
-      if(it) updatePlayer(it.title_en || it.title_zh,
-        isIntro ? 'Opening · 开场' : (it.title_en ? 'EN · ' + (idx+1) : 'Now Playing'));
+      if(it) updatePlayer(it.title_en || it.title_zh, isIntro ? 'Opening · 开场' : 'Now Playing');
     };
     AEL.onended = () => {
       if(!B.active) return;
@@ -863,10 +865,14 @@
   }
 
   function bsegStart(idx){
-    // 连播文件里条目 idx 对应的段落起点(segs[0] 是导语时整体后移一位)
-    const off = (B.segs[0] && B.segs[0].file === 'intro.mp3') ? 1 : 0;
-    const seg = B.segs[idx + off];
-    return seg ? seg.start : 0;
+    // 按条目文件名(item-XX.mp3)找对应段落起点, 找不到就退回最近的前一段
+    const want = 'item-' + String(idx).padStart(2, '0') + '.mp3';
+    let best = 0;
+    for(const s of B.segs){
+      if(s.file === want) return s.start;
+      if(s.file !== 'intro.mp3') best = s.start;
+    }
+    return best;
   }
   function nextItem(){
     if(B.active){

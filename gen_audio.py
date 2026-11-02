@@ -225,6 +225,14 @@ def valid_audio(path):
     return os.path.exists(path) and os.path.getsize(path) > MIN_VALID_SIZE
 
 
+def job_hash(txt, gender):
+    """音频内容指纹: 文案或音色方案一变就翻转 → 自动重生成, 杜绝"文字更新了音频还是旧的"。
+    (fetch_news 每天会重抓同一天的新闻, 条目内容可能和上一次不同)"""
+    import hashlib
+    raw = f"{VOICE_PLAN}|{gender}|{txt.strip()}"
+    return hashlib.md5(raw.encode("utf-8")).hexdigest()[:12]
+
+
 def merge_broadcast(adir, jobs):
     """把 intro + 全部条目合并成单文件 broadcast.mp3, 条目间留 0.9s 停顿。
     同时返回各条目在合并文件中的起始时间(秒)与时长, 供前端同步高亮。
@@ -281,9 +289,14 @@ async def main(force=False):
         need = force or ed.get("voice_plan") != VOICE_PLAN
         if need and not force:
             print(f"  {date}: 声音方案变更({ed.get('voice_plan', '旧版')} → {VOICE_PLAN}), 重新生成")
+        old_hashes = ed.get("audio_hashes") or {}
+        hashes = {}
         for fname, txt, gender in jobs:
             fpath = os.path.join(adir, fname)
-            if not need and valid_audio(fpath):
+            h = job_hash(txt, gender)
+            hashes[fname] = h
+            # 只有"文案+音色都没变且文件有效"才跳过; 文案改了(当天重抓新闻)必须重生成
+            if not need and old_hashes.get(fname) == h and valid_audio(fpath):
                 continue
             ok = engine = False
             for attempt in range(3):
@@ -304,9 +317,21 @@ async def main(force=False):
         ed["audio_ready"] = failed == 0
         if failed == 0:
             ed["voice_plan"] = VOICE_PLAN
-        # 合并整期连播文件: 本期有新音频, 或 broadcast.mp3 缺失/损坏时重建
+            ed["audio_hashes"] = hashes
+            # 清掉本期已不存在条目的残留音频(条目数变少时, 旧 item-XX.mp3 会串进连播/被误点)
+            keep_names = {j[0] for j in jobs} | {"broadcast.mp3"}
+            for fn in os.listdir(adir):
+                if fn.endswith(".mp3") and fn not in keep_names:
+                    try:
+                        os.remove(os.path.join(adir, fn))
+                        print(f"  清理多余音频: {date}/{fn}")
+                    except Exception:
+                        pass
+        # 合并整期连播文件: 有新音频 / 文件缺失 / 段列表与当前条目不一致 时重建
         bpath = os.path.join(adir, "broadcast.mp3")
-        if failed == 0 and (regen or not valid_audio(bpath)):
+        job_files = [j[0] for j in jobs]
+        seg_files = [s.get("file") for s in (ed.get("broadcast") or {}).get("segments", [])]
+        if failed == 0 and (regen or not valid_audio(bpath) or seg_files != job_files):
             try:
                 segs = merge_broadcast(adir, jobs)
                 ed["broadcast"] = {"file": "broadcast.mp3", "segments": segs}
@@ -314,8 +339,6 @@ async def main(force=False):
             except Exception as e:
                 print(f"  broadcast 合并失败 {date}: {type(e).__name__} {e}")
                 ed.pop("broadcast", None)
-        elif "broadcast" not in ed:
-            ed.pop("broadcast", None)
     save_editions(data)
     print(f"完成: 生成 {made} 个文件, 失败 {failed}, 用时 {time.time()-t0:.0f}s")
 
