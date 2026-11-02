@@ -1,0 +1,6 @@
+requests>=2.31
+edge-tts>=6.1
+kokoro-onnx>=0.4
+onnxruntime>=1.17
+soundfile>=0.12.1
+numpy>=1.26

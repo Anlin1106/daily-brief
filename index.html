@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>The Daily Brief · 英文财经早报</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#1b2a41">
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Daily Brief">
+<style>
+  :root{
+    --paper:#f7f4ee;
+    --card:#fffdf9;
+    --ink:#15171c;
+    --ink2:#4b5058;
+    --ink3:#8b8f97;
+    --rule:#e0d9cb;
+    --rule-soft:#ece6da;
+    --navy:#1b2a41;
+    --amber:#a97b34;
+    --amber-soft:#f3e9d6;
+    --up:#bb3a2c;
+    --down:#1e7a51;
+    --shadow:0 1px 2px rgba(27,42,65,.05), 0 12px 30px -18px rgba(27,42,65,.35);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Songti SC","Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    --mono:"SF Mono",ui-monospace,Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+    padding-bottom:calc(96px + env(safe-area-inset-bottom, 0px));
+    padding-top:env(safe-area-inset-top, 0px);
+  }
+  body::before{ /* 纸张微纹理 */
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+    background-image:radial-gradient(rgba(27,42,65,.045) .5px, transparent .5px);
+    background-size:4px 4px;
+  }
+  .wrap{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:0 24px}
+
+  /* ---------------- masthead ---------------- */
+  header.masthead{padding:34px 0 0}
+  .kicker{
+    display:flex;align-items:center;gap:10px;justify-content:center;
+    font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--amber);
+    font-weight:600;
+  }
+  .kicker::before,.kicker::after{content:"";height:1px;width:46px;background:var(--rule)}
+  h1.title{
+    font-family:var(--serif);
+    font-size:clamp(38px,7vw,64px);
+    line-height:1.02;
+    letter-spacing:-.02em;
+    text-align:center;
+    margin:12px 0 6px;
+    font-weight:600;
+  }
+  .subtitle{
+    text-align:center;font-size:12.5px;color:var(--ink3);letter-spacing:.18em;
+    text-transform:uppercase;margin-bottom:16px;
+  }
+  .dateline{
+    display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;align-items:center;
+    font-family:var(--mono);font-size:11.5px;color:var(--ink2);
+    padding:10px 0;border-top:1px solid var(--ink);border-bottom:3px double var(--ink);
+  }
+  .dateline span.dot{color:var(--rule)}
+  .dateline b{color:var(--ink);font-weight:600}
+
+  .actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 4px}
+  .btn{
+    font-family:var(--sans);font-size:13px;font-weight:500;
+    border:1px solid var(--rule);background:var(--card);color:var(--ink);
+    padding:9px 16px;border-radius:999px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:7px;
+    transition:.18s ease;
+  }
+  .btn:hover{border-color:var(--amber);color:var(--amber);transform:translateY(-1px)}
+  .btn.primary{background:var(--navy);border-color:var(--navy);color:#fff;padding:10px 20px}
+  .btn.primary:hover{background:#243a58;color:#fff}
+  .btn.ghost{background:transparent}
+  .btn[aria-pressed="true"]{background:var(--amber-soft);border-color:var(--amber);color:#7d5a20}
+
+  /* ---------------- tape ---------------- */
+  .tape{
+    margin:22px 0 0;border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);
+    background:rgba(255,253,249,.6);
+  }
+  .tape-inner{
+    display:flex;overflow-x:auto;scrollbar-width:none;
+  }
+  .tape-inner::-webkit-scrollbar{display:none}
+  .tick{
+    flex:0 0 auto;padding:11px 20px;border-right:1px solid var(--rule-soft);
+    display:flex;align-items:baseline;gap:9px;white-space:nowrap;
+  }
+  .tick:first-child{padding-left:0}
+  .tick .nm{font-size:11.5px;color:var(--ink2);letter-spacing:.04em}
+  .tick .nm i{display:block;font-style:normal;font-family:var(--mono);font-size:9.5px;color:var(--ink3);letter-spacing:.06em}
+  .tick .vl{font-family:var(--mono);font-size:13px;font-weight:600}
+  .tick .pc{font-family:var(--mono);font-size:11.5px;font-weight:600}
+  .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--ink3)}
+
+  /* ---------------- lead ---------------- */
+  .lead{
+    margin:30px 0 0;background:var(--card);border:1px solid var(--rule);
+    border-left:3px solid var(--amber);border-radius:4px;
+    padding:20px 24px 18px;box-shadow:var(--shadow);
+  }
+  .sec-label{
+    font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--amber);
+    font-weight:700;margin:0 0 10px;display:flex;align-items:center;gap:10px;
+  }
+  .sec-label::after{content:"";flex:1;height:1px;background:var(--rule-soft)}
+  .lead p{
+    margin:0;font-family:var(--serif);font-size:17.5px;line-height:1.72;color:var(--ink);
+  }
+  .lead p.zh{
+    font-family:var(--sans);font-size:13.5px;color:var(--ink3);margin-top:10px;
+    padding-top:10px;border-top:1px dashed var(--rule-soft);
+  }
+
+  /* ---------------- toolbar ---------------- */
+  .toolbar{
+    display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;
+    margin:26px 0 6px;padding-bottom:12px;border-bottom:1px solid var(--rule);
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{
+    font-size:12px;padding:6px 13px;border-radius:999px;cursor:pointer;
+    border:1px solid var(--rule);background:transparent;color:var(--ink2);
+    font-family:var(--sans);transition:.15s;
+  }
+  .chip:hover{border-color:var(--amber);color:var(--amber)}
+  .chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+  .chip small{opacity:.6;font-family:var(--mono);margin-left:4px;font-size:10px}
+  select.sel{
+    font-family:var(--sans);font-size:12px;padding:7px 10px;border-radius:6px;
+    border:1px solid var(--rule);background:var(--card);color:var(--ink2);cursor:pointer;
+  }
+
+  /* ---------------- stories ---------------- */
+  .stories{margin:6px 0 40px}
+  article.item{
+    position:relative;display:grid;grid-template-columns:52px 1fr;gap:0 18px;
+    padding:22px 16px 22px 12px;border-bottom:1px solid var(--rule-soft);
+    border-radius:4px;transition:background .2s,box-shadow .2s;
+  }
+  article.item:hover{background:rgba(255,253,249,.85)}
+  article.item.playing{background:var(--amber-soft);box-shadow:inset 3px 0 0 var(--amber)}
+  .ord{
+    font-family:var(--serif);font-size:26px;line-height:1;color:var(--rule);
+    font-weight:600;padding-top:2px;text-align:right;
+  }
+  article.item.playing .ord{color:var(--amber)}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:10.5px;margin-bottom:7px}
+  .tag{
+    background:var(--navy);color:#fff;padding:2px 8px;border-radius:3px;
+    letter-spacing:.08em;text-transform:uppercase;font-weight:600;font-size:9.5px;
+  }
+  .tag.zh{background:transparent;color:var(--ink2);border:1px solid var(--rule);text-transform:none;letter-spacing:.04em}
+  .tm{font-family:var(--mono);color:var(--ink3)}
+  .src{color:var(--ink3)}
+  h2.hl{
+    font-family:var(--serif);font-size:20px;line-height:1.38;margin:0 0 8px;font-weight:600;
+    letter-spacing:-.005em;
+  }
+  .body-en{
+    font-size:14.8px;line-height:1.72;color:var(--ink2);margin:0;
+  }
+  .body-en::first-letter{text-transform:uppercase}
+  .zh-block{
+    display:none;margin-top:11px;padding:10px 12px;background:rgba(27,42,65,.035);
+    border-radius:4px;border-left:2px solid var(--rule);
+  }
+  .zh-block .zh-t{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 4px}
+  .zh-block .zh-b{font-size:12.8px;color:var(--ink2);margin:0;line-height:1.7}
+  body.show-zh .zh-block{display:block}
+  .tools{display:flex;gap:8px;margin-top:12px;align-items:center}
+  .ico{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ink2);
+    border:1px solid var(--rule);background:var(--card);border-radius:999px;
+    padding:5px 11px;cursor:pointer;transition:.15s;font-family:var(--sans);
+  }
+  .ico:hover{border-color:var(--amber);color:var(--amber)}
+  .ico.on{background:var(--navy);border-color:var(--navy);color:#fff}
+  .dur{font-family:var(--mono);font-size:10.5px;color:var(--ink3);margin-left:auto}
+  .sent.on{background:linear-gradient(180deg,transparent 58%,rgba(169,123,52,.22) 58%)}
+
+  /* ---------------- player ---------------- */
+  .player{
+    position:fixed;left:0;right:0;bottom:0;z-index:50;
+    background:rgba(27,42,65,.97);color:#f4f1ea;
+    backdrop-filter:blur(12px);
+    border-top:1px solid rgba(255,255,255,.12);
+    transform:translateY(102%);transition:transform .32s cubic-bezier(.2,.8,.2,1);
+  }
+  .player.up{transform:translateY(0)}
+  .player-in{
+    max-width:1080px;margin:0 auto;padding:11px 24px;
+    display:flex;align-items:center;gap:16px;
+  }
+  .np{min-width:0;flex:1}
+  .np .lb{font-size:9px;letter-spacing:.24em;color:#a9b6c9;text-transform:uppercase;display:flex;gap:8px;align-items:center}
+  .np .lb .live{width:6px;height:6px;border-radius:50%;background:#e0a24a;animation:pulse 1.4s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  .np .tt{
+    font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+    font-family:var(--serif);margin-top:2px;color:#fff;
+  }
+  .ctrls{display:flex;align-items:center;gap:6px}
+  .pbtn{
+    width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.22);
+    background:transparent;color:#fff;cursor:pointer;display:grid;place-items:center;
+    transition:.15s;font-size:13px;
+  }
+  .pbtn:hover{background:rgba(255,255,255,.12)}
+  .pbtn.main{width:46px;height:46px;background:#f4f1ea;color:var(--navy);border-color:#f4f1ea;font-size:15px}
+  .pbtn.main:hover{background:#fff}
+  .right{display:flex;align-items:center;gap:10px}
+  .rate{
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#fff;
+    border-radius:6px;font-size:11.5px;padding:5px 8px;cursor:pointer;font-family:var(--mono);
+  }
+  .rate:hover{background:rgba(255,255,255,.16)}
+  select.rate{max-width:190px}
+  select.rate option{color:#15171c;background:#fff}
+  .prog{position:absolute;left:0;top:0;height:2px;background:#e0a24a;width:0;transition:width .3s}
+
+  /* ---------------- misc ---------------- */
+  .empty{
+    text-align:center;padding:70px 20px;color:var(--ink3);font-size:13px;line-height:2;
+  }
+  .empty code{font-family:var(--mono);background:var(--amber-soft);padding:2px 7px;border-radius:4px;color:#7d5a20}
+  footer.foot{
+    border-top:3px double var(--ink);margin-top:10px;padding:16px 0 40px;
+    font-size:11px;color:var(--ink3);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;
+    font-family:var(--mono);
+  }
+  .toast{
+    position:fixed;left:50%;bottom:110px;transform:translate(-50%,20px);
+    background:var(--navy);color:#fff;font-size:12.5px;padding:9px 18px;border-radius:999px;
+    opacity:0;pointer-events:none;transition:.25s;z-index:60;
+  }
+  .toast.on{opacity:1;transform:translate(-50%,0)}
+  @media (max-width:640px){
+    .wrap{padding:0 16px}
+    header.masthead{padding-top:24px}
+    article.item{grid-template-columns:34px 1fr;gap:0 10px;padding:18px 6px}
+    .ord{font-size:19px}
+    h2.hl{font-size:18px}
+    .player-in{padding:9px 14px;gap:10px}
+    .np .tt{font-size:12px}
+    .right .rate{display:none}
+    .dur{display:none}
+  }
+  @media print{
+    .player,.actions,.toolbar,.toast{display:none}
+    body{padding:0}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="kicker">English Financial Morning Brief</div>
+    <h1 class="title">The Daily Brief</h1>
+    <div class="subtitle">英文财经早报 · 每天更新</div>
+
+    <div class="dateline" id="dateline">
+      <span id="dl-date">Thursday, October 29, 2026</span>
+      <span class="dot">·</span>
+      <span id="dl-ed">No. 001</span>
+      <span class="dot">·</span>
+      <span id="dl-count" >0 stories</span>
+      <span class="dot">·</span>
+      <span>更新 <b id="dl-time">--:--</b></span>
+    </div>
+
+    <div class="actions">
+      <button class="btn primary" id="playAll">▶&nbsp; 听广播</button>
+      <button class="btn" id="toggleZh" aria-pressed="false">显示中文</button>
+      <button class="btn ghost" id="reload">↻ 更新数据</button>
+    </div>
+  </header>
+
+  <div class="tape" id="tapeWrap" hidden>
+    <div class="tape-inner" id="tape"></div>
+  </div>
+
+  <section class="lead" id="leadBox" hidden>
+    <p class="sec-label">Overnight in Brief · 隔夜要闻</p>
+    <p id="leadEn"></p>
+    <p class="zh" id="leadZh" hidden></p>
+  </section>
+
+  <div class="toolbar">
+    <div class="chips" id="chips"></div>
+    <select class="sel" id="archive" title="往期归档"></select>
+  </div>
+
+  <main class="stories" id="stories"></main>
+
+  <footer class="foot">
+    <span>THE DAILY BRIEF · generated by local pipeline</span>
+    <span id="footMeta">—</span>
+  </footer>
+</div>
+
+<div class="player" id="player">
+  <div class="prog" id="prog"></div>
+  <div class="player-in">
+    <div class="np">
+      <div class="lb"><span class="live"></span><span id="npLabel">Now Playing</span></div>
+      <div class="tt" id="npTitle">—</div>
+    </div>
+    <div class="ctrls">
+      <button class="pbtn" id="prev" title="上一条">◀◀</button>
+      <button class="pbtn main" id="playPause" title="播放 / 暂停">▶</button>
+      <button class="pbtn" id="next" title="下一条">▶▶</button>
+    </div>
+    <div class="right">
+      <button class="rate" id="rate" title="语速">1.0×</button>
+      <button class="rate" id="ttsLang" title="朗读语言">EN</button>
+      <select class="rate" id="voiceSel" title="发音人"></select>
+      <button class="pbtn" id="closePlayer" title="关闭">✕</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data/news.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  /* ============================== 数据 ============================== */
+  const RAW = window.__BRIEF__ || null;
+  const CATS = [
+    {k:'all', en:'All', zh:'全部'},
+    {k:'macro', en:'Macro', zh:'宏观'},
+    {k:'a_share', en:'A-Shares', zh:'A股'},
+    {k:'us_market', en:'US', zh:'美股'},
+    {k:'hk_market', en:'HK', zh:'港股'},
+    {k:'commodity', en:'Commodities', zh:'商品'},
+    {k:'bond', en:'Bonds', zh:'债券'}
+  ];
+  const state = {
+    edIdx: 0,
+    cat: 'all',
+    showZh: localStorage.getItem('brief_zh') === '1',
+    rate: parseFloat(localStorage.getItem('brief_rate') || '1'),
+    ttsLang: localStorage.getItem('brief_lang') || 'en',
+    voiceEn: localStorage.getItem('brief_voice_en') || '',
+    voiceZh: localStorage.getItem('brief_voice_zh') || ''
+  };
+  const $ = s => document.querySelector(s);
+  const $$ = s => Array.from(document.querySelectorAll(s));
+
+  if(!RAW || !RAW.editions || !RAW.editions.length){
+    $('#stories').innerHTML =
+      '<div class="empty">暂无数据<br>请在项目目录运行 <code>python scripts/fetch_news.py</code> 生成今日早报，然后刷新本页。</div>';
+    return;
+  }
+
+  const eds = RAW.editions;
+  const ed = () => eds[state.edIdx];
+
+  /* ============================== 渲染 ============================== */
+  function fmtDate(e){
+    const d = new Date(e.date + 'T08:00:00');
+    const wd = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][d.getDay()];
+    const mo = ['January','February','March','April','May','June','July','August','September','October','November','December'][d.getMonth()];
+    return `${wd}, ${mo} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+  const pad3 = n => String(n).padStart(3,'0');
+  const esc = s => (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+  function renderMasthead(){
+    const e = ed();
+    $('#dl-date').textContent = fmtDate(e);
+    $('#dl-ed').textContent = 'No. ' + pad3(eds.length - state.edIdx);
+    const list = e.items || [];
+    $('#dl-count').textContent = list.length + ' stories';
+    $('#dl-time').textContent = (e.generated_at || '').slice(11) || '--:--';
+    $('#footMeta').textContent = `source: 华尔街见闻 / 新浪财经 · edition ${e.date}`;
+  }
+
+  function renderTape(){
+    const e = ed(), list = e.indices || [];
+    const box = $('#tapeWrap'), inner = $('#tape');
+    if(!list.length){ box.hidden = true; return; }
+    box.hidden = false;
+    inner.innerHTML = list.map(i => {
+      const p = Number(i.chg_pct);
+      const cls = p > 0 ? 'up' : (p < 0 ? 'down' : 'flat');
+      const val = Number(i.value).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+      const sign = p > 0 ? '+' : '';
+      return `<div class="tick">
+        <span class="nm">${esc(i.name_zh)}<i>${esc(i.name_en)}</i></span>
+        <span class="vl">${val}</span>
+        <span class="pc ${cls}">${sign}${p.toFixed(2)}%</span>
+      </div>`;
+    }).join('');
+  }
+
+  function renderLead(){
+    const e = ed();
+    let en = (e.lead_en || '').trim();
+    const zh = (e.lead_zh || '').trim();
+    if(!en){ // 兜底: 用前三条标题拼接
+      en = 'Overnight at a glance: ' + e.items.slice(0,3).map(i => stripDot(i.title_en || i.title_zh)).join('. ') + '.';
+    }
+    $('#leadEn').textContent = en;
+    $('#leadZh').textContent = zh;
+    $('#leadZh').hidden = !(state.showZh && zh);
+    $('#leadBox').hidden = false;
+  }
+  const stripDot = s => (s||'').replace(/[.。]+$/,'');
+
+  function renderChips(){
+    const e = ed();
+    const counts = {};
+    e.items.forEach(i => counts[i.category] = (counts[i.category]||0)+1);
+    $('#chips').innerHTML = CATS.map(c => {
+      const n = c.k === 'all' ? e.items.length : (counts[c.k]||0);
+      if(c.k !== 'all' && !n) return '';
+      return `<button class="chip ${state.cat===c.k?'on':''}" data-cat="${c.k}">${c.zh}<small>${n}</small></button>`;
+    }).join('');
+    $$('#chips .chip').forEach(b => b.onclick = () => {
+      state.cat = b.dataset.cat; renderChips(); renderStories();
+    });
+  }
+
+  function renderArchive(){
+    const sel = $('#archive');
+    sel.innerHTML = eds.map((e,i) =>
+      `<option value="${i}">${e.date}${i===0?' · 今日':' · 往期'}</option>`).join('');
+    sel.value = state.edIdx;
+    sel.hidden = eds.length < 2;
+    sel.onchange = () => { state.edIdx = +sel.value; stop(); renderAll(); };
+  }
+
+  function itemsOf(){
+    const e = ed();
+    return (e.items||[]).filter(i => state.cat === 'all' || i.category === state.cat);
+  }
+
+  function estSec(txt){
+    const w = (txt||'').split(/\s+/).filter(Boolean).length;
+    return Math.max(4, Math.round(w / (2.6 * state.rate)));
+  }
+
+  function renderStories(){
+    const list = itemsOf();
+    if(!list.length){
+      $('#stories').innerHTML = '<div class="empty">该分类今日暂无内容</div>';
+      return;
+    }
+    $('#stories').innerHTML = list.map((it, i) => {
+      const bodyEn = it.body_en || '';
+      const txt = [it.title_en, bodyEn].join(' ');
+      return `<article class="item" data-id="${it.id}" data-i="${i}">
+        <div class="ord">${String(i+1).padStart(2,'0')}</div>
+        <div>
+          <div class="meta">
+            <span class="tag">${esc(it.category_en || 'News')}</span>
+            <span class="tag zh">${esc(it.category_zh || '')}</span>
+            <span class="tm">${esc(it.time || '')}</span>
+            <span class="src">${esc(it.source || '')}</span>
+          </div>
+          <h2 class="hl"></h2>
+          <p class="body-en"></p>
+          <div class="zh-block">
+            <p class="zh-t">${esc(it.title_zh)}</p>
+            <p class="zh-b">${esc(it.body_zh)}</p>
+          </div>
+          <div class="tools">
+            <button class="ico play" data-i="${i}">▶ 播放这条</button>
+            ${it.url ? `<a class="ico" href="${esc(it.url)}" target="_blank" rel="noopener">原文 ↗</a>` : ''}
+            <span class="dur">~${estSec(txt)}s</span>
+          </div>
+        </div>
+      </article>`;
+    }).join('');
+    // 标题/正文用 textContent 写入, 避免实体被二次转义
+    $$('#stories .item').forEach((el, i) => {
+      const it = list[i];
+      el.querySelector('.hl').textContent = it.title_en || it.title_zh;
+      const b = el.querySelector('.body-en');
+      b.textContent = it.body_en || '';
+      if(!it.body_en) b.remove();
+    });
+    $$('#stories .play').forEach(btn => btn.onclick = ev => {
+      ev.stopPropagation();
+      playFrom(+btn.dataset.i);
+    });
+  }
+
+  function renderAll(){
+    renderMasthead(); renderTape(); renderLead(); renderChips(); renderArchive(); renderStories();
+    $('#leadZh').hidden = !(state.showZh && (ed().lead_zh||'').trim());
+    document.body.classList.toggle('show-zh', state.showZh);
+    $('#toggleZh').setAttribute('aria-pressed', state.showZh ? 'true' : 'false');
+  }
+
+  /* ============================== 语音广播 ============================== */
+  const synth = window.speechSynthesis;
+  const AEL = new Audio();               // 预生成神经语音 MP3 播放器
+  AEL.preload = 'auto';
+  const A = { mode:false };              // mode=true 表示当前在播预生成音频
+  const P = {
+    on:false, paused:false, idx:-1, sentences:[], bodySents:[], sentOff:0, si:0, gen:0, intro:false
+  };
+  let VOICES = [];
+  function loadVoices(){
+    VOICES = synth ? synth.getVoices() : [];
+    renderVoiceSel();
+  }
+  if(synth){ loadVoices(); synth.onvoiceschanged = loadVoices; }
+
+  // 发音人打分: Edge 的 Natural/Online 神经语音最自然, 优先; 其次 Google/Apple 高质量声音
+  function scoreVoice(v, lang){
+    const n = v.name;
+    let s = 0;
+    if(/natural|online/i.test(n)) s += 100;
+    if(/Aria|Jenny|Guy|Emma|Brian|Ana|Davis|Nancy|Michelle|Andrew|Aviva/i.test(n)) s += 60;
+    if(/Google US English/i.test(n)) s += 55;
+    if(/Samantha|Serena|Daniel|Zira|Aaron|Tessa/i.test(n)) s += 40;
+    if(/premium|enhanced|neural/i.test(n)) s += 30;
+    if(/Xiaoxiao|Yunxi|Xiaoyi|Yunjian/i.test(n) && lang === 'zh') s += 60;
+    return s;
+  }
+  function pickVoice(lang, preferName){
+    VOICES = synth.getVoices();                    // 每次实时取, 避免异步加载导致空列表
+    const pre = lang === 'zh' ? 'zh' : 'en';
+    const pool = VOICES.filter(v => (v.lang || '').toLowerCase().replace('_', '-').startsWith(pre));
+    if(!pool.length) return null;
+    if(preferName){
+      const hit = pool.find(v => v.name === preferName);
+      if(hit) return hit;
+    }
+    return pool.sort((a, b) => scoreVoice(b, lang) - scoreVoice(a, lang))[0];
+  }
+  function hasVoiceFor(lang){
+    const pre = lang === 'zh' ? 'zh' : 'en';
+    return VOICES.some(v => (v.lang || '').toLowerCase().replace('_', '-').startsWith(pre));
+  }
+
+  // 朗读前把缩写展开成"好读"的形式, 避免引擎怪读
+  const QN = {1:'first', 2:'second', 3:'third', 4:'fourth'};
+  // ---------- 数字转英文单词(保底方案): 防止中文语音引擎把数字读成中文 ----------
+  const T_ONES = ['zero','one','two','three','four','five','six','seven','eight','nine','ten',
+    'eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+  const T_TENS = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
+  function numWords(n){
+    n = Math.round(n);
+    if(n < 0) return 'minus ' + numWords(-n);
+    if(n < 100){
+      if(n < 20) return T_ONES[n];
+      const t = T_TENS[Math.floor(n/10)], o = n%10;
+      return o ? t + '-' + T_ONES[o] : t;
+    }
+    if(n < 1000){
+      const h = Math.floor(n/100), r = n%100;
+      return T_ONES[h] + ' hundred' + (r ? ' ' + numWords(r) : '');
+    }
+    for(const [v, name] of [[1e12,'trillion'],[1e9,'billion'],[1e6,'million'],[1e3,'thousand']]){
+      if(n >= v){
+        const q = Math.floor(n/v), r = n%v;
+        return numWords(q) + ' ' + name + (r ? ' ' + numWords(r) : '');
+      }
+    }
+    return String(n);
+  }
+  function digitsToEnWords(t){
+    return t.replace(/\d[\d,]*(?:\.\d+)?/g, m => {
+      const clean = m.replace(/,/g, '');
+      const dot = clean.indexOf('.');
+      const ip = dot >= 0 ? clean.slice(0, dot) : clean;
+      const dp = dot >= 0 ? clean.slice(dot + 1) : '';
+      let out;
+      const n = parseInt(ip, 10) || 0;
+      if(!dp && ip.length === 4 && !m.includes(',') && n >= 1900 && n <= 2099){       // 年份读法
+        const a = ip.slice(0, 2), b = ip.slice(2);
+        if(n === 2000) out = 'two thousand';
+        else if(n >= 2001 && n <= 2009) out = 'two thousand ' + T_ONES[n - 2000];
+        else out = numWords(+a) + (b === '00' ? ' hundred' : ' ' + numWords(+b));
+      } else {
+        out = numWords(n);
+        if(dp) out += ' point ' + dp.split('').map(d => T_ONES[+d]).join(' ');
+      }
+      return out;
+    }).replace(/%/g, ' percent').replace(/\s{2,}/g, ' ');
+  }
+  function normalizeTTS(text, lang){
+    let t = text || '';
+    if(lang !== 'en') return t;
+    t = t.replace(/\bQ([1-4])\b/g, (m, q) => 'the ' + QN[q] + ' quarter');
+    t = t.replace(/\bbp\b/g, 'basis points');
+    t = t.replace(/\bYoY\b/gi, 'year on year');
+    t = t.replace(/\bTWh\b/g, 'terawatt hours');
+    t = t.replace(/\bPBOC\b/g, 'P B O C');
+    t = t.replace(/\bECB\b/g, 'E C B');
+    t = t.replace(/\bCSRC\b/g, 'C S R C');
+    t = t.replace(/\bSTOXX\b/g, 'Stoxx');
+    t = t.replace(/\s*&\s*/g, ' and ');                  // S&P → S and P, 引擎读 & 发怪音
+    // 标点适配: 破折号/省略号/间隔号/冒号/括号/分号 → 逗号, 引号去掉, 让断句自然
+    t = t.replace(/\s*[—–]+\s*/g, ', ');
+    t = t.replace(/…|。/g, m => m === '。' ? '. ' : ', ');
+    t = t.replace(/\s*[·・]\s*/g, ', ');
+    t = t.replace(/：/g, ', ').replace(/(?<!\d):(?!\d)/g, ', ');
+    t = t.replace(/[“”«»「」『』"]/g, '').replace(/’/g, "'");
+    t = t.replace(/\s*[（(]\s*/g, ', ').replace(/\s*[）)]\s*/g, ', ');
+    t = t.replace(/[;；]/g, ', ');
+    t = t.replace(/\.{2,}/g, '.').replace(/,{2,}/g, ',').replace(/,\s*\./g, '.');
+    t = t.replace(/(\d)\s*-\s*(\d)/g, '$1 to $2');       // 15-16 → 15 to 16
+    t = t.replace(/\$\s*([\d,\.]+)/g, '$1 dollars');     // $4,066.85 → 4,066.85 dollars
+    t = digitsToEnWords(t);                              // 所有数字→英文单词, 杜绝中文引擎读数字
+    return t.replace(/\s{2,}/g, ' ').trim();
+  }
+
+  function renderVoiceSel(){
+    const sel = $('#voiceSel');
+    if(!sel || !synth) return;
+    if(state.ttsLang === 'en'){
+      // EN 模式默认播预生成神经语音 MP3, 本地发音人仅在音频缺失回退时生效
+      sel.innerHTML = '<option>Kokoro 男声 Michael（音质最佳）</option>';
+      sel.disabled = true;
+      return;
+    }
+    const lang = 'zh';
+    const pool = VOICES.filter(v => (v.lang || '').toLowerCase().replace('_', '-').startsWith('zh'))
+                       .sort((a, b) => scoreVoice(b, lang) - scoreVoice(a, lang));
+    const cur = state.voiceZh;
+    const opts = ['<option value="">Auto · 自动选最好</option>'];
+    pool.forEach(v => {
+      const star = /natural|online/i.test(v.name) ? ' ★' : '';
+      opts.push(`<option value="${esc(v.name)}"${v.name === cur ? ' selected' : ''}>${esc(v.name)}${star}</option>`);
+    });
+    sel.innerHTML = opts.join('');
+    sel.disabled = !pool.length;
+    if(!pool.length) sel.innerHTML = '<option>无可用语音</option>';
+  }
+
+  function splitSentences(text, lang){
+    text = (text||'').replace(/\s+/g,' ').trim();
+    if(!text) return [];
+    const re = lang === 'zh' ? /(?<=[。！？；])/ : /(?<=[.!?])\s+/;
+    let parts;
+    try { parts = text.split(re); } catch(e){ parts = text.split(/(?=[.。!！?？])/); }
+    return parts.map(s => s.trim()).filter(Boolean);
+  }
+
+  function itemText(it, lang){
+    if(lang === 'zh') return [stripDot(it.title_zh) + '。', it.body_zh].filter(Boolean).join(' ');
+    return [stripDot(it.title_en || it.title_zh) + '.', it.body_en].filter(Boolean).join(' ');
+  }
+
+  function highlight(idx){
+    $$('#stories .item').forEach(el => el.classList.remove('playing'));
+    const el = document.querySelector(`#stories .item[data-i="${idx}"]`);
+    if(el){
+      el.classList.add('playing');
+      el.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+  }
+
+  function updatePlayer(title, label){
+    $('#player').classList.add('up');
+    if(title !== undefined) $('#npTitle').textContent = title;
+    if(label !== undefined) $('#npLabel').textContent = label;
+    const total = itemsOf().length || 1;
+    $('#prog').style.width = Math.min(100, ((P.idx + 1) / total) * 100) + '%';
+  }
+
+  function enqueueItem(gen){
+    // 整条一次性入队: 引擎会连续播放, 句间不再有"逐句请求"的停顿
+    if(gen !== P.gen || !synth) return;
+    A.mode = false;
+    const lang = state.ttsLang === 'zh' ? 'zh' : 'en';
+    const voice = pickVoice(lang, lang === 'zh' ? state.voiceZh : state.voiceEn);
+    const uLang = lang === 'zh' ? 'zh-CN' : 'en-US';
+    if(lang === 'en' && !hasVoiceFor('en')){
+      toast('未检测到英文语音包, 已用默认声音朗读(数字已转成英文单词, 不会念成中文)。想要更自然的声音, 建议用 Edge 浏览器打开', 4500);
+    }
+    P.queue = [];                                  // 持有引用, 防止 Chrome 把 utterance 回收导致中途静音
+    P.sentences.forEach((text, k) => {
+      const u = new SpeechSynthesisUtterance(normalizeTTS(text, lang));
+      if(voice) u.voice = voice;
+      u.lang = uLang;
+      u.rate = state.rate;
+      u.pitch = 1;
+      u.onstart = () => {
+        if(gen !== P.gen) return;
+        const bi = k - P.sentOff;
+        if(lang !== 'zh' && bi >= 0) markSentence(bi);
+      };
+      if(k === P.sentences.length - 1){
+        u.onend = () => { if(gen === P.gen) nextItem(); };
+      }
+      u.onerror = e => {
+        if(gen !== P.gen || e.error === 'interrupted' || e.error === 'canceled') return;
+        if(k === P.sentences.length - 1) nextItem();
+      };
+      P.queue.push(u);
+      synth.speak(u);
+    });
+  }
+
+  function markSentence(i){
+    const el = document.querySelector(`#stories .item[data-i="${P.idx}"] .body-en`);
+    if(!el || !P.bodySents.length) return;
+    el.innerHTML = P.bodySents.map((s, k) =>
+      `<span class="sent ${k === i ? 'on' : ''}">${esc(s)}</span>`).join(' ');
+  }
+
+  function playFrom(i){
+    if(!synth && state.ttsLang !== 'en'){ toast('当前浏览器不支持语音朗读, 建议使用 Chrome / Edge'); return; }
+    const list = itemsOf();
+    if(!list.length) return;
+    i = Math.max(0, Math.min(i, list.length - 1));
+    stopQuiet();
+    P.gen++;
+    P.on = true; P.paused = false; P.idx = i; P.si = 0;
+    const it = list[i];
+    const lang = state.ttsLang === 'zh' ? 'zh' : 'en';
+    let seq = [];
+    if(!P.introDone && i === 0){
+      const e = ed();
+      const head = lang === 'zh'
+        ? `英文财经早报，${e.date}，共 ${list.length} 条要闻。`
+        : `The Daily Brief, ${fmtDate(e)}. ${list.length} stories.`;
+      const lead = e.lead_en ? (state.ttsLang === 'zh' ? e.lead_zh : e.lead_en) : '';
+      seq = [head].concat(lead ? splitSentences(lead, lang) : []);
+      P.intro = true;
+    } else {
+      P.intro = false;
+    }
+    P.sentences = seq.concat(splitSentences(itemText(it, lang), lang));
+    P.bodySents = splitSentences([stripDot(it.title_en || it.title_zh) + '.', it.body_en].filter(Boolean).join(' '), 'en');
+    P.sentOff = seq.length;
+    $$('#stories .sent.on').forEach(e => e.classList.remove('on'));
+    highlight(i);
+    updatePlayer(it.title_en || it.title_zh, P.intro ? 'Opening · 开场' : 'Now Playing');
+    setPlayIcon(true);
+    if(state.ttsLang === 'en'){
+      const name = (!P.introDone && i === 0) ? 'intro.mp3' : 'item-' + String(i).padStart(2, '0') + '.mp3';
+      playNeural(name, P.gen);
+    } else {
+      enqueueItem(P.gen);
+      // 播放条显示实际使用的发音人, 方便确认是不是英文声音
+      setTimeout(() => {
+        if(P.on && P.idx === i && !A.mode){
+          const v = pickVoice('zh', state.voiceZh);
+          $('#npLabel').textContent = (v ? v.name : '系统默认语音') + ' · Now Playing';
+        }
+      }, 50);
+    }
+  }
+
+  // 预生成神经语音 MP3(Kokoro 双主播: 开场 Heart 女声 / 正文 Michael 男声); 加载失败自动回退浏览器本地 TTS
+  function playNeural(name, gen){
+    A.mode = true;
+    AEL.src = `data/audio/${ed().date}/${name}`;
+    AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate));
+    $('#npLabel').textContent = 'Kokoro 主播 Michael · Now Playing';
+    AEL.onended = () => {
+      if(gen !== P.gen || !A.mode) return;
+      P.introDone = true;
+      nextItem();
+    };
+    AEL.onerror = () => {
+      if(gen !== P.gen || !A.mode) return;
+      A.mode = false;
+      enqueueItem(gen);                      // 回退: 本地语音(数字已转英文单词)
+    };
+    const pr = AEL.play();
+    if(pr && pr.catch) pr.catch(() => {});   // 播放失败由 onerror 接管
+  }
+
+  function nextItem(){
+    const list = itemsOf();
+    if(P.idx + 1 >= list.length){ stop(); toast('本期播报结束 ✓'); return; }
+    P.introDone = true;
+    playFrom(P.idx + 1);
+  }
+  function prevItem(){
+    const list = itemsOf();
+    if(P.idx <= 0){ P.introDone = true; playFrom(0); return; }
+    P.introDone = true;
+    playFrom(P.idx - 1);
+  }
+
+  function setPlayIcon(playing){
+    $('#playPause').textContent = playing ? '❚❚' : '▶';
+    $('#playAll').innerHTML = playing ? '❚❚&nbsp; 暂停' : (P.paused ? '▶&nbsp; 继续' : '▶&nbsp; 听广播');
+  }
+  function stopQuiet(){
+    P.gen++;
+    A.mode = false;
+    AEL.pause();
+    if(synth) synth.cancel();
+    P.queue = [];
+    P.on = false;
+  }
+  function stop(){
+    stopQuiet();
+    P.idx = -1; P.sentences = []; P.si = 0; P.introDone = false;
+    setPlayIcon(false);
+    $$('#stories .item').forEach(el => el.classList.remove('playing'));
+    $('#player').classList.remove('up');
+  }
+  function pause(){
+    if(A.mode){ AEL.pause(); }
+    else if(synth){ synth.pause(); }
+    P.paused = true; setPlayIcon(false);
+    updatePlayer(undefined, 'Paused · 已暂停');
+  }
+  function resume(){
+    if(P.paused){
+      if(A.mode){ AEL.play(); }
+      else if(synth){ synth.resume(); }
+      P.paused = false; setPlayIcon(true); updatePlayer(undefined, 'Now Playing');
+    }
+    else playFrom(P.idx < 0 ? 0 : P.idx);
+  }
+
+  function toast(msg, ms){
+    const t = $('#toast'); t.textContent = msg; t.classList.add('on');
+    clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('on'), ms || 2200);
+  }
+
+  /* ============================== 事件 ============================== */
+  $('#playAll').onclick = () => {
+    if(P.on && !P.paused){ pause(); return; }
+    if(P.paused){ resume(); return; }
+    P.introDone = false;
+    playFrom(0);
+  };
+  $('#playPause').onclick = () => {
+    if(!P.on && P.idx < 0){ playFrom(0); return; }
+    if(P.on && !P.paused) pause(); else resume();
+  };
+  $('#next').onclick = () => { P.introDone = true; nextItem(); };
+  $('#prev').onclick = () => prevItem();
+  $('#closePlayer').onclick = () => stop();
+
+  $('#rate').onclick = () => {
+    const steps = [0.8, 1.0, 1.2, 1.5, 1.8];
+    let k = steps.indexOf(state.rate);
+    state.rate = steps[(k + 1) % steps.length];
+    localStorage.setItem('brief_rate', state.rate);
+    $('#rate').textContent = state.rate.toFixed(1) + '×';
+    if(A.mode && P.on){ AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate)); }
+    else if(P.on){ const i = P.idx; P.introDone = true; playFrom(i); }
+  };
+  $('#ttsLang').onclick = () => {
+    state.ttsLang = state.ttsLang === 'en' ? 'zh' : 'en';
+    localStorage.setItem('brief_lang', state.ttsLang);
+    $('#ttsLang').textContent = state.ttsLang.toUpperCase();
+    renderVoiceSel();
+    if(P.on){ const i = P.idx; P.introDone = true; playFrom(i); }
+  };
+  $('#voiceSel').onchange = () => {
+    const v = $('#voiceSel').value;
+    if(state.ttsLang === 'zh'){ state.voiceZh = v; localStorage.setItem('brief_voice_zh', v); }
+    else { state.voiceEn = v; localStorage.setItem('brief_voice_en', v); }
+    if(P.on){ const i = P.idx; P.introDone = true; playFrom(i); }
+  };
+  $('#toggleZh').onclick = () => {
+    state.showZh = !state.showZh;
+    localStorage.setItem('brief_zh', state.showZh ? '1' : '0');
+    renderAll();
+  };
+  $('#reload').onclick = () => location.reload();
+
+  document.addEventListener('keydown', e => {
+    if(/input|select|textarea/i.test(e.target.tagName)) return;
+    if(e.code === 'Space'){ e.preventDefault(); $('#playPause').click(); }
+    if(e.code === 'ArrowRight'){ $('#next').click(); }
+    if(e.code === 'ArrowLeft'){ $('#prev').click(); }
+  });
+  window.addEventListener('beforeunload', () => { AEL.pause(); if(synth) synth.cancel(); });
+
+  /* ============================== 启动 ============================== */
+  $('#rate').textContent = state.rate.toFixed(1) + '×';
+  $('#ttsLang').textContent = state.ttsLang.toUpperCase();
+  renderAll();
+
+  /* PWA：在线访问时注册 Service Worker（离线可用），file:// 下静默跳过 */
+  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>
