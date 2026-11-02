@@ -3,17 +3,17 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-02 10:18",
+  "updated_at": "2026-11-02 15:53",
   "latest": "2026-11-02",
   "count": 18,
-  "mt_calls": 35
+  "mt_calls": 20
  },
  "editions": [
   {
    "date": "2026-11-02",
    "weekday_en": "Monday",
    "weekday_zh": "周一",
-   "generated_at": "2026-11-02 10:18",
+   "generated_at": "2026-11-02 15:53",
    "lead_en": "",
    "lead_zh": "",
    "indices": [
@@ -21,36 +21,29 @@ window.__BRIEF__ = {
      "name_zh": "上证指数",
      "name_en": "SSE Composite",
      "market": "CN",
-     "value": 3615.76,
-     "chg_pct": 0.47
+     "value": 3638.03,
+     "chg_pct": 1.08
     },
     {
      "name_zh": "深证成指",
      "name_en": "SZSE Component",
      "market": "CN",
-     "value": 10970.21,
-     "chg_pct": 1.26
+     "value": 11010.68,
+     "chg_pct": 1.63
     },
     {
      "name_zh": "创业板指",
      "name_en": "ChiNext",
      "market": "CN",
-     "value": 2455.15,
-     "chg_pct": 1.72
+     "value": 2458.7,
+     "chg_pct": 1.87
     },
     {
      "name_zh": "科创50",
      "name_en": "STAR 50",
      "market": "CN",
-     "value": 1176.82,
-     "chg_pct": 1.38
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23379.07,
-     "chg_pct": 0.36
+     "value": 1196.94,
+     "chg_pct": 3.11
     },
     {
      "name_zh": "道琼斯",
@@ -81,9 +74,9 @@ window.__BRIEF__ = {
      "title_zh": "中国央行公开市场今日开展5410亿元人民币隔夜逆回购操作，利率1.25%",
      "body_zh": "中国央行公开市场今日净回笼5150亿元人民币。",
      "url": "https://wallstreetcn.com/livenews/3192157",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
      "time": "09:23",
      "title_en": "China's the PBOC open market launched a RMB 541 billion overnight reverse share buyback operation today, with an interest rate of 1.25%.",
      "body_en": "The PBOC open market in China netted RMB 515 billion today.",
@@ -104,18 +97,32 @@ window.__BRIEF__ = {
      "id": "wscn-3192115"
     },
     {
-     "ts": 1793538887,
+     "ts": 1793604727,
      "source": "华尔街见闻",
-     "title_zh": "奥精医疗：涉嫌定期报告等财务数据虚假记载 证监会决定对公司立案",
-     "body_zh": "奥精医疗公告，公司于2026年11月1日收到中国证监会对公司下发的《立案告知书》。因公司涉嫌定期报告等财务数据虚假记载，中国证监会决定对公司立案。若后续经中国证监会行政处罚认定的事实，触及规定的重大违法强制退市情形，公司股票将被实施重大违法强制退市。敬请投资者注意投资风险。目前公司各项经营管理、业务及财务状况正常。",
-     "url": "https://wallstreetcn.com/livenews/3192080",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "21:14",
-     "title_en": "Aojing Medical: Suspected of falsely recording financial data such as periodic reports, the CSRC decided to file a case against the company.",
-     "body_en": "Aojing Medical Announcement, the company received the \"Case Filing Notice\" issued by the CSRC of China on November 1, 2026. The CSRC in China decided to file a case against the company because the company is suspected of misrepresenting financial data such as periodic reports. If the facts subsequently determined by the CSRC administrative penalty in China are found to have touched on the stipulated circumstances of mandatory delisting for major violations, the company's shares will be delisted for major violations. Investors are advised to be aware of investment risks. At present, the company's various business management, business and financial conditions are normal.",
-     "id": "wscn-3192080"
+     "title_zh": "央行将开展第三次证券、基金、保险公司互换便利操作，超30家机构表达初步意向",
+     "body_zh": "11月2日，从业内人士获悉，当天上午，金融管理部门围绕进一步完善证券、基金、保险公司互换便利（SFISF）、股票回购增持再贷款政策工具分别召集证券公司、基金公司，以及商业银行等机构召开座谈会。据参会人士透露，央行即将开展第三次SFISF操作，明日起接受机构申报。根据前期初步的市场需求摸底，超过30家机构有意向申报第三次SFISF。多家机构表示将尽快把工具资金投向市场，为资本市场提供增量资金。",
+     "url": "https://wallstreetcn.com/livenews/3192330",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "15:32",
+     "title_en": "the PBOC will carry out the third exchange of securities, funds, insurance companies to facilitate operations, more than 30 institutions expressed preliminary intentions.",
+     "body_en": "On November 2, industry insiders learned that on the morning of the same day, the financial management department convened seminars on further improving the securities, funds, and insurance company swap facilities (SFISF) and the share buyback re-lending policy tool respectively for securities companies, fund companies, and commercial banks. According to the participants, the PBOC is about to carry out the third SFISF operation and will receive the declaration from the institution from tomorrow. According to the preliminary market demand mapping in the early stage, more than 30 institutions are interested in applying for the third SFISF. A number of institutions said they would put instrumental funds into the market as soon as possible to provide incremental capital for the capital market.",
+     "id": "wscn-3192330"
+    },
+    {
+     "ts": 1793603271,
+     "source": "华尔街见闻",
+     "title_zh": "王毅、王文涛将共同主持亚太经合组织第37届外交和贸易双部长视频会议",
+     "body_zh": "外交部发言人宣布：中共中央政治局委员、外交部长王毅与商务部长王文涛将于11月3日在北京共同主持亚太经合组织（APEC）第37届外交和贸易双部长视频会议。",
+     "url": "https://wallstreetcn.com/livenews/3192318",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "15:07",
+     "title_en": "Wang Yi and Wang Wentao will co-chair the 37th APEC Foreign and Trade Ministerial Video Conference.",
+     "body_en": "A spokesman for the Ministry of Foreign Affairs announced that Wang Yi, member of the Political Bureau of the Central Committee of the Communist Party of China and Minister of Foreign Affairs, and Wang Wentao, Minister of the Ministry of Commerce, will co-chair the 37th APEC Foreign and Trade Ministerial Video Conference in Beijing on November 3.",
+     "id": "wscn-3192318"
     },
     {
      "ts": 1793521673,
@@ -132,46 +139,32 @@ window.__BRIEF__ = {
      "id": "wscn-3192040"
     },
     {
-     "ts": 1793580884,
-     "source": "新浪财经",
-     "title_zh": "奥精医疗、ST合纵遭证监会立案 投资者或可索赔",
-     "body_zh": "2026年11月1日晚间，奥精医疗、ST合纵分别发布《关于收到中国证券监督管理委员会立案告知书暨风险提示的公告》和《关于收到中国证券监督管理委员会立案告知书的公告》...",
-     "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-11-02/doc-inixichz2320590.shtml",
+     "ts": 1793603278,
+     "source": "华尔街见闻",
+     "title_zh": "王毅将主持澜湄合作第十一次外长会",
+     "body_zh": "中共中央政治局委员、外交部长王毅将于11月3日至4日在北京主持澜沧江—湄公河合作第十一次外长会。（外交部网站）",
+     "url": "https://wallstreetcn.com/livenews/3192319",
      "category": "macro",
      "category_zh": "宏观",
      "category_en": "Macro",
-     "time": "08:54",
-     "title_en": "Aojing Medical, ST Co-founded by the CSRC Investor or claimable.",
-     "body_en": "On the evening of November 1, 2026, Aojing Medical and ST Joint Venture issued the Announcement on Receiving the Notice of Filing and Risk Alert of the China Securities Regulatory Commission and the Announcement on Receiving the Notice of Filing of the China Securities Regulatory Commission respectively...",
-     "id": "sina-comos:nixichz2320590"
+     "time": "15:07",
+     "title_en": "Wang Yi will chair the 11th LMC Foreign Ministers' Meeting.",
+     "body_en": "Wang Yi, a member of the Political Bureau of the Central Committee of the Communist Party of China and Minister of Foreign Affairs, will host the 11th Foreign Ministers' Meeting of the Lancang-Mekong Cooperation in Beijing on November 3-4. (Ministry of Foreign Affairs website).",
+     "id": "wscn-3192319"
     },
     {
-     "ts": 1793536298,
+     "ts": 1793604046,
      "source": "华尔街见闻",
-     "title_zh": "沪市公司10月已实施回购超326亿元，分红、增持同步发力",
-     "body_zh": "10月以来，面对市场调整，沪市上市公司通过回购、增持及分红等方式传递市场信心。10月，714家沪市公司累计披露增持回购及各类利好公告1019份，其中新增增持回购98家次，金额合计上限165.07亿元。",
-     "url": "https://wallstreetcn.com/livenews/3192071",
+     "title_zh": "香港证监会公布首份AI准备情况调查",
+     "body_zh": "11月2日，香港证券及期货事务监察委员会（以下简称香港证监会）公布其首份《大型机构人工智能应用及准备情况调查》，结果显示机构已将人工智能（AI）广泛应用于业务及监控职能，但指出以负责任的方式扩展应用规模正面对挑战。香港证监会指出，调查结果将有助于证监会制订AI监管方针，其中包括四大重点：一是在AI重塑投资者与机构互动模式的过程中，保障投资者权益；二是加强网络安全及营运韧性，以应对AI带来新的威胁及依赖；",
+     "url": "https://wallstreetcn.com/livenews/3192326",
      "category": "a_share",
      "category_zh": "A股",
      "category_en": "A-Shares",
-     "time": "20:31",
-     "title_en": "The Shanghai company has implemented share buyback of over 32.6 billion yuan in October, dividends, increase holdings and synchronize efforts.",
-     "body_en": "Since October, in the face of market adjustment, Shanghai listed companies have passed on market confidence through share buyback, overweight and dividend. In October, 714 Shanghai listed companies disclosed 1019 share buyback and various positive announcements, of which 98 share buybacks were added, with a total upper limit of 16.507 billion yuan.",
-     "id": "wscn-3192071"
-    },
-    {
-     "ts": 1793534461,
-     "source": "华尔街见闻",
-     "title_zh": "国有某大行计划向中国国新和中国诚通各新增千亿级股票回购增持专项贷款额度",
-     "body_zh": "记者今日从相关渠道了解到，一家国有超大型银行近日计划向中国国新、中国诚通两家央企新增股票回购增持贷款额度，单家新增额度或可达到1000亿元。据悉，此次新增的再贷款额度规模，或将超过2024年该政策工具设立时该行向上述主体发放的首期额度。（证券时报）",
-     "url": "https://wallstreetcn.com/livenews/3192064",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "20:01",
-     "title_en": "A major state-owned bank plans to increase its special loan quota to China New and China Chengtong by 100 billion shares each share buyback.",
-     "body_en": "The reporter learned today from relevant channels that a state-owned super-large bank recently plans to increase the share buyback loan quota of China Guoxin and China Chengtong two central enterprises, and the single new quota may reach 100 billion yuan. It is reported that the size of the new refinancing quota may exceed the initial quota issued by the bank to the above-mentioned entities when the policy tool is established in 2024. (Securities Times).",
-     "id": "wscn-3192064"
+     "time": "15:20",
+     "title_en": "Hong Kong's the CSRC Releases First AI Readiness Survey.",
+     "body_en": "On November 2, the Hong Kong Securities and Futures Commission (hereinafter referred to as the Hong Kong CSRC) released its first \"Large Institutional Artificial Intelligence Application and Readiness Survey\". The results show that institutions have widely applied artificial intelligence (AI) in business and monitoring functions, but pointed out that scaling up the application in a responsible manner is facing challenges. The CSRC in Hong Kong pointed out that the results of the survey will help the CSRC to formulate AI regulatory guidelines, including four major points: first, to protect the rights and interests of investors in the process of reshaping the mode of investor-institution interaction with AI; second, to strengthen cybersecurity and operational resilience to deal with new threats and dependencies brought about by AI;.",
+     "id": "wscn-3192326"
     },
     {
      "ts": 1793517540,
@@ -179,9 +172,9 @@ window.__BRIEF__ = {
      "title_zh": "央行、证监会将于明天召开座谈会 研究推动支持资本市场工具使用",
      "body_zh": "一些证券公司和基金公司接到通知，明天上午央行、证监会召开会议，研究推动支持资本市场工具使用。 (21世纪经济报道)",
      "url": "https://wallstreetcn.com/livenews/3192033",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
      "time": "15:19",
      "title_en": "the PBOC, the CSRC will hold a symposium tomorrow to research and promote support for the use of capital market tools.",
      "body_en": "Some securities firms and fund companies have been notified that tomorrow morning the PBOC, the CSRC will meet to examine ways to promote the use of capital market instruments. (21st Century Business Report).",
@@ -193,55 +186,69 @@ window.__BRIEF__ = {
      "title_zh": "美国农民不满 共和党票仓“摇摆”",
      "body_zh": "美国广大农业区长期被视为共和党的选举基本盘，也是美国总统特朗普两次当选的重要票仓。但随着11月3日中期选举临近，有民调显示，共和党候选人在多个长期占据优势的农业州选情告急。分析人士认为，现任政府对伊朗发动军事行动推高能源和化肥价格，其关税政策又直接波及农产品出口，这都导致美国农民利益受损，进而影响共和党选情。",
      "url": "https://wallstreetcn.com/livenews/3192183",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
      "time": "09:57",
      "title_en": "US farmers unhappy with Republican ticket swing.",
      "body_en": "The vast agricultural area of the United States has long been regarded as the electoral base of the Republican Party, and it is also an important ballot box for President Trump to be elected twice. But as the Nov. 3 midterm elections draw near, polls show Republican candidates in a number of agrarian states that have long held sway. Analysts believe that the current administration's military action against Iran has pushed up energy and fertilizer prices, and its tariff policy has directly affected agricultural exports, which has damaged the interests of American farmers and thus affected the Republican Party's election.",
      "id": "wscn-3192183"
     },
     {
-     "ts": 1793584920,
-     "source": "华尔街见闻",
-     "title_zh": "整点回顾",
-     "body_zh": "沪指早间高开震荡，创业板指回落翻绿，白酒、券商、游戏、食品等方向领涨，贵金属、机器人、军工、油气等板块下挫，个股跌多涨少，沪深京三市约3000股飘绿，开盘半小时成交5820亿，较上日此时放量超100亿。",
-     "url": "https://wallstreetcn.com/livenews/3192188",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "10:02",
-     "title_en": "The Whole Point Review.",
-     "body_en": "Shanghai index opened high and shook in the morning, the gem index fell back and turned green, liquor, brokerage, games, food and other directions led the rise, precious metals, robots, military, oil and gas and other sectors fell, individual stocks fell more, rose less, Shanghai and Shenzhen three cities about 3,000 shares green, opening half an hour 582 billion transactions, compared with the previous day at this time more than 10 billion.",
-     "id": "wscn-3192188"
-    },
-    {
-     "ts": 1793580157,
+     "ts": 1793604848,
      "source": "新浪财经",
-     "title_zh": "铠侠控股股价大跌 业绩展望谨慎令投资者失望",
-     "body_zh": "铠侠控股股价周一一度大跌15%，这家日本存储芯片制造商谨慎的业绩展望令投资者失望，加剧外界对人工智能（AI）驱动的爆炸性增长可能正趋于平缓的担忧。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixhwzh7337799.shtml",
+     "title_zh": "朝鲜是全球最大加密货币交易所遭黑客攻击的幕后黑手？外交部：不了解情况",
+     "body_zh": "11月2日，外交部发言人毛宁主持例行记者会。韩联社记者提问，我有两个问题，第一个问题，朝鲜导弹总局10月31日进行了战术弹道导弹散布战斗部威力评估试验...",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixipwx0492980.shtml",
      "category": "macro",
      "category_zh": "宏观",
      "category_en": "Macro",
-     "time": "08:42",
-     "title_en": "Cautious outlook for Kioxia Holdings' plummeting share price disappoints investors.",
-     "body_en": "Kioxia Holdings plunged 15% on Monday as the cautious outlook for the Japanese memory chipmaker disappointed investors and heightened fears that the explosive growth driven by artificial intelligence (AI) could be leveling off.",
-     "id": "sina-comos:nixhwzh7337799"
+     "time": "15:34",
+     "title_en": "North Korea is behind the hacking of the world's largest cryptocurrency exchange? Ministry of Foreign Affairs: Not informed.",
+     "body_en": "On November 2, Foreign Ministry spokesman Mao Ning hosted a regular press conference. Yonhap reporter asked, I have two questions. First, the DPRK Missile General Administration conducted a tactical ballistic missile dispersal combat department power assessment test on October 31...",
+     "id": "sina-comos:nixipwx0492980"
     },
     {
-     "ts": 1793537995,
+     "ts": 1793604810,
+     "source": "新浪财经",
+     "title_zh": "中方特使、特代将分赴中东海湾等地区国家穿梭访问",
+     "body_zh": "新华社北京11月2日电（记者曹嘉玥、邵艺博）就中方特使、特代将分赴中东海湾和红海、非洲之角地区国家穿梭访问，外交部发言人毛宁11月2日在例行记者会上说...",
+     "url": "https://finance.sina.com.cn/china/2026-11-02/doc-inixipxc9418232.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "15:33",
+     "title_en": "China's special envoys and special representatives will travel to countries in the Middle East, the Gulf and other regions.",
+     "body_en": "Xinhua News Agency, Beijing, November 2 (Reporters Cao Jiaye, Shao Yibo) Foreign Ministry spokesman Mao Ning said at a regular press conference on November 2 that China's special envoys and special representatives will visit countries in the Middle East Gulf, the Red Sea and the Horn of Africa.",
+     "id": "sina-comos:nixipxc9418232"
+    },
+    {
+     "ts": 1793604517,
+     "source": "新浪财经",
+     "title_zh": "创始人的帝国时代：科技巨头既要资本市场的钱，也要公司的控制权",
+     "body_zh": "科技巨头正在重新划定资本与权力之间的边界。 随着Anthropic公开提交首次公开募股（IPO）申请文件，越来越多科技企业通过特殊股权结构，在向外部投资者出售股份的同时...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixipwy7263950.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "15:28",
+     "title_en": "The Age of Empires of the Founders: Tech giants want both money in the capital markets and control of the company.",
+     "body_en": "Tech giants are redrawing the boundaries between capital and power. As Anthropic publicly submits initial public offering (IPO) filings, a growing number of tech companies are adopting special shareholding structures that allow them to sell shares to outside investors while...",
+     "id": "sina-comos:nixipwy7263950"
+    },
+    {
+     "ts": 1793602292,
      "source": "华尔街见闻",
-     "title_zh": "中信建投：中期底部形成往往较为波折 保持耐心",
-     "body_zh": "中信建投指出，近期市场继续处于9月底以来的第二轮去杠杆过程中，本周A股由此前单边下跌转为高波动震荡，当前市场压力主要来自三个方面：一是中东地缘局势反复油价高位，叠加法国等经济体局部债务风险及美联储后续加息预期，海外流动性偏紧；二是海外三季报好坏参半；三是国内流动性压力尚未完全消化，绝对收益资金的减仓担忧仍在。积极信号在于，10月以来稳市资金已陆续入场。",
-     "url": "https://wallstreetcn.com/livenews/3192077",
+     "title_zh": "“24珠华01”盘中跌超20%，触发临时停牌",
+     "body_zh": "深交所公告，“24珠华01”（148775）盘中成交价较前收盘价首次下跌达到或超过20%，深交所所自今日14时43分59秒起对该债券实施临时停牌，于15时14分00秒复牌。",
+     "url": "https://wallstreetcn.com/livenews/3192299",
      "category": "bond",
      "category_zh": "债券",
      "category_en": "Bonds",
-     "time": "20:59",
-     "title_en": "CITIC: The formation of the bottom in the medium term tends to be more volatile and patient.",
-     "body_en": "CITIC pointed out that the recent market continued to be in the second round of deleveraging since the end of September. This week, A-shares have turned from a unilateral decline to a high volatility and volatility. The current market pressure mainly comes from three aspects: first, the geographical situation in the Middle East has repeatedly been high in oil prices, coupled with the local debt risks of France and other economies and the Federal Reserve's subsequent interest rate hike expectations, and overseas liquidity is tight; second, overseas three-quarter reports are mixed; third, domestic liquidity pressures have not been fully digested, and concerns about the reduction of absolute income funds remain. The positive sign is that since October, stable market funds have been entering the market one after another.",
-     "id": "wscn-3192077"
+     "time": "14:51",
+     "title_en": "\"24 Zhuhua 01\" fell more than 20% in the market, triggering a temporary suspension.",
+     "body_en": "The Shenzhen Stock Exchange announced that the trading price of \"24 Zhuhua 01\" (148775) fell by 20% or more for the first time from the previous closing price. The Shenzhen Stock Exchange imposed a temporary suspension on the bond from 14:43:59 today and resumed trading at 15:14:00.",
+     "id": "wscn-3192299"
     },
     {
      "ts": 1793580488,
@@ -258,34 +265,6 @@ window.__BRIEF__ = {
      "id": "wscn-3192139"
     },
     {
-     "ts": 1793584011,
-     "source": "华尔街见闻",
-     "title_zh": "中国10月RatingDog制造业PMI 52，前值 52.1",
-     "body_zh": "中国10月RatingDog制造业PMI 52，前值 52.1",
-     "url": "https://wallstreetcn.com/livenews/3192175",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "09:46",
-     "title_en": "China October RatingDog Manufacturing PMI 52, previous 52.1.",
-     "body_en": "China October RatingDog Manufacturing PMI 52, previous 52.1.",
-     "id": "wscn-3192175"
-    },
-    {
-     "ts": 1793394288,
-     "source": "华尔街见闻",
-     "title_zh": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎",
-     "body_zh": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，10月份累跌6.80%。 COMEX黄金期货累跌7.05%，报3884.90美元/盎司。 现货白银跌5.83%，报49.1077美元/盎司，10月份累跌18.73%。 COMEX白银期货累跌19%，报49.135美元/盎司。 COMEX铜期货跌1.41%，报6.5095美元/磅，10月份累跌约1.83%。",
-     "url": "https://wallstreetcn.com/livenews/3191862",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "05:04",
-     "title_en": "Spot Gold fell 3.65% to $3874.76/ounce at the end of New York on Friday (October 30).",
-     "body_en": "Spot gold closed Friday (October 30) in New York down 3.65% at $3874.76/oz, down 6.80% in October. COMEX gold futures were down 7.05% at $3884.90/oz. spot silver was down 5.83% at $49.1077/oz, down 18.73% in October. Comex silver futures fell 19% to $49.135/oz. COMEX copper futures fell 1.41% to $6.5095/lb, down about 1.83% in October.",
-     "id": "wscn-3191862"
-    },
-    {
      "ts": 1793411561,
      "source": "华尔街见闻",
      "title_zh": "国家统计局：10月高技术制造业和装备制造业PMI分别为51.3%和50.6%",
@@ -300,18 +279,18 @@ window.__BRIEF__ = {
      "id": "wscn-3191914"
     },
     {
-     "ts": 1793451932,
+     "ts": 1793595645,
      "source": "华尔街见闻",
-     "title_zh": "伊朗外长阿拉格齐：美国的信函是“积极一步”",
-     "body_zh": "伊朗外交部长阿巴斯·阿拉格齐接受半岛电视台采访时表示，“我们目前已经形成了一项将实施期缩短至两天的方案”。他所指的显然是重开霍尔木兹海峡以及恢复与美国谈判的计划。 阿拉格齐称，美国副总统万斯的信函已在高层会议上得到研究和讨论。美国重启谈判的举措是“积极一步”。伊朗要求承认其与阿曼商定的霍尔木兹海峡新航线，并关闭其他航线。目前摆在桌面上的只有伊朗提出的霍尔木兹海峡重开方案。",
-     "url": "https://wallstreetcn.com/livenews/3191978",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "21:05",
-     "title_en": "Iranian Foreign Minister Araghchi: US letter is' positive step '",
-     "body_en": "Iranian Foreign Minister Abbas Araghchi said in an interview with Al Jazeera that \"we have now formed a plan to shorten the implementation period to two days\". He was clearly referring to plans to reopen the Strait of Hormuz and resume negotiations with the United States. Araghchi said the letter from U.S. Vice President Vance had been studied and discussed at a high-level meeting. The US move to restart negotiations is a “positive step”. Iran is demanding recognition of the new routes it has agreed with Oman in the Strait of Hormuz and the closure of other routes. Only Iran's proposal to reopen the Strait of Hormuz is currently on the table.",
-     "id": "wscn-3191978"
+     "title_zh": "阿联酋与OpenAI签署涵盖政府、能源和投资领域的协议",
+     "body_zh": "OpenAI与阿布扎比国家石油公司（ADNOC）签署能源领域AI部署协议。",
+     "url": "https://wallstreetcn.com/livenews/3192246",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "13:00",
+     "title_en": "UAE signs agreement with OpenAI covering government, energy and investment sectors.",
+     "body_en": "OpenAI has signed an agreement with Abu Dhabi National Oil Company (ADNOC) for the deployment of AI in the energy sector.",
+     "id": "wscn-3192246"
     },
     {
      "ts": 1793410222,
@@ -326,6 +305,20 @@ window.__BRIEF__ = {
      "title_en": "China's official manufacturing PMI in October was 49.3, up from 50.1.",
      "body_en": "China's official non-manufacturing PMI in October was 49.7, up from 50.2. China's official composite PMI in October was 49.7, up from 50.7.",
      "id": "wscn-3191909"
+    },
+    {
+     "ts": 1793586660,
+     "source": "华尔街见闻",
+     "title_zh": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报93700元/",
+     "body_zh": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报93700元/吨，较上日16:30价格上涨250元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3192197",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "10:31",
+     "title_en": "Shanghai Ganglian released data showing that today's MMLC battery-grade lithium carbonate (morning) median price was 93,700 yuan/.",
+     "body_en": "Shanghai Ganglian released data showing that today's MMLC battery-grade lithium carbonate (morning) median price was 93,700 yuan/ton, up 250 yuan/ton from 16:30 on the previous day.",
+     "id": "wscn-3192197"
     }
    ]
   },
