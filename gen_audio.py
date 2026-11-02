@@ -341,6 +341,16 @@ async def main(force=False):
                 ed.pop("broadcast", None)
     save_editions(data)
     print(f"完成: 生成 {made} 个文件, 失败 {failed}, 用时 {time.time()-t0:.0f}s")
+    # 关键: 本脚本会给 news.json 补上 broadcast 时间轴/voice_plan/音频指纹,
+    # 而流水线里 build_data.py 排在配音之前 —— 不在这里重跑一次, 页面就拿不到连播数据
+    # (表现为: 手机后台播完一条不自动接一条)。故收尾时强制刷新 news.js。
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        import build_data
+        build_data.main()
+        print("  已刷新 data/news.js")
+    except Exception as e:
+        print(f"  刷新 news.js 失败: {type(e).__name__} {e}")
 
 
 if __name__ == "__main__":
