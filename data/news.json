@@ -2,12 +2,455 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-03 07:27",
-  "latest": "2026-11-03",
+  "updated_at": "2026-11-04 07:29",
+  "latest": "2026-11-04",
   "count": 18,
-  "mt_calls": 35
+  "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-04",
+   "weekday_en": "Wednesday",
+   "weekday_zh": "周三",
+   "generated_at": "2026-11-04 07:29",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3608.1,
+     "chg_pct": -0.82
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10876.99,
+     "chg_pct": -1.21
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2391.65,
+     "chg_pct": -2.73
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1151.28,
+     "chg_pct": -3.81
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 23525.97,
+     "chg_pct": 0.57
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 51786.72,
+     "chg_pct": -0.38
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25372.01,
+     "chg_pct": 0.83
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7568.92,
+     "chg_pct": 0.36
+    }
+   ],
+   "items": [
+    {
+     "ts": 1793742775,
+     "source": "新浪财经",
+     "title_zh": "AMD营收展望超预期 人工智能芯片需求强劲",
+     "body_zh": "作为英伟达在AI芯片领域的主要挑战者，AMD给出的营收预测高于分析师预期，显示数据中心处理器需求仍然强劲。 AMD周二在声明中表示，预计第四季度营收为170亿美元...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpexh6331301.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:52",
+     "title_en": "AMD revenue outlook exceeds expectations Strong demand for AI chips.",
+     "body_en": "As Nvidia's main challenger in the AI chip space, AMD gave higher revenue forecasts than analysts expected, indicating that demand for data center processors remains strong. AMD said in a statement on Tuesday that it expects fourth-quarter revenue of $17 billion...",
+     "id": "sina-comos:nixpexh6331301"
+    },
+    {
+     "ts": 1793745640,
+     "source": "新浪财经",
+     "title_zh": "欧洲央行管委：若经济状况不变 12月存在加息可能",
+     "body_zh": "欧洲央行管委Martin Kocher表示，如果经济状况保持不变，央行年内可能再次加息。 Kocher接受采访时表示：“如果形势没有变化，如果价格维持在当前水平，而且没有其他变化...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpmfe6222598.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:40",
+     "title_en": "the ECB Regulatory Board: Interest rate hikes possible in December if economic conditions remain unchanged.",
+     "body_en": "martin Kocher, the ECB's regulator, said the PBOC could raise rates again during the year if economic conditions remain unchanged. “If there's no change in the situation, if the price stays at the current level and there's no other change,” Kocher said in an interview….",
+     "id": "sina-comos:nixpmfe6222598"
+    },
+    {
+     "ts": 1793747831,
+     "source": "华尔街见闻",
+     "title_zh": "物料紧张是否会造成净利润下降？中际旭创回应",
+     "body_zh": "关于“物料紧张是否会造成净利润下降”的问题，中际旭创表示，部分物料的确供应偏紧，但并非意味所有物料的价格均上涨。毛利率取决于客户价格、产品结构和公司内部降本能力。通常来说，高端产品占比提升有助于保持竞争优势。同时，硅光产品毛利率优于传统方案，随着硅光占比提升、良率及生产效率改善，以及硅光芯片能力增强，硅光产品BOM结构的优化，公司有望进一步降低成本、保持毛利率的稳定甚至提升。",
+     "url": "https://wallstreetcn.com/livenews/3193631",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:17",
+     "title_en": "Will material constraints result in lower net profits? Zhongji Xuchuang response.",
+     "body_en": "Regarding the question of \"whether the material shortage will lead to a decline in net profit\", Zhongji Xuchuang said that the supply of some materials is indeed tight, but it does not mean that the price of all materials will rise. Gross profit margin depends on customer price, product mix and ability to reduce costs within the company. In general, an increase in the proportion of high-end products helps to maintain a competitive advantage. At the same time, the gross profit margin of silicon photovoltaic products is superior to traditional solutions. With the increase in the proportion of silicon photovoltaic products, the improvement of yield and production efficiency, and the enhancement of silicon photovoltaic chip capabilities, the optimization of the BOM structure of silicon photovoltaic products, the company is expected to further reduce costs, maintain the stability of gross profit margin, and even improve.",
+     "id": "wscn-3193631"
+    },
+    {
+     "ts": 1793743951,
+     "source": "华尔街见闻",
+     "title_zh": "首批主动ETF结束募集，合计募资超350亿元",
+     "body_zh": "11月2日，中国证监会有关部门负责人在就近期稳市场稳预期相关工作答记者问中提到，首批18只主动ETF合计募集资金超过350亿元，其中已有16只产品达到20亿元的单只募集规模上限并结束募集，下一步将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓。根据公告显示，摩根基金、汇添富基金、工银瑞信基金、建信基金等多家机构近期大手笔自购旗下主动ETF，以 “真金白银”表达对后市的信心。（上证报）",
+     "url": "https://wallstreetcn.com/livenews/3193607",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:12",
+     "title_en": "The first batch of active ETFs closed, raising a total of more than 35 billion yuan.",
+     "body_en": "On November 2, the head of the relevant department of the CSRC in China mentioned in the reply to the reporter's question on the work related to stabilizing market expectations in the near future that the first batch of 18 active ETFs raised a total of more than 35 billion yuan, of which 16 products have reached the maximum fundraising scale of 2 billion yuan and ended the fundraising. The next step will be to guide and encourage the 18 active ETFs that have completed the fundraising to accelerate the investment and position building. According to the announcement, JPMorgan Funds, Huitianfu Funds, ICBC Credit Suisse Funds, CCB Funds and other institutions have recently purchased their own active ETFs in large quantities, expressing their confidence in the post-market with \"real gold and silver\". (Reported by SSE).",
+     "id": "wscn-3193607"
+    },
+    {
+     "ts": 1793743243,
+     "source": "华尔街见闻",
+     "title_zh": "周二（11月3日）纽约尾盘，现货黄金跌0.41%，报3929.98美元/盎司",
+     "body_zh": "现货白银跌1.65%，报49.7990美元/盎司。 COMEX铜期货跌2.44%，报6.4075美元/磅。",
+     "url": "https://wallstreetcn.com/livenews/3193603",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:00",
+     "title_en": "Spot Gold fell 0.41% to $3,929.98 per ounce at the close of trading in New York on Tuesday (November 3).",
+     "body_en": "spot silver fell 1.65% to $49.7990/oz. COMEX copper futures fell 2.44% to $6.4075/lb.",
+     "id": "wscn-3193603"
+    },
+    {
+     "ts": 1793741302,
+     "source": "华尔街见闻",
+     "title_zh": "美股大类资产类ETF多数收跌，农产品基金跌1%",
+     "body_zh": "周二（11月3日），恐慌指数做多收跌1.97%，农产品基金跌1.04%，美国国债20+年ETF跌0.76%，黄金ETF跌0.66%，日元做多跌0.62%，道指ETF、大豆基金、美国房地产ETF、新兴市场ETF、欧元做多至多跌0.44%。",
+     "url": "https://wallstreetcn.com/livenews/3193591",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:28",
+     "title_en": "Majority of US equity asset class ETFs closed down, while agricultural product funds fell 1%.",
+     "body_en": "On Tuesday (November 3), the Panic Index closed 1.97% lower, the Agricultural Products Fund fell 1.04%, the US Treasury 20 + year ETF fell 0.76%, the Gold ETF fell 0.66%, the yen long fell 0.62%, and the Dow Index ETF, the Soybean Fund, the US Real Estate ETF, the Emerging Markets ETF, and the Euro fell as much as 0.44%.",
+     "id": "wscn-3193591"
+    },
+    {
+     "ts": 1793747990,
+     "source": "华尔街见闻",
+     "title_zh": "AMD分析师电话会议要点总结",
+     "body_zh": "一、创纪录的财务业绩与数据中心占比提升： 第三季度营收同比增长45%至134亿美元，每股收益同比增长74%至2.09美元，创该公司历史最高且最盈利的季度。 数据中心板块营收同比增长97%，达到创纪录的85亿美元，占总营收的64%，并预计该板块占比在2027年将超过 80%。",
+     "url": "https://wallstreetcn.com/livenews/3193633",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:19",
+     "title_en": "AMD Analyst Conference Call Summary.",
+     "body_en": "1. Record financial results vs. increased data center share: Q3 revenue up year on year 45% to $13.4 billion and earnings per share up year on year 74% to $2.09, the company's highest and most profitable quarter on record. The data center segment accounts for a record $8.5 billion, or 64% of total revenue, up year on year 97%, and is expected to account for more than 80% in 2027.",
+     "id": "wscn-3193633"
+    },
+    {
+     "ts": 1793744589,
+     "source": "华尔街见闻",
+     "title_zh": "今年前三季度A股股份行增速掉队",
+     "body_zh": "A股上市银行三季报已全部披露完毕，一组数据勾勒出行业图景，也折射出股份行面临的挑战——统计发现，今年前三季度，9家A股上市股份行的营业收入合计同比增长3.80%，归母净利润同比下降2.80%，是所有类型上市银行中唯一净利润负增长的群体。这意味着，股份行不仅明显落后于国有大行，也未能跟上部分优质城商行的增长步伐。",
+     "url": "https://wallstreetcn.com/livenews/3193614",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:23",
+     "title_en": "The growth rate of A-share banks fell behind in the first three quarters of this year.",
+     "body_en": "The third quarterly report of A-share listed banks has been fully disclosed. A set of data outlines the industry picture and also reflects the challenges faced by stock banks. Statistics show that in the first three quarters of this year, the total revenue of 9 A-share listed stock banks increased by 3.80% and net profit attributable to shareholders down year on year 2.80%, which is the only group with negative net profit growth among all types of listed banks. This means that the joint-stock bank not only lags significantly behind the state-owned banks, but also fails to keep up with the growth of some high-quality urban commercial banks.",
+     "id": "wscn-3193614"
+    },
+    {
+     "ts": 1793743533,
+     "source": "华尔街见闻",
+     "title_zh": "AMD的CEO苏姿丰",
+     "body_zh": "数据中心需求正在加速。 预计2027年数据中心营收将超过此前预期。 第三季度已开始EPYC Venice处理器的营收出货，首批OEM系统预计第四季度上市。",
+     "url": "https://wallstreetcn.com/livenews/3193605",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:05",
+     "title_en": "Su Zifeng, CEO of AMD.",
+     "body_en": "Data center demand is accelerating. Data center revenues are expected to exceed previous estimates in 2027. Revenue shipments of EPYC Venice processors have started in the third quarter, and the first OEM systems are expected to be available in the fourth quarter.",
+     "id": "wscn-3193605"
+    },
+    {
+     "ts": 1793730462,
+     "source": "华尔街见闻",
+     "title_zh": "欧洲央行管委Sleijpen",
+     "body_zh": "伊朗冲击比之前想象的更加顽固。 长期价格预期持稳，短期价格预期上升。 紧缩政策正在放缓欧洲经济。",
+     "url": "https://wallstreetcn.com/livenews/3193532",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "02:27",
+     "title_en": "the ECB Management Board Sleijpen.",
+     "body_en": "The Iranian shock was more stubborn than previously thought. Long-term price expectations have held steady, while short-term price expectations have risen. Austerity is slowing the European economy.",
+     "id": "wscn-3193532"
+    },
+    {
+     "ts": 1793726945,
+     "source": "华尔街见闻",
+     "title_zh": "摩根大通分析师敦促财政部废除“孤儿”20年期国债",
+     "body_zh": "摩根资产管理公司全球固定收益主管鲍勃·米歇尔（Bob Michele）建议财政部长斯科特·贝森特（Scott Bessent）取消 20 年期国债，称“没人喜欢它”，且在当前环境下已毫无意义。 米歇尔建议，财政部可以将发售重心从20年期品种转向到期期限不超过一年的短期国库券（Bills），从而为收益率曲线的长端提供支撑。",
+     "url": "https://wallstreetcn.com/livenews/3193510",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:29",
+     "title_en": "J.P. Morgan analysts urge the Ministry of Finance to scrap 20-year “orphan” Treasury bonds.",
+     "body_en": "Bob Michele, global head of fixed income at J.P. Morgan Asset Management, advised Scott Bessent, head of the Ministry of Finance, to cancel the 20-year Treasury note, saying “nobody likes it” and that it makes no sense in the current environment. Michel suggests that the Ministry of Finance could support the long end of the yield curve by shifting the focus of the offering from 20-year varieties to short-term Treasury bills with maturities of no more than one year.",
+     "id": "wscn-3193510"
+    },
+    {
+     "ts": 1793740379,
+     "source": "华尔街见闻",
+     "title_zh": "周二（11月3日），美股行业ETF多数下跌，日常消费品ETF至少跌1.95%",
+     "body_zh": "周二（11月3日），美股行业ETF多数下跌，日常消费品ETF至少跌1.95%，全球航空业ETF跌1.57%，区域银行ETF跌1.15%，能源业ETF跌0.85%，网络股指数ETF、全球科技股指数ETF、科技行业ETF至少涨1.24%，半导体ETF涨2.01%。",
+     "url": "https://wallstreetcn.com/livenews/3193583",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:12",
+     "title_en": "On Tuesday (November 3), most US equity ETFs fell, with daily consumer ETFs falling at least 1.95%.",
+     "body_en": "On Tuesday (November 3), most US equity ETFs fell, with daily consumer ETFs down at least 1.95%, global aviation ETFs down 1.57%, regional bank ETFs down 1.15%, energy ETFs down 0.85%, cyber index ETFs, global technology index ETFs, and technology ETFs up at least 1.24%, and semiconductor ETFs up 2.01%.",
+     "id": "wscn-3193583"
+    },
+    {
+     "ts": 1793709993,
+     "source": "华尔街见闻",
+     "title_zh": "电子布11月涨价落地，多家产业链上市公司回应",
+     "body_zh": "电子布11月涨价落地刷屏财经圈。对此，记者向电子布头部上市公司进行求证，多家公司回应记者，电子布和电子纱是随行就市，11月份还在上涨通道，相关产能都处于满产状态。",
+     "url": "https://wallstreetcn.com/livenews/3193361",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "20:46",
+     "title_en": "Electronics cloth prices rose in November, and a number of listed companies in the industry chain responded.",
+     "body_en": "Electronic cloth rose in price in November to brush the screen financial circle. In this regard, the reporter to the electronic cloth head listed companies for verification, a number of companies responded to the reporter, electronic cloth and electronic gauze is accompanying the market, November is still rising channel, related production capacity are in full production.",
+     "id": "wscn-3193361"
+    },
+    {
+     "ts": 1793744435,
+     "source": "华尔街见闻",
+     "title_zh": "AMD：预计2027年营收将增超80%",
+     "body_zh": "对未来数年的收入增长速度有强烈的信心。",
+     "url": "https://wallstreetcn.com/livenews/3193612",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:20",
+     "title_en": "AMD: Expected revenue growth of more than 80% in 2027.",
+     "body_en": "Strong confidence in the rate of revenue growth in the coming years.",
+     "id": "wscn-3193612"
+    },
+    {
+     "ts": 1793718459,
+     "source": "华尔街见闻",
+     "title_zh": "工银理财：境内权益当前位置已具备中期配置价值",
+     "body_zh": "工银理财11月3日发布《致投资者：于波动之中，静待企稳》称，境内权益当前位置已具备中期配置价值。 工银理财分析称：从估值与筹码看，成长方向的估值压力与拥挤度较三季度末明显缓解，继续大幅下杀的空间相对有限。从资金供需看，回购注销常态化、主动ETF建仓与互换便利重启，共同构成低位承接力量，政策明确“适度释放融资空间”，也意味着流动性环境不会进一步收紧。",
+     "url": "https://wallstreetcn.com/livenews/3193453",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "23:07",
+     "title_en": "ICBC Wealth Management: The current position of domestic equity has medium-term allocation value.",
+     "body_en": "ICBCCS Financial Services released \"To Investors: In the midst of fluctuations, waiting for stability\" on November 3, saying that the current position of domestic equity has medium-term allocation value. ICBCCS said: From the perspective of valuation and chips, the valuation pressure and congestion in the growth direction have been significantly alleviated from the end of the third quarter, and there is relatively limited room for continued sharp decline. From the perspective of capital supply and demand, share buyback cancellation normalization, active ETF position building and swap convenience restart, together constitute a low undertaking force, and the policy is clear \"moderate release of financing space\", which also means that the liquidity environment will not be further tightened.",
+     "id": "wscn-3193453"
+    },
+    {
+     "ts": 1793728268,
+     "source": "华尔街见闻",
+     "title_zh": "LME期铜收跌309美元，报14036美元/吨",
+     "body_zh": "LME期铝收跌50美元，报3044美元/吨。 LME期锌收跌102美元，报3790美元/吨。 LME期铅收跌22美元，报1884美元/吨。 LME期镍收跌209美元，报15347美元/吨。 LME期锡收跌2224美元，报47435美元/吨。 LME期钴收平，报33525美元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3193518",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:51",
+     "title_en": "LME copper closed down $309 at $14,036/t.",
+     "body_en": "LME aluminium closed down $50 at $3,044/t. LME-phase zinc closed down $102 at $3,790/t. LME lead closed down $22 at $1,884/t. Nickel in the LME closed down $209 at $15,347/t. LME tin closed down $2,224 at $47,435/t. LME cobalt flattened to $33,525/t.",
+     "id": "wscn-3193518"
+    },
+    {
+     "ts": 1793725251,
+     "source": "华尔街见闻",
+     "title_zh": "国际铜夜盘收跌0.96%，沪铜收跌0.64%，沪铝收跌0.76%，沪锌收跌0",
+     "body_zh": "国际铜夜盘收跌0.96%，沪铜收跌0.64%，沪铝收跌0.76%，沪锌收跌0.82%，沪铅收跌0.63%，沪镍收跌0.74%，沪锡收跌2.95%。 氧化铝夜盘收跌0.15%，铝合金收跌1.76%。 不锈钢夜盘收跌0.58%。",
+     "url": "https://wallstreetcn.com/livenews/3193504",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:00",
+     "title_en": "The international copper night market closed 0.96% lower, Shanghai copper closed 0.64% lower, Shanghai aluminum closed 0.76% lower, Shanghai and Zinc closed 0 lower.",
+     "body_en": "The international copper night market closed 0.96% lower, Shanghai copper closed 0.64% lower, Shanghai aluminum closed 0.76% lower, Shanghai zinc closed 0.82% lower, Shanghai lead closed 0.63% lower, Shanghai nickel closed 0.74% lower, and Shanghai tin closed 2.95% lower. Alumina closed the night down 0.15% and aluminum fell 1.76%. Stainless steel night trading closed down 0.58%.",
+     "id": "wscn-3193504"
+    },
+    {
+     "ts": 1793742616,
+     "source": "华尔街见闻",
+     "title_zh": "行业周报：美国上周API原油库存降低逾520万桶",
+     "body_zh": "美国石油协会（API）数据显示，上周，美国API原油库存 -526.7万桶，之前一周 -203.1万桶。 上周API库欣原油库存 +51.1万桶，前值 -45.3万桶。 上周API成品油汽油库存 +142.7万桶（前值 +239万桶）、馏分油库存 -119.2万桶（前值 +42.6万桶）。",
+     "url": "https://wallstreetcn.com/livenews/3193600",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:50",
+     "title_en": "Industry Weekly: US API crude oil inventory reduced by more than 5.2 million barrels last week.",
+     "body_en": "The American Petroleum Institute (API) data shows that last week, the US API crude oil inventory was -5,267,000 barrels, compared with -2031,000 barrels the previous week. API Cushing crude oil inventory +511,000 barrels last week, up from -453,000 barrels. API refined oil gasoline stockpile +1.427 million barrels (previous +2.39 million barrels) and distillate stockpile -.1192 million barrels (previous +426,000 barrels) last week.",
+     "id": "wscn-3193600"
+    }
+   ],
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "6ba2a0558608",
+    "item-00.mp3": "100c6b6ac7ce",
+    "item-01.mp3": "bfca908e4bba",
+    "item-02.mp3": "60bdc098dc86",
+    "item-03.mp3": "25c435acc890",
+    "item-04.mp3": "132c1ca9587c",
+    "item-05.mp3": "435b8abfe31d",
+    "item-06.mp3": "489d09c5fb42",
+    "item-07.mp3": "800f058d4ef9",
+    "item-08.mp3": "924a620d05a6",
+    "item-09.mp3": "ddd1478e5fd8",
+    "item-10.mp3": "537c74901965",
+    "item-11.mp3": "a12a18e4f6ce",
+    "item-12.mp3": "f92539cd9ebf",
+    "item-13.mp3": "ca2a608cc5b4",
+    "item-14.mp3": "fe13d5c65757",
+    "item-15.mp3": "cc9fb3297746",
+    "item-16.mp3": "658a47eeee3a",
+    "item-17.mp3": "c3e589e18220"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.545
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.445,
+      "dur": 25.682
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 36.027,
+      "dur": 24.685
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 61.611,
+      "dur": 71.809
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 134.32,
+      "dur": 62.593
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 197.813,
+      "dur": 27.41
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 226.123,
+      "dur": 38.781
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 265.805,
+      "dur": 41.158
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 307.863,
+      "dur": 46.677
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 355.439,
+      "dur": 23.529
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 379.869,
+      "dur": 15.288
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 396.057,
+      "dur": 40.319
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 437.276,
+      "dur": 41.924
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 480.1,
+      "dur": 34.498
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 515.498,
+      "dur": 10.441
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 526.839,
+      "dur": 61.847
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 589.586,
+      "dur": 43.671
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 634.157,
+      "dur": 56.536
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 691.593,
+      "dur": 56.327
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-03",
    "weekday_en": "Tuesday",
