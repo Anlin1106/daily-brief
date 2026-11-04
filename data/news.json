@@ -2,12 +2,455 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-04 07:29",
-  "latest": "2026-11-04",
+  "updated_at": "2026-11-05 07:31",
+  "latest": "2026-11-05",
   "count": 18,
   "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-05",
+   "weekday_en": "Thursday",
+   "weekday_zh": "周四",
+   "generated_at": "2026-11-05 07:31",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3686.17,
+     "chg_pct": 2.16
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11335.69,
+     "chg_pct": 4.22
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2544.73,
+     "chg_pct": 6.4
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1265.47,
+     "chg_pct": 9.92
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 23919.5,
+     "chg_pct": 1.67
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 53356.12,
+     "chg_pct": 3.03
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25736.51,
+     "chg_pct": 1.44
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7688.62,
+     "chg_pct": 1.58
+    }
+   ],
+   "items": [
+    {
+     "ts": 1793830702,
+     "source": "新浪财经",
+     "title_zh": "央行缩量续做3个月期买断式逆回购",
+     "body_zh": "本报记者刘琪 11月4日，中国人民银行发布公开市场买断式逆回购招标公告。公告显示，为保持银行体系流动性充裕，2026年11月5日，中国人民银行将以固定数量、利率招标...",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixrqea8960742.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:18",
+     "title_en": "the PBOC shrinkage continues with 3-month buyout reverse share buyback.",
+     "body_en": "On November 4, the People's Bank of China issued an open market buyout reverse share buyback tender announcement. According to the announcement, in order to maintain sufficient liquidity in the banking system, on November 5, 2026, the People's Bank of China will bid at a fixed number and interest rate...",
+     "id": "sina-comos:nixrqea8960742"
+    },
+    {
+     "ts": 1793834234,
+     "source": "新浪财经",
+     "title_zh": "芯片出口强劲，韩国9月经常帐顺差突破610亿美元创历史新高",
+     "body_zh": "韩国央行周四发布的数据显示，受半导体出口强劲的推动，韩国9月份经常账户顺差超过600亿美元，创下历史新高。 根据韩国央行发布的数据，9月份经常账户顺差总计614...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqek9695284.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:17",
+     "title_en": "Chip exports are strong, with South Korea's current account surplus hitting a record high of $61 billion in September.",
+     "body_en": "South Korea posted a record current account surplus of more than $60 billion in September, driven by strong semiconductor exports, according to data released by the PBOC on Thursday. According to data released by the PBOC in South Korea, the current account surplus for September totaled 614...",
+     "id": "sina-comos:nixrqek9695284"
+    },
+    {
+     "ts": 1793831748,
+     "source": "华尔街见闻",
+     "title_zh": "锂电企业业绩会释放趋势信号：储能市场增量明确，固态电池成必然方向",
+     "body_zh": "近日，锂电企业在三季报业绩会上释放多重趋势信号：储能市场增长预期确定性增强、固态电池中试稳步推进、高端产品供应偏紧……折射出行业竞争重心从规模扩张转向结构性增长。同时，多家企业对明年市场需求给出偏乐观预判。“随着动力电池、储能电池需求的增长，以及交通、算力等下游领域对绿色能源、稳定能源供应的需求释放，2027年锂电池产业链的市场规模仍将保持稳定增长。”有企业负责人表示。（中证报）",
+     "url": "https://wallstreetcn.com/livenews/3194540",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:35",
+     "title_en": "The performance of lithium battery companies will release trend signals: the increment of the energy storage market is clear, and solid-state batteries are an inevitable direction.",
+     "body_en": "Recently, lithium battery companies released multiple trend signals at the third quarterly earnings meeting: increased certainty in energy storage market growth expectations, steady progress in solid-state battery trials, and tight supply of high-end products... Reflecting the industry's competitive focus from scale expansion to structural growth. At the same time, many companies gave optimistic forecasts for market demand next year. \"With the growth of demand for power batteries and energy storage batteries, as well as the release of demand for green energy and stable energy supply in downstream fields such as transportation and computing power, the market size of the lithium battery industry chain will continue to grow steadily in 2027.\" The person in charge of the enterprise said. (China Securities Journal).",
+     "id": "wscn-3194540"
+    },
+    {
+     "ts": 1793831535,
+     "source": "新浪财经",
+     "title_zh": "Snap股价盘后重挫10%：Q3营收不及预期，日活用户流失",
+     "body_zh": "Snap周三公布第三季度财报，营收和日活跃用户均不及预期，盘后下跌逾10%。 Snap第三季度销售额同比增长14%，净利润为5，600万美元，而去年同期净亏损1.04亿美元。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqek9675149.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:32",
+     "title_en": "Snap's share price after the bell plunged by 10%: Q3 revenue fell short of expectations and daily active users were lost.",
+     "body_en": "Snap reported third-quarter results on Wednesday, with both revenue and daily active users falling short of expectations, after the bell fell more than 10 percent. Snap's third-quarter sales were up year on year at 14%, with a net profit of $56 million, compared to a net loss of $104 million in the same period last year.",
+     "id": "sina-comos:nixrqek9675149"
+    },
+    {
+     "ts": 1793802692,
+     "source": "华尔街见闻",
+     "title_zh": "美股开盘：道指飙涨超千点，半导体指数跌0.9%，中概指数涨3.2%，阿里涨4.7%",
+     "body_zh": "美股盘初，特斯拉跌5.2%，SpaceX跌5.3%，特朗普媒体科技跌9.6%。Palantir跌5.8%，希捷科技、西部数据、Nebius、闪迪至少跌超3%，英伟达跌1.2%，AMD跌1%，台积电跌0.8%。 Meta涨2.3%，谷歌A涨3.2%，苹果涨3.9%，微软涨4.8%，亚马逊涨7.4%。 纳斯达克金龙中国指数涨3.2%。",
+     "url": "https://wallstreetcn.com/livenews/3194325",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "22:31",
+     "title_en": "Opening of US stocks: The Dow surged more than 1,000 points, the semiconductor index fell 0.9%, the Zhongguo index rose 3.2%, and Alibaba rose 4.7%.",
+     "body_en": "At the beginning of the session, Tesla fell 5.2%, SpaceX fell 5.3%, and Trump Media Technology fell 9.6%. Palantir fell 5.8%, Seagate Technologies, Western Digital, Nebius, and SanDisk fell at least 3%, Nvidia fell 1.2%, AMD fell 1%, and TSMC fell 0.8%. Meta up 2.3%, Google A up 3.2%, Apple up 3.9%, Microsoft up 4.8%, Amazon up 7.4%. The Nasdaq Golden Dragon China Index was up 3.2%.",
+     "id": "wscn-3194325"
+    },
+    {
+     "ts": 1793809231,
+     "source": "华尔街见闻",
+     "title_zh": "民主党夺下美国参议院，特朗普重塑美联储之路再添屏障",
+     "body_zh": "随着美国民主党赢得参议院控制权，总统特朗普试图重塑美联储、让利率政策顺从其意愿的行动遭遇了一道强有力的屏障。这实际上阻断了白宫让忠于特朗普的人选获得确认、进入由七名理事组成的美联储理事会的路径，也使特朗普政府失去了进一步加强对美国央行控制最直接的手段。 在民主党占据多数后，马萨诸塞州参议员伊丽莎白·沃伦可能出任参议院银行委员会主席。",
+     "url": "https://wallstreetcn.com/livenews/3194393",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "00:20",
+     "title_en": "Democrats take the U.S. Senate, and Trump adds another barrier to reshaping the Federal Reserve.",
+     "body_en": "With the Democrats winning control of the Senate, President Trump's attempt to reshape the Federal Reserve and bend interest rate policy to his wishes has met with a powerful barrier. This effectively blocked the White House's path to confirmation of Trump loyalists and access to the seven-member Federal Reserve Council, and deprived the Trump administration of the most direct means to further strengthen its control over the PBOC in the United States. Massachusetts Senator Elizabeth Warren is likely to chair the Senate Banking Committee after the Democratic majority.",
+     "id": "wscn-3194393"
+    },
+    {
+     "ts": 1793828227,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价涨超3.3%，现货白银涨约4.9%",
+     "body_zh": "周三（11月4日）纽约尾盘，现货黄金涨3.32%，报4060.18美元/盎司，亚太早盘大致持平，北京时间13:00以来持续上涨，16:00以来持稳于4040美元附近。 现货白银涨4.87%，报52.2265美元/盎司。 COMEX铜期货涨0.25%，报6.4180美元/磅，亚太时段呈现出V形反转。 在美股时段交易的费城金银指数收涨8.21%，原材料指数收涨2.52%，金属与矿业指数收跌0.19%。",
+     "url": "https://wallstreetcn.com/livenews/3194521",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:37",
+     "title_en": "International gold prices rose more than 3.3%, spot silver rose by about 4.9%.",
+     "body_en": "Spot gold rose 3.32% to $4,060.18 per ounce at the close of New York trading on Wednesday (November 4), with the Asia-Pacific morning trading broadly flat, continuing to rise since 13:00 Beijing time and holding steady near $4,040 since 16:00. Spot silver rose 4.87% to $52.2265 per ounce. COMEX copper futures rose 0.25% to $6.4180/lb, showing a V-shaped reversal in Asia Pacific. The Philadelphia Bullion Index closed up 8.21%, the Raw Materials Index closed up 2.52%, and the Metals & Mining Index closed down 0.19%.",
+     "id": "wscn-3194521"
+    },
+    {
+     "ts": 1793827644,
+     "source": "华尔街见闻",
+     "title_zh": "黄金ETF收涨将近3.7%，与地产ETF领跑美股大类资产类ETF，布油基金跌超8.6%",
+     "body_zh": "周三（11月4日），黄金ETF收涨3.68%，美国房地产ETF涨3.18%，道指ETF涨3.1%，标普500 ETF、罗素2000指数ETF至少涨1.51%，纳斯达克100 ETF涨0.97%，新兴市场ETF涨0.85%，美国国债20+年ETF涨0.8%，欧元做多、日元做多至多涨0.35%。",
+     "url": "https://wallstreetcn.com/livenews/3194519",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:27",
+     "title_en": "The gold ETF closed up nearly 3.7%, with the real estate ETF leading the US asset class ETF, and the oil fund fell more than 8.6%.",
+     "body_en": "On Wednesday (November 4), gold ETFs closed up 3.68%, US real estate ETFs up 3.18%, Dow ETFs up 3.1%, S&P 500 ETFs, Russell 2000 ETFs up at least 1.51%, Nasdaq 100 ETFs up 0.97%, emerging market ETFs up 0.85%, US Treasury 20 + year ETFs up 0.8%, the euro long, the yen long at most 0.35%.",
+     "id": "wscn-3194519"
+    },
+    {
+     "ts": 1793827592,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块中，可选消费板块收涨4.27%，金融、房地产、原材",
+     "body_zh": "标普500指数的11个板块中，可选消费板块收涨4.27%，金融、房地产、原材料、保健板块至少涨3.04%，电信板块涨2.95%，信息技术/科技板块涨0.55%，工业板块跌1.11%，能源板块跌4.77%。",
+     "url": "https://wallstreetcn.com/livenews/3194518",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:26",
+     "title_en": "Among the 11 sectors of the S&P 500 index, the optional consumer sector closed up 4.27%, financial, real estate, raw materials.",
+     "body_en": "Among the 11 sectors of the S&P 500 index, the optional consumer sector closed up 4.27%, the financial, real estate, raw materials, and health care sectors rose at least 3.04%, the telecommunications sector rose 2.95%, the information technology/technology sector rose 0.55%, the industrial sector fell 1.11%, and the energy sector fell 4.77%.",
+     "id": "wscn-3194518"
+    },
+    {
+     "ts": 1793829306,
+     "source": "华尔街见闻",
+     "title_zh": "高通CEO",
+     "body_zh": "数据中心业务开始放量，预计12月当季营收将超过6.5亿美元. 到2027财年，QCT非手机业务收入将同比增长超过60%。 展望未来，我们的计划假设2027日历年全球手机出货量将持平至下降。 定制加速器将于10月开始出货，我们与亚马逊云科技的连接解决方案将于本月晚些时候加速推进。",
+     "url": "https://wallstreetcn.com/livenews/3194525",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:55",
+     "title_en": "Qualcomm CEO.",
+     "body_en": "The data center business began to expand, and revenue in the December quarter is expected to exceed $650 million. By FY2027, QCT's non-phone business revenue will be up year on year by more than 60%. Going forward, our plan assumes that global mobile phone shipments will be flat to declining in calendar year 2027. Custom accelerators will begin shipping in October, and our connectivity solution with Amazon Cloud Technologies will accelerate later this month.",
+     "id": "wscn-3194525"
+    },
+    {
+     "ts": 1793834644,
+     "source": "华尔街见闻",
+     "title_zh": "国内海拔最高超超临界火电项目完成试运行，今天正式投产",
+     "body_zh": "今天（5日），国内海拔最高超超临界火电项目——青海华电格尔木一期火电项目1号机组顺利完成168小时试运行，正式投入商业运营。华电格尔木公司项目总负责人赵发林表示，项目全容量投产后，年发电量可达60亿千瓦时，能满足约660万居民一年的用电需求，将有效提升青海电网安全稳定支撑能力，为新能源大规模消纳提供调峰保障。（央视新闻）",
+     "url": "https://wallstreetcn.com/livenews/3194554",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:24",
+     "title_en": "Domestic highest altitude ultra-supercritical thermal power project completed trial operation, officially put into operation today.",
+     "body_en": "Today (5th), Qinghai Huadian Golmud Phase I Thermal Power Project, the highest-altitude ultra-supercritical thermal power project in China, successfully completed 168 hours of trial operation and officially put into commercial operation. Zhao Falin, general manager of the project of Huadian Golmud Company, said that after the full capacity of the project is put into operation, the annual power generation capacity can reach 6 billion kilowatt hours, which can meet the electricity demand of about 6.6 million residents for one year, which will effectively enhance the safety and stability support capacity of the Qinghai power grid and provide peak adjustment guarantee for the large-scale consumption of new energy. (CCTV News).",
+     "id": "wscn-3194554"
+    },
+    {
+     "ts": 1793824817,
+     "source": "华尔街见闻",
+     "title_zh": "花旗策略师Daniel Tobon",
+     "body_zh": "随着注意力重新集中到美联储利率路径，美国中期选举过后的美元疲软问题将快速消退。",
+     "url": "https://wallstreetcn.com/livenews/3194496",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "04:40",
+     "title_en": "Daniel Tobon, Citi Strategist.",
+     "body_en": "As attention refocuses on the Federal Reserve interest rate path, the weakening of the dollar after the US midterm elections will fade quickly.",
+     "id": "wscn-3194496"
+    },
+    {
+     "ts": 1793834416,
+     "source": "新浪财经",
+     "title_zh": "股海导航_2026年11月5日_沪深股市公告与交易提示",
+     "body_zh": "【停牌】 300237 ST美晨 【复牌】 无 【品大事】 宏和科技：黄石宏和高性能特种电子纱因市场供不应求已在建设中 11月4日，在三季报业绩会上，宏和科技董事长毛嘉明介绍...",
+     "url": "https://finance.sina.com.cn/stock/s/2026-11-05/doc-inixrqek9699405.shtml",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:20",
+     "title_en": "Stock Navigation_November 5, 2026_Shanghai-Shenzhen Stock Market Announcement and Trading Tips.",
+     "body_en": "[Suspension] 300237 ST Meichen [Resumption] No [Product Event] Honghe Technology: Huang Shihong and high-performance special electronic yarns have been under construction due to market shortage on November 4. At the third quarterly report meeting, Honghe Technology Chairman Mao Jiaming introduced...",
+     "id": "sina-comos:nixrqek9699405"
+    },
+    {
+     "ts": 1793814714,
+     "source": "华尔街见闻",
+     "title_zh": "LME期铜收跌25美元，报14011美元/吨",
+     "body_zh": "LME期铝收涨2美元，报3047美元/吨。 LME期锌收涨16美元，报3807美元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3194433",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:51",
+     "title_en": "LME copper closed down $25 at $14,011/t.",
+     "body_en": "LME aluminium closed up $2 at $3,047/t. LME-phase zinc closed up $16 at $3,807/t.",
+     "id": "wscn-3194433"
+    },
+    {
+     "ts": 1793811647,
+     "source": "华尔街见闻",
+     "title_zh": "国际铜夜盘收涨0.26%，沪铜收涨0.31%，沪铝收涨0.02%，沪锌收涨0",
+     "body_zh": "国际铜夜盘收涨0.26%，沪铜收涨0.31%，沪铝收涨0.02%，沪锌收涨0.08%，沪铅收涨0.86%，沪镍收涨2.37%，沪锡收涨0.06%。 氧化铝夜盘收跌0.08%，铝合金收涨0.56%。 不锈钢夜盘收涨1.38%。",
+     "url": "https://wallstreetcn.com/livenews/3194412",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:00",
+     "title_en": "International copper and night trading closed up 0.26%, Shanghai copper closed up 0.31%, Shanghai aluminum closed up 0.02%, Shanghai zinc closed up 0%.",
+     "body_en": "The international copper night market closed up 0.26%, Shanghai copper closed up 0.31%, Shanghai aluminum closed up 0.02%, Shanghai zinc closed up 0.08%, Shanghai lead closed up 0.86%, Shanghai nickel closed up 2.37%, and Shanghai tin closed up 0.06%. Alumina closed 0.08% lower and aluminium ended 0.56% higher. Stainless steel closed up 1.38% at night.",
+     "id": "wscn-3194412"
+    },
+    {
+     "ts": 1793808127,
+     "source": "华尔街见闻",
+     "title_zh": "CoreWeave债券跌至新低，民主党胜选令德州数据中心前景蒙阴",
+     "body_zh": "CoreWeave Inc.债券大跌，部分价格创下新低，因多名主张放缓数据中心建设的美国民主党候选人在州长选举中获胜，其中包括得克萨斯州。Trace定价数据显示，这家AI云计算提供商2031年到期的无担保债券周三在高收益债券发行人中表现垫底，交易价格最低跌至面值的79.5%。其2030年和2032年到期债券也下跌，目前价格徘徊在市场普遍认为财务处于困境的水平，收益率超过15%。",
+     "url": "https://wallstreetcn.com/livenews/3194385",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "00:02",
+     "title_en": "CoreWeave bonds fell to a new low, and the Democratic victory clouded the prospects for Texas data centers.",
+     "body_en": "CoreWeave Inc. bonds plunged, with some prices hitting new lows, as a number of Democratic candidates, including Texas, who advocated a slowdown in data center construction, won the gubernatorial election. The AI cloud computing provider's unsecured bonds due in 2031 underperformed among high-yield issuers on Wednesday, trading at a minimum of 79.5% of par, according to Trace pricing data. Its 2030 and 2032 maturities have also fallen, with prices currently hovering around what the market generally sees as financial distress, yielding more than 15%.",
+     "id": "wscn-3194385"
+    },
+    {
+     "ts": 1793820654,
+     "source": "华尔街见闻",
+     "title_zh": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元",
+     "body_zh": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元/桶，逼近10月7日收报87.55美元、9月4日收报85.46美元，北京时间17:10以来平缓地持续下跌，23:52-01:38加速下跌；较10月30日收盘价累计回撤超过15.36%。 布伦特1月原油期货收跌8.98美元，跌幅将近8.87%，报94.62美元/桶。 NYMEX 12月天然气期货收报2.9590美元/百万英热单位。",
+     "url": "https://wallstreetcn.com/livenews/3194470",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "03:30",
+     "title_en": "WTI December crude oil futures closed down $7.97, or more than 8.29%, at $88.12.",
+     "body_en": "WTI crude oil futures closed the month down $7.97, or more than 8.29%, at $88.12 per barrel, approaching $87.55 on October 7 and $85.46 on September 4. It has been declining steadily since 17:10 Beijing time, accelerating its decline from 23:52 to 01:38; the cumulative retracement from the closing price on October 30 exceeded 15.36%. Brent crude oil futures closed January down $8.98, or nearly 8.87%, at $94.62 per barrel. NYMEX natural gas futures closed December at $2.9590/mbtu.",
+     "id": "wscn-3194470"
+    },
+    {
+     "ts": 1793834866,
+     "source": "华尔街见闻",
+     "title_zh": "首张成年脊椎动物全细胞转录组图谱绘成",
+     "body_zh": "美国麻省理工学院怀特黑德研究所团队在最新一期《科学》发表研究，以体长约1厘米的透明小丹鱼属Danionella cerebrum为模型，绘制出首张成年脊椎动物全细胞转录组图谱。研究累计分析超过60万个来自脑、脊髓、眼、内脏、鳍及头躯干的细胞，为理解脊椎动物如何以细胞为单位协同运作提供了全新的分子底图，也为研究脊椎动物大脑开辟了新的可能性。（科技日报）",
+     "url": "https://wallstreetcn.com/livenews/3194555",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:27",
+     "title_en": "First adult vertebrate whole-cell transcriptome mapping.",
+     "body_en": "The team at mit's Whitehead Institute published a study in the latest issue of Science, which mapped the first adult vertebrate whole-cell transcriptome using Danionella cerebrum, a hyaluronan fish about 1 cm in length, as a model. The cumulative analysis of more than 600,000 cells from the brain, spinal cord, eyes, viscera, fins and head trunk provides a new molecular basis for understanding how vertebrates work together in cells and opens up new possibilities for studying vertebrate brains. (Science and Technology Daily).",
+     "id": "wscn-3194555"
+    }
+   ],
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "81515cefc21d",
+    "item-00.mp3": "94510559e41c",
+    "item-01.mp3": "0f5b0b2952f6",
+    "item-02.mp3": "8572ab411e04",
+    "item-03.mp3": "0b8256679401",
+    "item-04.mp3": "f98daf803a44",
+    "item-05.mp3": "ea9d98b97986",
+    "item-06.mp3": "222e9fd62e60",
+    "item-07.mp3": "5007bf31d621",
+    "item-08.mp3": "ebeacc071d50",
+    "item-09.mp3": "bfc7291f8a83",
+    "item-10.mp3": "f680a94e78c7",
+    "item-11.mp3": "a6b7526dbdf4",
+    "item-12.mp3": "d9366e7ad4e6",
+    "item-13.mp3": "eafa20a323c2",
+    "item-14.mp3": "e70a8f2aea48",
+    "item-15.mp3": "dd03405899f2",
+    "item-16.mp3": "d89309ed3154",
+    "item-17.mp3": "664dd7f5a38e"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.587
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.487,
+      "dur": 28.503
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 38.891,
+      "dur": 28.447
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 68.238,
+      "dur": 71.28
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 140.418,
+      "dur": 30.886
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 172.204,
+      "dur": 62.535
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 235.639,
+      "dur": 41.407
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 277.947,
+      "dur": 64.218
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 343.065,
+      "dur": 47.663
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 391.627,
+      "dur": 48.132
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 440.659,
+      "dur": 35.278
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 476.837,
+      "dur": 65.698
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 543.435,
+      "dur": 11.877
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 556.213,
+      "dur": 32.046
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 589.159,
+      "dur": 17.219
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 607.278,
+      "dur": 54.701
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 662.879,
+      "dur": 47.527
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 711.307,
+      "dur": 68.186
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 780.393,
+      "dur": 40.242
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-04",
    "weekday_en": "Wednesday",
