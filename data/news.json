@@ -2,12 +2,455 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-05 07:31",
-  "latest": "2026-11-05",
+  "updated_at": "2026-11-06 07:32",
+  "latest": "2026-11-06",
   "count": 18,
-  "mt_calls": 36
+  "mt_calls": 34
  },
  "editions": [
+  {
+   "date": "2026-11-06",
+   "weekday_en": "Friday",
+   "weekday_zh": "周五",
+   "generated_at": "2026-11-06 07:32",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3689.91,
+     "chg_pct": 0.1
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11471.09,
+     "chg_pct": 1.19
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2566.8,
+     "chg_pct": 0.87
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1286.68,
+     "chg_pct": 1.68
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 24796.98,
+     "chg_pct": 3.67
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 51523.06,
+     "chg_pct": -3.44
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24315.0,
+     "chg_pct": -5.52
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7353.73,
+     "chg_pct": -4.36
+    }
+   ],
+   "items": [
+    {
+     "ts": 1793914942,
+     "source": "华尔街见闻",
+     "title_zh": "韩国否认考虑大规模购买长期美债的报道",
+     "body_zh": "韩国否认有关政府考虑大规模购买美国长期国债并以此增加外汇储备的媒体报道，称报道内容“与事实不符”。韩国财政部在声明中表示，外汇储备的资产构成和管理方式属于保密事项。 此前《韩国经济日报》报道称，韩国政府和韩国央行近期向美国提出这一想法，美方对此作出积极回应。报道援引未具名金融业人士称，此举也旨在加强与美国的经济联系。",
+     "url": "https://wallstreetcn.com/livenews/3195357",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:42",
+     "title_en": "South Korea Denies Reports of Considering Large-Scale Purchases of Long-Term Treasuries.",
+     "body_en": "South Korea has denied media reports that the government is considering large-scale purchases of U.S. long-term Treasuries as a way to increase foreign exchange reserves, saying the content of the reports is “not in line with the facts.” South Korea's Ministry of Finance said in a statement that the asset composition and management of foreign exchange reserves are confidential. Earlier, the Korea Economic Daily reported that the South Korean government and the South Korean PBOC had recently proposed this idea to the United States, and the United States responded positively. The report quoted unnamed financial industry sources as saying that the move was also aimed at strengthening economic ties with the United States.",
+     "id": "wscn-3195357"
+    },
+    {
+     "ts": 1793901996,
+     "source": "华尔街见闻",
+     "title_zh": "英债收益率普遍守住涨势，英国央行2023年以来首次加息",
+     "body_zh": "周四（11月5日）欧市尾盘，英国10年期国债收益率涨0.2个基点，报5.132%，英国央行宣布加息之前交投于5.104%附近。 两年期英债收益率涨0.6个基点，报4.748%，英国央行在北京时间20:00宣布加息之前低位震荡——持稳于4.72%附近，随后短线拉升，美股开盘时刷新日高至4.801%，之后震荡下行。 30年期英债收益率涨1.3个基点，50年期英债收益率涨0.5个基点。",
+     "url": "https://wallstreetcn.com/livenews/3195296",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "02:06",
+     "title_en": "UK bond yields generally held up, with the Bank of England raising interest rates for the first time since 2023.",
+     "body_en": "On Thursday (November 5), at the end of the European market, the UK 10-year Treasury yields rose 0.2 basis points to 5.132%, and the Bank of England traded near 5.104% before announcing interest rate hikes. The two-year yield rose 0.6 basis points to 4.748%, with the Bank of England's low shock before the rate hike was announced at 20:00 Beijing time - holding steady near 4.72%, followed by a short pull-up, with US equities refreshing to a daily high of 4.801% at the opening, followed by a shock downturn. The 30-year yield rose 1.3 basis points and the 50-year yield rose 0.5 basis points.",
+     "id": "wscn-3195296"
+    },
+    {
+     "ts": 1793889070,
+     "source": "华尔街见闻",
+     "title_zh": "美股开盘：纳斯达克100指数跌1.4%，中概指数涨2.5%",
+     "body_zh": "美股盘初，苹果涨1.4%，该公司一年多来首次进军投资级债券市场。微软跌0.4%，该公司接连撤单Nscale（先砍30亿英国合同，再弃得州扩容订单）。 AI硬件重挫，光通信美股盘前普跌，Lumentum跌4.9%。高通低开14%，恐创2020年以来最大单日跌幅。闪迪、AMD、希捷科技、西部数据、美光、SK海力士至多跌约7.2%。 纳斯达克金龙中国指数涨2.5%，报5871.98点。",
+     "url": "https://wallstreetcn.com/livenews/3195184",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "22:31",
+     "title_en": "US Opening: Nasdaq 100 Down 1.4%, Mid Index Up 2.5%.",
+     "body_en": "At the start of the session, Apple was up 1.4% as the company made its first foray into the investment-grade bond market in more than a year. Microsoft fell 0.4%, and the company withdrew Nscale (first cut 3 billion UK contracts, then abandoned Texas expansion orders). AI hardware fell sharply, optical communications US stocks fell in premarket trading, and Lumentum fell 4.9%. Qualcomm opened 14% lower, the largest one-day decline since 2020. SanDisk, AMD, Seagate Technologies, Western Digital, Micron, SK Hynix fell by up to about 7.2%. The Nasdaq Golden Dragon China Index rose 2.5% to 5871.98.",
+     "id": "wscn-3195184"
+    },
+    {
+     "ts": 1793918323,
+     "source": "华尔街见闻",
+     "title_zh": "多家公司在手订单充裕，CXO行业景气度有望延续",
+     "body_zh": "伴随创新药出海BD（商务拓展）提速，医药研发等服务需求回暖。近日，多家CXO（医药研发生产外包）上市公司在第三季度业绩说明会上表示，公司在手订单充裕，预计全年业绩有望实现增长，随着第四季度项目交付规模进一步扩大，行业景气度有望延续。",
+     "url": "https://wallstreetcn.com/livenews/3195376",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:38",
+     "title_en": "Multiple companies have ample orders, and the CXO industry boom is expected to continue.",
+     "body_en": "With the acceleration of BD (business development) of innovative drugs going overseas, the demand for services such as pharmaceutical research and development has picked up. Recently, a number of CXO (pharmaceutical R&D and production outsourcing) listed companies said at the third quarter performance briefing that the company has abundant orders on hand and is expected to achieve full-year performance growth. With the further expansion of the project delivery scale in the fourth quarter, the industry boom is expected to continue.",
+     "id": "wscn-3195376"
+    },
+    {
+     "ts": 1793894073,
+     "source": "华尔街见闻",
+     "title_zh": "拉加德：欧洲央行正在评估各项指标以确定12月是否有必要加",
+     "body_zh": "即将离任的欧洲央行行长克里斯蒂娜·拉加德（Christine Lagarde）表示，在11月维持利率不变后，欧洲央行正在评估各项经济指标，以确定下个月是否有必要加息。 “从现在到12月之间，我们将获得许多指标，这些指标将真正帮助我们确定加息是否属于必要之举，”拉加德在米兰由意大利独立思考观象台（Osservatorio）组织的一场金融素养会议上表示。",
+     "url": "https://wallstreetcn.com/livenews/3195236",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "23:54",
+     "title_en": "Christine Lagarde: the ECB is evaluating the indicators to determine if it is necessary to add.",
+     "body_en": "Christine Lagarde, the outgoing president of the ECB, said that after keeping interest rates unchanged in November, the ECB was assessing economic indicators to determine if a rate hike was necessary next month. “Between now and December, we're going to get a lot of metrics that will really help us determine if a rate hike is necessary,” Christine Lagarde said at a financial literacy conference in Milan organized by the Italian Observatory of Independent Thinking (Osservatorio).",
+     "id": "wscn-3195236"
+    },
+    {
+     "ts": 1793916236,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价涨0.7%，纽约铜跌约3.5%",
+     "body_zh": "周四（11月5日）纽约尾盘，现货黄金涨0.7%，报4089.15美元/盎司，几乎全天处于上涨状态，亚太早盘显著上涨、北京时间11:57涨至4146.97美元刷新日高，随后震荡回落，美股早盘呈现出W形走势。 现货白银跌0.84%，报51.7798美元/盎司。 COMEX铜期货跌3.47%，报6.2055美元/磅，亚欧时段主要维持微幅下跌状态，美股开盘之后持续下跌。",
+     "url": "https://wallstreetcn.com/livenews/3195361",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:03",
+     "title_en": "International gold prices rose 0.7%, New York copper fell about 3.5%.",
+     "body_en": "On Thursday (November 5), spot gold rose 0.7% to $4,089.15 per ounce, rising almost all day. The Asia-Pacific morning market rose significantly, rising to a rising high of $4,146.97 at 11:57 Beijing time, and then the shock fell back. The US stock market showed a W-shaped trend in the morning. Spot silver fell 0.84% to $51.7798 per ounce. COMEX copper futures fell 3.47% to $6.2055/lb, mainly maintained a slight decline in Asia-Europe time, and continued to decline after the opening of the US stock market.",
+     "id": "wscn-3195361"
+    },
+    {
+     "ts": 1793918982,
+     "source": "新浪财经",
+     "title_zh": "巩固完善资本市场稳市机制",
+     "body_zh": "本报记者刘琪 11月5日，中国人民银行官网发布国务院关于金融工作情况的报告。11月3日，在十四届全国人民代表大会常务委员会第二十五次会议上...",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixtxmh8942404.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:49",
+     "title_en": "Consolidate and improve the capital market stabilization mechanism.",
+     "body_en": "On November 5, the official website of the People's Bank of China released the report of the State Council on financial work. On November 3, at the 25th meeting of the Standing Committee of the 14th National People's Congress...",
+     "id": "sina-comos:nixtxmh8942404"
+    },
+    {
+     "ts": 1793918670,
+     "source": "华尔街见闻",
+     "title_zh": "Atlassian Corp.第一财季营收17.7亿美元，分析师预期17.2",
+     "body_zh": "Atlassian Corp.第一财季营收17.7亿美元，分析师预期17.2亿美元。 预计全年营收增长13.8%，公司原本预计增长13%。 预计第二财季云营收同比将增长大约27%。",
+     "url": "https://wallstreetcn.com/livenews/3195381",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:44",
+     "title_en": "Atlassian Corp. Q1 revenue $1.77 billion, analysts expect 17.2.",
+     "body_en": "Atlassian Corp. had revenue of $1.77 billion in the first quarter and analysts were expecting $1.72 billion. Revenue is expected to grow by 13.8% for the full year, and the company had expected to grow by 13%. Cloud revenue is expected to grow approximately 27% YoY in Q2.",
+     "id": "wscn-3195381"
+    },
+    {
+     "ts": 1793918613,
+     "source": "华尔街见闻",
+     "title_zh": "Live Nation Entertainment Inc.三季度营收101",
+     "body_zh": "Live Nation Entertainment Inc.三季度营收101.1亿美元，分析师预期96亿美元。 三季度调整后运营利润11.8亿美元，分析师预期11.6亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3195380",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:43",
+     "title_en": "Live Nation Entertainment Inc. Third Quarter Revenue 101.",
+     "body_en": "Live Nation Entertainment Inc. In the third quarter, revenue was $10.11 billion, and analysts expected $9.6 billion. Adjusted operating profit of $1.18 billion in the third quarter, with analysts expecting $1.16 billion.",
+     "id": "wscn-3195380"
+    },
+    {
+     "ts": 1793918499,
+     "source": "华尔街见闻",
+     "title_zh": "Lyft三季度营收18.2亿美元，分析师预期19.2亿美元",
+     "body_zh": "三季度出行2.735亿（人次），分析师预期2.745亿。 预计四季度总预定大约57.4亿-59.4亿美元，分析师预期58.4亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3195378",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:41",
+     "title_en": "Lyft Q3 revenue $1.82 billion, analysts expect $1.92 billion.",
+     "body_en": "273.5 million trips were made in the third quarter, with analysts expecting 274.5 million. It is expected that the total bookings in the fourth quarter will be about 5.74 billion to 5.94 billion US dollars, and analysts expect 5.84 billion US dollars.",
+     "id": "wscn-3195378"
+    },
+    {
+     "ts": 1793918025,
+     "source": "华尔街见闻",
+     "title_zh": "两家上市公司子公司IPO“踩刹车”",
+     "body_zh": "11月5日晚，高新兴、崇达技术披露公告，两家上市公司旗下子公司北交所IPO工作相继调整。高新兴控股子公司创联科技终止上市辅导备案，并拟申请新三板终止挂牌；崇达技术控股子公司普诺威撤回北交所IPO申报材料。",
+     "url": "https://wallstreetcn.com/livenews/3195374",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:33",
+     "title_en": "IPOs of subsidiaries of two publicly traded companies “hit the brakes”.",
+     "body_en": "On the evening of November 5, Gao Xinxing and Chongda Technology Disclosure Announcement, the IPO work of the North Exchange, a subsidiary of the two listed companies, was successively adjusted. Chuanglian Technology, a subsidiary of Gaoxin Holdings, terminated the listing coaching and filing, and intends to apply for the termination of the listing on the New Third Board; Chongda Technology Holdings, a subsidiary of PNV, withdrew the IPO filing materials of the Beijing Stock Exchange.",
+     "id": "wscn-3195374"
+    },
+    {
+     "ts": 1793920013,
+     "source": "华尔街见闻",
+     "title_zh": "周五亚太盘初（美国非农就业报告出炉前），美国股指期货跌超0.3%",
+     "body_zh": "周五亚太盘初（美国非农就业报告出炉前），美国股指期货跌超0.3%",
+     "url": "https://wallstreetcn.com/livenews/3195390",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:06",
+     "title_en": "US equity index futures fell more than 0.3% at the start of the Asia-Pacific market on Friday (before the US Non-Agricultural Employment Report).",
+     "body_en": "US equity index futures fell more than 0.3% at the start of the Asia-Pacific market on Friday (before the US Non-Agricultural Employment Report).",
+     "id": "wscn-3195390"
+    },
+    {
+     "ts": 1793916696,
+     "source": "华尔街见闻",
+     "title_zh": "美股加密货币与加密货币关联指数收跌11.17%，报47.31点美股早盘持续下",
+     "body_zh": "美股加密货币与加密货币关联指数收跌11.17%，报47.31点美股早盘持续下跌，北京时间23:00以来低位窄幅震荡、23:54刷新日低至45.09点。 最近24小时，现货比特币跌5.35%，暂报75859美元，美股开盘之前高位窄幅震荡，随后陷入美股半导体概念股/AI概念股被抛售的浪潮，00:00以来低位企稳。 现货以太坊跌7.63%，暂报2232.877美元。",
+     "url": "https://wallstreetcn.com/livenews/3195364",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:11",
+     "title_en": "The cryptocurrency and cryptocurrency-related index of US stocks fell 11.17%, and the US stock market continued to fall at 47.31 in the morning.",
+     "body_en": "The cryptocurrency and cryptocurrency-related index of US stocks closed down 11.17%, and the morning market of US stocks continued to fall at 47.31 points. The low and narrow range shocks since 23:00 Beijing time, and the 23:54 refresh date was as low as 45.09 points. In the last 24 hours, spot bitcoin fell 5.35%, with a tentative report of $75,859. Before the opening of the US stock market, the high and narrow range shocked, and then fell into the wave of selling of US semiconductor concept stocks/AI concept stocks, and the low level stabilized since 00:00. Spot Ethereum was down 7.63% at $2,232.877.",
+     "id": "wscn-3195364"
+    },
+    {
+     "ts": 1793915199,
+     "source": "华尔街见闻",
+     "title_zh": "加拿大央行在框架中删除有关气候变化的内容",
+     "body_zh": "加拿大央行在框架中删除有关气候变化的内容",
+     "url": "https://wallstreetcn.com/livenews/3195359",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:46",
+     "title_en": "the Bank of Canada removes climate change from its framework.",
+     "body_en": "the Bank of Canada removes climate change from its framework.",
+     "id": "wscn-3195359"
+    },
+    {
+     "ts": 1793911774,
+     "source": "华尔街见闻",
+     "title_zh": "两年期美债收益率跌超12个基点",
+     "body_zh": "周四（11月5日）纽约尾盘，美国10年期国债收益率跌5.53个基点，报4.8326%，北京时间12:00前后跌穿4.84%，随后持续上扬、22:29刷新日高至4.9168%，随着美国半导体概念股/AI概念股被抛售，美债价格迅速反弹。 两年期美债收益率跌12.48个基点，报4.4520%，22:16涨至4.6225%刷新日高，随后持续下挫；",
+     "url": "https://wallstreetcn.com/livenews/3195334",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "04:49",
+     "title_en": "Treasury yields fell more than 12 basis points over the two-year period.",
+     "body_en": "At the end of New York on Thursday (November 5), the US 10-year Treasury yields fell 5.53 basis points to 4.8326%, falling below 4.84% around 12:00 Beijing time, and then continued to rise, reaching a daily high of 4.9168% at 22:29. As the US semiconductor concept stocks/AI concept stocks were sold off, the US bond price rebounded rapidly. Treasury yields fell 12.48 basis points to 4.4520% for the two-year period, rose to a record high of 4.6225% at 22:16, and then continued to decline;.",
+     "id": "wscn-3195334"
+    },
+    {
+     "ts": 1793909837,
+     "source": "华尔街见闻",
+     "title_zh": "彭博美元指数张超0.1%",
+     "body_zh": "周四（11月5日）纽约尾盘，ICE美元指数持平，报101.565点，日内交投区间为101.195-101.706点，北京时间15:00以来持续上扬、22:38刷新日高，之后随着美国半导体/AI板块被抛售而一度回撤至101.4点下方。 彭博美元指数涨0.15%，报1221.86点，日内交投区间为1216.91-1222.03点，15:01以来持续上扬。",
+     "url": "https://wallstreetcn.com/livenews/3195326",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "04:17",
+     "title_en": "Bloomberg USD Index over 0.1%.",
+     "body_en": "On Thursday (November 5), the ice US dollar index was flat at 101.565 points, with a daily trading range of 101.195-101.706 points. It has continued to rise since 15:00 Beijing time and reached a daily high at 22:38. After that, it withdrew below 101.4 points as the US semiconductor/AI sector was sold off. The Bloomberg USD index rose 0.15% to 1221.86 points, with a daily trading range of 1216.91-1222.03 points, and has risen continuously since 15:01.",
+     "id": "wscn-3195326"
+    },
+    {
+     "ts": 1793916920,
+     "source": "华尔街见闻",
+     "title_zh": "布伦特原油日内涨幅达5.0%，报99.47美元/桶；WTI原油日内涨幅达3.",
+     "body_zh": "布伦特原油日内涨幅达5.0%，报99.47美元/桶；WTI原油日内涨幅达3.5%，报91.22美元/桶。",
+     "url": "https://wallstreetcn.com/livenews/3195367",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:15",
+     "title_en": "Brent crude oil rose 5.0% intraday to $99.47/bbl; WTI crude oil rose 3.",
+     "body_en": "Brent crude oil was up 5.0% intraday at $99.47/bbl and WTI crude oil was up 3.5% intraday at $91.22/bbl.",
+     "id": "wscn-3195367"
+    },
+    {
+     "ts": 1793921147,
+     "source": "华尔街见闻",
+     "title_zh": "全球首次化学遗传学神经调控在人体实现",
+     "body_zh": "11月5日，《新英格兰医学杂志》（NEJM）发表了一项由中国科学家完成的突破性研究——全球首次化学遗传学神经调控的人体临床研究。国际同行在配发的评论中认为，该研究创新性地把基因治疗与小分子药物结合起来，使治疗强度可按需调整，这是现有其他类型基因疗法无法实现的。（科技日报）",
+     "url": "https://wallstreetcn.com/livenews/3195394",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:25",
+     "title_en": "The world's first chemical genetics neuromodulation in humans.",
+     "body_en": "On November 5, the New England Journal of Medicine (NEJM) published a groundbreaking study by Chinese scientists - the world's first clinical study of neuromodulation in chemical genetics in humans. In the comments issued by the international peers, the research innovatively combines gene therapy with small molecule drugs, making the intensity of treatment adjustable on demand, which is not possible with other types of gene therapy available. (Science and Technology Daily).",
+     "id": "wscn-3195394"
+    }
+   ],
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "0ce3b0bc41a1",
+    "item-00.mp3": "3a7742b4b48a",
+    "item-01.mp3": "1c00513e9555",
+    "item-02.mp3": "e98b3b3c4e4f",
+    "item-03.mp3": "b91e1ba86428",
+    "item-04.mp3": "aa6c1ee4e86c",
+    "item-05.mp3": "51197188ea2f",
+    "item-06.mp3": "943fc09e1d6e",
+    "item-07.mp3": "52cf9fdeb6aa",
+    "item-08.mp3": "0b04ecb51c7c",
+    "item-09.mp3": "e8dbf6be6d59",
+    "item-10.mp3": "cb62a90a78ed",
+    "item-11.mp3": "956af04cef3f",
+    "item-12.mp3": "3ec036a9cc72",
+    "item-13.mp3": "91ff4bedcf47",
+    "item-14.mp3": "da01add2e885",
+    "item-15.mp3": "ec6245ba7dee",
+    "item-16.mp3": "4fb1d9ac6650",
+    "item-17.mp3": "47a9d1586509"
+   },
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.374
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.274,
+      "dur": 59.165
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 69.339,
+      "dur": 59.401
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 129.641,
+      "dur": 65.727
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 196.268,
+      "dur": 40.756
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 237.924,
+      "dur": 43.486
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 282.31,
+      "dur": 56.419
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 339.629,
+      "dur": 22.055
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 362.584,
+      "dur": 31.327
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 394.811,
+      "dur": 26.738
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 422.449,
+      "dur": 28.398
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 451.747,
+      "dur": 40.946
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 493.593,
+      "dur": 21.819
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 516.311,
+      "dur": 75.341
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 592.553,
+      "dur": 7.128
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 600.581,
+      "dur": 56.231
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 657.711,
+      "dur": 55.565
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 714.176,
+      "dur": 26.533
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 741.609,
+      "dur": 35.038
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-05",
    "weekday_en": "Thursday",
