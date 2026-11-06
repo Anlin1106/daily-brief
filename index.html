@@ -131,6 +131,80 @@
     padding-top:10px;border-top:1px dashed var(--rule-soft);
   }
 
+  /* ---------------- 版面二 · 财经人物 ---------------- */
+  .sec2{
+    margin:34px 0 40px;background:var(--card);border:1px solid var(--rule);
+    border-top:3px double var(--navy);border-radius:4px;
+    padding:20px 24px 16px;box-shadow:var(--shadow);
+  }
+  .sec2 h2{
+    font-family:var(--serif);font-size:21px;line-height:1.45;margin:4px 0 8px;color:var(--ink);
+  }
+  .sec2 .sec2-by{
+    font-size:12.5px;color:var(--amber);font-weight:600;letter-spacing:.04em;margin:0 0 14px;
+  }
+  .sec2 .sec2-by i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink3);margin-left:7px}
+  .sec2 .sec2-body{font-family:var(--serif);font-size:16px;line-height:1.8;color:var(--ink2);margin:0}
+  .sec2 .zh-block{margin-top:12px;padding-top:10px;border-top:1px dashed var(--rule-soft)}
+  .sec2 .zh-block .zh-t{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 4px}
+  .sec2 .zh-block .zh-b{font-size:12.8px;color:var(--ink2);margin:0;line-height:1.75}
+  .sec2 .tools{display:flex;align-items:center;gap:10px;margin-top:14px;padding-top:10px;border-top:1px solid var(--rule-soft)}
+  /* 广播剧剧本行: 旁白斜体灰, 角色台词带名牌, 播放中高亮 */
+  .stline{padding:8px 10px;margin:0 -10px;border-bottom:1px dashed var(--rule-soft);border-radius:4px;transition:background .3s}
+  .stline:last-child{border-bottom:none}
+  .stline .who{display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--amber);margin-bottom:2px;text-transform:uppercase}
+  .stline.narr .who{color:var(--ink3)}
+  .stline .en{font-family:var(--serif);font-size:15.5px;line-height:1.7;color:var(--ink2);margin:0}
+  .stline.narr .en{font-style:italic;color:var(--ink3)}
+  .stline .zh{font-size:12.5px;color:var(--ink3);margin:3px 0 0;line-height:1.7}
+  .stline.active{background:var(--amber-soft)}
+  .stline.active .en{color:var(--ink)}
+  .st-cast{font-family:var(--mono);font-size:11px;color:var(--ink3);margin:0 0 10px;letter-spacing:.04em}
+
+  /* ---------------- 版面导航条(模块页顶部) ---------------- */
+  .navbar{
+    position:sticky; top:0; z-index:50;
+    display:flex; align-items:center; gap:12px;
+    padding:10px 16px; margin:0 -24px;
+    background:rgba(247,244,238,.96); backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--rule);
+  }
+  .navbar button{
+    font-family:var(--sans); font-size:12.5px; font-weight:600;
+    padding:7px 14px; border-radius:999px; cursor:pointer; white-space:nowrap;
+    border:1px solid var(--navy); background:transparent; color:var(--navy);
+    transition:.15s;
+  }
+  .navbar button.primary{background:var(--navy); color:#f7f4ee}
+  .navbar button:active{transform:scale(.97)}
+  .navbar #navTitle{
+    flex:1; min-width:0; text-align:center;
+    font-family:var(--serif); font-weight:600; font-size:15px; color:var(--ink);
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+
+  /* ---------------- 首页三卡片 ---------------- */
+  .home-cards{display:flex; flex-direction:column; gap:14px; margin:20px 0 40px}
+  .hcard{
+    display:block; background:var(--card); border:1px solid var(--rule);
+    border-left:4px solid var(--navy); border-radius:6px;
+    padding:16px 18px; box-shadow:var(--shadow);
+    cursor:pointer; color:inherit; text-decoration:none; transition:transform .12s;
+  }
+  .hcard:active{transform:scale(.985)}
+  .hcard.c-people{border-left-color:var(--amber)}
+  .hcard.c-joke{border-left-color:var(--ink3)}
+  .hcard .hc-label{
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.14em;
+    color:var(--amber); text-transform:uppercase;
+  }
+  .hcard .hc-label i{font-style:normal; color:var(--ink3); letter-spacing:.04em}
+  .hcard h3{font-family:var(--serif); font-size:18px; line-height:1.45; margin:7px 0 4px; color:var(--ink)}
+  .hcard p{margin:0; font-size:12.8px; color:var(--ink2); line-height:1.6}
+  .hcard .hc-meta{margin-top:9px; font-family:var(--mono); font-size:11.5px; color:var(--ink3)}
+  .hcard .hc-ico{font-size:20px}
+
   /* ---------------- toolbar ---------------- */
   .toolbar{
     display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;
@@ -296,6 +370,37 @@
     </div>
   </header>
 
+  <nav class="navbar" id="navbar" hidden>
+    <button id="navBack">← 首页</button>
+    <span id="navTitle">—</span>
+    <button id="navAction" class="primary">▶ 播放</button>
+  </nav>
+
+  <section id="viewHome">
+    <p class="subtitle" id="homeDate" style="margin-top:-6px">—</p>
+    <div class="home-cards">
+      <div class="hcard c-brief" id="goBrief">
+        <div class="hc-label"><span>📻 Morning Brief · 财经早餐</span><i>NO.1</i></div>
+        <h3 id="hcBriefHead">—</h3>
+        <p id="hcBriefSub">今日要闻速览，中英对照</p>
+        <div class="hc-meta" id="hcBriefMeta">—</div>
+      </div>
+      <div class="hcard c-people" id="goPeople">
+        <div class="hc-label"><span>👤 People in Finance · 财经人物</span><i>NO.2</i></div>
+        <h3 id="hcPeopleHead">—</h3>
+        <p id="hcPeopleSub">—</p>
+        <div class="hc-meta" id="hcPeopleMeta">—</div>
+      </div>
+      <div class="hcard c-joke" id="goJoke">
+        <div class="hc-label"><span>😄 Market Laughs · 每日一笑</span><i>NO.3</i></div>
+        <h3 id="hcJokeHead">—</h3>
+        <p id="hcJokeSub">—</p>
+        <div class="hc-meta" id="hcJokeMeta">—</div>
+      </div>
+    </div>
+  </section>
+
+  <div id="viewBrief">
   <div class="tape" id="tapeWrap" hidden>
     <div class="tape-inner" id="tape"></div>
   </div>
@@ -312,6 +417,39 @@
   </div>
 
   <main class="stories" id="stories"></main>
+  </div><!-- /viewBrief -->
+
+  <section class="sec2" id="storyBox" hidden>
+    <p class="sec-label">People in Finance · 版面二 · 财经人物</p>
+    <h2 id="stTitle">—</h2>
+    <p class="sec2-by" id="stName">—</p>
+    <p class="st-cast" id="stCast" hidden></p>
+    <div id="stLines"></div>
+    <p class="sec2-body" id="stBodyEn"></p>
+    <div class="zh-block">
+      <p class="zh-t" id="stTitleZh" hidden></p>
+      <p class="zh-b" id="stBodyZh" hidden></p>
+    </div>
+    <div class="tools">
+      <button class="ico play" id="stPlay">▶ 听人物志</button>
+      <span class="dur" id="stDur"></span>
+    </div>
+  </section>
+
+  <section class="sec2 sec3" id="jokeBox" hidden>
+    <p class="sec-label">Market Laughs · 版面三 · 每日一笑</p>
+    <h2 id="jkTitle">—</h2>
+    <p class="sec2-by" id="jkTag">—</p>
+    <p class="sec2-body" id="jkBodyEn"></p>
+    <div class="zh-block">
+      <p class="zh-t" id="jkTitleZh" hidden></p>
+      <p class="zh-b" id="jkBodyZh" hidden></p>
+    </div>
+    <div class="tools">
+      <button class="ico play" id="jkPlay">▶ 听一笑</button>
+      <span class="dur" id="jkDur"></span>
+    </div>
+  </section>
 
   <footer class="foot">
     <span>THE DAILY BRIEF · generated by local pipeline</span>
@@ -510,8 +648,73 @@
     });
   }
 
+  function renderStory(){
+    const s = ed().story;
+    const box = $('#storyBox');
+    if(!s || !(s.body_en || s.body_zh || (s.lines && s.lines.length))){ box.hidden = true; return; }
+    box.hidden = false;
+    $('#stTitle').textContent = s.title_en || s.title_zh;
+    $('#stName').innerHTML = esc(s.name_zh) + '<i>' + esc(s.name_en) + '</i>' +
+      (s.era ? '<i>· ' + esc(s.era) + '</i>' : '');
+    const linesBox = $('#stLines');
+    if(s.lines && s.lines.length){
+      // 广播剧脚本: 旁白(斜体) + 角色台词(名牌), 播放时逐句高亮
+      linesBox.hidden = false;
+      linesBox.innerHTML = s.lines.map((ln, i) => `
+        <div class="stline ${ln.k === 'narr' ? 'narr' : 'dial'}" data-i="${i}">
+          <span class="who">${esc(ln.k === 'narr' ? '♪ ' + (ln.who || 'Narrator') : (ln.who || '') + ':')}</span>
+          <p class="en">${esc(ln.en || '')}</p>
+          <p class="zh"${state.showZh ? '' : ' hidden'}>${esc(ln.zh || '')}</p>
+        </div>`).join('');
+      $('#stBodyEn').hidden = true; $('#stTitleZh').hidden = true; $('#stBodyZh').hidden = true;
+      const cast = [...new Set(s.lines.filter(l => l.k !== 'narr').map(l => l.who))];
+      $('#stCast').hidden = !cast.length;
+      $('#stCast').textContent = cast.length ? '声线: Narrator(旁白) + ' + cast.join(' / ') : '';
+    } else {
+      linesBox.hidden = true; linesBox.innerHTML = '';
+      $('#stCast').hidden = true;
+      $('#stBodyEn').textContent = s.body_en || '';
+      $('#stBodyEn').hidden = !s.body_en;
+      $('#stTitleZh').textContent = s.title_zh || '';
+      $('#stBodyZh').textContent = s.body_zh || '';
+      const showZh = state.showZh && !!s.body_zh;
+      $('#stTitleZh').hidden = !showZh;
+      $('#stBodyZh').hidden = !showZh;
+    }
+    let durTxt = '';
+    const segs = (ed().story_audio || {}).segments;
+    if(segs && segs.length){
+      const last = segs[segs.length - 1];
+      durTxt = '~' + ((last.start + last.dur) / 60).toFixed(1) + ' min · 广播剧';
+    } else if(s.body_en){
+      const sec = estSec([s.title_en, s.body_en].join(' '));
+      durTxt = '~' + (sec / 60).toFixed(1) + ' min';
+    }
+    $('#stDur').textContent = durTxt;
+  }
+
+  function renderJoke(){
+    const j = ed().joke;
+    const box = $('#jokeBox');
+    if(!j || !(j.body_en || j.body_zh)){ box.hidden = true; return; }
+    box.hidden = false;
+    $('#jkTitle').textContent = j.title_en || j.title_zh;
+    $('#jkTag').innerHTML = esc(j.tag_zh || j.tag_en || '每日一笑') +
+      (j.tag_en ? '<i>' + esc(j.tag_en) + '</i>' : '');
+    $('#jkBodyEn').textContent = j.body_en || '';
+    $('#jkBodyEn').hidden = !j.body_en;
+    $('#jkTitleZh').textContent = j.title_zh || '';
+    $('#jkBodyZh').textContent = j.body_zh || '';
+    const showZh = state.showZh && !!j.body_zh;
+    $('#jkTitleZh').hidden = !showZh;
+    $('#jkBodyZh').hidden = !showZh;
+    const sec = estSec([j.title_en, j.body_en].join(' '));
+    $('#jkDur').textContent = j.body_en ? '~' + sec + 's' : '';
+  }
+
   function renderAll(){
-    renderMasthead(); renderTape(); renderLead(); renderChips(); renderArchive(); renderStories();
+    renderMasthead(); renderTape(); renderLead(); renderChips(); renderArchive(); renderStories(); renderStory(); renderJoke();
+    fillHome();
     $('#leadZh').hidden = !(state.showZh && (ed().lead_zh||'').trim());
     document.body.classList.toggle('show-zh', state.showZh);
     $('#toggleZh').setAttribute('aria-pressed', state.showZh ? 'true' : 'false');
@@ -864,6 +1067,104 @@
     if(pr && pr.catch) pr.catch(() => {});
   }
 
+  /* 版面二 · 财经人物: 独立的 story.mp3。
+     有脚本(lines)时是多声线广播剧(旁白+角色), 播放时按 story_audio.segments 逐句高亮;
+     否则是单女声讲述的旧版兜底。不混入新闻连播。 */
+  let storyCur = -1;
+  function playStory(){
+    const s = ed().story;
+    if(!s) return;
+    stopQuiet();
+    P.gen++;
+    P.on = true; P.paused = false; P.idx = -1;
+    A.mode = true; B.active = false;
+    storyCur = -1;
+    $$('#stories .item').forEach(el => el.classList.remove('playing'));
+    $('#player').classList.add('up');
+    $('#npTitle').textContent = (s.title_en || s.title_zh) + ' · ' + (s.name_zh || '');
+    $('#npLabel').textContent = (s.lines && s.lines.length)
+      ? '多声线广播剧 · 财经人物' : 'Kokoro 主播 Heart · 财经人物';
+    setPlayIcon(true);
+    setMediaSession('People in Finance · ' + (s.name_en || s.name_zh || ''));
+    AEL.src = `data/audio/${ed().date}/story.mp3`;
+    AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate));
+    const segs = ((ed().story_audio || {}).segments) || null;
+    AEL.ontimeupdate = segs ? () => {
+      if(!A.mode) return;
+      const t = AEL.currentTime;
+      let k = -1;
+      for(let j = 0; j < segs.length; j++){ if(t >= segs[j].start - 0.12) k = j; else break; }
+      if(k === storyCur) return;
+      storyCur = k;
+      $$('#stLines .stline').forEach((el, i) => el.classList.toggle('active', i === k));
+      const el = $('#stLines') && $('#stLines').children[k];
+      if(el && el.scrollIntoView) el.scrollIntoView({block: 'nearest', behavior: 'smooth'});
+    } : null;
+    AEL.onended = () => {
+      if(!A.mode) return;
+      stop();
+      toast('本期人物志播完 ✓');
+    };
+    AEL.onerror = () => {
+      if(!A.mode) return;
+      A.mode = false;
+      if(synth && state.ttsLang === 'en' && hasVoiceFor('en')){
+        const u = new SpeechSynthesisUtterance(
+          normalizeTTS((s.title_en || '') + '. ' + (s.body_en || ''), 'en'));
+        u.rate = state.rate;
+        P.queue = [u];
+        u.onend = () => { if(!A.mode && P.on) stop(); };
+        synth.speak(u);
+      } else {
+        toast('本期人物音频未生成, 请先运行 scripts/gen_audio.py');
+        stop();
+      }
+    };
+    const pr = AEL.play();
+    if(pr && pr.catch) pr.catch(() => {});
+  }
+
+  /* 版面三 · 每日一笑: 独立的 joke.mp3(英式男声 bm_george 讲述), 不混入新闻连播 */
+  function playJoke(){
+    const j = ed().joke;
+    if(!j) return;
+    stopQuiet();
+    P.gen++;
+    P.on = true; P.paused = false; P.idx = -1;
+    A.mode = true; B.active = false;
+    $$('#stories .item').forEach(el => el.classList.remove('playing'));
+    $('#player').classList.add('up');
+    $('#npTitle').textContent = (j.title_en || j.title_zh) + ' · ' + (j.tag_zh || '每日一笑');
+    $('#npLabel').textContent = 'Kokoro 主播 George · 每日一笑';
+    setPlayIcon(true);
+    setMediaSession('Market Laughs · ' + (j.title_en || j.title_zh || ''));
+    AEL.src = `data/audio/${ed().date}/joke.mp3`;
+    AEL.playbackRate = Math.min(2, Math.max(0.5, state.rate));
+    AEL.ontimeupdate = null;
+    AEL.onended = () => {
+      if(!A.mode) return;
+      stop();
+      toast('本期一笑播完 ✓');
+    };
+    AEL.onerror = () => {
+      if(!A.mode) return;
+      A.mode = false;
+      if(synth && state.ttsLang === 'en' && hasVoiceFor('en')){
+        const u = new SpeechSynthesisUtterance(
+          normalizeTTS((j.title_en || '') + '. ' + (j.body_en || ''), 'en'));
+        u.rate = state.rate;
+        P.queue = [u];
+        u.onend = () => { if(!A.mode && P.on) stop(); };
+        synth.speak(u);
+      } else {
+        toast('本期笑话音频未生成, 请先运行 scripts/gen_audio.py');
+        stop();
+      }
+    };
+    const pr = AEL.play();
+    if(pr && pr.catch) pr.catch(() => {});
+  }
+
   function bsegStart(idx){
     // 按条目文件名(item-XX.mp3)找对应段落起点, 找不到就退回最近的前一段
     const want = 'item-' + String(idx).padStart(2, '0') + '.mp3';
@@ -928,6 +1229,7 @@
     P.idx = -1; P.sentences = []; P.si = 0; P.introDone = false;
     setPlayIcon(false);
     $$('#stories .item').forEach(el => el.classList.remove('playing'));
+    $$('#stLines .stline').forEach(el => el.classList.remove('active'));
     $('#player').classList.remove('up');
   }
   function pause(){
@@ -997,6 +1299,64 @@
     renderAll();
   };
   $('#reload').onclick = () => location.reload();
+  $('#stPlay').onclick = () => { if(P.on && !P.paused){ pause(); return; } if(P.paused){ resume(); return; } playStory(); };
+  $('#jkPlay').onclick = () => { if(P.on && !P.paused){ pause(); return; } if(P.paused){ resume(); return; } playJoke(); };
+
+  /* ============================== 视图路由(首页三卡片) ============================== */
+  function playingFile(){
+    return (P.on && !P.paused && A.mode) ? (AEL.src || '').split('/').pop() : '';
+  }
+  const VIEWS = {
+    home:  {title: 'The Daily Brief', els: [$('#viewHome'), $('header.masthead')]},
+    brief: {title: '财经早餐 · Morning Brief', els: [$('#viewBrief')], action: () => $('#playAll').click()},
+    people:{title: '财经人物 · People in Finance', els: [$('#storyBox')], action: () => playStory()},
+    joke:  {title: '每日一笑 · Market Laughs', els: [$('#jokeBox')], action: () => playJoke()},
+  };
+  let curView = 'home';
+  function showView(name){
+    if(!VIEWS[name]) name = 'home';
+    curView = name;
+    Object.keys(VIEWS).forEach(k => {
+      VIEWS[k].els.forEach(el => { if(el) el.hidden = (k !== name); });
+    });
+    const nav = $('#navbar');
+    nav.hidden = (name === 'home');
+    $('#navTitle').textContent = VIEWS[name].title;
+    window.scrollTo({top: 0});
+    try { history.replaceState(null, '', '#' + name); } catch(e) {}
+  }
+  $('#navBack').onclick = () => showView('home');
+  $('#navAction').onclick = () => { const v = VIEWS[curView]; if(v && v.action) v.action(); };
+  $('#goBrief').onclick = () => showView('brief');
+  $('#goPeople').onclick = () => {
+    if(!(ed().story && (ed().story.body_en || ed().story.lines))){ toast('本期人物志暂未生成'); return; }
+    showView('people');
+  };
+  $('#goJoke').onclick = () => {
+    if(!(ed().joke && ed().joke.body_en)){ toast('本期一笑暂未生成'); return; }
+    showView('joke');
+  };
+  window.addEventListener('hashchange', () => {
+    const h = location.hash.slice(1);
+    if(VIEWS[h] && h !== curView) showView(h);
+  });
+
+  function fillHome(){
+    const e = ed();
+    $('#homeDate').textContent = fmtDate(e);
+    const items = e.items || [];
+    const lead = e.lead_en || (items[0] || {}).title_en || 'Daily Brief';
+    $('#hcBriefHead').textContent = lead.length > 110 ? lead.slice(0, 110).trim() + '…' : lead;
+    $('#hcBriefMeta').textContent = items.length + ' stories · 双主播连播 · ' + ed().date;
+    const s = e.story;
+    $('#hcPeopleHead').textContent = s ? (s.title_en || s.title_zh || '—') : '本期暂未生成';
+    $('#hcPeopleSub').textContent = s ? (s.name_zh || '') + (s.era ? ' · ' + s.era : '') : '';
+    $('#hcPeopleMeta').textContent = s ? '多声线广播剧 · 旁白 + 角色对话' : '明期更新';
+    const j = e.joke;
+    $('#hcJokeHead').textContent = j ? (j.title_en || j.title_zh || '—') : '本期暂未生成';
+    $('#hcJokeSub').textContent = j ? (j.tag_zh || '') : '';
+    $('#hcJokeMeta').textContent = j ? '英式男声 · 一分钟轻松一下' : '明期更新';
+  }
 
   document.addEventListener('keydown', e => {
     if(/input|select|textarea/i.test(e.target.tagName)) return;
@@ -1020,6 +1380,9 @@
   $('#rate').textContent = state.rate.toFixed(1) + '×';
   $('#ttsLang').textContent = state.ttsLang.toUpperCase();
   renderAll();
+  fillHome();
+  const h0 = location.hash.slice(1);
+  showView(VIEWS[h0] ? h0 : 'home');
 
   /* PWA：在线访问时注册 Service Worker（离线可用），file:// 下静默跳过 */
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {

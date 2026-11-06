@@ -5,7 +5,7 @@
    - data/news.js 走"网络优先，失败回退缓存"，保证每天更新能拿到最新一期
    - data/audio/** 走"缓存优先"（文件按日期命名，天然不可变），离线也能听
 */
-const VERSION = 'brief-v3';   // v3: 连播按文件名对齐条目 + 音频内容指纹; 改动 index.html 时必须升版本, 否则已装用户拿不到新页面
+const VERSION = 'brief-v8';   // v8: 首页三卡片导航(早餐/人物/笑话), 点卡片进版面, 版面内"← 首页"返回; 改动 index.html 时必须升版本
 const SHELL = [
   './index.html',
   './manifest.webmanifest',
