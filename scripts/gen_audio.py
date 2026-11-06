@@ -27,8 +27,19 @@ MIN_VALID_SIZE = 2000                # 小于该字节数视为损坏文件, 重
 VOICE_INTRO_KOKORO = "am_michael"
 VOICE_MALE_KOKORO = "am_michael"        # 男声 (备选: bm_george)
 VOICE_FEMALE_KOKORO = "af_heart"        # 女声 (备选: af_bella / af_sky)
+VOICE_JOKE_KOKORO = "bm_george"         # 版面三每日一笑: 固定英式男声, 与新闻/人物志的声音区分
+# 版面二广播剧多声线阵容(已探测 voices.bin 全部可用音色):
+#   N=旁白(英式 fable, 讲小说感)  M=男角色1(adam)  M2=男角色2(michael)
+#   F=女角色1(bella)  F2=女角色2(nicole)  F3=女角色3(heart)
+STORY_VOICES_KOKORO = {"N": "bm_fable", "M": "am_adam", "M2": "am_michael",
+                       "F": "af_bella", "F2": "af_nicole", "F3": "af_heart"}
+STORY_VOICES_EDGE = {"N": "en-GB-RyanNeural", "M": "en-US-AndrewNeural", "M2": "en-US-GuyNeural",
+                     "F": "en-US-JennyNeural", "F2": "en-US-AriaNeural", "F3": "en-GB-SoniaNeural"}
+STORY_GAP = 0.55                        # 广播剧句与句之间的留白秒数(听小说的呼吸感)
+STORY_PLAN = "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
 VOICE_MALE_EDGE = "en-US-AndrewNeural"
 VOICE_FEMALE_EDGE = "en-US-JennyNeural"
+VOICE_JOKE_EDGE = "en-GB-RyanNeural"
 BROADCAST_GAP = 0.9                     # broadcast.mp3 里条目之间的间隔秒数
 # 声音方案版本号: 写入每期 news.json 的 voice_plan 字段。
 # 改动音色/交替规则时把它 +1, 旧音频会在下一次运行时自动按新方案重新生成(无需 --force)。
@@ -148,43 +159,118 @@ def split_units(text):
     return units
 
 
-def synth_kokoro(text, path, voice):
-    """Kokoro 本地合成, 直接写 MP3 (libsndfile 1.2+ 原生支持)。
-    长文本整段合成韵律会漂移, 所以切成短小段逐段合成后拼接:
+def synth_kokoro_samples(text, voice, speed=1.0):
+    """Kokoro 合成一段文本, 返回 float32 采样数组(24kHz)。
+    长文本整段合成韵律会漂移, 切成短小段逐段合成后拼接:
     逗号/连词处 0.22s, 句末 0.45s —— 换气感自然, 音质等同短句试听样本。"""
-    import numpy as np, soundfile as sf
+    import numpy as np
     k = get_kokoro()
     if k is None:
-        return False
+        raise RuntimeError("Kokoro 不可用")
     units = split_units(text)
     if not units:
-        return False
+        raise RuntimeError("空文本")
     sr = 24000
     parts = [np.zeros(int(sr * 0.15), dtype=np.float32)]     # 开头留白
     for i, (txt, pause) in enumerate(units):
-        samples, _sr = k.create(txt, voice=voice, speed=1.0, lang="en-us")
+        samples, _sr = k.create(txt, voice=voice, speed=speed, lang="en-us")
         samples = np.asarray(samples, dtype=np.float32)
         if samples.ndim > 1:
             samples = samples[:, 0]
         parts.append(samples)
         if i < len(units) - 1:
             parts.append(np.zeros(int(sr * pause), dtype=np.float32))
-    sf.write(path, np.concatenate(parts), sr, format="MP3")
+    return np.concatenate(parts)
+
+
+def synth_kokoro(text, path, voice, speed=1.0):
+    """Kokoro 本地合成, 直接写 MP3 (libsndfile 1.2+ 原生支持)。"""
+    import soundfile as sf
+    sf.write(path, synth_kokoro_samples(text, voice, speed), 24000, format="MP3")
     return True
 
 
 async def synth_edge(text, path, gender):
-    voice = VOICE_MALE_EDGE if gender == "M" else VOICE_FEMALE_EDGE
+    voice = {"M": VOICE_MALE_EDGE, "F": VOICE_FEMALE_EDGE, "G": VOICE_JOKE_EDGE}[gender]
     c = edge_tts.Communicate(tts_sanitize(text), voice, rate="+6%")
     await c.save(path)
 
 
+def _resample_24k(data, file_sr):
+    import numpy as np
+    sr = 24000
+    if data.ndim > 1:
+        data = data[:, 0]
+    if file_sr != sr:
+        n_out = int(round(len(data) * sr / file_sr))
+        data = np.interp(np.linspace(0.0, len(data) - 1, n_out),
+                         np.arange(len(data)), data).astype(np.float32)
+    return np.asarray(data, dtype=np.float32)
+
+
+async def synth_story(lines, path):
+    """广播剧合成: 逐句按角色声线生成, 句间留 STORY_GAP 呼吸感, 合并成单文件 story.mp3。
+    返回 (引擎名, segments)。segments = 每句在文件中的 {start, dur, k, who, g},
+    供前端"读到哪句高亮哪句"。旁白语速略慢(0.97)更沉稳, 角色台词原速更有戏感。"""
+    import numpy as np, soundfile as sf, tempfile
+    sr = 24000
+    segs, parts, cursor = [], [], 0.25
+    k = get_kokoro()
+    if k is not None:
+        parts.append(np.zeros(int(sr * cursor), dtype=np.float32))
+        for ln in lines:
+            voice = STORY_VOICES_KOKORO.get(ln.get("g"), VOICE_MALE_KOKORO)
+            speed = 0.97 if ln.get("k") == "narr" else 1.0
+            try:
+                smp = synth_kokoro_samples(tts_sanitize(ln.get("en", "")), voice, speed)
+            except Exception:
+                k = None
+                break
+            dur = len(smp) / sr
+            segs.append({"start": round(cursor, 3), "dur": round(dur, 3),
+                         "k": ln.get("k", "narr"), "who": ln.get("who", ""), "g": ln.get("g", "N")})
+            parts.append(smp)
+            parts.append(np.zeros(int(sr * STORY_GAP), dtype=np.float32))
+            cursor += dur + STORY_GAP
+        if k is not None:
+            sf.write(path, np.concatenate(parts), sr, format="MP3")
+            return "kokoro", segs
+        # Kokoro 中途失败 → 清空走 Edge 兜底
+        segs, parts, cursor = [], [], 0.25
+        get_kokoro_force_reload()
+    if not _edge_ok:
+        raise RuntimeError("无可用语音引擎")
+    parts.append(np.zeros(int(sr * cursor), dtype=np.float32))
+    for ln in lines:
+        g = ln.get("g", "N")
+        gender = {"N": "G", "M": "M", "M2": "M", "F": "F", "F2": "F", "F3": "F"}.get(g, "M")
+        tmp = tempfile.NamedTemporaryFile(suffix=".mp3", delete=False)
+        tmp.close()
+        try:
+            await synth_edge(tts_sanitize(ln.get("en", "")), tmp.name, gender)
+            data, fsr = sf.read(tmp.name, dtype="float32")
+        finally:
+            try:
+                os.unlink(tmp.name)
+            except Exception:
+                pass
+        smp = _resample_24k(data, fsr)
+        dur = len(smp) / sr
+        segs.append({"start": round(cursor, 3), "dur": round(dur, 3),
+                     "k": ln.get("k", "narr"), "who": ln.get("who", ""), "g": g})
+        parts.append(smp)
+        parts.append(np.zeros(int(sr * STORY_GAP), dtype=np.float32))
+        cursor += dur + STORY_GAP
+    sf.write(path, np.concatenate(parts), sr, format="MP3")
+    return "edge", segs
+
+
 async def synth(text, path, gender="M"):
-    """gender: 'M' 男声 / 'F' 女声"""
+    """gender: 'M' 男声 / 'F' 女声 / 'G' 英式男声(笑话讲述人)"""
     text = tts_sanitize(text)
     k = get_kokoro()
     if k is not None:
-        voice = VOICE_MALE_KOKORO if gender == "M" else VOICE_FEMALE_KOKORO
+        voice = {"M": VOICE_MALE_KOKORO, "F": VOICE_FEMALE_KOKORO, "G": VOICE_JOKE_KOKORO}[gender]
         for attempt in range(2):
             try:
                 synth_kokoro(text, path, voice)
@@ -205,7 +291,9 @@ def get_kokoro_force_reload():
 
 def build_jobs(ed):
     """返回 (文件名, 文本, 声音性别) 列表。
-    导语男声; 正文条目男女交替: 偶数条男声、奇数条女声。"""
+    导语男声; 正文条目男女交替: 偶数条男声、奇数条女声;
+    版面二 story.mp3 固定女声讲述(af_heart), 是"财经人物"栏目的声音名片。
+    注意: story.mp3 不参与 broadcast.mp3 连播(见 main 里的 bjobs 过滤)。"""
     jobs = []
     intro = "The Daily Brief. {}, {}. {} stories.".format(
         ed.get("weekday_en", ""), ed.get("date", ""), len(ed.get("items", [])))
@@ -218,6 +306,21 @@ def build_jobs(ed):
         txt = (title + " " + body).strip()
         if len(txt) > 3:
             jobs.append((f"item-{i:02d}.mp3", txt, "M" if i % 2 == 0 else "F"))
+    s = ed.get("story")
+    if s:
+        if s.get("lines"):
+            # 广播剧脚本: 整个脚本(含声线分配)参与指纹, 声线阵容一变就自动重配
+            txt = STORY_PLAN + "|" + json.dumps(s["lines"], ensure_ascii=False)
+            jobs.append(("story.mp3", txt, "CAST"))
+        elif s.get("body_en") or s.get("title_en"):
+            st = (s.get("title_en") or s.get("title_zh") or "").strip().rstrip(".") + "."
+            st += " " + (s.get("body_en") or "").strip()
+            jobs.append(("story.mp3", st.strip(), "F"))
+    j = ed.get("joke")
+    if j and (j.get("body_en") or j.get("title_en")):
+        jt = (j.get("title_en") or j.get("title_zh") or "").strip().rstrip(".") + "."
+        jt += " " + (j.get("body_en") or "").strip()
+        jobs.append(("joke.mp3", jt.strip(), "G"))
     return jobs
 
 
@@ -277,6 +380,17 @@ def clean_old_audio(editions):
 async def main(force=False):
     data = load_editions()
     clean_old_audio(data["editions"])
+    # 版面二/三: 给没有故事的期分配财经人物小故事, 没有笑话的期分配每日一笑(分配结果持久化, 之后不再变)
+    try:
+        import story as _story
+        _story.assign(data)
+    except Exception as e:
+        print(f"  [story] 分配失败, 本期无故事: {type(e).__name__} {e}")
+    try:
+        import joke as _joke
+        _joke.assign(data)
+    except Exception as e:
+        print(f"  [joke] 分配失败, 本期无笑话: {type(e).__name__} {e}")
     made = failed = 0
     t0 = time.time()
     for ed in data["editions"]:
@@ -284,6 +398,8 @@ async def main(force=False):
         adir = os.path.join(ROOT, "data", "audio", date)
         os.makedirs(adir, exist_ok=True)
         jobs = build_jobs(ed)
+        # 连播文件只包含新闻(intro + 条目), story.mp3 / joke.mp3 单独播放
+        bjobs = [j for j in jobs if j[0] not in ("story.mp3", "joke.mp3")]
         regen = False
         # 声音方案与当前不一致(或 --force)时, 该期全部重新生成 —— 用于双主播方案上线后自动迁移旧音频
         need = force or ed.get("voice_plan") != VOICE_PLAN
@@ -291,8 +407,36 @@ async def main(force=False):
             print(f"  {date}: 声音方案变更({ed.get('voice_plan', '旧版')} → {VOICE_PLAN}), 重新生成")
         old_hashes = ed.get("audio_hashes") or {}
         hashes = {}
+        story_ok = False                       # 本期广播剧是否(重)生成成功
         for fname, txt, gender in jobs:
             fpath = os.path.join(adir, fname)
+            # --- 广播剧通道(story.mp3 有脚本): 独立版本号 story_plan, 与新闻音频互不影响 ---
+            if gender == "CAST":
+                h = job_hash(txt, "CAST")
+                hashes[fname] = h
+                need_st = force or ed.get("story_plan") != STORY_PLAN
+                if not need_st and old_hashes.get(fname) == h and valid_audio(fpath):
+                    story_ok = True
+                    continue
+                ok = engine = False
+                for attempt in range(3):
+                    try:
+                        engine, segs = await synth_story(json.loads(txt.split("|", 1)[1]), fpath)
+                        ok = True
+                        break
+                    except Exception as e:
+                        print(f"  重试 {date}/{fname} ({attempt+1}/3): {type(e).__name__} {e}")
+                        await asyncio.sleep(2.5)
+                if ok:
+                    made += 1
+                    regen = True
+                    story_ok = True
+                    ed["story_audio"] = {"file": "story.mp3", "segments": segs}
+                    print(f"  {date}/{fname}  {os.path.getsize(fpath)//1024} KB  广播剧{len(segs)}句  [{engine}]")
+                else:
+                    failed += 1
+                    print(f"  失败 {date}/{fname}")
+                continue
             h = job_hash(txt, gender)
             hashes[fname] = h
             # 只有"文案+音色都没变且文件有效"才跳过; 文案改了(当天重抓新闻)必须重生成
@@ -318,6 +462,10 @@ async def main(force=False):
         if failed == 0:
             ed["voice_plan"] = VOICE_PLAN
             ed["audio_hashes"] = hashes
+            if story_ok:
+                ed["story_plan"] = STORY_PLAN
+            else:
+                ed.pop("story_plan", None)     # 广播剧没生成成功 → 下次运行重试
             # 清掉本期已不存在条目的残留音频(条目数变少时, 旧 item-XX.mp3 会串进连播/被误点)
             keep_names = {j[0] for j in jobs} | {"broadcast.mp3"}
             for fn in os.listdir(adir):
@@ -327,13 +475,13 @@ async def main(force=False):
                         print(f"  清理多余音频: {date}/{fn}")
                     except Exception:
                         pass
-        # 合并整期连播文件: 有新音频 / 文件缺失 / 段列表与当前条目不一致 时重建
+        # 合并整期连播文件(不含 story): 有新音频 / 文件缺失 / 段列表与当前条目不一致 时重建
         bpath = os.path.join(adir, "broadcast.mp3")
-        job_files = [j[0] for j in jobs]
+        job_files = [j[0] for j in bjobs]
         seg_files = [s.get("file") for s in (ed.get("broadcast") or {}).get("segments", [])]
         if failed == 0 and (regen or not valid_audio(bpath) or seg_files != job_files):
             try:
-                segs = merge_broadcast(adir, jobs)
+                segs = merge_broadcast(adir, bjobs)
                 ed["broadcast"] = {"file": "broadcast.mp3", "segments": segs}
                 print(f"  {date}/broadcast.mp3  {os.path.getsize(bpath)//1024} KB  ({len(segs)} 段)")
             except Exception as e:

@@ -573,7 +573,8 @@ def build(total=20, translate=True, keep_days=7):
     # 继承配音元数据: 条目文案没变就不必重新合成音频(gen_audio 会逐条按指纹校验,
     # 不继承的话每次重抓新闻都会丢掉指纹 → 每天全量重新配音, 又要多等十来分钟)
     if old_ed:
-        for k in ("voice_plan", "audio_hashes"):
+        for k in ("voice_plan", "audio_hashes", "story", "joke", "broadcast",
+                  "story_plan", "story_audio"):
             if k in old_ed:
                 edition[k] = old_ed[k]
     editions.insert(0, edition)
