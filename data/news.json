@@ -2,12 +2,582 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-06 16:51",
-  "latest": "2026-11-06",
+  "updated_at": "2026-11-07 07:26",
+  "latest": "2026-11-07",
   "count": 18,
-  "mt_calls": 30
+  "mt_calls": 34
  },
  "editions": [
+  {
+   "date": "2026-11-07",
+   "weekday_en": "Saturday",
+   "weekday_zh": "周六",
+   "generated_at": "2026-11-07 07:26",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3649.18,
+     "chg_pct": -1.1
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11175.78,
+     "chg_pct": -2.57
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2465.23,
+     "chg_pct": -3.96
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1253.2,
+     "chg_pct": -2.6
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 24481.86,
+     "chg_pct": -1.27
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 51285.73,
+     "chg_pct": -0.46
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24579.42,
+     "chg_pct": 1.09
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7376.86,
+     "chg_pct": 0.31
+    }
+   ],
+   "items": [
+    {
+     "ts": 1793999760,
+     "source": "新浪财经",
+     "title_zh": "11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
+     "body_zh": "周五美股企稳，三大指数涨跌不一。尽管经济数据强化了美联储将在12月加息的预期，但逢低买盘继续涌入市场，芯片股反弹，进而推动大盘走高。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakk5001971.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:16",
+     "title_en": "Closing on November 7: Three major indices rise and fall, but chip stocks rebound AI regulatory concerns remain.",
+     "body_en": "On Friday, US stocks stabilized, with the three major indices rising and falling. While economic data reinforced expectations that the Federal Reserve would raise interest rates in December, low-buy orders continued to pour into the market and chip stocks rebounded, pushing the broader market higher.",
+     "id": "sina-comos:nixwakk5001971"
+    },
+    {
+     "ts": 1794002334,
+     "source": "新浪财经",
+     "title_zh": "11月7日外盘头条：美国10月非农大超预期 特朗普任命米勒出任白宫幕僚长 特斯拉将逐步停产Cybertruck",
+     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲 2、中期选举失利后...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8483750.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:58",
+     "title_en": "November 7: USDA Exceeds Expectations for October Trump Appoints Miller as White House Chief of Staff Tesla to Phase Out Cybertruck.",
+     "body_en": "Headlines in the global financial media last night and this morning focused on: 1. 165,000 new non-agricultural workers in the United States in October, far exceeding expectations. The unemployment rate fell to 4.1%. 2. After losing the midterm elections...",
+     "id": "sina-comos:nixwakn8483750"
+    },
+    {
+     "ts": 1793998822,
+     "source": "华尔街见闻",
+     "title_zh": "本周（美国中期选举+非农），标普累跌2.4%，道指跌0.9%，纳指跌3.4%",
+     "body_zh": "本周（美国中期选举+非农），标普累跌2.4%，道指跌0.9%，纳指跌3.4%，纳斯达克100指数跌5%；半导体指数跌12.4%，存储芯片指数跌21.5%。 标普500指数初步收涨0.3%，科技板块涨1.1%，电信板块涨0.6%，日用消费品板块跌1.2%。",
+     "url": "https://wallstreetcn.com/livenews/3196221",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:00",
+     "title_en": "This week (US midterm elections + non-farm), S&P fell 2.4%, the Dow fell 0.9%, and the Navarro fell 3.4%.",
+     "body_en": "This week (US midterm elections + non-farm), the S&P fell 2.4%, the Dow fell 0.9%, the Nasdaq fell 3.4%, and the Nasdaq 100 fell 5%; the semiconductor index fell 12.4%, and the memory chip index fell 21.5%. The S&P 500 initially closed up 0.3%, the technology sector up 1.1%, the telecommunications sector up 0.6%, and the consumer goods sector down 1.2%.",
+     "id": "wscn-3196221"
+    },
+    {
+     "ts": 1794002840,
+     "source": "新浪财经",
+     "title_zh": "大宗商品综述：油价走势震荡 铜价下跌 金价走低",
+     "body_zh": "油价走势震荡，交易员关注伊朗战争降级前景。铜价跌至7月以来最低水平，美国政治格局变化可能削弱两大看涨因素。金价下跌，强劲的美国非农就业数据强化了市场对美联储将加...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8486854.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:07",
+     "title_en": "Commodity Roundup: Oil Prices Shake Copper Prices Fall Gold Prices Fall.",
+     "body_en": "Oil prices were volatile, and traders were concerned about the prospect of a de-escalation of the war in Iran. Copper prices fell to their lowest level since July, and changes in the US political landscape could weaken two bullish factors. Gold prices fell, and strong U.S. nonfarm payroll data reinforced market sentiment that the Federal Reserve would add...",
+     "id": "sina-comos:nixwakn8486854"
+    },
+    {
+     "ts": 1793999316,
+     "source": "新浪财经",
+     "title_zh": "美国债市：国债下跌 收益率曲线趋平 芯片股反弹削弱避险需求",
+     "body_zh": "美国国债周五收跌，短端领跌，推动收益率曲线趋平，因芯片制造商股价反弹带动美股上涨。强劲的10月就业报告虽仅短暂影响市场，但仍略微强化了对美联储12月加息的定价。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8463164.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:08",
+     "title_en": "US Treasury Market: Treasury Yield Curve Flattening Chip Stock Rally Weakens Hedge Demand.",
+     "body_en": "U.S. Treasuries closed lower on Friday, with the short end leading the decline, pushing the yield curve flat as a rebound in chipmaker shares pushed U.S. stocks higher. The strong October jobs report, while only briefly impacting markets, slightly strengthened the pricing of the Federal Reserve's December rate hike.",
+     "id": "sina-comos:nixwakn8463164"
+    },
+    {
+     "ts": 1794005633,
+     "source": "新浪财经",
+     "title_zh": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日在阿布扎比举行",
+     "body_zh": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakh8379297.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:53",
+     "title_en": "Overnight news on November 7: US stocks rise and fall, the index rises by more than 1%, oil prices fluctuate, gold prices fall, and the tripartite talks between Russia, the United States and Ukraine will be held in Abu Dhabi on November 10.",
+     "body_en": "Market close on November 7: Three major indices rose and fell, and the rebound of chip stocks AI regulatory concerns still remain. On November 7, most of the popular medium-sized stocks rose, TSMC rose more than 6%, and the ideal car rose more than 5%. Summary of commodities: The trend of oil prices shocked Copper prices fell...",
+     "id": "sina-comos:nixwakh8379297"
+    },
+    {
+     "ts": 1793999194,
+     "source": "新浪财经",
+     "title_zh": "日本央行行长植田和男：若未来遭遇严重冲击 可能不得不动用QE工具",
+     "body_zh": "日本央行行长植田和男早在1990年代末就是量化宽松政策的先驱之一。他表示，尽管非常规措施不如传统降息有效，但如果未来遭遇重大冲击，日本央行可能会再次动用这些工具。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8462258.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:06",
+     "title_en": "kazuo Ueda, President of the Bank of Japan: If there is a serious impact in the future, you may have to use QE tools.",
+     "body_en": "kazuo Ueda, president of the Bank of Japan, was one of the pioneers of quantitative easing as early as the late 1990s. He said that although unconventional measures are not as effective as traditional rate cuts, the Bank of Japan may use these tools again if there is a major shock in the future.",
+     "id": "sina-comos:nixwakn8462258"
+    },
+    {
+     "ts": 1793986661,
+     "source": "华尔街见闻",
+     "title_zh": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
+     "body_zh": "微软公司正逐步终止向甲骨文公司租用人工智能（AI）算力的安排，这是其对价值数十亿美元的云合作伙伴关系进行更大范围重估的一部分。 据知情人士透露，近几个月来，微软在拒绝续约后，已开始陆续关闭从甲骨文租用的算力。随着时间推移，微软租用的这批算力变得不再好用，因为它已不再符合公司的规格要求。他们称，甲骨文这批硬件使用的是英伟达较旧一代的芯片。",
+     "url": "https://wallstreetcn.com/livenews/3196151",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:37",
+     "title_en": "Report: Deprecated chips are not new enough, Microsoft is winding down arrangements to lease AI cloud power from Oracle.",
+     "body_en": "Microsoft is winding down its arrangement to lease artificial intelligence (AI) computing power from Oracle as part of a broader revaluation of its multi-billion-dollar cloud partnership. In recent months, Microsoft has begun shutting down the computing power leased from Oracle after refusing to renew the contract, according to people familiar with the matter. Over time, this batch of computing power rented by Microsoft has become no longer easy to use because it no longer meets the company's specifications. The Oracle hardware, they say, uses older Nvidia chips.",
+     "id": "wscn-3196151"
+    },
+    {
+     "ts": 1794003227,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价在非农日走低，本周累涨5%，纽约铜本周跌3.8%",
+     "body_zh": "周五（11月6日）纽约尾盘，现货黄金跌0.4%，报4071.39美元/盎司，亚太早盘曾短暂地微幅上涨，北京时间09:17以来持续处于下跌状态，21:30发布美国非农就业报告时显著下跌、刷新日低至4028.49美元，本周累计上涨5.06%，11月4-5日（至亚太中午）持续扩大涨幅、11:30达到4146.97美元。 COMEX黄金期货累涨4.65%，报4080.10美元/盎司。",
+     "url": "https://wallstreetcn.com/livenews/3196250",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:13",
+     "title_en": "International gold prices fell on off-farm days, rising 5% this week, and copper in New York fell 3.8% this week.",
+     "body_en": "At the end of New York on Friday (November 6), spot gold fell 0.4% to $4,071.39 per ounce. The Asia-Pacific morning market had briefly risen slightly, and it has continued to decline since 09:17 Beijing time. At 21:30, the US non-farm payroll employment report fell significantly, refreshing as low as $4,028.49, rising 5.06% this week. On November 4-5 (until midday in Asia-Pacific), the increase continued to expand, reaching $4,146.97 at 11:30. COMEX gold futures were up 4.65% at $4080.10/oz.",
+     "id": "wscn-3196250"
+    },
+    {
+     "ts": 1793999924,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块普遍收跌，信息技术/科技板块涨1.26%，电信、工",
+     "body_zh": "标普500指数的11个板块普遍收跌，信息技术/科技板块涨1.26%，电信、工业、可选消费板块至多涨0.51%，房地产板块则跌0.64%，金融板块跌0.68%，日用消费品板块跌1.21%。",
+     "url": "https://wallstreetcn.com/livenews/3196233",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:18",
+     "title_en": "11 sectors of the S&P 500 index generally closed lower, the information technology/technology sector rose 1.26%, telecommunications, industrial.",
+     "body_en": "The 11 sectors of the S&P 500 index generally closed down, with the information technology/technology sector up 1.26%, the telecommunications, industrial, and optional consumer sectors up 0.51% at most, the real estate sector down 0.64%, the financial sector down 0.68%, and the consumer goods sector down 1.21%.",
+     "id": "wscn-3196233"
+    },
+    {
+     "ts": 1793997218,
+     "source": "华尔街见闻",
+     "title_zh": "美国商品期货交易委员会（CFTC）",
+     "body_zh": "11月3日当周，投机者所持COMEX黄金净多头头寸减少3,107手合约，至104,297手合约，创最近21周新低；多头绝对值123,437手合约，创大约七个月新低。 所持COMEX白银净多头头寸降低至2,665手合约，创约三年来新低。 所持COMEX铜净多头头寸减少至34,444手合约，创逾14个月新低。 转而持有NYMEX铂金净空头头寸1,076手合约，创最近逾17个月新高。",
+     "url": "https://wallstreetcn.com/livenews/3196214",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "04:33",
+     "title_en": "Commodity Futures Trading Commission (CFTC).",
+     "body_en": "During the week of November 3, speculators' net long positions in COMEX gold decreased by 3,107 contracts to 104,297 contracts, hitting a new low in the last 21 weeks; the absolute value of long contracts was 123,437 contracts, hitting a new low of about seven months. The net long position in COMEX silver was reduced to 2,665 contracts, a three-year low. The COMEX copper net long position was reduced to 34,444 lots, a record low of more than 14 months. Switched to the NYMEX platinum net short position of 1,076 lots, a recent high of more than 17 months.",
+     "id": "wscn-3196214"
+    },
+    {
+     "ts": 1794000047,
+     "source": "华尔街见闻",
+     "title_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳",
+     "body_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳斯达克100 ETF涨1.4%，罗素2000指数ETF、做多美元指数、巴克莱美国可转债ETF、标普500 ETF至少涨0.31%，大豆基金涨0.08%。 美国国债20+年ETF收跌0.01%，农产品基金跌0.19%，道指ETF跌0.4%，日元做多跌0.45%，美国布伦特油价基金跌0.5%，美国房地产ETF、欧元做多、黄金ETF至多跌0.79%…",
+     "url": "https://wallstreetcn.com/livenews/3196234",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:20",
+     "title_en": "Emerging market ETFs closed up 2.2% on Friday (Nov. 6), leading US large cap ETFs.",
+     "body_en": "On Friday (November 6), emerging market ETFs closed up 2.2%, leading the US large-category asset class ETFs, with Nasdaq 100 ETFs up 1.4%, Russell 2000 Index ETFs, long-dollar indexes, Barclays US Convertible Bond ETFs, S&P 500 ETFs up at least 0.31%, and soybean funds up 0.08%. US Treasury 20 + year ETFs were down 0.01%, Agricultural Funds were down 0.19%, Dow ETFs were down 0.4%, Yen was down 0.45%, US Brent Oil Funds were down 0.5%, US Real Estate ETFs, Euro were long, Gold ETFs were down up to 0.79%...",
+     "id": "wscn-3196234"
+    },
+    {
+     "ts": 1794001441,
+     "source": "华尔街见闻",
+     "title_zh": "明晟公司MSCI新兴市场股票指数跌2.7%，创4月份以来新低，本周累计下跌4",
+     "body_zh": "明晟公司MSCI新兴市场股票指数跌2.7%，创4月份以来新低，本周累计下跌4.1%，连续第六周走弱，中期选举结果让投资者对美国民主党将收紧对人工智能（AI）行业监管的风险感到惶恐不安。 MSCI发展中国家外汇指数大致持平。",
+     "url": "https://wallstreetcn.com/livenews/3196243",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:44",
+     "title_en": "Mingcheng's MSCI Emerging Markets Equity Index fell 2.7%, a new low since April and a cumulative decline this week 4.",
+     "body_en": "Mingsheng's MSCI Emerging Markets Equity Index fell 2.7 per cent to a new low since April, falling 4.1 per cent this week for a sixth straight week of weakness as midterm election results rattled investors about the risk that the Democratic Party will tighten regulation of the artificial intelligence (AI) industry. The MSCI Developing Countries FX Index was broadly flat.",
+     "id": "wscn-3196243"
+    },
+    {
+     "ts": 1793992000,
+     "source": "华尔街见闻",
+     "title_zh": "巴西将稀土置于关键矿产战略核心",
+     "body_zh": "巴西批准了首份关键与战略矿产清单，这是新国家政策的一部分，旨在吸引投资、扩大国内加工能力，以回应西方国家日益增长的资源需求——后者希望减少对中国的依赖。 这份包含27种矿产的清单于周四在”关键与战略矿产国家工业化委员会”（简称CIMCE）的首次会议上获批，总统路易斯·伊纳西奥·卢拉·达席尔瓦出席了会议。政府希望利用巴西丰富的矿产资源，在本土建设更多加工与制造能力，而非主要以原材料形式出口。",
+     "url": "https://wallstreetcn.com/livenews/3196191",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "03:06",
+     "title_en": "Brazil puts rare earths at the heart of its key mineral strategy.",
+     "body_en": "Brazil has approved its first list of key and strategic minerals as part of a new national policy aimed at attracting investment and expanding domestic processing capacity in response to the growing demand for resources in Western countries, which want to reduce their dependence on China. The list of 27 minerals was approved on Thursday at the inaugural meeting of the Committee for the Industrialization of Critical and Strategic Mineral States (CIMCE), attended by President Luiz Inácio Lula da Silva. The government hopes to use Brazil's abundant mineral resources to build more processing and manufacturing capacity at home, rather than exporting mainly in the form of raw materials.",
+     "id": "wscn-3196191"
+    },
+    {
+     "ts": 1793972576,
+     "source": "华尔街见闻",
+     "title_zh": "国泰君安国际私有化月底表决，若通过将于明年2月在港股退市",
+     "body_zh": "国泰海通旗下国泰海通金融控股有限公司与国泰君安国际在香港联交所联合发布私有化计划文件，披露了私有化预期时间表、董事会函件、独立董事委员会函件、独立财务顾问函件及股东大会安排等内容。",
+     "url": "https://wallstreetcn.com/livenews/3196040",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "21:42",
+     "title_en": "Guotai Junan International Privatization Vote at the end of the month, if passed, it will be delisted in Hong Kong stocks in February next year.",
+     "body_en": "Guotai Haitong Financial Holdings Limited, a subsidiary of Guotai Haitong, and Guotai Junan International jointly released a privatization plan document on the Hong Kong Stock Exchange, disclosing the expected timetable for privatization, board of directors letters, independent board committee letters, independent financial advisors letters, and arrangements for shareholders' meetings.",
+     "id": "wscn-3196040"
+    },
+    {
+     "ts": 1793990582,
+     "source": "华尔街见闻",
+     "title_zh": "洲际交易所（ICE）",
+     "body_zh": "11月3日当周，投机者所持ICE布伦特原油净多头头寸减少63,487手合约，至181,970手合约，创大约三个月新低。 所持柴油净多头头寸降低至60,745手合约，创最近18周新低。 所持伦敦可可净空头头寸增加至12,514手合约，创最近19周新高。 所持白糖净多头头寸减少至46,553手合约，创19周新低。 所持罗布斯塔咖啡净空头头寸增加至16,968手合约，创大约四年新高。",
+     "url": "https://wallstreetcn.com/livenews/3196181",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "02:43",
+     "title_en": "Intercontinental Exchange (ICE).",
+     "body_en": "During the week of November 3, speculators' net long positions in ice Brent crude oil decreased by 63,487 lots to 181,970 lots, a new low of about three months. The net long position in diesel fell to 60,745 contracts, a new low in the last 18 weeks. Holdings of London cocoa net short increased to 12,514 contracts, a new high in the last 19 weeks. The net long position in White Sugar was reduced to 46,553 contracts, a 19-week low. The net short position in Robusta Coffee increased to 16,968 contracts, a four-year high.",
+     "id": "wscn-3196181"
+    },
+    {
+     "ts": 1794002426,
+     "source": "华尔街见闻",
+     "title_zh": "巴拉圭国会通过对总统培尼亚的弹劾议案",
+     "body_zh": "（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3196245",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:00",
+     "title_en": "Paraguay's Congress passes impeachment motion against President Peña.",
+     "body_en": "",
+     "id": "wscn-3196245"
+    },
+    {
+     "ts": 1794002414,
+     "source": "华尔街见闻",
+     "title_zh": "巴拉圭参议院因Ueno银行丑闻而解除总统Pena的职务",
+     "body_zh": "巴拉圭参议院因Ueno银行丑闻而解除总统Pena的职务",
+     "url": "https://wallstreetcn.com/livenews/3196244",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:00",
+     "title_en": "Paraguay's Senate removes President Pena over Ueno bank scandal.",
+     "body_en": "Paraguay's Senate removes President Pena over Ueno bank scandal.",
+     "id": "wscn-3196244"
+    }
+   ],
+   "story": {
+    "id": "graham-1929",
+    "name_zh": "本杰明·格雷厄姆",
+    "name_en": "Benjamin Graham",
+    "era": "1929 · 华尔街",
+    "title_zh": "在大崩盘里亏光的人，写出了投资教科书",
+    "title_en": "The Man Who Lost It All in 1929, Then Wrote the Textbook",
+    "body_zh": "格雷厄姆年轻时是华尔街的明星，一九二九年股灾来了，他加了杠杆的账户几乎归零。痛苦让他想通了一件事：预测市场靠不住，能靠的只有价格和价值的差距。后来他写出《证券分析》，提出安全边际——用五毛钱买一块钱的东西。",
+    "body_en": "Benjamin Graham was a rising star on Wall Street. Then came the crash of nineteen twenty-nine. His leveraged account was almost wiped out. The pain taught him one thing. You can only rely on the gap between price and value. He wrote Security Analysis, and invented the margin of safety. Buy a dollar for fifty cents.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "New York, autumn, nineteen twenty-nine. The party on Wall Street is about to end.",
+      "zh": "纽约，1929 年秋。华尔街这场狂欢，马上就要散场了。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Benjamin Graham was a rising star. He used borrowed money, and he was sure he was right.",
+      "zh": "本杰明·格雷厄姆是当红新星，他借钱加杠杆，自以为万无一失。"
+     },
+     {
+      "k": "dial",
+      "who": "Client",
+      "g": "F",
+      "en": "Mr. Graham, the market is falling every day. What do we do now?",
+      "zh": "格雷厄姆先生，市场天天在跌，我们现在怎么办？"
+     },
+     {
+      "k": "dial",
+      "who": "Graham",
+      "g": "M2",
+      "en": "Hold on. It has to come back. It always comes back.",
+      "zh": "再撑一撑，会回来的，一直都回来的。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "It did not come back fast enough. His account was almost wiped out. It took him years to recover.",
+      "zh": "可它回来得太慢了。他的账户几乎归零，用了好几年才缓过来。"
+     },
+     {
+      "k": "dial",
+      "who": "Graham",
+      "g": "M2",
+      "en": "I was wrong about one thing. You cannot predict the market. You can only measure the gap between price and value.",
+      "zh": "我想明白一件事：预测市场靠不住。能靠的，只有价格和价值之间的差距。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "So he wrote the book that fed generations of investors. His rule is famous. Buy a dollar for fifty cents.",
+      "zh": "于是他写出了那本养活几代投资者的书。规则很有名：用五毛钱，买一块钱的东西。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "efficient-hundred",
+    "tag_zh": "街头十美元",
+    "tag_en": "The Ten Dollar Bill",
+    "title_zh": "地上有一张十美元，经济学家为什么不捡",
+    "title_en": "Why Economists Never Pick Up Money",
+    "body_zh": "两个经济学家走在街上，看见地上躺着一张十美元。年轻的说，快去捡。老的说，不可能，如果是真的，早就被人捡走了。这是对有效市场理论最经典的调侃：所有信息都已经反映在价格里，天上不会掉馅饼。玩笑归玩笑，它也留了个真实的尾巴——市场大多数时候确实很有效，但偶尔，地上的钱是真的。",
+    "body_en": "Two economists walk down the street. They spot a ten dollar bill on the ground. The young one says, pick it up. The old one says, it cannot be real. If it were real, someone would have picked it up already. This is the classic joke about efficient markets. All information is already in the price. Free money does not lie on the street. But here is the twist. Markets are efficient most of the time. Only most. Once in a while, the money on the ground is real."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 8.157,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 8.957,
+      "dur": 7.988,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 17.495,
+      "dur": 5.366,
+      "k": "dial",
+      "who": "Client",
+      "g": "F"
+     },
+     {
+      "start": 23.411,
+      "dur": 5.061,
+      "k": "dial",
+      "who": "Graham",
+      "g": "M2"
+     },
+     {
+      "start": 29.021,
+      "dur": 8.751,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 38.323,
+      "dur": 8.09,
+      "k": "dial",
+      "who": "Graham",
+      "g": "M2"
+     },
+     {
+      "start": 46.963,
+      "dur": 9.541,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "e87cf94404ba",
+    "item-00.mp3": "0c6bd742152b",
+    "item-01.mp3": "abcb9fead3c4",
+    "item-02.mp3": "edde1271e8aa",
+    "item-03.mp3": "e5e408b7a939",
+    "item-04.mp3": "6e1fd3f5ed55",
+    "item-05.mp3": "d547d833e1db",
+    "item-06.mp3": "8cd183e06bc1",
+    "item-07.mp3": "6df258e74583",
+    "item-08.mp3": "3c2393859a00",
+    "item-09.mp3": "147028b3b032",
+    "item-10.mp3": "47863edcdf9d",
+    "item-11.mp3": "736a3b6c73c8",
+    "item-12.mp3": "6432522271ea",
+    "item-13.mp3": "4b97b20623c3",
+    "item-14.mp3": "79aba74dfafb",
+    "item-15.mp3": "4a131bf85c07",
+    "item-16.mp3": "17b7e3864037",
+    "item-17.mp3": "a44b80d117d9",
+    "story.mp3": "ef89641d4425",
+    "joke.mp3": "d9ba3d383609"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.545
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.445,
+      "dur": 30.886
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 41.231,
+      "dur": 31.447
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 73.577,
+      "dur": 50.381
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 124.858,
+      "dur": 29.283
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 155.041,
+      "dur": 29.717
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 185.658,
+      "dur": 41.46
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 228.018,
+      "dur": 30.991
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 259.909,
+      "dur": 46.838
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 307.647,
+      "dur": 66.557
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 375.105,
+      "dur": 41.719
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 417.723,
+      "dur": 55.782
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 474.405,
+      "dur": 63.401
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 538.707,
+      "dur": 39.654
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 579.261,
+      "dur": 47.505
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 627.666,
+      "dur": 37.759
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 666.325,
+      "dur": 47.692
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 714.917,
+      "dur": 4.737
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 720.553,
+      "dur": 8.451
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-06",
    "weekday_en": "Friday",
@@ -3302,549 +3872,6 @@
      {
       "start": 43.433,
       "dur": 13.699,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
-  },
-  {
-   "date": "2026-10-29",
-   "weekday_en": "Thursday",
-   "weekday_zh": "周四",
-   "generated_at": "2026-10-29 19:55",
-   "lead_en": "The Federal Reserve held rates but two policymakers pushed for a hike, US equities extended their winning streak and the Bank of Canada delivered its first increase in more than three years. Earnings are doing the heavy lifting: Eli Lilly and Bristol-Myers Squibb both beat and raised, while BYD's third-quarter profit rose 28%. Gold held above $4,000 an ounce as investors wait on the ECB.",
-   "lead_zh": "美联储按兵不动，但两名票委主张加息；美股三连涨，加拿大央行三年来首次加息。财报季成为主线：礼来、百时美施贵宝双双超预期并上调指引，比亚迪三季度净利增长28%。金价站稳4000美元上方，市场等待欧央行决议。",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3651.43,
-     "chg_pct": -0.82
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11138.2,
-     "chg_pct": -2.92
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2517.59,
-     "chg_pct": -4.45
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1228.09,
-     "chg_pct": -4.27
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 52475.1,
-     "chg_pct": 0.19
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 26549.85,
-     "chg_pct": 0.27
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7743.98,
-     "chg_pct": 0.28
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793230004,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年10月29日",
-     "body_zh": "美联储维持联邦基金利率目标区间在3.75%至4.00%不变，库克与哈马克两名票委主张加息25个基点；美股指三连涨，甲骨文大涨11%，盘后绩后谷歌大跌10%；WTI原油12月合约涨2.88%。 加拿大央行加息25个基点至2.5%，为三年多来首次，称需降低高能源价格向其他商品和服务扩散的风险，并提示可能还需进一步加息。",
-     "url": "https://wallstreetcn.com/livenews/3189471",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:26",
-     "title_en": "Fed holds rates as two dissenters push for a hike; US stocks extend winning streak",
-     "body_en": "The Federal Reserve kept its target range at 3.75%-4.00%, with policymakers Cook and Hammack dissenting in favour of a 25bp increase. US equities rose for a third straight session, Oracle jumped 11% and Alphabet fell 10% after the bell on its results. WTI December crude added 2.88%. The Bank of Canada raised rates 25bp to 2.5%, its first hike in more than three years, warning that high energy prices risk spilling into other goods and services.",
-     "id": "wscn-3189471"
-    },
-    {
-     "ts": 1793272237,
-     "source": "新浪财经",
-     "title_zh": "欧洲央行行长拉加德将提前卸任 继任之争将升温",
-     "body_zh": "欧洲央行行长克里斯蒂娜·拉加德宣布她将于2027年初卸任，接替这位全球最具权势的货币政策制定者之一的竞争将由此升温。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyas2762760.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "19:10",
-     "title_en": "Lagarde to step down early, opening the race for ECB succession",
-     "body_en": "ECB President Christine Lagarde has said she will leave in early 2027, setting off a contest to replace one of the world's most powerful monetary policymakers.",
-     "id": "sina-comos:niwwyas2762760"
-    },
-    {
-     "ts": 1793268201,
-     "source": "新浪财经",
-     "title_zh": "美联储决议后美欧国债收益率下跌，市场聚焦欧洲央行会议",
-     "body_zh": "市场预计欧洲央行将于周四跟随美联储，维持利率不变。 周四欧洲早盘，在市场消化美联储利率决议之际，美国国债和欧洲各国政府债券收益率普遍下跌...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwtuu2843622.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "18:03",
-     "title_en": "Treasury and eurozone bond yields slide after Fed decision; ECB in focus",
-     "body_en": "Markets expect the ECB to hold rates steady on Thursday, following the Fed's pause. US Treasury and European government bond yields fell broadly in European morning trade as investors worked through the Fed's decision.",
-     "id": "sina-comos:niwwtuu2843622"
-    },
-    {
-     "ts": 1793224295,
-     "source": "华尔街见闻",
-     "title_zh": "周三（10月28日）纽约尾盘，现货黄金涨0.17%，报4066.85美元/盎",
-     "body_zh": "周三（10月28日）纽约尾盘，现货黄金涨0.17%，报4066.85美元/盎司，日内交投于4025.21-4082.58美元，经历了美联储按兵不动、主席沃什新闻发布会之后，在美股收盘时刷新日高。 现货白银跌0.81%，报53.857美元/盎司，美股收盘时刷新日高。 COMEX铜期货涨0.45%，报6.6825美元/磅。",
-     "url": "https://wallstreetcn.com/livenews/3189433",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "05:51",
-     "title_en": "Gold edges up to $4,066.85 an ounce in late New York trade",
-     "body_en": "Spot gold rose 0.17% to $4,066.85 an ounce on Wednesday, trading between $4,025.21 and $4,082.58 before printing a session high at the US close, after the Fed stood pat and Chair Kevin Warsh met the press. Spot silver slipped 0.81% to $53.857 an ounce, while COMEX copper gained 0.45% to $6.6825 a pound.",
-     "id": "wscn-3189433"
-    },
-    {
-     "ts": 1793270796,
-     "source": "华尔街见闻",
-     "title_zh": "礼来第三季度营收为244.0亿美元，预期为225.2亿美元",
-     "body_zh": "第三季度调整后每股收益为7.48美元，预期为5.59美元。 礼来预计全年调整后每股收益为35.00至36.00美元，此前预期为35.50至36.50美元。 礼来预计全年营收为910亿至920亿美元，此前预期为850亿至870亿美元。 礼来美股盘前涨超5%。",
-     "url": "https://wallstreetcn.com/livenews/3190372",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "18:46",
-     "title_en": "Eli Lilly lifts guidance after third-quarter revenue tops estimates",
-     "body_en": "Revenue came in at $24.40 billion against expectations of $22.52 billion, with adjusted EPS of $7.48 versus $5.59 forecast. Lilly now sees full-year revenue of $91-92 billion, up from $85-87 billion, and adjusted EPS of $35.00-36.00. The shares rose more than 5% in premarket trading.",
-     "id": "wscn-3190372"
-    },
-    {
-     "ts": 1793271714,
-     "source": "华尔街见闻",
-     "title_zh": "百时美施贵宝第三季度营收为130.7亿美元，预期为127.1亿美元",
-     "body_zh": "第三季度调整后每股收益为1.35美元，预期为1.12美元。 百时美施贵宝预计全年营收约为497.5亿至502.5亿美元，此前预期约为490亿至500亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3190401",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "19:01",
-     "title_en": "Bristol-Myers Squibb beats on third-quarter revenue of $13.07 billion",
-     "body_en": "Adjusted earnings per share were $1.35 against $1.12 expected. The drugmaker guided full-year revenue to roughly $49.75-50.25 billion, up from a prior range of $49-50 billion.",
-     "id": "wscn-3190401"
-    },
-    {
-     "ts": 1793259439,
-     "source": "华尔街见闻",
-     "title_zh": "荷兰国际集团宣布全球裁员约400人，预计每年削减成本7500万欧元",
-     "body_zh": "10月29日，荷兰国际集团（ING）公布，计划重组批发银行业务，预计全球裁员约400人，相关调整将于2027年3月1日起生效。公司预计相关措施将产生约1.75亿欧元税前裁员费用，并每年削减成本约7500万欧元，自2028年起全面生效。该行第三季度净利润为18.5亿欧元，同比增长3.5%；税前利润增长5.7%至27.05亿欧元。",
-     "url": "https://wallstreetcn.com/livenews/3189690",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "15:37",
-     "title_en": "ING to cut about 400 jobs worldwide in wholesale banking overhaul",
-     "body_en": "ING Group will restructure its wholesale banking business, shedding roughly 400 roles globally with the changes effective from 1 March 2027. The lender expects about 175 million euros of pre-tax restructuring charges and annual cost savings of some 75 million euros from 2028. Third-quarter net profit rose 3.5% year on year to 1.85 billion euros, with pre-tax profit up 5.7% at 2.705 billion euros.",
-     "id": "wscn-3189690"
-    },
-    {
-     "ts": 1793266899,
-     "source": "华尔街见闻",
-     "title_zh": "比亚迪第三季度净利润同比增长28.1% 前三季度净利润下降4.2%",
-     "body_zh": "比亚迪发布2026年第三季度报告，第三季度实现营业收入2214.88亿元，同比增长13.59%；归属于上市公司股东的净利润100.20亿元，同比增长28.08%。前三季度实现营业收入5663.04亿元，同比增长0.01%；归母净利润223.45亿元，同比下降4.24%；扣非归母净利润210.04亿元，同比增长2.51%。前三季度经营活动产生的现金流量净额544.70亿元，同比增长33.36%。",
-     "url": "https://wallstreetcn.com/livenews/3190141",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "17:41",
-     "title_en": "BYD third-quarter net profit rises 28.1% even as nine-month profit slips 4.2%",
-     "body_en": "Third-quarter revenue grew 13.59% year on year to 221.49 billion yuan, with net profit attributable to shareholders up 28.08% at 10.02 billion yuan. Nine-month revenue was 566.30 billion yuan, up 0.01%, while net profit fell 4.24% to 22.35 billion yuan. Operating cash flow rose 33.36% to 54.47 billion yuan.",
-     "id": "wscn-3190141"
-    },
-    {
-     "ts": 1793274112,
-     "source": "华尔街见闻",
-     "title_zh": "兆易创新净利增逾9倍！私募大佬重仓未动",
-     "body_zh": "存储龙头兆易创新披露2026年三季报，公司前三季度实现营业收入202.97亿元，同比增长197.11%；归母净利润110.66亿元，同比增长921.55%。三季报显示，葛卫东持股1644.67万股，与半年报相同，仍为公司第四大股东。（证券时报）",
-     "url": "https://wallstreetcn.com/livenews/3190458",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:41",
-     "title_en": "GigaDevice profit up more than ninefold as the memory upcycle bites",
-     "body_en": "The memory chipmaker reported nine-month revenue of 20.30 billion yuan, up 197.11% year on year, and net profit attributable to shareholders of 11.07 billion yuan, up 921.55%. Private-fund investor Ge Weidong held 16.45 million shares at the end of September, unchanged from the half-year report, remaining the fourth-largest shareholder. (Securities Times)",
-     "id": "wscn-3190458"
-    },
-    {
-     "ts": 1793270236,
-     "source": "华尔街见闻",
-     "title_zh": "广发证券：前三季度归母净利润160.27亿元，同比增长46.58%",
-     "body_zh": "广发证券公告，2026年前三季度营业总收入370.56亿元，同比增长41.63%；归母净利润160.27亿元，同比增长46.58%；扣非净利润161.01亿元，同比增长50.32%。第三季度单季营业总收入101.73亿元，同比下降5.51%；归母净利润43.76亿元，同比下降1.99%；扣非净利润41.96亿元，同比下降4.63%。",
-     "url": "https://wallstreetcn.com/livenews/3190332",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:37",
-     "title_en": "GF Securities nine-month net profit up 46.58%",
-     "body_en": "Total operating revenue rose 41.63% year on year to 37.06 billion yuan in the first nine months, with net profit attributable to shareholders up 46.58% at 16.03 billion yuan. Third-quarter revenue fell 5.51% to 10.17 billion yuan and net profit slipped 1.99% to 4.38 billion yuan.",
-     "id": "wscn-3190332"
-    },
-    {
-     "ts": 1793272849,
-     "source": "华尔街见闻",
-     "title_zh": "白银有色：前三季度归母净利润7.17亿元，同比扭亏",
-     "body_zh": "白银有色公告，2026年前三季度营业收入771.83亿元，同比增长6.25%；归母净利润7.17亿元，上年同期为-2.15亿元，同比扭亏；扣非净利润6.8亿元，同比扭亏。第三季度单季营业收入314亿元，同比增长11.80%；归母净利润6.37亿元，同比增长28318.04%；扣非净利润6.23亿元，同比增长6613.64%。",
-     "url": "https://wallstreetcn.com/livenews/3190434",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:20",
-     "title_en": "Baiyin Nonferrous swings to profit as metals prices lift margins",
-     "body_en": "Nine-month revenue rose 6.25% to 77.18 billion yuan and net profit attributable to shareholders reached 717 million yuan, reversing a 215 million yuan loss a year earlier. Third-quarter net profit jumped to 637 million yuan, up 28,318% year on year, on revenue of 31.4 billion yuan.",
-     "id": "wscn-3190434"
-    },
-    {
-     "ts": 1793272749,
-     "source": "华尔街见闻",
-     "title_zh": "上纬新材：2026年第三季度净利润亏损2.55亿元",
-     "body_zh": "上纬新材公告，2026年第三季度营业收入4.06亿元，同比下降18.04%；归属于上市公司股东的净利润亏损2.55亿元，上年同期为盈利3067.58万元；扣非净利润亏损2.56亿元。前三季度营业收入12.09亿元，同比下降5.51%；归母净利润亏损4.22亿元，上年同期为盈利6055.32万元；扣非净利润亏损4.25亿元。消费级具身智能机器人业务研发、营销及供应链投入增加，报告期内该业务尚未确认收入。",
-     "url": "https://wallstreetcn.com/livenews/3190424",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:19",
-     "title_en": "Swancor Advanced Materials posts a 255 million yuan third-quarter loss",
-     "body_en": "Revenue fell 18.04% year on year to 406 million yuan in the quarter, with a net loss attributable to shareholders of 255 million yuan versus a 30.7 million yuan profit a year earlier. Nine-month revenue was 1.209 billion yuan, down 5.51%, and the net loss reached 422 million yuan. Spending on R&D, marketing and supply chain for its consumer robotics business rose, with no revenue yet recognised.",
-     "id": "wscn-3190424"
-    },
-    {
-     "ts": 1793263200,
-     "source": "华尔街见闻",
-     "title_zh": "兴业银行",
-     "body_zh": "第三季度净利润195.6亿元，同比下降1.92%；前三季度净利润606.9亿元，同比下降3.79%。",
-     "url": "https://wallstreetcn.com/livenews/3189929",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "16:40",
-     "title_en": "Industrial Bank third-quarter net profit down 1.92%",
-     "body_en": "Third-quarter net profit was 19.56 billion yuan, down 1.92% year on year; nine-month net profit fell 3.79% to 60.69 billion yuan.",
-     "id": "wscn-3189929"
-    },
-    {
-     "ts": 1793265383,
-     "source": "华尔街见闻",
-     "title_zh": "比亚迪电子",
-     "body_zh": "2026年前三季营收1274.58亿元，同比增长3.38%。",
-     "url": "https://wallstreetcn.com/livenews/3190123",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "17:16",
-     "title_en": "BYD Electronic nine-month revenue up 3.38%",
-     "body_en": "Revenue for the first nine months of 2026 reached 127.46 billion yuan, up 3.38% from a year earlier.",
-     "id": "wscn-3190123"
-    },
-    {
-     "ts": 1793272843,
-     "source": "华尔街见闻",
-     "title_zh": "新联电子",
-     "body_zh": "公司为国家电网有限公司2026年营销项目第二次设备公开招标采购及智能融合终端公开招标采购的中标候选人，共中智能融合终端包10、专变采集终端包11和包32共3个包，预计中标总金额约5558.5万元，占2025年营业收入的8.08%。",
-     "url": "https://wallstreetcn.com/livenews/3190433",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:20",
-     "title_en": "Xinlian Electronics in line for State Grid tender worth about 55.6 million yuan",
-     "body_en": "The company is a candidate to win State Grid's second 2026 equipment tender and its smart terminal tender, taking three packages. The total award is estimated at 55.59 million yuan, equal to 8.08% of 2025 revenue.",
-     "id": "wscn-3190433"
-    },
-    {
-     "ts": 1793273288,
-     "source": "华尔街见闻",
-     "title_zh": "超图软件",
-     "body_zh": "截至2026年10月28日，公司回购方案实施完毕，累计回购508.02万股，占总股本1.03%，成交总金额5999.12万元（不含交易费用），成交价10.10元/股至12.42元/股，回购股份用于员工持股计划及/或股权激励。",
-     "url": "https://wallstreetcn.com/livenews/3190452",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:28",
-     "title_en": "SuperMap completes buyback of 1.03% of its share capital",
-     "body_en": "The company finished its buyback programme on 28 October, repurchasing 5.0802 million shares, or 1.03% of total share capital, for 59.99 million yuan at prices of 10.10 to 12.42 yuan. The shares will fund an employee stock ownership plan and equity incentives.",
-     "id": "wscn-3190452"
-    },
-    {
-     "ts": 1793272894,
-     "source": "华尔街见闻",
-     "title_zh": "微芯生物",
-     "body_zh": "董事长XIANPING LU博士提议公司以集中竞价交易方式回购股份，资金总额不低于3000万元、不超过5000万元，回购股份用于员工持股计划或股权激励。",
-     "url": "https://wallstreetcn.com/livenews/3190440",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:21",
-     "title_en": "Chipscreen chairman proposes a 30-50 million yuan buyback",
-     "body_en": "Chairman Dr. Xianping Lu proposed repurchasing shares through centralised bidding for between 30 million and 50 million yuan, to be used for an employee stock ownership plan or equity incentives.",
-     "id": "wscn-3190440"
-    }
-   ],
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "9d0527bf8fd4",
-    "item-00.mp3": "4b408a8de9e6",
-    "item-01.mp3": "b1f16671aff6",
-    "item-02.mp3": "423455329386",
-    "item-03.mp3": "92484c27b177",
-    "item-04.mp3": "a030c52f3be1",
-    "item-05.mp3": "311a1bbf49c0",
-    "item-06.mp3": "d69c7c7f90f5",
-    "item-07.mp3": "b5e69595bda3",
-    "item-08.mp3": "7fc8d979a053",
-    "item-09.mp3": "e06f29916c54",
-    "item-10.mp3": "f6590e13c200",
-    "item-11.mp3": "8e09b3c03e11",
-    "item-12.mp3": "c840929b0d99",
-    "item-13.mp3": "36c844448b49",
-    "item-14.mp3": "8e2a6344a159",
-    "item-15.mp3": "0bd6fea06006",
-    "item-16.mp3": "ce75ce9bd15b",
-    "story.mp3": "944e8b83052d",
-    "joke.mp3": "29dc8a8148c0"
-   },
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 37.768
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 38.668,
-      "dur": 46.485
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 86.053,
-      "dur": 15.867
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 102.819,
-      "dur": 22.425
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 126.144,
-      "dur": 39.902
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 166.946,
-      "dur": 41.136
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 208.982,
-      "dur": 23.969
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 233.851,
-      "dur": 45.04
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 279.791,
-      "dur": 43.141
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 323.832,
-      "dur": 39.895
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 364.627,
-      "dur": 33.639
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 399.167,
-      "dur": 34.918
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 434.985,
-      "dur": 39.592
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 475.477,
-      "dur": 19.045
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 495.422,
-      "dur": 14.473
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 510.795,
-      "dur": 27.075
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 538.771,
-      "dur": 27.822
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 567.493,
-      "dur": 20.135
-     }
-    ]
-   },
-   "story": {
-    "id": "buffett-paper",
-    "name_zh": "沃伦·巴菲特",
-    "name_en": "Warren Buffett",
-    "era": "1942 · 美国奥马哈",
-    "title_zh": "送报纸的少年，和复利的第一课",
-    "title_en": "The Paperboy Who Learned Compounding First",
-    "body_zh": "巴菲特十一岁买了人生第一只股票，涨了没几天就卖掉，赚了六美元。可那只股票后来涨了他十倍。十三岁他承包了几条街的报纸投递，每个月存下钱来继续买股票。他说自己赚钱的秘密只有一条，就是时间——雪球要滚得大，先得找到很湿的雪和很长的坡。",
-    "body_en": "Warren Buffett bought his first stock at eleven. He sold it quickly for a small profit of six dollars. The stock later rose ten times higher. At thirteen, he delivered newspapers and saved every dollar. His secret, he says, is time. A snowball grows big only on very wet snow, and on a very long hill.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Omaha, Nebraska. Nineteen forty-two. An eleven year old boy is staring at six dollars.",
-      "zh": "内布拉斯加州，奥马哈。1942 年。一个十一岁的小男孩正盯着六美元发呆。"
-     },
-     {
-      "k": "dial",
-      "who": "Warren",
-      "g": "M",
-      "en": "Dad, I sold it too soon. It just kept climbing without me.",
-      "zh": "爸爸，我卖太早了。它还在涨，却不带我玩了。"
-     },
-     {
-      "k": "dial",
-      "who": "Howard",
-      "g": "M2",
-      "en": "Then remember how this feels. Patience is also a position.",
-      "zh": "那就把这种滋味记住。耐心，也是一种仓位。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "The boy was Warren Buffett. That stock later rose ten times higher. He never forgot it.",
-      "zh": "这个男孩就是沃伦·巴菲特。那只股票后来涨了十倍。他一辈子没忘。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "At thirteen, he ran his own newspaper routes, and saved every single dollar.",
-      "zh": "十三岁，他承包了好几条街的送报路线，每一美元都存下来。"
-     },
-     {
-      "k": "dial",
-      "who": "Warren",
-      "g": "M",
-      "en": "People ask me the secret. It is simple. Time. Wet snow, and a very long hill.",
-      "zh": "别人问我赚钱的秘密。很简单：时间。很湿的雪，和很长的坡。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "The snowball had started rolling. It has not stopped for eighty years.",
-      "zh": "雪球从那天开始滚，一滚就是八十年，到现在都没停。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "bull-bear-pig",
-    "tag_zh": "老交易员口头禅",
-    "tag_en": "Old Trader's Chant",
-    "title_zh": "牛市赚钱，熊市赚钱，猪被宰",
-    "title_en": "Bulls Win, Bears Win, Pigs Get Slaughtered",
-    "body_zh": "华尔街有句老话：牛市能赚钱，熊市也能赚钱，只有猪会被宰。牛是看涨的人，熊是看跌的人，猪是指贪得无厌的人。这句话的重点不是让你判断方向，而是提醒你：方向从来不是死因，贪心才是。涨了还想更多，亏了想一夜翻本，这类动作才最危险。行情永远都在，本金没了就真的没了。",
-    "body_en": "Wall Street has an old chant. Bulls make money. Bears make money. Pigs get slaughtered. Bulls expect prices to rise. Bears expect prices to fall. And pigs are the greedy ones. The lesson is not about picking a direction. Direction is rarely what kills an account. Greed is. Holding for more when you are up. Doubling down to win it all back overnight. Markets are always open. But lost capital does not come back."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 9.121,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 9.921,
-      "dur": 4.447,
-      "k": "dial",
-      "who": "Warren",
-      "g": "M"
-     },
-     {
-      "start": 14.917,
-      "dur": 4.397,
-      "k": "dial",
-      "who": "Howard",
-      "g": "M2"
-     },
-     {
-      "start": 19.865,
-      "dur": 7.919,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 28.334,
-      "dur": 7.203,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 36.087,
-      "dur": 6.883,
-      "k": "dial",
-      "who": "Warren",
-      "g": "M"
-     },
-     {
-      "start": 43.52,
-      "dur": 5.976,
       "k": "narr",
       "who": "Narrator",
       "g": "N"
