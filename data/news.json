@@ -2,17 +2,17 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-06 07:32",
+  "updated_at": "2026-11-06 16:51",
   "latest": "2026-11-06",
   "count": 18,
-  "mt_calls": 34
+  "mt_calls": 30
  },
  "editions": [
   {
    "date": "2026-11-06",
    "weekday_en": "Friday",
    "weekday_zh": "周五",
-   "generated_at": "2026-11-06 07:32",
+   "generated_at": "2026-11-06 16:51",
    "lead_en": "",
    "lead_zh": "",
    "indices": [
@@ -20,36 +20,36 @@
      "name_zh": "上证指数",
      "name_en": "SSE Composite",
      "market": "CN",
-     "value": 3689.91,
-     "chg_pct": 0.1
+     "value": 3649.18,
+     "chg_pct": -1.1
     },
     {
      "name_zh": "深证成指",
      "name_en": "SZSE Component",
      "market": "CN",
-     "value": 11471.09,
-     "chg_pct": 1.19
+     "value": 11175.78,
+     "chg_pct": -2.57
     },
     {
      "name_zh": "创业板指",
      "name_en": "ChiNext",
      "market": "CN",
-     "value": 2566.8,
-     "chg_pct": 0.87
+     "value": 2465.23,
+     "chg_pct": -3.96
     },
     {
      "name_zh": "科创50",
      "name_en": "STAR 50",
      "market": "CN",
-     "value": 1286.68,
-     "chg_pct": 1.68
+     "value": 1253.2,
+     "chg_pct": -2.6
     },
     {
      "name_zh": "恒生指数",
      "name_en": "Hang Seng",
      "market": "HK",
-     "value": 24796.98,
-     "chg_pct": 3.67
+     "value": 24481.86,
+     "chg_pct": -1.27
     },
     {
      "name_zh": "道琼斯",
@@ -75,46 +75,186 @@
    ],
    "items": [
     {
-     "ts": 1793914942,
+     "ts": 1793949741,
+     "source": "新浪财经",
+     "title_zh": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
+     "body_zh": "11月6日，外交部发言人郭嘉昆主持例行记者会。路透社记者提问，中国商务部发言人昨日表示，中国一贯对扩大自美国采购农产品持开放态度...",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixuuqw8732806.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "15:22",
+     "title_en": "The United States will cut tariffs first, and China will fulfill its commitment to purchase agricultural products? Ministry of Foreign Affairs: it is recommended to ask the competent authorities.",
+     "body_en": "On November 6, Foreign Ministry spokesman Guo Jiakun hosted a regular press conference. Asked by Reuters reporters, a spokesperson for the Ministry of Commerce in China said yesterday that China has always been open to expanding its purchases of agricultural products from the United States...",
+     "id": "sina-comos:nixuuqw8732806"
+    },
+    {
+     "ts": 1793921403,
      "source": "华尔街见闻",
-     "title_zh": "韩国否认考虑大规模购买长期美债的报道",
-     "body_zh": "韩国否认有关政府考虑大规模购买美国长期国债并以此增加外汇储备的媒体报道，称报道内容“与事实不符”。韩国财政部在声明中表示，外汇储备的资产构成和管理方式属于保密事项。 此前《韩国经济日报》报道称，韩国政府和韩国央行近期向美国提出这一想法，美方对此作出积极回应。报道援引未具名金融业人士称，此举也旨在加强与美国的经济联系。",
-     "url": "https://wallstreetcn.com/livenews/3195357",
+     "title_zh": "华尔街见闻早餐 | 2026年11月6日",
+     "body_zh": "美国中期选举触发科技股抛售潮，纳指重挫超5%，芯片指数跳水12%，闪迪暴跌22%，恐慌指数飙升，黄金、美债上涨。 英国央行加息25个基点至4%，为2023年以来首次加息，预测明年年中通胀升至约5%。 美国第三季度劳动生产率增速创一年来最快。 美国克利夫兰联储主席哈玛克称利率需升至限制性水平，倾向更频繁、更小幅加息；里士满联储主席巴尔金支持渐进加息。",
+     "url": "https://wallstreetcn.com/livenews/3195397",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:30",
+     "title_en": "Wall Street Breakfast | November 6, 2026.",
+     "body_en": "The US midterm elections triggered a sell-off in technology stocks, with the index plunging more than 5%, the chip index plunged 12%, SanDisk plunged 22%, the panic index soared, and gold and Treasury bonds rose. The Bank of England raised interest rates by 25 basis points to 4% for the first time since 2023, forecasting inflation to rise to about 5% by the middle of next year. Labor productivity in the United States grew at its fastest pace in a year in the third quarter. Cleveland Fed President Mark Hammack said interest rates needed to rise to a restrictive level, with a preference for more frequent, smaller rate hikes; Richmond Fed President Barkin supported gradual rate hikes.",
+     "id": "wscn-3195397"
+    },
+    {
+     "ts": 1793953670,
+     "source": "华尔街见闻",
+     "title_zh": "国泰海通完成第三批互换便利业务首批股票买入",
+     "body_zh": "国泰海通第三批“证券、基金、保险公司互换便利（SFISF）”业务完成前期准备工作，已开展回购融资交易，并完成首批股票买入操作。国泰海通表示，将继续利用互换便利工具，增持A股股票及股票ETF。（证券时报）",
+     "url": "https://wallstreetcn.com/livenews/3195784",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "16:27",
+     "title_en": "Guotai Haitong completes the first share purchase of the third batch of swap convenience business.",
+     "body_en": "Guotai Haitong's third batch of \"Securities, Funds, and Insurance Company Swap Facility (SFISF)\" businesses have completed preliminary preparations, carried out share buyback financing transactions, and completed the first batch of stock purchase operations. Guotai Haitong said that it will continue to use the swap convenience tool to increase its holdings in A-share stocks and stock ETFs. (Securities Times).",
+     "id": "wscn-3195784"
+    },
+    {
+     "ts": 1793953479,
+     "source": "华尔街见闻",
+     "title_zh": "创新高！港交所前三季度赚超154亿港元，陈翊庭发声",
+     "body_zh": "港交所正式发布截至9月30日的前三季度业绩公告。财报显示，港交所前九个月营收、股东利润双双刷新历史同期最高，但第三季度单季利润出现同比微跌；IPO募资热火朝天、北向资金交投爆发，而内地资金南下港股的成交显著收缩。",
+     "url": "https://wallstreetcn.com/livenews/3195782",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "16:24",
+     "title_en": "A new high! The Hong Kong Stock Exchange earned more than HK $15.4 billion in the first three quarters, Chen Yiting voiced.",
+     "body_en": "The Hong Kong Stock Exchange officially released the results announcement for the first three quarters as of September 30. According to the financial report, the revenue and shareholder profits of the Hong Kong Stock Exchange in the first nine months were the highest in the same period, but the single-quarter profit in the third quarter fell slightly year-on-year; the IPO fundraising was hot and the northward capital exchange broke out, while the transaction of mainland funds southward Hong Kong stocks shrank significantly.",
+     "id": "wscn-3195782"
+    },
+    {
+     "ts": 1793951176,
+     "source": "新浪财经",
+     "title_zh": "天山股份遭证监会立案 投资者或可索赔",
+     "body_zh": "2026年11月4日晚间，天山股份发布《关于收到中国证券监督管理委员会立案告知书的公告》。公告显示：天山材料股份有限公司于近日收到中国证券监督管理委员会下发的《立案告...",
+     "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-11-06/doc-inixuure5608693.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "15:46",
+     "title_en": "Tianshan shares may be claimed by the CSRC filing investor.",
+     "body_en": "On the evening of November 4, 2026, Tianshan issued the Announcement on Receiving the Notice of Filing of a Case from the China Securities Regulatory Commission. Announcement: Tianshan Materials Co., Ltd. recently received the \"filing notice\" issued by the China Securities Regulatory Commission...",
+     "id": "sina-comos:nixuure5608693"
+    },
+    {
+     "ts": 1793939805,
+     "source": "华尔街见闻",
+     "title_zh": "巨星传奇携手宇树科技发布机器狗UNI-DOGGIE，限量2000台已获千台订单",
+     "body_zh": "11月6日，周杰伦IP“周同学”运营方巨星传奇在第九届进博会上全球首发与宇树科技联合打造的机器狗UNI-DOGGIE，零售价43,900元，全球限量2000台，经销商威刚科技已采购1000台。同场发布的Pandabot Cafe机器人咖啡店由机械臂咖啡师、人形机器人店长与AI数字人点单员构成，首店计划于11月落地中国香港尖沙咀。",
+     "url": "https://wallstreetcn.com/livenews/3195610",
      "category": "hk_market",
      "category_zh": "港股",
      "category_en": "HK Markets",
-     "time": "05:42",
-     "title_en": "South Korea Denies Reports of Considering Large-Scale Purchases of Long-Term Treasuries.",
-     "body_en": "South Korea has denied media reports that the government is considering large-scale purchases of U.S. long-term Treasuries as a way to increase foreign exchange reserves, saying the content of the reports is “not in line with the facts.” South Korea's Ministry of Finance said in a statement that the asset composition and management of foreign exchange reserves are confidential. Earlier, the Korea Economic Daily reported that the South Korean government and the South Korean PBOC had recently proposed this idea to the United States, and the United States responded positively. The report quoted unnamed financial industry sources as saying that the move was also aimed at strengthening economic ties with the United States.",
-     "id": "wscn-3195357"
+     "time": "12:36",
+     "title_en": "Legendary superstar teamed up with Yushu Technology to release the robot dog UNI-DOGGIE, a limited number of 2,000 units has been ordered.",
+     "body_en": "On November 6, Superstar Legend, the operator of Zhou Jielun's IP \"Classmate Zhou\", jointly launched the UNI-DOGGIE robot dog jointly built by YuShu Technology at the 9th Expo, with a retail price of 43,900 yuan, a limited number of 2000 units worldwide, and the distributor Weigang Technology has purchased 1000 units. The Pandabot Cafe robot cafe released by the same venue consists of a robotic arm barista, a humanoid robot shop manager and an AI digital ordering clerk. The first store is planned to land in Tsim Sha Tsui, Hong Kong, China in November.",
+     "id": "wscn-3195610"
     },
     {
-     "ts": 1793901996,
+     "ts": 1793951002,
      "source": "华尔街见闻",
-     "title_zh": "英债收益率普遍守住涨势，英国央行2023年以来首次加息",
-     "body_zh": "周四（11月5日）欧市尾盘，英国10年期国债收益率涨0.2个基点，报5.132%，英国央行宣布加息之前交投于5.104%附近。 两年期英债收益率涨0.6个基点，报4.748%，英国央行在北京时间20:00宣布加息之前低位震荡——持稳于4.72%附近，随后短线拉升，美股开盘时刷新日高至4.801%，之后震荡下行。 30年期英债收益率涨1.3个基点，50年期英债收益率涨0.5个基点。",
-     "url": "https://wallstreetcn.com/livenews/3195296",
+     "title_zh": "国家能源局副局长宋宏坤：氢能将成为新能源增量发展与传统产业转型的重要支撑",
+     "body_zh": "11月5日，由国家能源局、商务部主办的第九届虹桥国际经济论坛“氢能高质量发展促进全球能源转型”分论坛在国家会展中心（上海）举办。国家能源局党组成员、副局长宋宏坤在论坛致辞中表示，未来五年，中国将初步建成清洁低碳、安全高效的新型能源体系，如期实现碳达峰；与此同时也是氢能产业从试点示范迈向规模化、市场化发展的关键培育期，氢能将成为实现新能源增量发展、传统产业转型升级的重要支撑。（澎湃新闻）",
+     "url": "https://wallstreetcn.com/livenews/3195738",
      "category": "bond",
      "category_zh": "债券",
      "category_en": "Bonds",
-     "time": "02:06",
-     "title_en": "UK bond yields generally held up, with the Bank of England raising interest rates for the first time since 2023.",
-     "body_en": "On Thursday (November 5), at the end of the European market, the UK 10-year Treasury yields rose 0.2 basis points to 5.132%, and the Bank of England traded near 5.104% before announcing interest rate hikes. The two-year yield rose 0.6 basis points to 4.748%, with the Bank of England's low shock before the rate hike was announced at 20:00 Beijing time - holding steady near 4.72%, followed by a short pull-up, with US equities refreshing to a daily high of 4.801% at the opening, followed by a shock downturn. The 30-year yield rose 1.3 basis points and the 50-year yield rose 0.5 basis points.",
-     "id": "wscn-3195296"
+     "time": "15:43",
+     "title_en": "Song Hongkun, Deputy Director of the National Energy Administration: Hydrogen will become an important support for the incremental development of new energy and the transformation of traditional industries.",
+     "body_en": "On November 5, the sub-forum of the 9th Hongqiao International Economic Forum \"High-quality Development of Hydrogen for Global Energy Transition\", hosted by the National Energy Administration and the Ministry of Commerce, was held at the National Convention and Exhibition Center (Shanghai). Song Hongkun, a member of the party group and deputy director of the National Energy Administration, said in his speech at the forum that in the next five years, China will initially build a clean, low-carbon, safe and efficient new energy system, and achieve carbon peak as scheduled. At the same time, it is also a key cultivation period for the hydrogen energy industry to move from pilot demonstration to large-scale and market-oriented development. Hydrogen energy will become an important support for the incremental development of new energy and the transformation and upgrading of traditional industries. (surging news).",
+     "id": "wscn-3195738"
     },
     {
-     "ts": 1793889070,
+     "ts": 1793948203,
      "source": "华尔街见闻",
-     "title_zh": "美股开盘：纳斯达克100指数跌1.4%，中概指数涨2.5%",
-     "body_zh": "美股盘初，苹果涨1.4%，该公司一年多来首次进军投资级债券市场。微软跌0.4%，该公司接连撤单Nscale（先砍30亿英国合同，再弃得州扩容订单）。 AI硬件重挫，光通信美股盘前普跌，Lumentum跌4.9%。高通低开14%，恐创2020年以来最大单日跌幅。闪迪、AMD、希捷科技、西部数据、美光、SK海力士至多跌约7.2%。 纳斯达克金龙中国指数涨2.5%，报5871.98点。",
-     "url": "https://wallstreetcn.com/livenews/3195184",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "22:31",
-     "title_en": "US Opening: Nasdaq 100 Down 1.4%, Mid Index Up 2.5%.",
-     "body_en": "At the start of the session, Apple was up 1.4% as the company made its first foray into the investment-grade bond market in more than a year. Microsoft fell 0.4%, and the company withdrew Nscale (first cut 3 billion UK contracts, then abandoned Texas expansion orders). AI hardware fell sharply, optical communications US stocks fell in premarket trading, and Lumentum fell 4.9%. Qualcomm opened 14% lower, the largest one-day decline since 2020. SanDisk, AMD, Seagate Technologies, Western Digital, Micron, SK Hynix fell by up to about 7.2%. The Nasdaq Golden Dragon China Index rose 2.5% to 5871.98.",
-     "id": "wscn-3195184"
+     "title_zh": "回购增持再贷款最新进展！10家沪市公司集中公告",
+     "body_zh": "11月6日午间，10家沪市公司集中发布拟使用回购增持贷款的公告，其中海光信息、高测股份、联讯仪器、强一股份、西安奕材、广钢气体等6家为科创板公司，金发科技、海兴电力、亨通光电和海通发展4家为沪市主板公司。",
+     "url": "https://wallstreetcn.com/livenews/3195687",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "14:56",
+     "title_en": "share buyback Re-Loan Increase Update! 10 Shanghai Companies Announcement.",
+     "body_en": "At noon on November 6, 10 Shanghai companies announced that they intend to use share buyback to increase their loan holdings. Among them, 6 companies such as Haiguang Information, Gaoguang Shares, Lianxun Instruments, Qiangyi Shares, Xi 'an Yimai, and Guanggang Gas are science and technology board companies, and 4 companies such as Jinfa Technology, Haixing Power, Hengtong Optoelectronics, and Haitong Development are Shanghai main board companies.",
+     "id": "wscn-3195687"
+    },
+    {
+     "ts": 1793930519,
+     "source": "华尔街见闻",
+     "title_zh": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事表示怀疑",
+     "body_zh": "据熟悉投资者讨论情况的人士透露，Anthropic首次公开发行(IPO)的潜在投资者能否按计划于下周开展路演、从而赶在11月上市一事表示怀疑。投资者正要求提供更具吸引力的估值，才愿意认购此次IPO。部分投资者认为，近期讨论的1.5万亿美元估值已处于预期的高端。知情人士表示，投资者也在急切等待Anthropic的10月营收数据，以评估是否成功扭转了近几个月增长放缓势头。Anthropic拒绝就投资者的疑虑置评。（路透）",
+     "url": "https://wallstreetcn.com/livenews/3195512",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "10:01",
+     "title_en": "Report: Some investors doubt Anthropic will be able to go public in November with a roadshow scheduled for next week.",
+     "body_en": "According to people familiar with the investor discussions, potential investors in Anthropic's initial public offering (IPO) have expressed doubts that they will be able to go public in November with a roadshow scheduled for next week. Investors are demanding a more attractive valuation before they are willing to subscribe to the IPO. Some investors believe that the recently discussed $1.5 trillion valuation is already at the high end of expectations. Investors are also eagerly awaiting Anthropic's October revenue data to gauge whether it has succeeded in reversing the slowdown in recent months, people familiar with the matter said. Anthropic declined to comment on investors' concerns. (Reuters).",
+     "id": "wscn-3195512"
+    },
+    {
+     "ts": 1793947685,
+     "source": "华尔街见闻",
+     "title_zh": "成都高新区出台房产新政：购买参与活动房产项目新建住宅 每套补贴3万元消费券",
+     "body_zh": "成都高新区出台《促进成都高新区房地产市场平稳健康发展若干措施》，明确了支持措施、申领条件、申领材料、申领流程等细节，包括购买新建住宅补贴、购买新建商业办公用房补贴、购买新建住宅项目车位补贴、支持购房就学以及其他规定等多项新政。其中，在成都高新区范围内，购买参与活动房地产开发项目新建住宅的，每套补贴3万元消费券，消费券名额共计2000个，先到先得，发完即止。",
+     "url": "https://wallstreetcn.com/livenews/3195679",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "14:48",
+     "title_en": "New real estate policy in Chengdu High-tech Zone: 30,000 yuan per set of consumption vouchers for newly-built residential houses purchased from participating active real estate projects.",
+     "body_en": "Chengdu High-tech Zone issued the \"Several Measures to Promote the Steady and Healthy Development of the Real Estate Market in Chengdu High-tech Zone\", which clarified the details of support measures, application conditions, application materials, application process, etc., including the purchase of new residential subsidies, the purchase of new commercial office subsidies, the purchase of new residential project parking subsidies, support for home purchase and schooling, and other regulations. Among them, within the scope of Chengdu High-tech Zone, if you purchase a newly-built residential building for an active real estate development project, you will receive a subsidy of 30,000 yuan for each set of consumption vouchers, with a total of 2,000 consumption vouchers, on a first-come, first-served basis, while stocks last.",
+     "id": "wscn-3195679"
+    },
+    {
+     "ts": 1793954608,
+     "source": "华尔街见闻",
+     "title_zh": "新宙邦：2026年11月5日收到深圳坪山区法院一审刑事判决书，曾任公司半导体",
+     "body_zh": "新宙邦：2026年11月5日收到深圳坪山区法院一审刑事判决书，曾任公司半导体事业部总经理的被告人康威构成侵犯商业秘密罪，被判处有期徒刑一年二个月、缓刑二年，并处罚金16万元。判决前康威已向公司支付赔偿款2000万元，计入营业外收入、属非经常性损益。截至公告日各方均未上诉，一审判决暂不生效。",
+     "url": "https://wallstreetcn.com/livenews/3195799",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "16:43",
+     "title_en": "New Cosmos: Received the first-instance criminal judgment of Shenzhen Pingshan District Court on November 5, 2026, and served as the company's semiconductor.",
+     "body_en": "New Cosmos: On November 5, 2026, the Shenzhen Pingshan District Court received a criminal judgment of first instance. Conway, who was the general manager of the company's semiconductor division, constituted a crime of infringing trade secrets and was sentenced to one year and two months imprisonment, two years probation, and a fine of 160,000 yuan. Before the judgment, Conway had paid 20 million yuan in compensation to the company, which was included in non-operating income and non-recurring profit and loss. As of the announcement date, all parties have not appealed, and the first-instance judgment is not effective.",
+     "id": "wscn-3195799"
+    },
+    {
+     "ts": 1793954215,
+     "source": "华尔街见闻",
+     "title_zh": "证监会同意葵花籽油期货和期权注册",
+     "body_zh": "近日，中国证监会同意郑州商品交易所葵花籽油期货和期权注册。中国证监会将督促郑州商品交易所做好各项准备工作，确保葵花籽油期货和期权的平稳推出和稳健运行。",
+     "url": "https://wallstreetcn.com/livenews/3195792",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "16:36",
+     "title_en": "the CSRC agrees to register sunflower oil futures and options.",
+     "body_en": "Recently, the CSRC of China approved the registration of sunflower oil futures and options on the Zhengzhou Commodity Exchange. China's the CSRC will urge the Zhengzhou Commodity Exchange to make preparations to ensure the smooth launch and stable operation of sunflower oil futures and options.",
+     "id": "wscn-3195792"
+    },
+    {
+     "ts": 1793952996,
+     "source": "华尔街见闻",
+     "title_zh": "税收征收管理法修订草案向社会公开征求意见",
+     "body_zh": "本次修订聚焦贯彻落实党中央、国务院决策部署，充分适应新经济、新业态发展需要，更好落实税收法定原则，对接个人所得税等新税制改革，巩固和拓展税收征管改革成果，既突出保障国家税收安全，又注重维护法治公平经济税收秩序，并将纳税人合法权益保护贯穿制度设计全链条，进一步为广大经营主体特别是合规经营纳税人营造公平、透明、可预期的发展环境。",
+     "url": "https://wallstreetcn.com/livenews/3195771",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "16:16",
+     "title_en": "Public consultation on the draft amendment to the Tax Collection Administration Law.",
+     "body_en": "This revision focuses on implementing the decision-making and deployment of the Party Central Committee and the State Council, fully adapting to the needs of the development of the new economy and new business forms, better implementing the legal principles of taxation, docking with the reform of the new tax system such as personal income tax, consolidating and expanding the achievements of tax collection and management reform, not only highlighting the protection of national tax security, but also focusing on maintaining a fair economic and taxation order based on the rule of law, and protecting the legitimate rights and interests of taxpayers throughout the entire chain of system design to further create a fair, transparent and predictable development environment for the majority of business entities, especially taxpayers operating in compliance.",
+     "id": "wscn-3195771"
     },
     {
      "ts": 1793918323,
@@ -122,27 +262,27 @@
      "title_zh": "多家公司在手订单充裕，CXO行业景气度有望延续",
      "body_zh": "伴随创新药出海BD（商务拓展）提速，医药研发等服务需求回暖。近日，多家CXO（医药研发生产外包）上市公司在第三季度业绩说明会上表示，公司在手订单充裕，预计全年业绩有望实现增长，随着第四季度项目交付规模进一步扩大，行业景气度有望延续。",
      "url": "https://wallstreetcn.com/livenews/3195376",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
      "time": "06:38",
      "title_en": "Multiple companies have ample orders, and the CXO industry boom is expected to continue.",
      "body_en": "With the acceleration of BD (business development) of innovative drugs going overseas, the demand for services such as pharmaceutical research and development has picked up. Recently, a number of CXO (pharmaceutical R&D and production outsourcing) listed companies said at the third quarter performance briefing that the company has abundant orders on hand and is expected to achieve full-year performance growth. With the further expansion of the project delivery scale in the fourth quarter, the industry boom is expected to continue.",
      "id": "wscn-3195376"
     },
     {
-     "ts": 1793894073,
+     "ts": 1793945631,
      "source": "华尔街见闻",
-     "title_zh": "拉加德：欧洲央行正在评估各项指标以确定12月是否有必要加",
-     "body_zh": "即将离任的欧洲央行行长克里斯蒂娜·拉加德（Christine Lagarde）表示，在11月维持利率不变后，欧洲央行正在评估各项经济指标，以确定下个月是否有必要加息。 “从现在到12月之间，我们将获得许多指标，这些指标将真正帮助我们确定加息是否属于必要之举，”拉加德在米兰由意大利独立思考观象台（Osservatorio）组织的一场金融素养会议上表示。",
-     "url": "https://wallstreetcn.com/livenews/3195236",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "23:54",
-     "title_en": "Christine Lagarde: the ECB is evaluating the indicators to determine if it is necessary to add.",
-     "body_en": "Christine Lagarde, the outgoing president of the ECB, said that after keeping interest rates unchanged in November, the ECB was assessing economic indicators to determine if a rate hike was necessary next month. “Between now and December, we're going to get a lot of metrics that will really help us determine if a rate hike is necessary,” Christine Lagarde said at a financial literacy conference in Milan organized by the Italian Observatory of Independent Thinking (Osservatorio).",
-     "id": "wscn-3195236"
+     "title_zh": "中汽协：1-9月中国出口到“一带一路”沿线国家的汽车商品累计金额同比增长32.6%",
+     "body_zh": "据中国汽车工业协会整理的海关总署数据显示，2026年1-9月，中国出口到“一带一路”沿线国家的汽车商品累计金额达到1357.7亿美元，同比增长32.6%，占汽车商品出口总额的58.3%。其中：出口汽车整车559.8万辆，同比增长45.2%；出口新能源汽车204.2万辆，同比增长64.7%。",
+     "url": "https://wallstreetcn.com/livenews/3195653",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "14:13",
+     "title_en": "China Automobile Association: cumulative amount of auto products exported by China to countries along the “Belt and Road” from January to September up year on year 32.6%.",
+     "body_en": "According to the data of the General Administration of Customs compiled by the China Automobile Industry Association, from January to September 2026, the cumulative amount of automobile commodities exported by China to countries along the \"Belt and Road\" reached 135.77 billion US dollars, up year on year 32.6%, accounting for 58.3% of the total automobile commodity exports. Among them: 5.598 million vehicles were exported, up year on year 45.2%; 2.042 million vehicles were exported, up year on year 64.7%.",
+     "id": "wscn-3195653"
     },
     {
      "ts": 1793916236,
@@ -150,125 +290,13 @@
      "title_zh": "国际金价涨0.7%，纽约铜跌约3.5%",
      "body_zh": "周四（11月5日）纽约尾盘，现货黄金涨0.7%，报4089.15美元/盎司，几乎全天处于上涨状态，亚太早盘显著上涨、北京时间11:57涨至4146.97美元刷新日高，随后震荡回落，美股早盘呈现出W形走势。 现货白银跌0.84%，报51.7798美元/盎司。 COMEX铜期货跌3.47%，报6.2055美元/磅，亚欧时段主要维持微幅下跌状态，美股开盘之后持续下跌。",
      "url": "https://wallstreetcn.com/livenews/3195361",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
      "time": "06:03",
      "title_en": "International gold prices rose 0.7%, New York copper fell about 3.5%.",
      "body_en": "On Thursday (November 5), spot gold rose 0.7% to $4,089.15 per ounce, rising almost all day. The Asia-Pacific morning market rose significantly, rising to a rising high of $4,146.97 at 11:57 Beijing time, and then the shock fell back. The US stock market showed a W-shaped trend in the morning. Spot silver fell 0.84% to $51.7798 per ounce. COMEX copper futures fell 3.47% to $6.2055/lb, mainly maintained a slight decline in Asia-Europe time, and continued to decline after the opening of the US stock market.",
      "id": "wscn-3195361"
-    },
-    {
-     "ts": 1793918982,
-     "source": "新浪财经",
-     "title_zh": "巩固完善资本市场稳市机制",
-     "body_zh": "本报记者刘琪 11月5日，中国人民银行官网发布国务院关于金融工作情况的报告。11月3日，在十四届全国人民代表大会常务委员会第二十五次会议上...",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixtxmh8942404.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:49",
-     "title_en": "Consolidate and improve the capital market stabilization mechanism.",
-     "body_en": "On November 5, the official website of the People's Bank of China released the report of the State Council on financial work. On November 3, at the 25th meeting of the Standing Committee of the 14th National People's Congress...",
-     "id": "sina-comos:nixtxmh8942404"
-    },
-    {
-     "ts": 1793918670,
-     "source": "华尔街见闻",
-     "title_zh": "Atlassian Corp.第一财季营收17.7亿美元，分析师预期17.2",
-     "body_zh": "Atlassian Corp.第一财季营收17.7亿美元，分析师预期17.2亿美元。 预计全年营收增长13.8%，公司原本预计增长13%。 预计第二财季云营收同比将增长大约27%。",
-     "url": "https://wallstreetcn.com/livenews/3195381",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:44",
-     "title_en": "Atlassian Corp. Q1 revenue $1.77 billion, analysts expect 17.2.",
-     "body_en": "Atlassian Corp. had revenue of $1.77 billion in the first quarter and analysts were expecting $1.72 billion. Revenue is expected to grow by 13.8% for the full year, and the company had expected to grow by 13%. Cloud revenue is expected to grow approximately 27% YoY in Q2.",
-     "id": "wscn-3195381"
-    },
-    {
-     "ts": 1793918613,
-     "source": "华尔街见闻",
-     "title_zh": "Live Nation Entertainment Inc.三季度营收101",
-     "body_zh": "Live Nation Entertainment Inc.三季度营收101.1亿美元，分析师预期96亿美元。 三季度调整后运营利润11.8亿美元，分析师预期11.6亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3195380",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:43",
-     "title_en": "Live Nation Entertainment Inc. Third Quarter Revenue 101.",
-     "body_en": "Live Nation Entertainment Inc. In the third quarter, revenue was $10.11 billion, and analysts expected $9.6 billion. Adjusted operating profit of $1.18 billion in the third quarter, with analysts expecting $1.16 billion.",
-     "id": "wscn-3195380"
-    },
-    {
-     "ts": 1793918499,
-     "source": "华尔街见闻",
-     "title_zh": "Lyft三季度营收18.2亿美元，分析师预期19.2亿美元",
-     "body_zh": "三季度出行2.735亿（人次），分析师预期2.745亿。 预计四季度总预定大约57.4亿-59.4亿美元，分析师预期58.4亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3195378",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:41",
-     "title_en": "Lyft Q3 revenue $1.82 billion, analysts expect $1.92 billion.",
-     "body_en": "273.5 million trips were made in the third quarter, with analysts expecting 274.5 million. It is expected that the total bookings in the fourth quarter will be about 5.74 billion to 5.94 billion US dollars, and analysts expect 5.84 billion US dollars.",
-     "id": "wscn-3195378"
-    },
-    {
-     "ts": 1793918025,
-     "source": "华尔街见闻",
-     "title_zh": "两家上市公司子公司IPO“踩刹车”",
-     "body_zh": "11月5日晚，高新兴、崇达技术披露公告，两家上市公司旗下子公司北交所IPO工作相继调整。高新兴控股子公司创联科技终止上市辅导备案，并拟申请新三板终止挂牌；崇达技术控股子公司普诺威撤回北交所IPO申报材料。",
-     "url": "https://wallstreetcn.com/livenews/3195374",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:33",
-     "title_en": "IPOs of subsidiaries of two publicly traded companies “hit the brakes”.",
-     "body_en": "On the evening of November 5, Gao Xinxing and Chongda Technology Disclosure Announcement, the IPO work of the North Exchange, a subsidiary of the two listed companies, was successively adjusted. Chuanglian Technology, a subsidiary of Gaoxin Holdings, terminated the listing coaching and filing, and intends to apply for the termination of the listing on the New Third Board; Chongda Technology Holdings, a subsidiary of PNV, withdrew the IPO filing materials of the Beijing Stock Exchange.",
-     "id": "wscn-3195374"
-    },
-    {
-     "ts": 1793920013,
-     "source": "华尔街见闻",
-     "title_zh": "周五亚太盘初（美国非农就业报告出炉前），美国股指期货跌超0.3%",
-     "body_zh": "周五亚太盘初（美国非农就业报告出炉前），美国股指期货跌超0.3%",
-     "url": "https://wallstreetcn.com/livenews/3195390",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:06",
-     "title_en": "US equity index futures fell more than 0.3% at the start of the Asia-Pacific market on Friday (before the US Non-Agricultural Employment Report).",
-     "body_en": "US equity index futures fell more than 0.3% at the start of the Asia-Pacific market on Friday (before the US Non-Agricultural Employment Report).",
-     "id": "wscn-3195390"
-    },
-    {
-     "ts": 1793916696,
-     "source": "华尔街见闻",
-     "title_zh": "美股加密货币与加密货币关联指数收跌11.17%，报47.31点美股早盘持续下",
-     "body_zh": "美股加密货币与加密货币关联指数收跌11.17%，报47.31点美股早盘持续下跌，北京时间23:00以来低位窄幅震荡、23:54刷新日低至45.09点。 最近24小时，现货比特币跌5.35%，暂报75859美元，美股开盘之前高位窄幅震荡，随后陷入美股半导体概念股/AI概念股被抛售的浪潮，00:00以来低位企稳。 现货以太坊跌7.63%，暂报2232.877美元。",
-     "url": "https://wallstreetcn.com/livenews/3195364",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "06:11",
-     "title_en": "The cryptocurrency and cryptocurrency-related index of US stocks fell 11.17%, and the US stock market continued to fall at 47.31 in the morning.",
-     "body_en": "The cryptocurrency and cryptocurrency-related index of US stocks closed down 11.17%, and the morning market of US stocks continued to fall at 47.31 points. The low and narrow range shocks since 23:00 Beijing time, and the 23:54 refresh date was as low as 45.09 points. In the last 24 hours, spot bitcoin fell 5.35%, with a tentative report of $75,859. Before the opening of the US stock market, the high and narrow range shocked, and then fell into the wave of selling of US semiconductor concept stocks/AI concept stocks, and the low level stabilized since 00:00. Spot Ethereum was down 7.63% at $2,232.877.",
-     "id": "wscn-3195364"
-    },
-    {
-     "ts": 1793915199,
-     "source": "华尔街见闻",
-     "title_zh": "加拿大央行在框架中删除有关气候变化的内容",
-     "body_zh": "加拿大央行在框架中删除有关气候变化的内容",
-     "url": "https://wallstreetcn.com/livenews/3195359",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:46",
-     "title_en": "the Bank of Canada removes climate change from its framework.",
-     "body_en": "the Bank of Canada removes climate change from its framework.",
-     "id": "wscn-3195359"
     },
     {
      "ts": 1793911774,
@@ -285,70 +313,43 @@
      "id": "wscn-3195334"
     },
     {
-     "ts": 1793909837,
+     "ts": 1793932260,
      "source": "华尔街见闻",
-     "title_zh": "彭博美元指数张超0.1%",
-     "body_zh": "周四（11月5日）纽约尾盘，ICE美元指数持平，报101.565点，日内交投区间为101.195-101.706点，北京时间15:00以来持续上扬、22:38刷新日高，之后随着美国半导体/AI板块被抛售而一度回撤至101.4点下方。 彭博美元指数涨0.15%，报1221.86点，日内交投区间为1216.91-1222.03点，15:01以来持续上扬。",
-     "url": "https://wallstreetcn.com/livenews/3195326",
+     "title_zh": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报93100元/",
+     "body_zh": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报93100元/吨，较上日16:30价格上涨500元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3195527",
      "category": "commodity",
      "category_zh": "商品",
      "category_en": "Commodities",
-     "time": "04:17",
-     "title_en": "Bloomberg USD Index over 0.1%.",
-     "body_en": "On Thursday (November 5), the ice US dollar index was flat at 101.565 points, with a daily trading range of 101.195-101.706 points. It has continued to rise since 15:00 Beijing time and reached a daily high at 22:38. After that, it withdrew below 101.4 points as the US semiconductor/AI sector was sold off. The Bloomberg USD index rose 0.15% to 1221.86 points, with a daily trading range of 1216.91-1222.03 points, and has risen continuously since 15:01.",
-     "id": "wscn-3195326"
-    },
-    {
-     "ts": 1793916920,
-     "source": "华尔街见闻",
-     "title_zh": "布伦特原油日内涨幅达5.0%，报99.47美元/桶；WTI原油日内涨幅达3.",
-     "body_zh": "布伦特原油日内涨幅达5.0%，报99.47美元/桶；WTI原油日内涨幅达3.5%，报91.22美元/桶。",
-     "url": "https://wallstreetcn.com/livenews/3195367",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "06:15",
-     "title_en": "Brent crude oil rose 5.0% intraday to $99.47/bbl; WTI crude oil rose 3.",
-     "body_en": "Brent crude oil was up 5.0% intraday at $99.47/bbl and WTI crude oil was up 3.5% intraday at $91.22/bbl.",
-     "id": "wscn-3195367"
-    },
-    {
-     "ts": 1793921147,
-     "source": "华尔街见闻",
-     "title_zh": "全球首次化学遗传学神经调控在人体实现",
-     "body_zh": "11月5日，《新英格兰医学杂志》（NEJM）发表了一项由中国科学家完成的突破性研究——全球首次化学遗传学神经调控的人体临床研究。国际同行在配发的评论中认为，该研究创新性地把基因治疗与小分子药物结合起来，使治疗强度可按需调整，这是现有其他类型基因疗法无法实现的。（科技日报）",
-     "url": "https://wallstreetcn.com/livenews/3195394",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:25",
-     "title_en": "The world's first chemical genetics neuromodulation in humans.",
-     "body_en": "On November 5, the New England Journal of Medicine (NEJM) published a groundbreaking study by Chinese scientists - the world's first clinical study of neuromodulation in chemical genetics in humans. In the comments issued by the international peers, the research innovatively combines gene therapy with small molecule drugs, making the intensity of treatment adjustable on demand, which is not possible with other types of gene therapy available. (Science and Technology Daily).",
-     "id": "wscn-3195394"
+     "time": "10:31",
+     "title_en": "Shanghai Ganglian released data showing that today's MMLC battery-grade lithium carbonate (morning) median price was 93,100 yuan/.",
+     "body_en": "Shanghai Ganglian released data showing that the median price of MMLC battery-grade lithium carbonate (morning market) today was 93,100 yuan/ton, up 500 yuan/ton from 16:30 on the previous day.",
+     "id": "wscn-3195527"
     }
    ],
-   "audio_ready": true,
    "voice_plan": "intro-michael+items-michael-heart-alt-v2",
    "audio_hashes": {
     "intro.mp3": "0ce3b0bc41a1",
-    "item-00.mp3": "3a7742b4b48a",
-    "item-01.mp3": "1c00513e9555",
-    "item-02.mp3": "e98b3b3c4e4f",
-    "item-03.mp3": "b91e1ba86428",
-    "item-04.mp3": "aa6c1ee4e86c",
-    "item-05.mp3": "51197188ea2f",
-    "item-06.mp3": "943fc09e1d6e",
-    "item-07.mp3": "52cf9fdeb6aa",
-    "item-08.mp3": "0b04ecb51c7c",
-    "item-09.mp3": "e8dbf6be6d59",
-    "item-10.mp3": "cb62a90a78ed",
-    "item-11.mp3": "956af04cef3f",
-    "item-12.mp3": "3ec036a9cc72",
-    "item-13.mp3": "91ff4bedcf47",
-    "item-14.mp3": "da01add2e885",
-    "item-15.mp3": "ec6245ba7dee",
-    "item-16.mp3": "4fb1d9ac6650",
-    "item-17.mp3": "47a9d1586509"
+    "item-00.mp3": "af3ba47dcf67",
+    "item-01.mp3": "6bcdd9b7431d",
+    "item-02.mp3": "6af3f252c00f",
+    "item-03.mp3": "4aacd1261b0c",
+    "item-04.mp3": "891ceb13c32d",
+    "item-05.mp3": "9c13e6be3b54",
+    "item-06.mp3": "b3685eb61e9a",
+    "item-07.mp3": "2a78db5eb923",
+    "item-08.mp3": "17ea7d1722bd",
+    "item-09.mp3": "4b8d4c56f4e7",
+    "item-10.mp3": "62d6f614afa6",
+    "item-11.mp3": "85887d59a647",
+    "item-12.mp3": "c44dc46f19de",
+    "item-13.mp3": "b91e1ba86428",
+    "item-14.mp3": "66b61e49650c",
+    "item-15.mp3": "51197188ea2f",
+    "item-16.mp3": "da01add2e885",
+    "item-17.mp3": "5ad8c05f57a6",
+    "story.mp3": "84bcba604ad8",
+    "joke.mp3": "e017c25b2b4f"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -361,95 +362,207 @@
      {
       "file": "item-00.mp3",
       "start": 9.274,
-      "dur": 59.165
+      "dur": 34.999
      },
      {
       "file": "item-01.mp3",
-      "start": 69.339,
-      "dur": 59.401
+      "start": 45.173,
+      "dur": 51.979
      },
      {
       "file": "item-02.mp3",
-      "start": 129.641,
-      "dur": 65.727
+      "start": 98.052,
+      "dur": 37.114
      },
      {
       "file": "item-03.mp3",
-      "start": 196.268,
-      "dur": 40.756
+      "start": 136.066,
+      "dur": 42.201
      },
      {
       "file": "item-04.mp3",
-      "start": 237.924,
-      "dur": 43.486
+      "start": 179.167,
+      "dur": 27.788
      },
      {
       "file": "item-05.mp3",
-      "start": 282.31,
-      "dur": 56.419
+      "start": 207.855,
+      "dur": 50.711
      },
      {
       "file": "item-06.mp3",
-      "start": 339.629,
-      "dur": 22.055
+      "start": 259.466,
+      "dur": 82.155
      },
      {
       "file": "item-07.mp3",
-      "start": 362.584,
-      "dur": 31.327
+      "start": 342.521,
+      "dur": 35.792
      },
      {
       "file": "item-08.mp3",
-      "start": 394.811,
-      "dur": 26.738
+      "start": 379.213,
+      "dur": 58.419
      },
      {
       "file": "item-09.mp3",
-      "start": 422.449,
-      "dur": 28.398
+      "start": 438.532,
+      "dur": 69.911
      },
      {
       "file": "item-10.mp3",
-      "start": 451.747,
-      "dur": 40.946
+      "start": 509.343,
+      "dur": 62.735
      },
      {
       "file": "item-11.mp3",
-      "start": 493.593,
-      "dur": 21.819
+      "start": 572.979,
+      "dur": 25.845
      },
      {
       "file": "item-12.mp3",
-      "start": 516.311,
-      "dur": 75.341
+      "start": 599.723,
+      "dur": 63.84
      },
      {
       "file": "item-13.mp3",
-      "start": 592.553,
-      "dur": 7.128
+      "start": 664.463,
+      "dur": 40.756
      },
      {
       "file": "item-14.mp3",
-      "start": 600.581,
-      "dur": 56.231
+      "start": 706.119,
+      "dur": 62.073
      },
      {
       "file": "item-15.mp3",
-      "start": 657.711,
-      "dur": 55.565
+      "start": 769.092,
+      "dur": 56.419
      },
      {
       "file": "item-16.mp3",
-      "start": 714.176,
-      "dur": 26.533
+      "start": 826.411,
+      "dur": 56.231
      },
      {
       "file": "item-17.mp3",
-      "start": 741.609,
-      "dur": 35.038
+      "start": 883.541,
+      "dur": 27.975
      }
     ]
-   }
+   },
+   "story": {
+    "id": "rockefeller-drop",
+    "name_zh": "约翰·洛克菲勒",
+    "name_en": "John D. Rockefeller",
+    "era": "1870s · 美国俄亥俄",
+    "title_zh": "省下一滴焊料的人，成了首富",
+    "title_en": "The Man Who Saved One Drop of Solder",
+    "body_zh": "洛克菲勒参观自家炼油厂，问工人焊一个油桶用几滴焊料。答：四十滴。他让人试试三十八滴，一滴不漏。就为这两滴，工厂每年省下大笔钱。他说：巨大的财富，就是对小事的巨大认真。",
+    "body_en": "Young Rockefeller once watched workers seal oil barrels. He asked how many drops of solder each barrel took. Forty, they said. He asked them to try thirty-eight. Not a single barrel leaked. His ledgers went to three decimal places. Great wealth comes from great attention to small things.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Ohio, eighteen seventy. A quiet man in a dark suit is watching workers seal oil barrels, one by one.",
+      "zh": "俄亥俄，1870 年。一个穿黑西装的安静男人，正看着工人们一个一个焊接油桶。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "How many drops of solder does one barrel take?",
+      "zh": "焊一个桶，要用几滴焊料？"
+     },
+     {
+      "k": "dial",
+      "who": "Worker",
+      "g": "M2",
+      "en": "Forty drops, sir. Same as always.",
+      "zh": "四十滴，先生。一直都是四十滴。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "Try thirty-eight.",
+      "zh": "试试三十八滴。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "They tried. Not a single barrel leaked. Those two drops saved the plant real money, every single year.",
+      "zh": "工人们试了。一滴都没漏。就这两滴，每年给工厂省下真金白银。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "Great wealth comes from great attention to small things. Saved one drop at a time.",
+      "zh": "巨大的财富，就是对小事的巨大认真，一滴一滴攒出来的。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "shoeshine-boy",
+    "tag_zh": "1929年的擦鞋童",
+    "tag_en": "The Shoeshine Boy, 1929",
+    "title_zh": "擦鞋童都在荐股的那天，他清仓离场",
+    "title_en": "When the Shoeshine Boy Gave Stock Tips",
+    "body_zh": "一九二九年，约瑟夫·肯尼迪让擦鞋童擦鞋，小孩却热心地给他推荐起股票来。他回到办公室立刻清仓。他的逻辑是：连擦鞋童都在荐股，说明最后一批买家已经进场，接下来只有卖盘了。没过多久，大崩盘来了。这个观察后来被称为擦鞋童理论：当所有人都在谈论某样东西时，往往意味着它已经不便宜了。",
+    "body_en": "New York, nineteen twenty-nine. Joseph Kennedy got his shoes polished, and the shoeshine boy happily gave him stock tips. Kennedy walked back to his office and sold everything. His logic was sharp. If the shoeshine boy is giving stock tips, the last buyers have already arrived. Who is left to buy? Soon after, the market crashed. People still call it the shoeshine boy theory. When everybody talks about something, it is usually no longer cheap."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 10.043,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.843,
+      "dur": 2.603,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     },
+     {
+      "start": 13.996,
+      "dur": 4.041,
+      "k": "dial",
+      "who": "Worker",
+      "g": "M2"
+     },
+     {
+      "start": 18.587,
+      "dur": 1.195,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     },
+     {
+      "start": 20.333,
+      "dur": 9.889,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 30.771,
+      "dur": 5.123,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-11-05",
@@ -791,7 +904,9 @@
     "item-14.mp3": "e70a8f2aea48",
     "item-15.mp3": "dd03405899f2",
     "item-16.mp3": "d89309ed3154",
-    "item-17.mp3": "664dd7f5a38e"
+    "item-17.mp3": "664dd7f5a38e",
+    "story.mp3": "62d4e4805473",
+    "joke.mp3": "4fcd6996e863"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -892,7 +1007,118 @@
       "dur": 40.242
      }
     ]
-   }
+   },
+   "story": {
+    "id": "kostolany-dog",
+    "name_zh": "安德烈·科斯托拉尼",
+    "name_en": "André Kostolany",
+    "era": "欧洲 · 布达佩斯投机家",
+    "title_zh": "经济和股市，是主人和狗",
+    "title_en": "The Economy and the Dog on a Leash",
+    "body_zh": "科斯托拉尼有个流传最广的比喻：经济是主人，股市是狗。狗前后乱跑，但拴着绳，最终都会跟着主人回家。他从不因股市涨跌过度兴奋或恐慌，只盯着绳子另一头。他的忠告：有耐心的人才会赢。",
+    "body_en": "André Kostolany left behind his most famous picture. The economy is the owner. The stock market is the dog. The dog runs ahead, then falls behind. But the leash connects them, and both arrive home together. Patience wins. Money alone does not.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "A park in Europe. An old speculator is walking a big restless dog, and a young admirer is walking beside him.",
+      "zh": "欧洲某公园。一个老投机家牵着一只躁动的大狗散步，身边跟着个仰慕他的年轻人。"
+     },
+     {
+      "k": "dial",
+      "who": "Young man",
+      "g": "F2",
+      "en": "Monsieur, the market ran up three percent this week, then fell back two. What should I do?",
+      "zh": "先生，这周股市涨了百分之三，又跌回去两个点。我该怎么办？"
+     },
+     {
+      "k": "dial",
+      "who": "Kostolany",
+      "g": "M",
+      "en": "Look at my dog. He runs ahead of me, then falls behind. Up and down, back and forth.",
+      "zh": "看我的狗。他一会儿冲到我前面，一会儿又落在后面。上蹿下跳，来回折腾。"
+     },
+     {
+      "k": "dial",
+      "who": "Young man",
+      "g": "F2",
+      "en": "But he always ends up where you end up?",
+      "zh": "但最后他都跟着您走到同一个地方？"
+     },
+     {
+      "k": "dial",
+      "who": "Kostolany",
+      "g": "M",
+      "en": "Exactly. The economy is the owner. The market is the dog. Watch the far end of the leash, not the dog.",
+      "zh": "正是。经济是主人，股市是狗。盯住绳子另一头的主人，别盯狗。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "After seventy years in markets, his advice was simple. Patience wins. Money alone does not.",
+      "zh": "在股海浮沉七十年后，他的忠告只有一句：有耐心的人才会赢，光有钱不行。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "einstein-compound",
+    "tag_zh": "传说的第八大奇迹",
+    "tag_en": "The Legendary Eighth Wonder",
+    "title_zh": "爱因斯坦说复利是第八大奇迹？",
+    "title_en": "Did Einstein Call Compounding the Eighth Wonder?",
+    "body_zh": "据说爱因斯坦讲过：复利是世界第八大奇迹，懂的人赚它，不懂的人付它。这句话他大概率没说过，却成了金融圈流传最广的名言。真假不重要，道理是真的：时间+利率，是普通人和财富之间最诚实的一条路。反过来也一样，利滚利的债，也会按同样的数学惩罚不守纪律的人。",
+    "body_en": "People say Einstein once called compound interest the eighth wonder of the world. Those who understand it earn it. Those who do not, pay it. He probably never said it. But the quote refuses to die, because the math is real. Time, plus a steady rate, is the most honest road to wealth for ordinary people. And the road works both ways. Debt compounds too, with the same mathematics, punishing those who break their rules."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 9.46,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.26,
+      "dur": 8.251,
+      "k": "dial",
+      "who": "Young man",
+      "g": "F2"
+     },
+     {
+      "start": 19.061,
+      "dur": 6.973,
+      "k": "dial",
+      "who": "Kostolany",
+      "g": "M"
+     },
+     {
+      "start": 26.583,
+      "dur": 2.667,
+      "k": "dial",
+      "who": "Young man",
+      "g": "F2"
+     },
+     {
+      "start": 29.801,
+      "dur": 8.163,
+      "k": "dial",
+      "who": "Kostolany",
+      "g": "M"
+     },
+     {
+      "start": 38.513,
+      "dur": 9.547,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-11-04",
@@ -1234,7 +1460,9 @@
     "item-14.mp3": "fe13d5c65757",
     "item-15.mp3": "cc9fb3297746",
     "item-16.mp3": "658a47eeee3a",
-    "item-17.mp3": "c3e589e18220"
+    "item-17.mp3": "c3e589e18220",
+    "story.mp3": "064bf7650a72",
+    "joke.mp3": "30d525cc0c92"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -1335,7 +1563,118 @@
       "dur": 56.327
      }
     ]
-   }
+   },
+   "story": {
+    "id": "lynch-lipstick",
+    "name_zh": "彼得·林奇",
+    "name_en": "Peter Lynch",
+    "era": "1980s · 富达麦哲伦基金",
+    "title_zh": "口红卖得越好，经济可能越差",
+    "title_en": "When Lipstick Sells, Watch Out",
+    "body_zh": "林奇管麦哲伦基金时发现：经济越不景气，口红反而卖得越好。钱紧的时候，女人买不起新衣服，就买支口红让自己开心一下。机会藏在生活里，超市里什么卖得好，往往比研报更早告诉你答案。",
+    "body_en": "Peter Lynch noticed something strange at Fidelity. The worse the economy felt, the better lipstick sold. When money is tight, lipstick is the cheapest happiness. Great ideas hide in daily life. He beat the market for thirteen years.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Boston, nineteen eighty. The star manager of the Magellan Fund is walking through a department store, not a trading floor.",
+      "zh": "波士顿，1980 年。麦哲伦基金的明星经理逛的不是交易厅，是百货商场。"
+     },
+     {
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M",
+      "en": "Peter, why are you looking at the cosmetics counter? We invest in companies, not makeup.",
+      "zh": "彼得，你看化妆品柜台干什么？我们投的是公司，不是口红。"
+     },
+     {
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2",
+      "en": "Look at the sales data. The worse the economy feels, the better lipstick sells.",
+      "zh": "你看看销售数据。经济越差，口红反而卖得越好。"
+     },
+     {
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M",
+      "en": "That makes no sense. Why would anyone buy lipstick in a recession?",
+      "zh": "这不合理啊。经济衰退谁还买口红？"
+     },
+     {
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2",
+      "en": "When money is tight, she skips the new dress. But a lipstick is the cheapest happiness she can still afford.",
+      "zh": "钱紧的时候，新衣服不买了。但口红，是她还买得起的、最便宜的开心。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "People later called it the lipstick effect. Lynch's real lesson was this. Great ideas hide in daily life, and he beat the market for thirteen years by paying attention.",
+      "zh": "后来人们把这叫作口红效应。林奇真正的心得是：机会藏在生活里。他靠这份留心，跑赢市场十三年。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "lost-interest",
+    "tag_zh": "华尔街双关",
+    "tag_en": "Wall Street Wordplay",
+    "title_zh": "银行家为什么辞职？他失去了“利息”",
+    "title_en": "Why Did the Banker Quit? He Lost Interest",
+    "body_zh": "一位年轻银行家在大银行干满一年就辞职了。朋友都问他为什么，他只说了一句：我失去了利息。这个笑话妙在双关。英文里利息和兴趣是同一个词。对银行家来说，这两样东西缺一样都干不下去。所以下次见到闷闷不乐的银行家，你可以关心地问一句：是利息的问题，还是兴趣的问题？",
+    "body_en": "A young banker worked at a big bank for exactly one year. Then he quit. His friends all asked why. He gave them a one line answer. I lost interest. The joke works in two ways. In English, the money a bank pays you, and the feeling of caring, are the same word. A banker cannot survive without either one. So next time you meet a sad banker, ask politely. Is it the interest, or the interest?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 10.382,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 11.182,
+      "dur": 6.16,
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M"
+     },
+     {
+      "start": 17.892,
+      "dur": 5.727,
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2"
+     },
+     {
+      "start": 24.169,
+      "dur": 4.056,
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M"
+     },
+     {
+      "start": 28.775,
+      "dur": 7.348,
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2"
+     },
+     {
+      "start": 36.673,
+      "dur": 13.601,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-11-03",
@@ -1677,7 +2016,9 @@
     "item-14.mp3": "21b39635373c",
     "item-15.mp3": "bc7032e2e89e",
     "item-16.mp3": "80459ae88cb1",
-    "item-17.mp3": "17fa721f7d70"
+    "item-17.mp3": "17fa721f7d70",
+    "story.mp3": "7ecce05fb0f0",
+    "joke.mp3": "2cc05a0246f5"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -1778,7 +2119,104 @@
       "dur": 50.415
      }
     ]
-   }
+   },
+   "story": {
+    "id": "fisher-scuttlebutt",
+    "name_zh": "菲利普·费雪",
+    "name_en": "Philip Fisher",
+    "era": "1950s · 美国加州",
+    "title_zh": "不读财报的调研法：去和对手闲聊",
+    "title_en": "The Scuttlebutt Method",
+    "body_zh": "费雪调研公司有个怪招：不急着看报表，先去闲聊。找离职员工、供应商、同行工程师，一家公司的真实成色就浮出来了。他管这叫闲聊法，靠它拿了摩托罗拉十多年。",
+    "body_en": "Philip Fisher had an odd way to research a company. Before reading reports, he went out and chatted. Former employees, salesmen, suppliers, rival engineers. From these talks, the truth surfaced. He called it the scuttlebutt method.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "California, nineteen fifty. While other analysts read annual reports, Philip Fisher does something strange. He goes out for coffee, and small talk.",
+      "zh": "加州，1950 年。别的分析师在读年报，菲利普·费雪却在干一件怪事：出门喝咖啡、闲聊。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "You used to work at their plant. Was the new product real quality, or just a good story?",
+      "zh": "你以前在他们的厂里干过。新品是真有实力，还是故事讲得好？"
+     },
+     {
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F",
+      "en": "Honestly? The lab is serious. But the boss loses his temper, and good people keep leaving.",
+      "zh": "说实话？实验室是认真的。但老板脾气大，能干的人一直在走。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "And the competitors say the same thing, from the other side. Now the picture is complete.",
+      "zh": "竞争对手从另一头说出来的，也是同样的话。拼图这就完整了。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He called it the scuttlebutt method. It led him to hold Motorola for decades. His advice shaped Buffett too. If it is a wonderful company, almost never sell.",
+      "zh": "他管这叫闲聊法。靠它，他拿住了摩托罗拉十多年。这条建议也影响了巴菲特：真正的好公司，几乎永远别卖。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "truman-recession",
+    "tag_zh": "总统的定义",
+    "tag_en": "A President's Definition",
+    "title_zh": "邻居失业叫衰退，自己失业叫萧条",
+    "title_en": "A Recession Is When Your Neighbor Loses His Job",
+    "body_zh": "据说杜鲁门总统这样区分经济术语：邻居失业，叫衰退；自己失业，才叫萧条。一句话戳破了宏大叙事——经济数据再漂亮，落到每个具体的人身上，感受是完全不同的。这也提醒我们读新闻时留个心眼：报表上的百分比，都是别人的人生。理解经济，要从理解一个具体的人开始。",
+    "body_en": "President Truman supposedly explained economic terms this way. A recession is when your neighbor loses his job. A depression is when you lose yours. One sentence, and all the big words collapse. Growth rates look beautiful on paper. But every percentage point is somebody's real life. It is a good habit when reading the news. Behind every statistic, there is a person. Economics starts with people, not charts."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 14.275,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 15.075,
+      "dur": 6.58,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 22.205,
+      "dur": 6.305,
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F"
+     },
+     {
+      "start": 29.06,
+      "dur": 6.068,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 35.678,
+      "dur": 14.755,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-11-02",
@@ -2120,7 +2558,9 @@
     "item-14.mp3": "6f986562299f",
     "item-15.mp3": "96c58b209fb1",
     "item-16.mp3": "3ab0c1b0761f",
-    "item-17.mp3": "bee65b8d102d"
+    "item-17.mp3": "bee65b8d102d",
+    "story.mp3": "b545e0196c1b",
+    "joke.mp3": "45ac90111c46"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -2221,7 +2661,118 @@
       "dur": 71.102
      }
     ]
-   }
+   },
+   "story": {
+    "id": "livermore-lesson",
+    "name_zh": "杰西·利弗莫尔",
+    "name_en": "Jesse Livermore",
+    "era": "1929 · 纽约投机之王",
+    "title_zh": "他赚过一个亿，也没能留住一个亿",
+    "title_en": "He Made a Hundred Million, and Could Not Keep It",
+    "body_zh": "利弗莫尔是二十世纪初最有名的投机者。1929 年大崩盘前他大量做空，一周赚下一亿美元。但他一生大起大落，破过四次产。他留下的教训：华尔街没有新鲜事，人性不变，我总在不守纪律的地方跌倒。",
+    "body_en": "Jesse Livermore was the most famous speculator of his age. In nineteen twenty-nine, right before the crash, he shorted the market and made one hundred million dollars in days. Yet he went bankrupt four times. His lesson. Wall Street has nothing new. Human nature never changes.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "New York, late October, nineteen twenty-nine. The party is ending, and one man is ready.",
+      "zh": "纽约，1929 年 10 月底。盛宴将散，而有一个人早已备好。"
+     },
+     {
+      "k": "dial",
+      "who": "Broker",
+      "g": "M2",
+      "en": "Jessie, everyone says stocks can only go up. Why are you shorting everything?",
+      "zh": "杰西，所有人都说股票只会涨，你怎么在做空？"
+     },
+     {
+      "k": "dial",
+      "who": "Livermore",
+      "g": "M",
+      "en": "Because the tape told me weeks ago. The big money is not in the fluctuation. It is in waiting for it.",
+      "zh": "因为盘面几个星期前就告诉我了。大钱不在波动里，在等待里。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "The crash came. He made one hundred million dollars in days. It was his crown, and it was also his trap.",
+      "zh": "崩盘来了。几天之内，他赚下一亿美元。那是他的王冠，也是他的陷阱。"
+     },
+     {
+      "k": "dial",
+      "who": "Livermore",
+      "g": "M",
+      "en": "I went bankrupt four times. Not because the market changed. Because I never changed.",
+      "zh": "我破产过四次。不是因为市场变了，是因为我一直没变。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "His hardest lesson was about himself. Wall Street has nothing new. Human nature never changes. I always fell in the same place, where I broke my own rules.",
+      "zh": "他最痛的教训是关于他自己：华尔街没有新鲜事，人性不变。所以我总在同一个地方跌倒——不守纪律的地方。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "rothschild-early",
+    "tag_zh": "金融世家心得",
+    "tag_en": "Banking Family Secret",
+    "title_zh": "我是靠卖得太早赚的钱",
+    "title_en": "I Made My Fortune by Selling Too Early",
+    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
+    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 9.891,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.691,
+      "dur": 6.004,
+      "k": "dial",
+      "who": "Broker",
+      "g": "M2"
+     },
+     {
+      "start": 17.245,
+      "dur": 6.511,
+      "k": "dial",
+      "who": "Livermore",
+      "g": "M"
+     },
+     {
+      "start": 24.307,
+      "dur": 9.654,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 34.511,
+      "dur": 5.743,
+      "k": "dial",
+      "who": "Livermore",
+      "g": "M"
+     },
+     {
+      "start": 40.804,
+      "dur": 14.499,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-10-30",
@@ -2548,7 +3099,9 @@
     "item-13.mp3": "534412430192",
     "item-14.mp3": "83de4eaebabd",
     "item-15.mp3": "10f2d7233b5c",
-    "item-16.mp3": "83844f439fef"
+    "item-16.mp3": "83844f439fef",
+    "story.mp3": "e965e6950383",
+    "joke.mp3": "413eddb0741e"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -2644,7 +3197,118 @@
       "dur": 14.821
      }
     ]
-   }
+   },
+   "story": {
+    "id": "morgan-1907",
+    "name_zh": "J.P. 摩根",
+    "name_en": "J.P. Morgan",
+    "era": "1907 · 纽约",
+    "title_zh": "把银行家锁进书房，直到他们答应救市",
+    "title_en": "The Night He Locked the Bankers In",
+    "body_zh": "一九〇七年十月纽约股市崩盘，没有央行兜底的美国眼看滑向恐慌。六十九岁的摩根把几十位银行总裁锁进书房，逼出两千五百万美元救市资金，凌晨签下协议，恐慌停了。五年后美联储成立。",
+    "body_en": "In October nineteen oh seven, New York was in panic. America had no central bank. J.P. Morgan, sixty-nine years old, summoned bank presidents to his library and locked the doors. The deal was signed after midnight. The panic stopped. Five years later, the Federal Reserve was born.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "New York, October, nineteen oh seven. Depositors are lining up in the streets. America has no central bank, and the panic is spreading.",
+      "zh": "纽约，1907 年 10 月。储户在街头排起长队。美国没有央行，恐慌正在蔓延。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "So the most powerful banker in America did something nobody would dare today.",
+      "zh": "于是，全美最有权势的银行家做了一件今天没人敢做的事。"
+     },
+     {
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2",
+      "en": "Gentlemen, you will all come to my library tonight. Bring your real numbers, not the ones for newspapers.",
+      "zh": "诸位，今晚都到我的书房来。带上真实的账目，别带给报纸看的那份。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He questioned each president one by one, behind closed doors, until the true holes were on the table.",
+      "zh": "他关门一个个逼问各位总裁，直到真实的窟窿全部摆上桌面。"
+     },
+     {
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2",
+      "en": "It is almost twelve o'clock. Nobody leaves this room until the papers are signed.",
+      "zh": "现在快十二点了。文件不签完，谁也别想出这个门。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "After midnight, twenty-five million dollars was pledged. The panic stopped. Five years later, partly because of this night, the Federal Reserve was born.",
+      "zh": "午夜过后，两千五百万美元的救市资金凑齐了。恐慌停了。五年后，正因为这一夜，美联储诞生了。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "nine-of-five",
+    "tag_zh": "经济学家的预言",
+    "tag_en": "Economist Forecast",
+    "title_zh": "过去五次衰退，经济学家预测中了九次",
+    "title_en": "Nine of the Last Five Recessions",
+    "body_zh": "经济学家萨缪尔森讲过一个流传至今的玩笑：股市在过去五次衰退里，预测中了九次。意思是股市总在喊狼来了，喊的次数远比狼真的来的次数多。所以听到谁信誓旦旦地预测崩盘，不用太紧张，也不用太得意，先数一数他之前喊过几次。预测市场这件事，连最聪明的人也常常只是运气好。",
+    "body_en": "The economist Paul Samuelson left us a joke that never gets old. The stock market has predicted nine of the last five recessions. Read that again. Nine predictions. Five real recessions. The market cries wolf far more often than the wolf arrives. So when someone loudly predicts the next crash, stay calm. Count how many times they called it before. Predicting the market is hard. Even for the smartest people in the room."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 13.477,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 14.277,
+      "dur": 5.035,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 19.863,
+      "dur": 7.525,
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2"
+     },
+     {
+      "start": 27.938,
+      "dur": 8.526,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 37.014,
+      "dur": 5.869,
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2"
+     },
+     {
+      "start": 43.433,
+      "dur": 13.699,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   },
   {
    "date": "2026-10-29",
@@ -2964,7 +3628,9 @@
     "item-13.mp3": "36c844448b49",
     "item-14.mp3": "8e2a6344a159",
     "item-15.mp3": "0bd6fea06006",
-    "item-16.mp3": "ce75ce9bd15b"
+    "item-16.mp3": "ce75ce9bd15b",
+    "story.mp3": "944e8b83052d",
+    "joke.mp3": "29dc8a8148c0"
    },
    "broadcast": {
     "file": "broadcast.mp3",
@@ -3060,7 +3726,132 @@
       "dur": 20.135
      }
     ]
-   }
+   },
+   "story": {
+    "id": "buffett-paper",
+    "name_zh": "沃伦·巴菲特",
+    "name_en": "Warren Buffett",
+    "era": "1942 · 美国奥马哈",
+    "title_zh": "送报纸的少年，和复利的第一课",
+    "title_en": "The Paperboy Who Learned Compounding First",
+    "body_zh": "巴菲特十一岁买了人生第一只股票，涨了没几天就卖掉，赚了六美元。可那只股票后来涨了他十倍。十三岁他承包了几条街的报纸投递，每个月存下钱来继续买股票。他说自己赚钱的秘密只有一条，就是时间——雪球要滚得大，先得找到很湿的雪和很长的坡。",
+    "body_en": "Warren Buffett bought his first stock at eleven. He sold it quickly for a small profit of six dollars. The stock later rose ten times higher. At thirteen, he delivered newspapers and saved every dollar. His secret, he says, is time. A snowball grows big only on very wet snow, and on a very long hill.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Omaha, Nebraska. Nineteen forty-two. An eleven year old boy is staring at six dollars.",
+      "zh": "内布拉斯加州，奥马哈。1942 年。一个十一岁的小男孩正盯着六美元发呆。"
+     },
+     {
+      "k": "dial",
+      "who": "Warren",
+      "g": "M",
+      "en": "Dad, I sold it too soon. It just kept climbing without me.",
+      "zh": "爸爸，我卖太早了。它还在涨，却不带我玩了。"
+     },
+     {
+      "k": "dial",
+      "who": "Howard",
+      "g": "M2",
+      "en": "Then remember how this feels. Patience is also a position.",
+      "zh": "那就把这种滋味记住。耐心，也是一种仓位。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "The boy was Warren Buffett. That stock later rose ten times higher. He never forgot it.",
+      "zh": "这个男孩就是沃伦·巴菲特。那只股票后来涨了十倍。他一辈子没忘。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "At thirteen, he ran his own newspaper routes, and saved every single dollar.",
+      "zh": "十三岁，他承包了好几条街的送报路线，每一美元都存下来。"
+     },
+     {
+      "k": "dial",
+      "who": "Warren",
+      "g": "M",
+      "en": "People ask me the secret. It is simple. Time. Wet snow, and a very long hill.",
+      "zh": "别人问我赚钱的秘密。很简单：时间。很湿的雪，和很长的坡。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "The snowball had started rolling. It has not stopped for eighty years.",
+      "zh": "雪球从那天开始滚，一滚就是八十年，到现在都没停。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "bull-bear-pig",
+    "tag_zh": "老交易员口头禅",
+    "tag_en": "Old Trader's Chant",
+    "title_zh": "牛市赚钱，熊市赚钱，猪被宰",
+    "title_en": "Bulls Win, Bears Win, Pigs Get Slaughtered",
+    "body_zh": "华尔街有句老话：牛市能赚钱，熊市也能赚钱，只有猪会被宰。牛是看涨的人，熊是看跌的人，猪是指贪得无厌的人。这句话的重点不是让你判断方向，而是提醒你：方向从来不是死因，贪心才是。涨了还想更多，亏了想一夜翻本，这类动作才最危险。行情永远都在，本金没了就真的没了。",
+    "body_en": "Wall Street has an old chant. Bulls make money. Bears make money. Pigs get slaughtered. Bulls expect prices to rise. Bears expect prices to fall. And pigs are the greedy ones. The lesson is not about picking a direction. Direction is rarely what kills an account. Greed is. Holding for more when you are up. Doubling down to win it all back overnight. Markets are always open. But lost capital does not come back."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 9.121,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 9.921,
+      "dur": 4.447,
+      "k": "dial",
+      "who": "Warren",
+      "g": "M"
+     },
+     {
+      "start": 14.917,
+      "dur": 4.397,
+      "k": "dial",
+      "who": "Howard",
+      "g": "M2"
+     },
+     {
+      "start": 19.865,
+      "dur": 7.919,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 28.334,
+      "dur": 7.203,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 36.087,
+      "dur": 6.883,
+      "k": "dial",
+      "who": "Warren",
+      "g": "M"
+     },
+     {
+      "start": 43.52,
+      "dur": 5.976,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   }
  ]
 }
