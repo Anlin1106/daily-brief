@@ -3,12 +3,561 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-07 07:26",
-  "latest": "2026-11-07",
+  "updated_at": "2026-11-08 07:24",
+  "latest": "2026-11-08",
   "count": 18,
-  "mt_calls": 34
+  "mt_calls": 28
  },
  "editions": [
+  {
+   "date": "2026-11-08",
+   "weekday_en": "Sunday",
+   "weekday_zh": "周日",
+   "generated_at": "2026-11-08 07:24",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3649.18,
+     "chg_pct": -1.1
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11175.78,
+     "chg_pct": -2.57
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2465.23,
+     "chg_pct": -3.96
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1253.2,
+     "chg_pct": -2.6
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 51285.73,
+     "chg_pct": -0.46
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24579.42,
+     "chg_pct": 1.09
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7376.86,
+     "chg_pct": 0.31
+    }
+   ],
+   "items": [
+    {
+     "ts": 1793998703,
+     "source": "华尔街见闻",
+     "title_zh": "报道：OpenAI完成110亿美元新融资，估值1.25万亿美元，软银、红杉资本等参投",
+     "body_zh": "据知情人士透露，OpenAI已完成约110亿美元的新融资，这是本轮估值1.25万亿美元融资的首笔部分。 资金已于周五划入公司账户。本轮剩余部分——总额可能增至最高200亿美元——预计将在未来数周内完成。 在推迟了首次公开募股（IPO）计划后，这家AI开发商已就一轮大额融资洽谈了一个多月。OpenAI最初计划以1.4万亿美元估值融资300亿美元或更多，随后在AI板块遭遇公开市场暴跌的背景下缩减了计划。",
+     "url": "https://wallstreetcn.com/livenews/3196217",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "04:58",
+     "title_en": "Report: OpenAI raises $11 billion, valued at $1.25 trillion, with participation from SoftBank, Sequoia Capital, and others.",
+     "body_en": "OpenAI has closed about $11 billion in new funding, the first part of a $1.25 trillion round, according to people familiar with the matter. Funds were transferred to the company's account on Friday. The remainder of this round - which could total up to $20 billion - is expected to be completed in the coming weeks. The AI developer has been negotiating a large funding round for more than a month after postponing plans for an initial public offering (IPO). OpenAI, which initially planned to raise $30 billion or more at a $1.4 trillion valuation, later scaled back its plans against the backdrop of a public-market plunge in the AI sector.",
+     "id": "wscn-3196217"
+    },
+    {
+     "ts": 1793986661,
+     "source": "华尔街见闻",
+     "title_zh": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
+     "body_zh": "微软公司正逐步终止向甲骨文公司租用人工智能（AI）算力的安排，这是其对价值数十亿美元的云合作伙伴关系进行更大范围重估的一部分。 据知情人士透露，近几个月来，微软在拒绝续约后，已开始陆续关闭从甲骨文租用的算力。随着时间推移，微软租用的这批算力变得不再好用，因为它已不再符合公司的规格要求。他们称，甲骨文这批硬件使用的是英伟达较旧一代的芯片。",
+     "url": "https://wallstreetcn.com/livenews/3196151",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:37",
+     "title_en": "Report: Deprecated chips are not new enough, Microsoft is winding down arrangements to lease AI cloud power from Oracle.",
+     "body_en": "Microsoft is winding down its arrangement to lease artificial intelligence (AI) computing power from Oracle as part of a broader revaluation of its multi-billion-dollar cloud partnership. In recent months, Microsoft has begun shutting down the computing power leased from Oracle after refusing to renew the contract, according to people familiar with the matter. Over time, this batch of computing power rented by Microsoft has become no longer easy to use because it no longer meets the company's specifications. The Oracle hardware, they say, uses older Nvidia chips.",
+     "id": "wscn-3196151"
+    },
+    {
+     "ts": 1794014418,
+     "source": "华尔街见闻",
+     "title_zh": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
+     "body_zh": "商务部新闻发言人就美制裁中国企业答记者问。 问：美东时间11月5日，美国务院宣布制裁两家中国企业。有消息称，这是美首次以涉古巴为由对中国企业实施制裁。请问中方对此有何评论？ 答：我们注意到有关情况。美方以涉及第三方为由，对中国企业采取单边制裁，违反国际法和国际关系基本准则，中方对此坚决反对。",
+     "url": "https://wallstreetcn.com/livenews/3196294",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "09:20",
+     "title_en": "the Ministry of Commerce responded to \"the first time the United States has sanctioned a Chinese enterprise for involving Cuba\": urging the United States to correct its wrongdoing as soon as possible.",
+     "body_en": "a spokesman for the Ministry of Commerce replied to reporters about the US sanctions on Chinese companies. Q: On November 5, the State Council announced sanctions against two Chinese companies. Sources said that this is the first time the United States has imposed sanctions on Chinese companies on the grounds of involving Cuba. What is China's comment on this? A: We are aware of the situation. China firmly opposes the imposition of unilateral sanctions on Chinese enterprises by the United States on the grounds that they involve third parties, in violation of international law and the basic norms governing international relations.",
+     "id": "wscn-3196294"
+    },
+    {
+     "ts": 1794010006,
+     "source": "华尔街见闻",
+     "title_zh": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
+     "body_zh": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。",
+     "url": "https://wallstreetcn.com/livenews/3196269",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "08:06",
+     "title_en": "He Lifeng held a video call with Besent, Director of the Ministry of Finance of the United States, and Trade Representative Greer.",
+     "body_en": "On the evening of November 6, Beijing time, the Chinese leader of China-US economic and trade, the Vice Premier of the State Council, He Lifeng, held a video call with the US leader, the Director of the Ministry of Finance of the United States, Besent, and Trade Representative Greer. The two sides had frank, in-depth and constructive exchanges on important economic and trade issues of mutual concern around the implementation of the important consensus reached at the China-US Summit in Beijing and Washington, D.C., and the outcomes of the economic and trade consultations. The Chinese side expressed serious concerns about the recent restrictions on US trade with China.",
+     "id": "wscn-3196269"
+    },
+    {
+     "ts": 1794003227,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价在非农日走低，本周累涨5%，纽约铜本周跌3.8%",
+     "body_zh": "周五（11月6日）纽约尾盘，现货黄金跌0.4%，报4071.39美元/盎司，亚太早盘曾短暂地微幅上涨，北京时间09:17以来持续处于下跌状态，21:30发布美国非农就业报告时显著下跌、刷新日低至4028.49美元，本周累计上涨5.06%，11月4-5日（至亚太中午）持续扩大涨幅、11:30达到4146.97美元。 COMEX黄金期货累涨4.65%，报4080.10美元/盎司。",
+     "url": "https://wallstreetcn.com/livenews/3196250",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "06:13",
+     "title_en": "International gold prices fell on off-farm days, rising 5% this week, and copper in New York fell 3.8% this week.",
+     "body_en": "At the end of New York on Friday (November 6), spot gold fell 0.4% to $4,071.39 per ounce. The Asia-Pacific morning market had briefly risen slightly, and it has continued to decline since 09:17 Beijing time. At 21:30, the US non-farm payroll employment report fell significantly, refreshing as low as $4,028.49, rising 5.06% this week. On November 4-5 (until midday in Asia-Pacific), the increase continued to expand, reaching $4,146.97 at 11:30. COMEX gold futures were up 4.65% at $4080.10/oz.",
+     "id": "wscn-3196250"
+    },
+    {
+     "ts": 1794006116,
+     "source": "华尔街见闻",
+     "title_zh": "道明证券：预计2027年美国高评级债券发行将达创纪录的2.4万亿美元",
+     "body_zh": "道明证券预测，在人工智能（AI）相关支出增加、并购活动以及再融资/赎回需求上升的推动下，2027年美国投资级公司债券发行量将达创纪录的2.4万亿美元。 美国信贷策略师Hans Mikkelsen在一份报告中写道：“异常强势的‘蓝色浪潮’意味着数据中心建设将面临更多阻力。因此，尽管我们此前曾考虑将2027年美国投资级债券发行量上调5000亿美元，现在我们将其收窄至3000亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3196263",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "07:01",
+     "title_en": "TD Securities: US High Rating Bond Issuance Expected to Reach Record $2.4 Trillion in 2027.",
+     "body_en": "TD Securities forecasts a record $2.4 trillion in U.S. investment-grade corporate bond issuance in 2027, driven by increased artificial intelligence (AI) -related spending, merger and acquisition activity, and rising refinancing/redemption demand. “An unusually strong ‘blue wave‘ means more headwinds for data center construction,” US credit strategist Hans Mikkelsen wrote in a note. So, while we had previously considered raising our 2027 U.S. investment grade bond issuance by $500 billion, we are now narrowing it down to $300 billion.",
+     "id": "wscn-3196263"
+    },
+    {
+     "ts": 1794057708,
+     "source": "华尔街见闻",
+     "title_zh": "伯克希尔哈撒韦",
+     "body_zh": "截至9月30日，股权投资公允价值总额的65%集中于Alphabet、美国运通、苹果、美国银行及可口可乐。 截至10月28日，第四季度回购了相当于约2,554股A类股的股份。",
+     "url": "https://wallstreetcn.com/livenews/3196427",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "21:21",
+     "title_en": "Berkshire Hathaway.",
+     "body_en": "As of September 30, 65% of the total fair value of equity investments was concentrated in Alphabet, American Express, Apple, Bank of America and Coca-Cola. As of October 28, share buybacks for the fourth quarter amounted to approximately 2,554 Class A-shares.",
+     "id": "wscn-3196427"
+    },
+    {
+     "ts": 1794068867,
+     "source": "新浪财经",
+     "title_zh": "伯克希尔第三季度回购96亿美元股票 保险业务拖累利润 现金储备攀升",
+     "body_zh": "伯克希尔公司第三季度斥资约96亿美元回购自身股票，显示公司管理层认为其股价被低估。不过，保险承保业务下滑拖累运营利润，使公司当季表现喜忧参半。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxutq4395105.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "00:27",
+     "title_en": "Berkshire's share buyback $9.6 billion stock insurance business dragged down profit cash reserves in Q3.",
+     "body_en": "Berkshire invested about $9.6 billion in share buybacks in its own shares in the third quarter, showing that the company's management believes its share price is undervalued. However, the decline in insurance underwriting detracted from operating profit, leaving the company with mixed results for the quarter.",
+     "id": "sina-comos:nixxutq4395105"
+    },
+    {
+     "ts": 1793997218,
+     "source": "华尔街见闻",
+     "title_zh": "美国商品期货交易委员会（CFTC）",
+     "body_zh": "11月3日当周，投机者所持COMEX黄金净多头头寸减少3,107手合约，至104,297手合约，创最近21周新低；多头绝对值123,437手合约，创大约七个月新低。 所持COMEX白银净多头头寸降低至2,665手合约，创约三年来新低。 所持COMEX铜净多头头寸减少至34,444手合约，创逾14个月新低。 转而持有NYMEX铂金净空头头寸1,076手合约，创最近逾17个月新高。",
+     "url": "https://wallstreetcn.com/livenews/3196214",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "04:33",
+     "title_en": "Commodity Futures Trading Commission (CFTC).",
+     "body_en": "During the week of November 3, speculators' net long positions in COMEX gold decreased by 3,107 contracts to 104,297 contracts, hitting a new low in the last 21 weeks; the absolute value of long contracts was 123,437 contracts, hitting a new low of about seven months. The net long position in COMEX silver was reduced to 2,665 contracts, a three-year low. The COMEX copper net long position was reduced to 34,444 lots, a record low of more than 14 months. Switched to the NYMEX platinum net short position of 1,076 lots, a recent high of more than 17 months.",
+     "id": "wscn-3196214"
+    },
+    {
+     "ts": 1794064328,
+     "source": "新浪财经",
+     "title_zh": "欧洲央行行长拉加德：通胀在近期内可能仍将居高不下",
+     "body_zh": "欧洲央行行长克里斯蒂娜·拉加德表示，通胀在近期内可能仍将维持高位，并称到目前为止，第二轮通胀效应并未比预期更严重。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu8022425.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "23:12",
+     "title_en": "the ECB President Christine Lagarde: Inflation likely to remain high in the near term.",
+     "body_en": "christine Lagarde, president of the ECB, said inflation is likely to remain high in the near term, adding that so far, the second round of inflation effects have not been more severe than expected.",
+     "id": "sina-comos:nixxqmu8022425"
+    },
+    {
+     "ts": 1794061898,
+     "source": "新浪财经",
+     "title_zh": "伯克希尔哈撒韦第三季度回购规模翻倍，利润下降",
+     "body_zh": "伯克希尔哈撒韦周六表示，由于运营利润和整体利润受到冲击，公司在第三季度加快了股票回购步伐。 该公司回购了价值96亿美元的股票。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu8008769.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "22:31",
+     "title_en": "Berkshire Hathaway's share buyback doubled in size in Q3 and profits declined.",
+     "body_en": "Berkshire Hathaway said on Saturday it accelerated its share buyback in the third quarter as operating profit and overall profit took a hit. The company shares buyback $9.6 billion worth of shares.",
+     "id": "sina-comos:nixxqmu8008769"
+    },
+    {
+     "ts": 1794037132,
+     "source": "华尔街见闻",
+     "title_zh": "美国多名国会议员说将推动撤销不合理关税政策",
+     "body_zh": "11月7日消息，鉴于美国选民对高生活成本和高通胀反应强烈，随着民主党在中期选举中取得压倒性胜利，多名民主党籍国会议员表示将致力于推动撤销现行的不合理关税政策。尽管这些民主党籍国会议员表达了推动撤销不合理关税措施的意愿，但也有分析认为，虽然民主党在中期选举中获得国会参议院和众议院的控制权，但美国总统特朗普可以通过对国会立法行使否决权等进行有效制衡，现有关税措施短期内或难以出现实质性松动。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3196369",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "15:38",
+     "title_en": "US lawmakers say they will push for the removal of unjustified tariffs.",
+     "body_en": "On Nov. 7, as voters reacted strongly to the high cost of living and high inflation in the United States and as Democrats scored a landslide victory in the midterm elections, a number of Democratic lawmakers expressed their commitment to pushing for the removal of the current unjustified tariffs. Although these Democratic members of Congress have expressed their willingness to push for the withdrawal of unreasonable tariff measures, some analysts believe that although Democrats have gained control of the Senate and House of Representatives in the mid-term elections, US President Trump can effectively check and balance the existing tariff measures by exercising veto power over Congressional legislation, etc. It may be difficult to see substantive loosening in the short term. (Xinhua News Agency).",
+     "id": "wscn-3196369"
+    },
+    {
+     "ts": 1794000047,
+     "source": "华尔街见闻",
+     "title_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳",
+     "body_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳斯达克100 ETF涨1.4%，罗素2000指数ETF、做多美元指数、巴克莱美国可转债ETF、标普500 ETF至少涨0.31%，大豆基金涨0.08%。 美国国债20+年ETF收跌0.01%，农产品基金跌0.19%，道指ETF跌0.4%，日元做多跌0.45%，美国布伦特油价基金跌0.5%，美国房地产ETF、欧元做多、黄金ETF至多跌0.79%…",
+     "url": "https://wallstreetcn.com/livenews/3196234",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "05:20",
+     "title_en": "Emerging market ETFs closed up 2.2% on Friday (Nov. 6), leading US large cap ETFs.",
+     "body_en": "On Friday (November 6), emerging market ETFs closed up 2.2%, leading the US large-category asset class ETFs, with Nasdaq 100 ETFs up 1.4%, Russell 2000 Index ETFs, long-dollar indexes, Barclays US Convertible Bond ETFs, S&P 500 ETFs up at least 0.31%, and soybean funds up 0.08%. US Treasury 20 + year ETFs were down 0.01%, Agricultural Funds were down 0.19%, Dow ETFs were down 0.4%, Yen was down 0.45%, US Brent Oil Funds were down 0.5%, US Real Estate ETFs, Euro were long, Gold ETFs were down up to 0.79%...",
+     "id": "wscn-3196234"
+    },
+    {
+     "ts": 1794048064,
+     "source": "华尔街见闻",
+     "title_zh": "通用汽车高管：持续看好中国新能源汽车发展前景",
+     "body_zh": "通用汽车全球高级副总裁兼通用汽车中国及亚洲市场总裁罗煦日前在第九届中国国际进口博览会现场表示，进博会为通用汽车与中国消费者交流、展示对华合作成果提供了平台。中国汽车市场创新活跃，产品研发和更新迭代节奏较快，为公司开展创新与合作带来重要机遇，通用汽车持续看好在中国发展新能源汽车的前景。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3196410",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "18:41",
+     "title_en": "GM executives: continue to be optimistic about the development prospects of new energy vehicles in China.",
+     "body_en": "Luo Xu, GM's global senior vice president and president of GM's China and Asian markets, said at the 9th China International Import Expo that the Expo provides a platform for GM to communicate with Chinese consumers and showcase the results of cooperation with China. China's automotive market is actively innovating, and the pace of product development and update is fast, which brings important opportunities for the company to carry out innovation and cooperation. GM continues to be optimistic about the prospects for the development of new energy vehicles in China. (Xinhua News Agency).",
+     "id": "wscn-3196410"
+    },
+    {
+     "ts": 1794043916,
+     "source": "华尔街见闻",
+     "title_zh": "中奥企业家委员会首次会议在京举行",
+     "body_zh": "11月6日，商务部与奥地利联邦经济、能源和旅游部在北京共同主办中国—奥地利企业家委员会首次会议。王文涛部长与哈特曼斯多费尔部长出席会议并致辞，中奥两国政经界代表100余人参会。王文涛表示，今年是中奥建交55周年，在两国领导人战略引领下，中奥双方秉持开放包容理念，推动双边经贸合作取得丰硕成果。双方共同成立中奥企业家委员会，将为两国经济界搭建双向奔赴的桥梁，推动中国“十五五”规划和奥地利《工业战略2035》深入对接。",
+     "url": "https://wallstreetcn.com/livenews/3196399",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:31",
+     "title_en": "The first meeting of the China-Austria Entrepreneurs Committee was held in Beijing.",
+     "body_en": "On November 6, the Ministry of Commerce and the Austrian Federal Ministry of Economy, Energy and Tourism co-hosted the first meeting of the China-Austria Entrepreneurs Committee in Beijing. Minister Wang Wentao and Minister Hartmannsdorfer attended the meeting and delivered speeches, and more than 100 representatives of the political and economic circles of China and Austria attended the meeting. Wang Wentao said that this year marks the 55th anniversary of the establishment of diplomatic ties between China and Austria. Under the strategic guidance of the leaders of the two countries, China and Austria have upheld the concept of openness and inclusiveness and promoted bilateral economic and trade cooperation to achieve fruitful results. The two sides jointly established the China-Austria Entrepreneurs Committee, which will build a two-way bridge for the economic circles of the two countries and promote the in-depth integration of China's 15th Five-Year Plan and Austria's Industrial Strategy 2035.",
+     "id": "wscn-3196399"
+    },
+    {
+     "ts": 1794045430,
+     "source": "华尔街见闻",
+     "title_zh": "第七届世界媒体峰会先导片《AI赋能，共赴新程》正式发布",
+     "body_zh": "第七届世界媒体峰会先导片《AI赋能，共赴新程》11月7日正式发布。影片融合实景拍摄、历史影像与AIGC生成画面，以人工智能时代媒体发展与全球媒体合作为切入点，围绕“技术如何改变媒体、媒体如何坚守新闻本质、全球媒体如何携手应对新时代挑战”展开表达。影片将新华社建社95周年、第七届世界媒体峰会与人工智能时代媒体的新使命融为一体，展现全球媒体携手应对技术变革、共同守护新闻价值、共同开创未来的愿景。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3196402",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:57",
+     "title_en": "The 7th World Media Summit pilot film \"AI Empowerment, Together for a New Journey\" was officially released.",
+     "body_en": "The pilot film of the 7th World Media Summit \"AI Empowerment, Going to a New Journey\" was officially released on November 7. The film combines real-life shooting, historical images and AIGC-generated images, and takes the development of media in the era of artificial intelligence and global media cooperation as the starting point, focusing on \"how technology changes media, how the media adheres to the nature of news, and how the global media work together to meet the challenges of the new era\". The film integrates the 95th anniversary of Xinhua News Agency and the 7th World Media Summit with the new mission of media in the era of artificial intelligence, showing the vision of global media to jointly cope with technological changes, jointly safeguard news values, and jointly create the future. (Xinhua News Agency).",
+     "id": "wscn-3196402"
+    },
+    {
+     "ts": 1794043494,
+     "source": "华尔街见闻",
+     "title_zh": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
+     "body_zh": "当地时间11月4日，苹果研究团队在预印本平台arXiv提交论文《Perceptive Humanoid Motion from Simulation》，披露了人形机器人自主控制系统HALO。研究团队将该系统部署在宇树科技的G1人形机器人上进行验证，让机器人将在仿真环境中学到的动作，带到陌生的现实房间中执行。 研究团队还公开了数据生成、模型训练和部署代码，涵盖动作生成、动作跟踪、任务编排以及仿真和真实机器人运行等环节。",
+     "url": "https://wallstreetcn.com/livenews/3196397",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:24",
+     "title_en": "91% average success rate! Apple Research Team Reveals Robot “Brain” Progress: Calling the Thousand-Question Model to Validate on Yushu G1.",
+     "body_en": "On November 4, local time, Apple's research team submitted the paper \"Perceptive Humanoid Motion from Simulation\" on the preprint platform arXiv, disclosing the humanoid robot autonomous control system halo. The research team deployed the system on Yushu Technology's G1 humanoid robot for verification, allowing the robot to take the actions learned in the simulation environment to an unfamiliar reality room for execution. The research team also exposed data generation, model training, and deployment code, covering motion generation, motion tracking, task orchestration, and simulation and real robot operation.",
+     "id": "wscn-3196397"
+    },
+    {
+     "ts": 1794042064,
+     "source": "华尔街见闻",
+     "title_zh": "SK集团携全栈解决方案亮相进博会",
+     "body_zh": "在第九届进博会上，SK集团携旗下SK海力士、SK电讯等成员公司，集中展示覆盖AI硬件与软件的全栈解决方案，展现面向未来的AI技术愿景。 其中，SK海力士在展会上集中呈现了覆盖AI数据中心到PC、移动终端的全场景面向AI的存储器解决方案。",
+     "url": "https://wallstreetcn.com/livenews/3196392",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:01",
+     "title_en": "SK Group debuts full stack solution at Expo.",
+     "body_en": "At the 9th Expo, SK Group, together with its member companies such as SK Hynix and SK Telecom, focused on demonstrating full-stack solutions covering AI hardware and software, demonstrating the future-oriented AI technology vision. Among them, SK Hynix presented a full-scenario AI-oriented memory solution covering AI data centers to PCs and mobile terminals at the exhibition.",
+     "id": "wscn-3196392"
+    }
+   ],
+   "story": {
+    "id": "munger-invert",
+    "name_zh": "查理·芒格",
+    "name_en": "Charlie Munger",
+    "era": "美国 · 伯克希尔副手",
+    "title_zh": "倒过来想，总是倒过来想",
+    "title_en": "Invert, Always Invert",
+    "body_zh": "芒格不喜欢问怎么成功，他喜欢问怎么失败。有人问他怎么把投资做好，他说：先列出所有让人亏钱的方法，然后一辈子别碰。巴菲特说，是芒格把他从捡烟蒂变成了买好公司。",
+    "body_en": "Charlie Munger rarely asked how to succeed. He asked how to fail. List every way to lose money, then avoid all of it, forever. Buffett said Munger moved him from cheap stocks to great businesses.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Every year, thousands of investors make the pilgrimage to Omaha. Most of them come for two men, not one.",
+      "zh": "每年都有成千上万的投资者去奥马哈朝圣。他们大多是为两个人来的，不是一个人。"
+     },
+     {
+      "k": "dial",
+      "who": "Shareholder",
+      "g": "F2",
+      "en": "Mr. Munger, how do I become a great investor?",
+      "zh": "芒格先生，我怎样才能成为优秀的投资者？"
+     },
+     {
+      "k": "dial",
+      "who": "Munger",
+      "g": "M2",
+      "en": "Wrong question. Ask me how to be a terrible one.",
+      "zh": "问题就问错了。你应该问我，怎么变成一个糟糕的投资者。"
+     },
+     {
+      "k": "dial",
+      "who": "Shareholder",
+      "g": "F2",
+      "en": "All right then. How do I lose all my money?",
+      "zh": "行吧，那我怎么才能把钱全亏光？"
+     },
+     {
+      "k": "dial",
+      "who": "Munger",
+      "g": "M2",
+      "en": "Easy. Use leverage. Chase rumors. Buy what is hot. Pretend you understand. Then avoid all of it, forever.",
+      "zh": "太简单了。加杠杆、听消息、追热门、不懂装懂。然后一辈子都别碰这些。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Buffett once said Munger pushed him from cheap stocks to wonderful businesses. Cheap is not enough. A cheap, wonderful business is the goal.",
+      "zh": "巴菲特说，是芒格把他从捡烟蒂推向了买好公司。便宜不是终点，便宜的好生意才是。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "nine-of-five",
+    "tag_zh": "经济学家的预言",
+    "tag_en": "Economist Forecast",
+    "title_zh": "过去五次衰退，经济学家预测中了九次",
+    "title_en": "Nine of the Last Five Recessions",
+    "body_zh": "经济学家萨缪尔森讲过一个流传至今的玩笑：股市在过去五次衰退里，预测中了九次。意思是股市总在喊狼来了，喊的次数远比狼真的来的次数多。所以听到谁信誓旦旦地预测崩盘，不用太紧张，也不用太得意，先数一数他之前喊过几次。预测市场这件事，连最聪明的人也常常只是运气好。",
+    "body_en": "The economist Paul Samuelson left us a joke that never gets old. The stock market has predicted nine of the last five recessions. Read that again. Nine predictions. Five real recessions. The market cries wolf far more often than the wolf arrives. So when someone loudly predicts the next crash, stay calm. Count how many times they called it before. Predicting the market is hard. Even for the smartest people in the room."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 9.872,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.672,
+      "dur": 5.257,
+      "k": "dial",
+      "who": "Shareholder",
+      "g": "F2"
+     },
+     {
+      "start": 16.479,
+      "dur": 3.949,
+      "k": "dial",
+      "who": "Munger",
+      "g": "M2"
+     },
+     {
+      "start": 20.979,
+      "dur": 4.013,
+      "k": "dial",
+      "who": "Shareholder",
+      "g": "F2"
+     },
+     {
+      "start": 25.542,
+      "dur": 11.281,
+      "k": "dial",
+      "who": "Munger",
+      "g": "M2"
+     },
+     {
+      "start": 37.373,
+      "dur": 11.702,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "58e1abd67f6c",
+    "item-00.mp3": "8df0190e2779",
+    "item-01.mp3": "6df258e74583",
+    "item-02.mp3": "0ef509805be3",
+    "item-03.mp3": "a2657ef5f41b",
+    "item-04.mp3": "3c2393859a00",
+    "item-05.mp3": "ed4f593bf578",
+    "item-06.mp3": "f151b0c2da78",
+    "item-07.mp3": "bde031f5a7fa",
+    "item-08.mp3": "47863edcdf9d",
+    "item-09.mp3": "c0c420c5390f",
+    "item-10.mp3": "be8cec181766",
+    "item-11.mp3": "adb7362c6111",
+    "item-12.mp3": "607ac80d618e",
+    "item-13.mp3": "79a1c1d3d594",
+    "item-14.mp3": "6dad730daba8",
+    "item-15.mp3": "36b15b3995dc",
+    "item-16.mp3": "86a984da513f",
+    "item-17.mp3": "ac6cf89784e5",
+    "story.mp3": "0d13ca7c8a77",
+    "joke.mp3": "413eddb0741e"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.182
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.082,
+      "dur": 62.456
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 72.438,
+      "dur": 46.838
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 120.176,
+      "dur": 61.571
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 182.647,
+      "dur": 54.357
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 237.905,
+      "dur": 66.557
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 305.362,
+      "dur": 52.273
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 358.535,
+      "dur": 25.239
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 384.675,
+      "dur": 27.715
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 413.29,
+      "dur": 55.782
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 469.972,
+      "dur": 18.66
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 489.532,
+      "dur": 20.129
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 510.561,
+      "dur": 55.35
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 566.811,
+      "dur": 70.207
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 637.917,
+      "dur": 47.875
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 686.692,
+      "dur": 78.228
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 765.82,
+      "dur": 61.171
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 827.891,
+      "dur": 60.029
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 888.819,
+      "dur": 31.341
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-07",
    "weekday_en": "Saturday",
@@ -3337,542 +3886,6 @@ window.__BRIEF__ = {
      {
       "start": 40.804,
       "dur": 14.499,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
-  },
-  {
-   "date": "2026-10-30",
-   "weekday_en": "Friday",
-   "weekday_zh": "周五",
-   "generated_at": "2026-10-30 08:58",
-   "lead_en": "Wall Street's momentum cracked: the S&P 500's winning streak ended, Google logged a record plunge and Intel crashed more than 20% after the bell on soft guidance, while ServiceNow had its worst day since its IPO. The ECB held rates but is reportedly ready to hike in December, and President Lagarde will step down in February, eight months early. Gold slipped back toward $4,200 an ounce as US PCE inflation ran at its hottest since May.",
-   "lead_zh": "美股动能减弱：标普止步三连涨，谷歌创纪录暴跌，英特尔盘后重挫超20%，ServiceNow创上市以来最大单日跌幅。欧洲央行按兵不动，但据报已为12月加息做准备，拉加德宣布明年2月提前卸任。美国9月PCE同比涨3.6%创5月以来新高，现货黄金回落至4200美元附近。",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3651.41,
-     "chg_pct": 0.0
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11138.2,
-     "chg_pct": 0.0
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2517.59,
-     "chg_pct": 0.0
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1228.09,
-     "chg_pct": 0.0
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 22958.65,
-     "chg_pct": -0.59
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 52342.56,
-     "chg_pct": -0.25
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 26184.72,
-     "chg_pct": -1.38
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7720.39,
-     "chg_pct": -0.3
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793315734,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年10月30日",
-     "body_zh": "标普500指数止步三连涨，纳指跌1.4%，谷歌创纪录暴跌，云服务股普跌，盘后英特尔狂泻20%、亚马逊重挫。 欧洲央行按兵不动，行长拉加德宣布将于明年2月提前卸任，较原定任期提前8个月，继任程序当日启动。 美国9月PCE物价指数同比涨3.6%，创5月以来最高，核心PCE同比升至3.1%，个人储蓄率降至2022年10月以来最低。",
-     "url": "https://wallstreetcn.com/livenews/3190830",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:15",
-     "title_en": "Overnight wrap: S&P 500 winning streak ends as Google logs a record plunge",
-     "body_en": "The S&P 500 snapped a three-day winning streak and the Nasdaq fell 1.4% as Google suffered a record drop and cloud-computing stocks sold off; Intel crashed more than 20% and Amazon slid after the bell. The ECB held rates, and President Christine Lagarde said she will step down in February, eight months ahead of schedule, with succession procedures starting immediately. US September PCE inflation ran 3.6% year on year, the hottest since May, with core PCE at 3.1% and the personal savings rate at its lowest since October 2022.",
-     "id": "wscn-3190830"
-    },
-    {
-     "ts": 1793288128,
-     "source": "华尔街见闻",
-     "title_zh": "报道：欧洲央行做好了在12月加息的准备",
-     "body_zh": "据知情人士透露，欧洲央行官员做好了通胀前景不改善的情况下在12月份加息的准备。鉴于当前数据以及中东战争对经济造成的影响，可能还需要再加息25个基点，以遏制价格上涨。他们强调，目前尚未作出任何决定，形势可能迅速变化，尤其是由于中东局势的发展难以预测。 欧洲央行行长拉加德表示，本周曾讨论过加息，但她和同事最终决定将存款利率维持在2.5%不变。这一水平处于货币政策被认为对经济产生中性影响区间的上限。",
-     "url": "https://wallstreetcn.com/livenews/3190643",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "23:35",
-     "title_en": "Report: ECB ready to hike in December if inflation does not cool",
-     "body_en": "ECB officials are prepared to raise rates in December unless the inflation outlook improves, people familiar with the matter said, adding that another 25bp may be needed to contain price pressures given current data and the economic impact of the Middle East war. They stressed no decision has been made and the situation could shift quickly. President Christine Lagarde said a hike was discussed this week before the bank held its deposit rate at 2.5%, the top of the range considered neutral for the economy.",
-     "id": "wscn-3190643"
-    },
-    {
-     "ts": 1793320954,
-     "source": "新浪财经",
-     "title_zh": "亚洲芯片股下跌 围绕大型科技公司的AI融资担忧加剧",
-     "body_zh": "决定AI交易前景的关键财报季表现平平，导致全球芯片制造商股价下跌，投资者越来越担心成本飙升和需求的可持续性。 最新触发因素包括亚马逊的大规模资本支出数字...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyfvy5566391.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "08:42",
-     "title_en": "Asian chip stocks fall as AI financing concerns mount",
-     "body_en": "A lacklustre start to the key earnings season dragged global chipmakers lower as investors grew worried about soaring costs and the sustainability of demand, with Amazon's massive capital-spending figure among the latest triggers.",
-     "id": "sina-comos:niwyfvy5566391"
-    },
-    {
-     "ts": 1793304084,
-     "source": "华尔街见闻",
-     "title_zh": "英特尔业绩向好，服务器芯片供不应求，四季度指引不及预期，股价盘后崩跌超20%",
-     "body_zh": "英特预计三季度数据中心与AI营收73.2亿美元，分析师预期66.7亿美元。 三季度代工（Intel Foundry）营收67亿美元，分析师预期61.2亿美元。 三季度调整后每股收益（EPS）为0.52美元，分析师预期0.41美元。 服务器芯片需求强劲，本公司无法满足，正设法改善供应问题。 服务器芯片供应受到以色列工厂火灾的冲击。 预计四季度营收150亿-160亿美元，分析师预期170.5亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3190745",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "04:01",
-     "title_en": "Intel plunges over 20% after the bell as weak guidance offsets server-chip strength",
-     "body_en": "Data center and AI revenue of $7.32 billion beat expectations of $6.67 billion, foundry revenue topped views at $6.7 billion and adjusted EPS of $0.52 beat the $0.41 consensus. But the company said it cannot meet surging server chip demand - supply has been hit by a fire at an Israeli plant - and guided fourth-quarter revenue to $15-16 billion, well short of the $17.05 billion analysts expected.",
-     "id": "wscn-3190745"
-    },
-    {
-     "ts": 1793313932,
-     "source": "华尔街见闻",
-     "title_zh": "“特斯拉劲敌”Rivian Automotive Inc.美股盘后涨5.33",
-     "body_zh": "“特斯拉劲敌”Rivian Automotive Inc.美股盘后涨5.33%，该公司三季度业绩超过分析师预期，软件收入、新款入门级SSUV R2交付都有增长。 该公司三季度营收21.6亿美元，接受LSEG访问的分析师们预期19.9亿美元。 三季度调整后每股亏损0.48美元，分析师预期亏损0.62美元。 修订2026年业绩指引，来体现出符合预期的车辆交付改善、税前调整后盈利、资本开支。",
-     "url": "https://wallstreetcn.com/livenews/3190846",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:45",
-     "title_en": "Rivian jumps 5% after the bell as third-quarter results top estimates",
-     "body_en": "Revenue was $2.16 billion against $1.99 billion expected, with an adjusted loss per share of $0.48 versus a $0.62 loss forecast, helped by growing software revenue and deliveries of the new entry-level R2 SUV. The company updated its 2026 guidance for vehicle deliveries, adjusted pre-tax profitability and capital spending.",
-     "id": "wscn-3190846"
-    },
-    {
-     "ts": 1793304062,
-     "source": "华尔街见闻",
-     "title_zh": "ServiceNOW收跌27%，创该公司美国IPO以来最大单日跌幅",
-     "body_zh": "ServiceNOW收跌27%，创该公司美国IPO以来最大单日跌幅",
-     "url": "https://wallstreetcn.com/livenews/3190744",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "04:01",
-     "title_en": "ServiceNow sinks 27%, its worst day since its US IPO",
-     "body_en": "ServiceNow closed down 27%, the biggest one-day drop since the company's US IPO.",
-     "id": "wscn-3190744"
-    },
-    {
-     "ts": 1793291441,
-     "source": "华尔街见闻",
-     "title_zh": "欧洲股市收涨将近0.8%，欧元区蓝筹股阿迪达斯、拜耳、德银至少涨约3.8%",
-     "body_zh": "欧洲STOXX 600指数收涨0.77%，报649.11点。 欧元区STOXX 50指数收涨0.64%，报6207.07点，微幅低开后持续震荡上行，欧洲央行利率决议和行长拉加德讲话并未带来显著影响。 富时泛欧绩优300指数收涨0.77%，报2588.82点。",
-     "url": "https://wallstreetcn.com/livenews/3190662",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "00:30",
-     "title_en": "European stocks close up nearly 0.8% as Adidas, Bayer and Deutsche Bank rally",
-     "body_en": "The STOXX 600 rose 0.77% to 649.11 and the eurozone STOXX 50 gained 0.64% to 6,207.07, grinding higher after a soft open, with the ECB decision and President Christine Lagarde's remarks drawing little reaction. The FTSEurofirst 300 added 0.77% to 2,588.82.",
-     "id": "wscn-3190662"
-    },
-    {
-     "ts": 1793307498,
-     "source": "华尔街见闻",
-     "title_zh": "周四（10月29日）纽约尾盘，现货黄金跌1.13%，报4201.15美元/盎",
-     "body_zh": "周四（10月29日）纽约尾盘，现货黄金跌1.13%，报4201.15美元/盎司，整体持续走低，交投于4068.92-4005.47美元区间。 现货白银跌3.4%，报52.1440美元/盎司。 COMEX铜期货跌1.12%，报6.5965美元/磅。",
-     "url": "https://wallstreetcn.com/livenews/3190766",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "04:58",
-     "title_en": "Gold slides 1.13% to $4,201 an ounce in late New York trade",
-     "body_en": "Spot gold fell 1.13% to $4,201.15 an ounce on Thursday, drifting lower through the session and trading between $4,068.92 and $4,005.47. Spot silver dropped 3.4% to $52.14 an ounce, and COMEX copper lost 1.12% to $6.5965 a pound.",
-     "id": "wscn-3190766"
-    },
-    {
-     "ts": 1793296028,
-     "source": "华尔街见闻",
-     "title_zh": "德国两年期国债收益率于欧洲央行决议日跌超5个基点，可比法债收益率跌约8个基点",
-     "body_zh": "周四（10月29日）欧市尾盘，德国10年期国债收益率跌1.6个基点，报3.355%，日内交投于3.385%-3.317%区间，北京时间20:06微涨并刷新日高，随后呈现出W形走势，欧洲央行宣布按兵不动、美国GDP和PCE数据发布后，在欧洲央行行长拉加德新闻发布会期间刷新日低。",
-     "url": "https://wallstreetcn.com/livenews/3190679",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "01:47",
-     "title_en": "Bund yields slip after ECB decision; French yields fall about 8bp",
-     "body_en": "Germany's two-year yield fell more than 5 basis points on Thursday, with comparable French yields down about 8bp. The 10-year Bund yield closed 1.6bp lower at 3.355% after trading between 3.385% and 3.317%, touching a session low during ECB President Christine Lagarde's press conference following the rate decision and the US GDP and PCE releases.",
-     "id": "wscn-3190679"
-    },
-    {
-     "ts": 1793313982,
-     "source": "华尔街见闻",
-     "title_zh": "一线调研：储能角色重塑，锂电产业开启理性扩产周期",
-     "body_zh": "记者近日走访调研了宁德时代、欣旺达、杉杉股份等多家锂电产业链上下游龙头企业。记者在调研中了解到，从储能电池出货规模来看，储能行业正迈入TWh（太瓦时）新阶段，产业底层逻辑随之发生质变。储能从新能源配套设施升级为电力系统新型基础设施，行业评价重心从出厂参数转向电站全生命周期收益。",
-     "url": "https://wallstreetcn.com/livenews/3190823",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "06:46",
-     "title_en": "Energy storage steps into the TWh era as lithium battery makers turn to rational expansion",
-     "body_en": "Field visits to industry leaders including CATL, Sunwoda and Shanshan found energy-storage shipments entering a new terawatt-hour-scale phase that is changing the industry's underlying logic: storage is being repositioned from a renewable-energy add-on to core power-system infrastructure, with the industry's yardstick shifting from factory specifications to whole-of-life returns at power stations.",
-     "id": "wscn-3190823"
-    },
-    {
-     "ts": 1793320972,
-     "source": "新浪财经",
-     "title_zh": "江波龙发布前三季度业绩 归母净利润143.22亿元同比大增1909.68%",
-     "body_zh": "江波龙（09976）发布2026年前三季度业绩，该集团取得营业收入387.18亿元，同比增加131.37%；归属于上市公司股东的净利润143.22亿元，同比增加1909.68%；基本每股收益33...",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-30/doc-iniwyfwc8309217.shtml",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "08:42",
-     "title_en": "Longsys nine-month profit soars more than nineteenfold on the memory upcycle",
-     "body_en": "Longsys (09976.HK) reported nine-month revenue of 38.72 billion yuan, up 131.37% year on year, and net profit attributable to shareholders of 14.32 billion yuan, up 1,909.68%. Basic earnings per share came in at 33 yuan.",
-     "id": "sina-comos:niwyfwc8309217"
-    },
-    {
-     "ts": 1793320922,
-     "source": "新浪财经",
-     "title_zh": "广发证券前三季度归母净利润约160.27亿元 同比增长46.58%",
-     "body_zh": "广发证券（01776）公布2026年前三季度业绩，营业总收入约370.56亿元，同比增长41.63%；归属于上市公司股东的净利润约160.27亿元，同比增长46.58%；基本每股收益1.95元。",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-30/doc-iniwyfwa2341961.shtml",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "08:42",
-     "title_en": "GF Securities H-shares: nine-month net profit up 46.58%",
-     "body_en": "GF Securities (01776.HK) reported total operating revenue of 37.06 billion yuan for the first nine months, up 41.63% year on year, with net profit attributable to shareholders up 46.58% at 16.03 billion yuan. Basic earnings per share were 1.95 yuan.",
-     "id": "sina-comos:niwyfwa2341961"
-    },
-    {
-     "ts": 1793312278,
-     "source": "华尔街见闻",
-     "title_zh": "淡水河谷三季度净利润12.6亿美元，分析师预期15.1亿美元",
-     "body_zh": "三季度铁矿石产量8835万吨，分析师预期9164万吨。 三季度铁矿石销售7551万吨，分析师预期7746万吨。 三季度净运营收入106亿美元，分析师预期104.1亿美元。 三季度调整后EBITDA（息税折旧摊薄前利润）为33.3亿美元。 三季度Pro Forma（形式上的/经调整的）EBITDA为35.1亿美元，分析师预期33.2亿美元。 三季度资本开支12.5亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3190812",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:17",
-     "title_en": "Vale misses as third-quarter net profit comes in at $1.26 billion",
-     "body_en": "Iron ore output was 88.35 million tonnes against expectations of 91.64 million, with sales of 75.51 million tonnes versus 77.46 million expected. Net operating revenue of $10.6 billion was slightly ahead of the $10.41 billion consensus. Adjusted EBITDA was $3.33 billion, or $3.51 billion pro forma versus $3.32 billion expected, and capital spending was $1.25 billion.",
-     "id": "wscn-3190812"
-    },
-    {
-     "ts": 1793318095,
-     "source": "华尔街见闻",
-     "title_zh": "迦南智能",
-     "body_zh": "预中标国家电网2026年营销项目第二次设备公开招标采购项目及第二次设备（智能融合终端）公开招标采购项目，共7个标包，合计中标金额约1.51亿元，约占2025年度经审计主营业务收入的23.80%，目前处于中标候选人公示期。",
-     "url": "https://wallstreetcn.com/livenews/3190853",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:54",
-     "title_en": "Canaan Intelligence in line for State Grid awards worth about 151 million yuan",
-     "body_en": "The company is a likely winner across seven lots in State Grid's second 2026 marketing-equipment and smart-convergence-terminal tenders, with a total award of about 151 million yuan, or about 23.8% of audited 2025 revenue. The result is in the candidate publicity period.",
-     "id": "wscn-3190853"
-    },
-    {
-     "ts": 1793312307,
-     "source": "华尔街见闻",
-     "title_zh": "芯德半导体：启动H股全球发售，预计11月10日港交所上市",
-     "body_zh": "江苏芯德半导体科技股份有限公司公告称，公司启动H股全球发售，合计发售1.07亿股H股，其中香港公开发售1065.65万股、国际发售9590.60万股，发售价格区间为每股8.60港元至9.60港元，每手买卖单位500股，股份代号7672。香港公开发售采用全电子化申请程序，申请时间为2026年10月30日至11月5日，预计定价日为11月6日，H股预计11月10日在香港联交所开始买卖。",
-     "url": "https://wallstreetcn.com/livenews/3190813",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "06:18",
-     "title_en": "Xinde Semiconductor launches H-share offering, eyeing a November 10 listing",
-     "body_en": "Jiangsu Xinde Semiconductor Technology is offering 107 million H shares - 10.66 million in the Hong Kong public offering and 95.91 million internationally - at HK$8.60-9.60 each, in board lots of 500 under stock code 7672. Applications run from October 30 to November 5, with pricing expected on November 6 and trading on the Hong Kong bourse from November 10.",
-     "id": "wscn-3190813"
-    },
-    {
-     "ts": 1793320872,
-     "source": "新浪财经",
-     "title_zh": "贵州银行前三季度营业收入为93.61亿元 净利润33.47亿元",
-     "body_zh": "贵州银行（06199）公布2026年前三季度业绩，营业收入为93.61亿元，净利润33.47亿元。截至2026年9月末，该行资本充足率13.73%，一级资本充足率11.87%...",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-30/doc-iniwyfwa2341277.shtml",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "08:41",
-     "title_en": "Bank of Guizhou books nine-month revenue of 9.36 billion yuan",
-     "body_en": "Bank of Guizhou (06199.HK) posted nine-month revenue of 9.361 billion yuan and net profit of 3.347 billion yuan, with a capital adequacy ratio of 13.73% and a tier-1 capital adequacy ratio of 11.87% at the end of September.",
-     "id": "sina-comos:niwyfwa2341277"
-    },
-    {
-     "ts": 1793308928,
-     "source": "华尔街见闻",
-     "title_zh": "国际原子能机构（IAEA）",
-     "body_zh": "已获悉，扎波罗热核电站（ZNPP）的一名员工在今天的无人机袭击中丧生。",
-     "url": "https://wallstreetcn.com/livenews/3190784",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:22",
-     "title_en": "IAEA says worker killed in drone strike on Zaporizhzhia nuclear plant",
-     "body_en": "The UN nuclear watchdog said an employee of the Zaporizhzhia Nuclear Power Plant (ZNPP) was killed in today's drone attack.",
-     "id": "wscn-3190784"
-    }
-   ],
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "3e13b92c4b98",
-    "item-00.mp3": "456206bd9e3b",
-    "item-01.mp3": "1d78d0e7e9c8",
-    "item-02.mp3": "fee79739b0ec",
-    "item-03.mp3": "c8be642204f0",
-    "item-04.mp3": "f1850a021b1c",
-    "item-05.mp3": "1b584150a3eb",
-    "item-06.mp3": "64265e7ee9eb",
-    "item-07.mp3": "f1ed21a76114",
-    "item-08.mp3": "4e402f2dc337",
-    "item-09.mp3": "de8c015f49a7",
-    "item-10.mp3": "26548da71654",
-    "item-11.mp3": "360798f63f4b",
-    "item-12.mp3": "99f00a4d2156",
-    "item-13.mp3": "534412430192",
-    "item-14.mp3": "83de4eaebabd",
-    "item-15.mp3": "10f2d7233b5c",
-    "item-16.mp3": "83844f439fef",
-    "story.mp3": "e965e6950383",
-    "joke.mp3": "413eddb0741e"
-   },
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 41.956
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 42.856,
-      "dur": 50.633
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 94.389,
-      "dur": 38.511
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 133.8,
-      "dur": 20.311
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 155.011,
-      "dur": 41.233
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 197.143,
-      "dur": 36.121
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 234.164,
-      "dur": 11.301
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 246.365,
-      "dur": 38.978
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 286.243,
-      "dur": 33.303
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 320.447,
-      "dur": 37.329
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 358.675,
-      "dur": 32.179
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 391.754,
-      "dur": 32.621
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 425.275,
-      "dur": 31.057
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 457.231,
-      "dur": 45.979
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 504.11,
-      "dur": 27.715
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 532.725,
-      "dur": 41.425
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 575.05,
-      "dur": 26.809
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 602.759,
-      "dur": 14.821
-     }
-    ]
-   },
-   "story": {
-    "id": "morgan-1907",
-    "name_zh": "J.P. 摩根",
-    "name_en": "J.P. Morgan",
-    "era": "1907 · 纽约",
-    "title_zh": "把银行家锁进书房，直到他们答应救市",
-    "title_en": "The Night He Locked the Bankers In",
-    "body_zh": "一九〇七年十月纽约股市崩盘，没有央行兜底的美国眼看滑向恐慌。六十九岁的摩根把几十位银行总裁锁进书房，逼出两千五百万美元救市资金，凌晨签下协议，恐慌停了。五年后美联储成立。",
-    "body_en": "In October nineteen oh seven, New York was in panic. America had no central bank. J.P. Morgan, sixty-nine years old, summoned bank presidents to his library and locked the doors. The deal was signed after midnight. The panic stopped. Five years later, the Federal Reserve was born.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "New York, October, nineteen oh seven. Depositors are lining up in the streets. America has no central bank, and the panic is spreading.",
-      "zh": "纽约，1907 年 10 月。储户在街头排起长队。美国没有央行，恐慌正在蔓延。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "So the most powerful banker in America did something nobody would dare today.",
-      "zh": "于是，全美最有权势的银行家做了一件今天没人敢做的事。"
-     },
-     {
-      "k": "dial",
-      "who": "Morgan",
-      "g": "M2",
-      "en": "Gentlemen, you will all come to my library tonight. Bring your real numbers, not the ones for newspapers.",
-      "zh": "诸位，今晚都到我的书房来。带上真实的账目，别带给报纸看的那份。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "He questioned each president one by one, behind closed doors, until the true holes were on the table.",
-      "zh": "他关门一个个逼问各位总裁，直到真实的窟窿全部摆上桌面。"
-     },
-     {
-      "k": "dial",
-      "who": "Morgan",
-      "g": "M2",
-      "en": "It is almost twelve o'clock. Nobody leaves this room until the papers are signed.",
-      "zh": "现在快十二点了。文件不签完，谁也别想出这个门。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "After midnight, twenty-five million dollars was pledged. The panic stopped. Five years later, partly because of this night, the Federal Reserve was born.",
-      "zh": "午夜过后，两千五百万美元的救市资金凑齐了。恐慌停了。五年后，正因为这一夜，美联储诞生了。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "nine-of-five",
-    "tag_zh": "经济学家的预言",
-    "tag_en": "Economist Forecast",
-    "title_zh": "过去五次衰退，经济学家预测中了九次",
-    "title_en": "Nine of the Last Five Recessions",
-    "body_zh": "经济学家萨缪尔森讲过一个流传至今的玩笑：股市在过去五次衰退里，预测中了九次。意思是股市总在喊狼来了，喊的次数远比狼真的来的次数多。所以听到谁信誓旦旦地预测崩盘，不用太紧张，也不用太得意，先数一数他之前喊过几次。预测市场这件事，连最聪明的人也常常只是运气好。",
-    "body_en": "The economist Paul Samuelson left us a joke that never gets old. The stock market has predicted nine of the last five recessions. Read that again. Nine predictions. Five real recessions. The market cries wolf far more often than the wolf arrives. So when someone loudly predicts the next crash, stay calm. Count how many times they called it before. Predicting the market is hard. Even for the smartest people in the room."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 13.477,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 14.277,
-      "dur": 5.035,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 19.863,
-      "dur": 7.525,
-      "k": "dial",
-      "who": "Morgan",
-      "g": "M2"
-     },
-     {
-      "start": 27.938,
-      "dur": 8.526,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 37.014,
-      "dur": 5.869,
-      "k": "dial",
-      "who": "Morgan",
-      "g": "M2"
-     },
-     {
-      "start": 43.433,
-      "dur": 13.699,
       "k": "narr",
       "who": "Narrator",
       "g": "N"
