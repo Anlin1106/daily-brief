@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-08 07:24",
-  "latest": "2026-11-08",
+  "updated_at": "2026-11-09 07:24",
+  "latest": "2026-11-09",
   "count": 18,
-  "mt_calls": 28
+  "mt_calls": 22
  },
  "editions": [
+  {
+   "date": "2026-11-09",
+   "weekday_en": "Monday",
+   "weekday_zh": "周一",
+   "generated_at": "2026-11-09 07:24",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3649.18,
+     "chg_pct": -1.1
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11175.78,
+     "chg_pct": -2.57
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2465.23,
+     "chg_pct": -3.96
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1253.2,
+     "chg_pct": -2.6
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 24481.86,
+     "chg_pct": -1.27
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 51285.73,
+     "chg_pct": -0.46
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24579.42,
+     "chg_pct": 1.09
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7376.86,
+     "chg_pct": 0.31
+    }
+   ],
+   "items": [
+    {
+     "ts": 1794179427,
+     "source": "华尔街见闻",
+     "title_zh": "华尔街见闻早餐 | 2026年11月9日",
+     "body_zh": "强劲非农提振加息预期，上周五美元大涨，纳指反弹1%，芯片股技术性反弹。 美国10月非农就业新增16.5万人，远超预期，失业率降至4.1%，市场对12月加息25个基点的押注升至八成。 中国国常会提出完善资本市场稳市机制，增强股市内在稳定性，加快重大项目和”六张网”建设实施进度。",
+     "url": "https://wallstreetcn.com/livenews/3196532",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:10",
+     "title_en": "Breakfast on Wall Street | November 9, 2026.",
+     "body_en": "Strong non-farm interest rate hikes boosted expectations, with the dollar rising sharply on Friday, the index rebounding by 1%, and chip stocks rebounding technologically. Non-farm payrolls added 165,000 jobs in October, far exceeding expectations, the unemployment rate fell to 4.1%, and the market's bet on a 25 basis point hike in December rose to 80%. China's Standing Committee has proposed to improve the market stability mechanism of the capital market, enhance the inherent stability of the stock market, and accelerate the implementation of major projects and the construction of the \"six networks\".",
+     "id": "wscn-3196532"
+    },
+    {
+     "ts": 1794178379,
+     "source": "华尔街见闻",
+     "title_zh": "月内深市回购增持动作密集",
+     "body_zh": "近期，深圳证券交易所市场回购增持动作密集，真金白银传递产业信心。数据显示，11月份以来，截至目前，深市合计披露回购增持计划及进展相关公告305单。其中，新增回购计划35单，回购金额上限合计76.66亿元，回购进展公告238单；新增增持计划16单，增持金额上限25.88亿元，增持进展公告16单。",
+     "url": "https://wallstreetcn.com/livenews/3196527",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:52",
+     "title_en": "The increase in share buyback in Shenzhen during the month is intensive.",
+     "body_en": "Recently, the share buyback of the Shenzhen Stock Exchange market has been intensively increased, and real gold and silver have conveyed industrial confidence. The data shows that since November, as of now, the Shenzhen market has disclosed the share buyback increase plan and 305 orders related to progress. Among them, 35 new share buyback plans were added, with a total share buyback amount cap of 7.666 billion yuan, and 238 share buyback progress announcements; 16 new share buyback plans were added, with a cap of 2.588 billion yuan, and 16 share buyback progress announcements were added.",
+     "id": "wscn-3196527"
+    },
+    {
+     "ts": 1794177879,
+     "source": "新浪财经",
+     "title_zh": "11月9日周末要闻：鲁比奥称伊朗要求不可接受 美再袭伊格什姆岛 英伟达千万美元货物被盗",
+     "body_zh": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyaqqn3523524.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:44",
+     "title_en": "November 9th Weekend Highlights: Rubio Says Iran Demands Unacceptable $10 Million Cargo Stolen From Nvidia, Igishm Island.",
+     "body_en": "Market close on November 7: Three major indices rose and fell, and the rebound of chip stocks AI regulatory concerns still remain. On November 7, most of the popular medium-sized stocks rose, TSMC rose more than 6%, and the ideal car rose more than 5%. Summary of commodities: The trend of oil prices shocked Copper prices fell...",
+     "id": "sina-comos:niyaqqn3523524"
+    },
+    {
+     "ts": 1794165529,
+     "source": "华尔街见闻",
+     "title_zh": "美财政部要求伊拉克关闭与伊朗之间大部分边境口岸",
+     "body_zh": "当地时间11月8日，伊拉克外交部长侯赛因称，美国财政部要求伊拉克关闭与伊朗之间的大部分边境口岸，仅保留两个口岸开放。（央视新闻）",
+     "url": "https://wallstreetcn.com/livenews/3196511",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "03:18",
+     "title_en": "The U.S. Ministry of Finance has demanded that Iraq close most of its border crossings with Iran.",
+     "body_en": "On November 8, local time, Iraqi Foreign Minister Hussein said that the Ministry of Finance of the United States requires Iraq to close most border crossings with Iran and only keep two ports open. (CCTV News).",
+     "id": "wscn-3196511"
+    },
+    {
+     "ts": 1794178506,
+     "source": "华尔街见闻",
+     "title_zh": "澳洲联储助理主席Hunter",
+     "body_zh": "人工智能需求对消费者价格指数（CPI）的传导影响相当有限。 人工智能对生产力的拉动作用仍需数年时间方能显现。 过去一年与人工智能相关的投资强于预期。 围绕人工智能项目管线的风险整体“平衡”。 短期内未见人工智能对生产力产生重大拉动作用。",
+     "url": "https://wallstreetcn.com/livenews/3196529",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:55",
+     "title_en": "Hunter, assistant chairman of the Reserve Bank of Australia.",
+     "body_en": "The conduction impact of AI demand on the Consumer Price Index (CPI) is quite limited. The pull of AI on productivity is still years away. Investment related to AI has been stronger than expected in the past year. The overall “balance” of risk around the AI project pipeline. There is no significant boost to productivity from AI in the short term.",
+     "id": "wscn-3196529"
+    },
+    {
+     "ts": 1793998703,
+     "source": "华尔街见闻",
+     "title_zh": "报道：OpenAI完成110亿美元新融资，估值1.25万亿美元，软银、红杉资本等参投",
+     "body_zh": "据知情人士透露，OpenAI已完成约110亿美元的新融资，这是本轮估值1.25万亿美元融资的首笔部分。 资金已于周五划入公司账户。本轮剩余部分——总额可能增至最高200亿美元——预计将在未来数周内完成。 在推迟了首次公开募股（IPO）计划后，这家AI开发商已就一轮大额融资洽谈了一个多月。OpenAI最初计划以1.4万亿美元估值融资300亿美元或更多，随后在AI板块遭遇公开市场暴跌的背景下缩减了计划。",
+     "url": "https://wallstreetcn.com/livenews/3196217",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "04:58",
+     "title_en": "Report: OpenAI raises $11 billion, valued at $1.25 trillion, with participation from SoftBank, Sequoia Capital, and others.",
+     "body_en": "OpenAI has closed about $11 billion in new funding, the first part of a $1.25 trillion round, according to people familiar with the matter. Funds were transferred to the company's account on Friday. The remainder of this round - which could total up to $20 billion - is expected to be completed in the coming weeks. The AI developer has been negotiating a large funding round for more than a month after postponing plans for an initial public offering (IPO). OpenAI, which initially planned to raise $30 billion or more at a $1.4 trillion valuation, later scaled back its plans against the backdrop of a public-market plunge in the AI sector.",
+     "id": "wscn-3196217"
+    },
+    {
+     "ts": 1793986661,
+     "source": "华尔街见闻",
+     "title_zh": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
+     "body_zh": "微软公司正逐步终止向甲骨文公司租用人工智能（AI）算力的安排，这是其对价值数十亿美元的云合作伙伴关系进行更大范围重估的一部分。 据知情人士透露，近几个月来，微软在拒绝续约后，已开始陆续关闭从甲骨文租用的算力。随着时间推移，微软租用的这批算力变得不再好用，因为它已不再符合公司的规格要求。他们称，甲骨文这批硬件使用的是英伟达较旧一代的芯片。",
+     "url": "https://wallstreetcn.com/livenews/3196151",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:37",
+     "title_en": "Report: Deprecated chips are not new enough, Microsoft is winding down arrangements to lease AI cloud power from Oracle.",
+     "body_en": "Microsoft is winding down its arrangement to lease artificial intelligence (AI) computing power from Oracle as part of a broader revaluation of its multi-billion-dollar cloud partnership. In recent months, Microsoft has begun shutting down the computing power leased from Oracle after refusing to renew the contract, according to people familiar with the matter. Over time, this batch of computing power rented by Microsoft has become no longer easy to use because it no longer meets the company's specifications. The Oracle hardware, they say, uses older Nvidia chips.",
+     "id": "wscn-3196151"
+    },
+    {
+     "ts": 1794010006,
+     "source": "华尔街见闻",
+     "title_zh": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
+     "body_zh": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。",
+     "url": "https://wallstreetcn.com/livenews/3196269",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "08:06",
+     "title_en": "He Lifeng held a video call with Besent, Director of the Ministry of Finance of the United States, and Trade Representative Greer.",
+     "body_en": "On the evening of November 6, Beijing time, the Chinese leader of China-US economic and trade, the Vice Premier of the State Council, He Lifeng, held a video call with the US leader, the Director of the Ministry of Finance of the United States, Besent, and Trade Representative Greer. The two sides had frank, in-depth and constructive exchanges on important economic and trade issues of mutual concern around the implementation of the important consensus reached at the China-US Summit in Beijing and Washington, D.C., and the outcomes of the economic and trade consultations. The Chinese side expressed serious concerns about the recent restrictions on US trade with China.",
+     "id": "wscn-3196269"
+    },
+    {
+     "ts": 1794003227,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价在非农日走低，本周累涨5%，纽约铜本周跌3.8%",
+     "body_zh": "周五（11月6日）纽约尾盘，现货黄金跌0.4%，报4071.39美元/盎司，亚太早盘曾短暂地微幅上涨，北京时间09:17以来持续处于下跌状态，21:30发布美国非农就业报告时显著下跌、刷新日低至4028.49美元，本周累计上涨5.06%，11月4-5日（至亚太中午）持续扩大涨幅、11:30达到4146.97美元。 COMEX黄金期货累涨4.65%，报4080.10美元/盎司。",
+     "url": "https://wallstreetcn.com/livenews/3196250",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "06:13",
+     "title_en": "International gold prices fell on off-farm days, rising 5% this week, and copper in New York fell 3.8% this week.",
+     "body_en": "At the end of New York on Friday (November 6), spot gold fell 0.4% to $4,071.39 per ounce. The Asia-Pacific morning market had briefly risen slightly, and it has continued to decline since 09:17 Beijing time. At 21:30, the US non-farm payroll employment report fell significantly, refreshing as low as $4,028.49, rising 5.06% this week. On November 4-5 (until midday in Asia-Pacific), the increase continued to expand, reaching $4,146.97 at 11:30. COMEX gold futures were up 4.65% at $4080.10/oz.",
+     "id": "wscn-3196250"
+    },
+    {
+     "ts": 1793997218,
+     "source": "华尔街见闻",
+     "title_zh": "美国商品期货交易委员会（CFTC）",
+     "body_zh": "11月3日当周，投机者所持COMEX黄金净多头头寸减少3,107手合约，至104,297手合约，创最近21周新低；多头绝对值123,437手合约，创大约七个月新低。 所持COMEX白银净多头头寸降低至2,665手合约，创约三年来新低。 所持COMEX铜净多头头寸减少至34,444手合约，创逾14个月新低。 转而持有NYMEX铂金净空头头寸1,076手合约，创最近逾17个月新高。",
+     "url": "https://wallstreetcn.com/livenews/3196214",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "04:33",
+     "title_en": "Commodity Futures Trading Commission (CFTC).",
+     "body_en": "During the week of November 3, speculators' net long positions in COMEX gold decreased by 3,107 contracts to 104,297 contracts, hitting a new low in the last 21 weeks; the absolute value of long contracts was 123,437 contracts, hitting a new low of about seven months. The net long position in COMEX silver was reduced to 2,665 contracts, a three-year low. The COMEX copper net long position was reduced to 34,444 lots, a record low of more than 14 months. Switched to the NYMEX platinum net short position of 1,076 lots, a recent high of more than 17 months.",
+     "id": "wscn-3196214"
+    },
+    {
+     "ts": 1794163213,
+     "source": "华尔街见闻",
+     "title_zh": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放",
+     "body_zh": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放",
+     "url": "https://wallstreetcn.com/livenews/3196507",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "02:40",
+     "title_en": "Iraq's Foreign Minister says the U.S. Ministry of Finance is demanding that Iraq close most of its border crossings with Iran, leaving only two open.",
+     "body_en": "Iraq's Foreign Minister says the U.S. Ministry of Finance is demanding that Iraq close most of its border crossings with Iran, leaving only two open.",
+     "id": "wscn-3196507"
+    },
+    {
+     "ts": 1794037132,
+     "source": "华尔街见闻",
+     "title_zh": "美国多名国会议员说将推动撤销不合理关税政策",
+     "body_zh": "11月7日消息，鉴于美国选民对高生活成本和高通胀反应强烈，随着民主党在中期选举中取得压倒性胜利，多名民主党籍国会议员表示将致力于推动撤销现行的不合理关税政策。尽管这些民主党籍国会议员表达了推动撤销不合理关税措施的意愿，但也有分析认为，虽然民主党在中期选举中获得国会参议院和众议院的控制权，但美国总统特朗普可以通过对国会立法行使否决权等进行有效制衡，现有关税措施短期内或难以出现实质性松动。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3196369",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "15:38",
+     "title_en": "US lawmakers say they will push for the removal of unjustified tariffs.",
+     "body_en": "On Nov. 7, as voters reacted strongly to the high cost of living and high inflation in the United States and as Democrats scored a landslide victory in the midterm elections, a number of Democratic lawmakers expressed their commitment to pushing for the removal of the current unjustified tariffs. Although these Democratic members of Congress have expressed their willingness to push for the withdrawal of unreasonable tariff measures, some analysts believe that although Democrats have gained control of the Senate and House of Representatives in the mid-term elections, US President Trump can effectively check and balance the existing tariff measures by exercising veto power over Congressional legislation, etc. It may be difficult to see substantive loosening in the short term. (Xinhua News Agency).",
+     "id": "wscn-3196369"
+    },
+    {
+     "ts": 1794033163,
+     "source": "华尔街见闻",
+     "title_zh": "香港证监会收紧误导性称衔，降低投资者误判风险",
+     "body_zh": "11月6日，香港证券及期货事务监察委员会发表咨询总结，就进一步限制不受规管的机构使用具误导性的名称以保障投资者，相关修订建议获市场广泛支持。香港证监会表示，将扩大受限制称衔清单，并建立更快更新清单的机制，同时把监管覆盖延伸至虚拟资产领域，从源头减少投资者因机构名称产生误判，夯实投资者保护防线。",
+     "url": "https://wallstreetcn.com/livenews/3196364",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "14:32",
+     "title_en": "Hong Kong's the CSRC tightens misleading titles to reduce the risk of investor misjudgment.",
+     "body_en": "On November 6, the Hong Kong Securities and Futures Commission issued an advisory summary on further restricting the use of misleading names by unregulated institutions to protect investors. The relevant amendment proposal was widely supported by the market. The CSRC in Hong Kong said it would expand the list of restricted titles and establish a mechanism to update the list more quickly, while extending regulatory coverage to the virtual asset sector, reducing investor misjudgment due to institutional names from the source, and strengthening investor protection lines.",
+     "id": "wscn-3196364"
+    },
+    {
+     "ts": 1794137302,
+     "source": "华尔街见闻",
+     "title_zh": "中信建投：维持对北美算力和国产AI算力产业链长期看好",
+     "body_zh": "中信建投证券发布通信行业2027年度投资策略报告称，大模型商业化在2026年快速扩张，截至2026年9月底，OpenAI和Anthropic两家ARR合计约1240亿美元。北美四大CSP厂商2026年第三季度合计资本开支约2087亿美元，同比增长84.2%，AI基础设施投资保持高强度。",
+     "url": "https://wallstreetcn.com/livenews/3196478",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "19:28",
+     "title_en": "CITIC Construction and Investment: Maintain long-term optimism about the North American hashrate and domestic AI hashrate industry chain.",
+     "body_en": "CITIC Securities released the 2027 Annual Investment Strategy Report of the Communications Industry, saying that the commercialization of the large model expanded rapidly in 2026, and as of the end of September 2026, the combined ARRs of OpenAI and Anthropic were about $124 billion. The four largest CSP vendors in North America have a total capital expenditure of about 208.7 billion US dollars in the third quarter of 2026, up year on year 84.2%, and AI infrastructure investment remains strong.",
+     "id": "wscn-3196478"
+    },
+    {
+     "ts": 1794133523,
+     "source": "华尔街见闻",
+     "title_zh": "AI辅助设计禽流感疫苗动物实验获进展",
+     "body_zh": "英国剑桥大学日前发布公报说，该校团队借助人工智能（AI）设计的一种新型广谱禽流感疫苗，在动物实验中对多种禽流感病毒变异株展现出防护效力。这款候选疫苗由剑桥大学与其衍生企业共同研发。研究人员收集全球监测项目记录的禽流感病毒基因序列数据，利用AI工具整合分析，设计出一系列包含这类病毒共同抗原特征的“超级抗原”。",
+     "url": "https://wallstreetcn.com/livenews/3196473",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "18:25",
+     "title_en": "Advances in AI-assisted design of animal experiments for avian influenza vaccines.",
+     "body_en": "A new broad-spectrum avian influenza vaccine designed by the artificial intelligence (AI) team has shown protective efficacy against a variety of avian influenza virus variants in animal experiments, the University of Cambridge said in a communique recently. The vaccine candidate was jointly developed by the University of Cambridge and its derivatives. The researchers collected the avian influenza virus gene sequence data recorded by the global surveillance project, and used AI tools to integrate and analyze them to design a series of \"superantigens\" containing the common antigen characteristics of such viruses.",
+     "id": "wscn-3196473"
+    },
+    {
+     "ts": 1794165054,
+     "source": "华尔街见闻",
+     "title_zh": "伊拉克外长",
+     "body_zh": "伊拉克已与美国达成谅解，允许石油通过霍尔木兹海峡经靠近阿曼的航道出口，出口业务仍在持续进行。 伊拉克因伊朗战争及石油出口业务中断造成的损失已达600亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3196510",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "03:10",
+     "title_en": "Minister for Foreign Affairs of Iraq.",
+     "body_en": "Iraq has reached an understanding with the United States to allow oil to be exported through the Strait of Hormuz via a waterway close to Oman, and export operations continue. Iraq has suffered $60 billion in damages as a result of the war in Iran and the disruption of its oil export business.",
+     "id": "wscn-3196510"
+    },
+    {
+     "ts": 1794146663,
+     "source": "华尔街见闻",
+     "title_zh": "乌方称俄军袭击致多地紧急停电",
+     "body_zh": "乌克兰国家电力公司8日在社交媒体发文称，俄军对乌能源基础设施的持续袭击导致乌电网面临严峻困难，哈尔科夫州、苏梅州和波尔塔瓦州当天紧急停电。乌私营能源企业DTEK公司8日在社交媒体发文称，基辅市和基辅州当天上午再次紧急停电。该公司称，第聂伯罗彼得罗夫斯克州再次遭到大规模袭击，巴甫洛格勒等地超过60万居民断电。",
+     "url": "https://wallstreetcn.com/livenews/3196486",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "22:04",
+     "title_en": "The Ukrainian side said that the Russian attack caused emergency power outages in many places.",
+     "body_en": "The Ukrainian State Electricity Corporation said in a social media post on the 8th that the Ukrainian power grid faced serious difficulties due to the continuous attacks of the Russian military on the energy infrastructure of Ukraine, and the emergency power outages in Kharkiv, Samui and Poltava oblasts on the same day. Ukrainian private energy company DTEK said in a social media post on the 8th that Kiev City and Kiev State again had an emergency power outage that morning. The company said that Dnipropetrovsk Oblast was again hit by a large-scale attack, and more than 600,000 residents in Pavlograd and other places lost power.",
+     "id": "wscn-3196486"
+    },
+    {
+     "ts": 1794145362,
+     "source": "华尔街见闻",
+     "title_zh": "进博会上海交易团意向成交额连续8年居全国地方交易团第一",
+     "body_zh": "上海市政府副秘书长、上海交易团副团长朱民指出，历经九载发展，进博会成交与首发成果丰硕，上海交易团意向成交额已连续八年居全国地方交易团第一，本届展会规模再创新高，而大型零售采购商联盟作为上海交易团重要组成部分，会员已从成立之初21家发展至45家，践行着“在上海、买全球、卖全球”。一批重点采购项目代表进行现场推介，聚焦进口优质消费品引进，充分释放进博会溢出效应。据不完全统计，本届进博会上零售联盟已达成72个采购意向。",
+     "url": "https://wallstreetcn.com/livenews/3196484",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "21:42",
+     "title_en": "Expo Shanghai Trading Group's intention to turnover ranked first in the national local trading group for 8 consecutive years.",
+     "body_en": "Zhu Min, deputy secretary-general of the Shanghai Municipal Government and deputy head of the Shanghai Trading Group, pointed out that after nine years of development, the transactions and initial results of the Expo have been fruitful. The Shanghai Trading Group's intended turnover has ranked first in the national local trading groups for eight consecutive years. The scale of this exhibition has reached a new high. As an important part of the Shanghai Trading Group, the large retail buyers' alliance has grown from 21 to 45 members, practicing \"buying in Shanghai, selling globally\". A group of key procurement project representatives carried out on-site promotion, focusing on the introduction of imported high-quality consumer goods, and fully released the spillover effect of the Expo. According to incomplete statistics, the retail alliance has reached 72 purchasing intentions at this Expo.",
+     "id": "wscn-3196484"
+    }
+   ],
+   "story": {
+    "id": "carnegie-telegraph",
+    "name_zh": "安德鲁·卡内基",
+    "name_en": "Andrew Carnegie",
+    "era": "1850s · 美国匹兹堡",
+    "title_zh": "从每周一美元二毛，到钢铁大王",
+    "title_en": "From a Dollar Twenty a Week to Steel",
+    "body_zh": "卡内基十三岁移民美国，第一份工每周挣一美元二毛。当电报信童时，他背下全城商户的名字和脸。二十几岁把全部身家压进钢铁，建成世界最大钢铁厂。晚年捐出九成财产。",
+    "body_en": "Andrew Carnegie arrived in America from Scotland at thirteen. His first job paid one dollar and twenty cents a week. As a messenger boy, he memorized every business in town. In his thirties he bet everything on steel, built the largest steel company in the world, then gave away ninety percent of it.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Pittsburgh, eighteen fifty. A thirteen year old Scottish immigrant starts his first job. It pays one dollar and twenty cents a week.",
+      "zh": "匹兹堡，1850 年。一个十三岁的苏格兰移民开始第一份工作，周薪一美元二毛。"
+     },
+     {
+      "k": "dial",
+      "who": "Foreman",
+      "g": "M2",
+      "en": "Boy, the telegraph office needs a messenger. Can you learn the streets?",
+      "zh": "小子，电报局要个信童。你能把街巷记熟吗？"
+     },
+     {
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M",
+      "en": "I will learn more than the streets, sir. I will learn every business in town, and every face behind the door.",
+      "zh": "先生，我记的不只是街巷。我要记住全城每一家商户，和每扇门后面的每张脸。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "While other boys played, he drilled himself on the telegraph key, and became the fastest ear in the city.",
+      "zh": "别的孩子去玩了，他对着电报机日夜苦练，成了全城收发电报最快的人。"
+     },
+     {
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M",
+      "en": "Save it, invest it early, and when you find your industry, bet everything on it.",
+      "zh": "把钱存下来，早一点投出去。找到属于自己的行业时，就把全部身家押上去。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He built the largest steel company in the world. Then he gave ninety percent of it away, with one line for the history books. Dying rich is a disgrace.",
+      "zh": "他建成了世界最大的钢铁公司，然后捐出了九成财产，只留给历史一句话：带着巨富死去，是一种耻辱。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "rothschild-early",
+    "tag_zh": "金融世家心得",
+    "tag_en": "Banking Family Secret",
+    "title_zh": "我是靠卖得太早赚的钱",
+    "title_en": "I Made My Fortune by Selling Too Early",
+    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
+    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 11.019,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 11.819,
+      "dur": 5.385,
+      "k": "dial",
+      "who": "Foreman",
+      "g": "M2"
+     },
+     {
+      "start": 17.755,
+      "dur": 6.821,
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M"
+     },
+     {
+      "start": 25.126,
+      "dur": 7.843,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 33.519,
+      "dur": 5.397,
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M"
+     },
+     {
+      "start": 39.466,
+      "dur": 12.449,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "9138dc0de90c",
+    "item-00.mp3": "d39040e39e29",
+    "item-01.mp3": "3fe44bd2d580",
+    "item-02.mp3": "8ebf35caa7d9",
+    "item-03.mp3": "6bd605a3ff80",
+    "item-04.mp3": "252f985c37ef",
+    "item-05.mp3": "5a54bbc886f3",
+    "item-06.mp3": "e8c3d38370a8",
+    "item-07.mp3": "a2657ef5f41b",
+    "item-08.mp3": "3c2393859a00",
+    "item-09.mp3": "7be17cfd0c21",
+    "item-10.mp3": "b67b3303a1c8",
+    "item-11.mp3": "adb7362c6111",
+    "item-12.mp3": "e49a785eb114",
+    "item-13.mp3": "e34de1f9b901",
+    "item-14.mp3": "0c7819a53985",
+    "item-15.mp3": "7120ea78a6b7",
+    "item-16.mp3": "29d50dc932bb",
+    "item-17.mp3": "a4059f5897af",
+    "story.mp3": "43361d53e05b",
+    "joke.mp3": "45ac90111c46"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.31
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.21,
+      "dur": 52.069
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 62.179,
+      "dur": 46.352
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 109.431,
+      "dur": 37.536
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 147.867,
+      "dur": 22.709
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 171.476,
+      "dur": 31.625
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 204.001,
+      "dur": 56.163
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 261.064,
+      "dur": 52.342
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 314.306,
+      "dur": 54.357
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 369.563,
+      "dur": 66.557
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 437.021,
+      "dur": 49.915
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 487.836,
+      "dur": 22.633
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 511.369,
+      "dur": 55.35
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 567.619,
+      "dur": 48.403
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 616.922,
+      "dur": 50.462
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 668.284,
+      "dur": 53.807
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 722.991,
+      "dur": 21.379
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 745.27,
+      "dur": 55.187
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 801.357,
+      "dur": 65.53
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-08",
    "weekday_en": "Sunday",
@@ -3329,562 +3885,6 @@
      {
       "start": 35.678,
       "dur": 14.755,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
-  },
-  {
-   "date": "2026-11-02",
-   "weekday_en": "Monday",
-   "weekday_zh": "周一",
-   "generated_at": "2026-11-02 19:02",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3638.03,
-     "chg_pct": 1.08
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11010.68,
-     "chg_pct": 1.63
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2458.7,
-     "chg_pct": 1.87
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1196.94,
-     "chg_pct": 3.11
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23393.32,
-     "chg_pct": 0.42
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 51770.31,
-     "chg_pct": -1.09
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 25437.0,
-     "chg_pct": -2.86
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7580.07,
-     "chg_pct": -1.82
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793582618,
-     "source": "华尔街见闻",
-     "title_zh": "中国央行公开市场今日开展5410亿元人民币隔夜逆回购操作，利率1.25%",
-     "body_zh": "中国央行公开市场今日净回笼5150亿元人民币。",
-     "url": "https://wallstreetcn.com/livenews/3192157",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "09:23",
-     "title_en": "China's the PBOC open market launched a RMB 541 billion overnight reverse share buyback operation today, with an interest rate of 1.25%.",
-     "body_en": "The PBOC open market in China netted RMB 515 billion today.",
-     "id": "wscn-3192157"
-    },
-    {
-     "ts": 1793574942,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年11月2日",
-     "body_zh": "上周五纳指收跌近3%，英特尔暴跌超28%，苹果市值超英伟达；黄金重挫创一年新低；原油连涨四个月。 上证报：中国金融管理部门11月2日将开会研究推动支持资本市场工具使用。 中国证监会：全力稳市场稳预期，深化投融资综合改革，完善全链条监管体系，持续提升资本市场韧性和信心。 中国10月官方制造业PMI 49.3，非制造业PMI 49.7，均较9月有所回落。",
-     "url": "https://wallstreetcn.com/livenews/3192115",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "07:15",
-     "title_en": "Breakfast on Wall Street | November 2, 2026.",
-     "body_en": "On Friday, the index closed down nearly 3%, Intel plunged more than 28%, Apple's market value exceeded Nvidia; gold hit a new low for a year; crude oil rose for four consecutive months. Shanghai Report: China's financial regulatory authorities will meet on November 2 to study and promote the use of capital market tools. China's the CSRC: make every effort to stabilize market expectations, deepen the comprehensive reform of investment and financing, improve the chain-wide supervision system, and continuously improve the resilience and confidence of the capital market. China's official manufacturing PMI in October was 49.3, and non-manufacturing PMI was 49.7, both down from September.",
-     "id": "wscn-3192115"
-    },
-    {
-     "ts": 1793604713,
-     "source": "华尔街见闻",
-     "title_zh": "央行将开展第三次证券、基金、保险公司互换便利操作 超30家机构表达初步意向",
-     "body_zh": "据证券时报，记者从业内人士获悉，当天上午，金融管理部门围绕进一步完善证券、基金、保险公司互换便利（SFISF）、股票回购增持再贷款政策工具分别召集证券公司、基金公司，以及商业银行等机构召开座谈会。",
-     "url": "https://wallstreetcn.com/livenews/3192329",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "15:31",
-     "title_en": "The PBOC will conduct its third securities, fund, and insurance company swap facility operation, with over 30 institutions expressing preliminary interest.",
-     "body_en": "According to the Securities Times, a reporter learned from industry insiders that on the morning of that day, financial regulatory authorities convened separate symposiums with securities companies, fund companies, and commercial banks to discuss further improvements to the Securities, Funds and Insurance Companies Swap Facility (SFISF) and stock share buyback refinancing policy tools.",
-     "id": "wscn-3192329"
-    },
-    {
-     "ts": 1793612423,
-     "source": "新浪财经",
-     "title_zh": "一周展望：财报、非农与中期选举三大焦点",
-     "body_zh": "撰文：嘉盛集团资深分析师Jerry Chen 回顾刚刚过去的10月，美联储维持利率不变，但国际原油大幅上涨帮助美元保持高位运行，但科技巨头财报公布后加剧了AI投资回报疑虑和估...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixiuey2917034.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "17:40",
-     "title_en": "Weekly Outlook: Earnings Reports, Non-Farm Payrolls, and Midterm Elections – Three Key Focuses.",
-     "body_en": "Written by: Jerry Chen, Senior Analyst at Gain Capital. Looking back at October, the Federal Reserve kept interest rates unchanged, but a sharp rise in international crude oil prices helped the US dollar remain high. However, the release of earnings reports from tech giants exacerbated concerns about the returns on AI investments and valuations...",
-     "id": "sina-comos:nixiuey2917034"
-    },
-    {
-     "ts": 1793617172,
-     "source": "华尔街见闻",
-     "title_zh": "万辰集团",
-     "body_zh": "因涉嫌未及时履行关联交易临时信息披露义务等信息披露违法违规，中国证监会决定对公司立案。本次立案调查主要涉及未及时履行信息披露义务事项，与公司日常经营活动无关，相关信息披露事项已经整改完毕。",
-     "url": "https://wallstreetcn.com/livenews/3192571",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:59",
-     "title_en": "Wanchen Group.",
-     "body_en": "The CSRC in China decided to file a case against the company for allegedly not timely fulfilling the temporary information disclosure obligations of connected transactions and other information disclosure violations. This case-filing investigation mainly involves the failure to fulfill the information disclosure obligations in a timely manner, which is not related to the company's daily business activities, and the relevant information disclosure matters have been rectified.",
-     "id": "wscn-3192571"
-    },
-    {
-     "ts": 1793615683,
-     "source": "新浪财经",
-     "title_zh": "美联储主席沃什两个关键词在华尔街引发回响，令投资者心生不安",
-     "body_zh": "作者：Sean Williams，The Motley Fool 发布 除社保生活成本调整方案出炉之外，10 月最受瞩目的消息，当属上周 FOMC（联邦公开市场委员会）会议。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixiynw2823455.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "18:34",
-     "title_en": "the Federal Reserve Chairman Kevin Warsh's two keywords reverberated on Wall Street, upsetting investors.",
-     "body_en": "Author: Sean Williams, The Motley Fool In addition to the Social Security cost of living adjustment plan, the most notable news in October was last week's FOMC (Federal Open Market Committee) meeting.",
-     "id": "sina-comos:nixiynw2823455"
-    },
-    {
-     "ts": 1793617000,
-     "source": "华尔街见闻",
-     "title_zh": "万辰集团：因涉嫌信息披露违法违规被中国证监会立案",
-     "body_zh": "万辰集团公告，公司于2026年11月2日收到中国证监会下发的《立案告知书》，因涉嫌未及时履行关联交易临时信息披露义务等信息披露违法违规事项，中国证监会决定对公司立案。公司称，本次立案调查主要涉及未及时履行信息披露义务事项，与日常经营活动无关，相关信息披露事项已经整改完毕；目前公司经营秩序稳定，各项经营活动正常开展，日常经营管理及业务合作未受影响。公司将积极配合调查并按监管要求履行信息披露义务。",
-     "url": "https://wallstreetcn.com/livenews/3192570",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "18:56",
-     "title_en": "Wanchen Group: Case filed by the CSRC in China for suspected information disclosure violations.",
-     "body_en": "Wanchen Group announced that on November 2, 2026, the company received the \"Notice of Case Filing\" issued by the CSRC of China, and the CSRC of China decided to file a case against the company for allegedly not timely fulfilling the temporary information disclosure obligations of connected transactions and other information disclosure violations. The company said that this case-filing investigation mainly involves the failure to fulfill the information disclosure obligations in a timely manner, which is not related to daily business activities, and the relevant information disclosure matters have been rectified; at present, the company's business order is stable, various business activities are carried out normally, and daily business management and business cooperation have not been affected. The company will actively cooperate with the investigation and fulfill its information disclosure obligations in accordance with regulatory requirements.",
-     "id": "wscn-3192570"
-    },
-    {
-     "ts": 1793603903,
-     "source": "华尔街见闻",
-     "title_zh": "香港证监会公布首份AI准备情况调查",
-     "body_zh": "11月2日，香港证券及期货事务监察委员会（以下简称香港证监会）公布其首份《大型机构人工智能应用及准备情况调查》，结果显示机构已将人工智能（AI）广泛应用于业务及监控职能，但指出以负责任的方式扩展应用规模正面对挑战。",
-     "url": "https://wallstreetcn.com/livenews/3192324",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "15:18",
-     "title_en": "Hong Kong's the CSRC Releases First AI Readiness Survey.",
-     "body_en": "On November 2, the Hong Kong Securities and Futures Commission (hereinafter referred to as the CSRC) released its first &quot;Survey on the Application and Readiness of Artificial Intelligence in Large Institutions&quot;. The results showed that institutions have widely applied artificial intelligence (AI) in their business and monitoring functions, but pointed out that scaling up the application in a responsible manner is facing challenges.",
-     "id": "wscn-3192324"
-    },
-    {
-     "ts": 1793615342,
-     "source": "华尔街见闻",
-     "title_zh": "长安汽车",
-     "body_zh": "截至2026年10月30日累计回购2.15亿股，占总股本2.16941%。其中A股7726.25万股、占比0.77941%，成交金额6.37亿元；B股1.38亿股、占比1.39000%，成交金额4.81亿港元，折合人民币4.11亿元。",
-     "url": "https://wallstreetcn.com/livenews/3192536",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "18:29",
-     "title_en": "Changan.",
-     "body_en": "As of October 30, 2026, the cumulative share buyback was 215 million shares, accounting for 216,941% of the total share capital. Among them, A-shares accounted for 77.2625 million shares, accounting for 0.77941%, with a turnover of 637 million yuan; B shares accounted for 138 million shares, accounting for 139,000%, with a turnover of HK $481 million, equivalent to RMB 411 million.",
-     "id": "wscn-3192536"
-    },
-    {
-     "ts": 1793616482,
-     "source": "华尔街见闻",
-     "title_zh": "华明装备",
-     "body_zh": "截至2026年10月31日，公司以集中竞价方式累计回购股份245.95万股，占总股本0.2744%，成交价18.028元/股至19.10元/股，成交总金额4595.12万元。（不含交易费用）",
-     "url": "https://wallstreetcn.com/livenews/3192565",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:48",
-     "title_en": "Huaming Equipment.",
-     "body_en": "As of October 31, 2026, the company had accumulated 2.459.5 million shares of share buyback by centralized bidding, accounting for 0.2744% of the total share capital, with a transaction price of 18.028 yuan/share to 19.10 yuan/share, and a total transaction amount of 45.9512 million yuan. (excluding transaction fees).",
-     "id": "wscn-3192565"
-    },
-    {
-     "ts": 1793616093,
-     "source": "华尔街见闻",
-     "title_zh": "交控科技",
-     "body_zh": "独立董事、审计委员会委员吴智勇提议公司以集中竞价交易方式回购股份，回购金额不低于5000万元、不超过1亿元，价格上限为董事会通过回购方案决议前30个交易日均价的150%，回购股份拟用于员工持股计划或股权激励。",
-     "url": "https://wallstreetcn.com/livenews/3192562",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:41",
-     "title_en": "Traffic control technology.",
-     "body_en": "Wu Zhiyong, an independent director and member of the Audit Committee, proposed that the company share buyback shares in the form of centralized bidding transactions, with A-shares buyback amount of not less than 50 million yuan and not more than 100 million yuan, with a price cap of 150% of the average price of the 30 trading days before the board of directors passed the share buyback plan resolution. The share buyback shares are intended to be used for employee shareholding plans or equity incentives.",
-     "id": "wscn-3192562"
-    },
-    {
-     "ts": 1793615840,
-     "source": "华尔街见闻",
-     "title_zh": "湖北能源",
-     "body_zh": "控股股东中国长江三峡集团有限公司拟自公告披露之日起6个月内，通过集中竞价、大宗交易等方式增持公司股份，金额不低于4亿元、不超过8亿元，不设固定价格区间，资金来源为自有资金或自筹资金。",
-     "url": "https://wallstreetcn.com/livenews/3192554",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:37",
-     "title_en": "Hubei Energy.",
-     "body_en": "The controlling shareholder, China Yangtze Three Gorges Group Co., Ltd., intends to increase its shareholding in the company within six months from the date of the announcement through concentrated bidding, bulk transactions, etc., with an amount of not less than 400 million yuan and not more than 800 million yuan, without a fixed price range, and the source of funds is its own funds or self-financing.",
-     "id": "wscn-3192554"
-    },
-    {
-     "ts": 1793584669,
-     "source": "华尔街见闻",
-     "title_zh": "美国农民不满 共和党票仓“摇摆”",
-     "body_zh": "美国广大农业区长期被视为共和党的选举基本盘，也是美国总统特朗普两次当选的重要票仓。但随着11月3日中期选举临近，有民调显示，共和党候选人在多个长期占据优势的农业州选情告急。分析人士认为，现任政府对伊朗发动军事行动推高能源和化肥价格，其关税政策又直接波及农产品出口，这都导致美国农民利益受损，进而影响共和党选情。",
-     "url": "https://wallstreetcn.com/livenews/3192183",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "09:57",
-     "title_en": "US farmers unhappy with Republican ticket swing.",
-     "body_en": "The vast agricultural area of the United States has long been regarded as the electoral base of the Republican Party, and it is also an important ballot box for President Trump to be elected twice. But as the Nov. 3 midterm elections draw near, polls show Republican candidates in a number of agrarian states that have long held sway. Analysts believe that the current administration's military action against Iran has pushed up energy and fertilizer prices, and its tariff policy has directly affected agricultural exports, which has damaged the interests of American farmers and thus affected the Republican Party's election.",
-     "id": "wscn-3192183"
-    },
-    {
-     "ts": 1793611830,
-     "source": "华尔街见闻",
-     "title_zh": "香港交易所旗下衍生产品结算所接受中国国债、政策性银行债券及财政部债券作抵押品",
-     "body_zh": "香港交易所今天宣布，旗下衍生产品结算所——香港期货结算有限公司及香港联合交易所期权结算所有限公司——已开始接受合资格人民币定息资产作为非现金抵押品，以满足保证金要求。首日共有七间机构提交合资格债券作为抵押品，总值超过人民币四亿元。",
-     "url": "https://wallstreetcn.com/livenews/3192483",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "17:30",
-     "title_en": "The Hong Kong Stock Exchange&#39;s derivatives clearinghouse accepts Chinese government bonds, policy bank bonds, and bonds issued by the Ministry of Finance as collateral.",
-     "body_en": "Hong Kong Exchanges and Clearing Limited (HKEX) announced today that its derivatives clearing houses, Hong Kong Futures Clearing Limited and Hong Kong Exchanges and Clearing Limited (HKEX Options Clearing Limited), have begun accepting eligible RMB fixed-income assets as non-cash collateral to meet margin requirements. On the first day, seven institutions submitted eligible bonds as collateral, totaling over RMB400 million.",
-     "id": "wscn-3192483"
-    },
-    {
-     "ts": 1793602292,
-     "source": "华尔街见闻",
-     "title_zh": "“24珠华01”盘中跌超20%，触发临时停牌",
-     "body_zh": "深交所公告，“24珠华01”（148775）盘中成交价较前收盘价首次下跌达到或超过20%，深交所所自今日14时43分59秒起对该债券实施临时停牌，于15时14分00秒复牌。",
-     "url": "https://wallstreetcn.com/livenews/3192299",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "14:51",
-     "title_en": "\"24 Zhuhua 01\" fell more than 20% in the market, triggering a temporary suspension.",
-     "body_en": "The Shenzhen Stock Exchange announced that the trading price of \"24 Zhuhua 01\" (148775) fell by 20% or more for the first time from the previous closing price. The Shenzhen Stock Exchange imposed a temporary suspension on the bond from 14:43:59 today and resumed trading at 15:14:00.",
-     "id": "wscn-3192299"
-    },
-    {
-     "ts": 1793411561,
-     "source": "华尔街见闻",
-     "title_zh": "国家统计局：10月高技术制造业和装备制造业PMI分别为51.3%和50.6%",
-     "body_zh": "国家统计局称，10月份，受“十一”假期前部分需求提前释放以及国际环境复杂多变等因素影响，制造业PMI降至49.3%。新动能保持较快增长。高技术制造业和装备制造业PMI分别为51.3%和50.6%，继续高于临界点，相关行业企业生产经营保持扩张，新质生产力延续良好发展态势。消费品行业和高耗能行业PMI分别为48.8%和47.3%，比上月下降1.9个和0.7个百分点，市场活跃度有所减弱。",
-     "url": "https://wallstreetcn.com/livenews/3191914",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "09:52",
-     "title_en": "the National Bureau of Statistics: High-tech manufacturing and equipment manufacturing PMIs in October were 51.3% and 50.6%, respectively.",
-     "body_en": "the National Bureau of Statistics said that in October, the manufacturing PMI fell to 49.3% due to factors such as the early release of some demand before the 11/11 holiday and the complex and volatile international environment. New momentum keeps growing faster. The PMIs of the high-tech manufacturing industry and the equipment manufacturing industry were 51.3% and 50.6%, respectively, which continued to be higher than the critical point. The production and operation of enterprises in related industries maintained expansion, and the new quality productivity continued to develop well. The PMIs of the consumer goods industry and the energy-intensive industry were 48.8% and 47.3%, respectively, down 1.9 percentage points and 0.7 percentage points from the previous month, and market activity weakened.",
-     "id": "wscn-3191914"
-    },
-    {
-     "ts": 1793410222,
-     "source": "华尔街见闻",
-     "title_zh": "中国10月官方制造业PMI 49.3，前值 50.1",
-     "body_zh": "中国10月官方非制造业PMI 49.7，前值 50.2。 中国10月官方综合PMI 49.7，前值 50.7。",
-     "url": "https://wallstreetcn.com/livenews/3191909",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "09:30",
-     "title_en": "China's official manufacturing PMI in October was 49.3, up from 50.1.",
-     "body_en": "China's official non-manufacturing PMI in October was 49.7, up from 50.2. China's official composite PMI in October was 49.7, up from 50.7.",
-     "id": "wscn-3191909"
-    },
-    {
-     "ts": 1793612246,
-     "source": "华尔街见闻",
-     "title_zh": "宜春国轩矿业有限责任公司江西省宜丰县水南矿区锂矿项目生态环境影响报告书拟受理公示",
-     "body_zh": "宜春市生态环境局公告，根据建设项目环境影响评价审批程序的有关规定，我局拟受理宜春国轩矿业有限责任公司江西省宜丰县水南矿区锂矿项目环境影响评价文件，现予以公示，公示期为2026年11月2日-2026年11月13日（10个工作日）。矿区位于江西省宜春市宜丰县花桥乡，项目划定矿区范围面积为0.2546平方米，年开采锂（同体共生陶瓷土）矿180万吨/年。",
-     "url": "https://wallstreetcn.com/livenews/3192492",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "17:37",
-     "title_en": "Yichun Guoxuan Mining Co., Ltd. Eco-environmental Impact Report of Lithium Mine Project in Shuinan Mining Area, Yifeng County, Jiangxi Province.",
-     "body_en": "The Yichun Municipal Bureau of Ecology and Environment hereby announces that, in accordance with the relevant provisions of the environmental impact assessment approval procedures for construction projects, the Bureau intends to accept the environmental impact assessment documents for the Yichun Guoxuan Mining Co., Ltd.&#39;s lithium mine project in the Shuainan mining area of ​​Yifeng County, Jiangxi Province. This is hereby publicized for a period of 10 working days, from November 2, 2026 to November 13, 2026. The mining area is located in Huaqiao Township, Yifeng County, Yichun City, Jiangxi Province. The designated mining area is 0.2546 square meters, with an annual mining capacity of 1.8 million tons of lithium (co-existing ceramic clay) ore.",
-     "id": "wscn-3192492"
-    }
-   ],
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "ce2f6310ac65",
-    "item-00.mp3": "24c3c2ca4ae9",
-    "item-01.mp3": "e01d8cc823aa",
-    "item-02.mp3": "8344690076eb",
-    "item-03.mp3": "ec6e09c37bfc",
-    "item-04.mp3": "e38af6d38532",
-    "item-05.mp3": "677fabbe13d3",
-    "item-06.mp3": "c5fa56b995bb",
-    "item-07.mp3": "cb8ab828c9e4",
-    "item-08.mp3": "c105a236aaa9",
-    "item-09.mp3": "4855b744d288",
-    "item-10.mp3": "753d3247e1ba",
-    "item-11.mp3": "b7a6bbc275e2",
-    "item-12.mp3": "a8455900866b",
-    "item-13.mp3": "f649936207a1",
-    "item-14.mp3": "6f986562299f",
-    "item-15.mp3": "96c58b209fb1",
-    "item-16.mp3": "3ab0c1b0761f",
-    "item-17.mp3": "bee65b8d102d",
-    "story.mp3": "b545e0196c1b",
-    "joke.mp3": "45ac90111c46"
-   },
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.161
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.061,
-      "dur": 19.103
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 29.063,
-      "dur": 53.115
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 83.079,
-      "dur": 38.747
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 122.725,
-      "dur": 32.351
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 155.976,
-      "dur": 35.225
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 192.101,
-      "dur": 20.565
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 213.566,
-      "dur": 75.628
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 290.094,
-      "dur": 34.127
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 325.121,
-      "dur": 47.359
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 373.381,
-      "dur": 31.872
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 406.153,
-      "dur": 38.95
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 446.003,
-      "dur": 28.543
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 475.445,
-      "dur": 49.719
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 526.065,
-      "dur": 42.83
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 569.795,
-      "dur": 34.911
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 605.606,
-      "dur": 72.345
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 678.851,
-      "dur": 23.321
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 703.072,
-      "dur": 71.102
-     }
-    ]
-   },
-   "story": {
-    "id": "livermore-lesson",
-    "name_zh": "杰西·利弗莫尔",
-    "name_en": "Jesse Livermore",
-    "era": "1929 · 纽约投机之王",
-    "title_zh": "他赚过一个亿，也没能留住一个亿",
-    "title_en": "He Made a Hundred Million, and Could Not Keep It",
-    "body_zh": "利弗莫尔是二十世纪初最有名的投机者。1929 年大崩盘前他大量做空，一周赚下一亿美元。但他一生大起大落，破过四次产。他留下的教训：华尔街没有新鲜事，人性不变，我总在不守纪律的地方跌倒。",
-    "body_en": "Jesse Livermore was the most famous speculator of his age. In nineteen twenty-nine, right before the crash, he shorted the market and made one hundred million dollars in days. Yet he went bankrupt four times. His lesson. Wall Street has nothing new. Human nature never changes.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "New York, late October, nineteen twenty-nine. The party is ending, and one man is ready.",
-      "zh": "纽约，1929 年 10 月底。盛宴将散，而有一个人早已备好。"
-     },
-     {
-      "k": "dial",
-      "who": "Broker",
-      "g": "M2",
-      "en": "Jessie, everyone says stocks can only go up. Why are you shorting everything?",
-      "zh": "杰西，所有人都说股票只会涨，你怎么在做空？"
-     },
-     {
-      "k": "dial",
-      "who": "Livermore",
-      "g": "M",
-      "en": "Because the tape told me weeks ago. The big money is not in the fluctuation. It is in waiting for it.",
-      "zh": "因为盘面几个星期前就告诉我了。大钱不在波动里，在等待里。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "The crash came. He made one hundred million dollars in days. It was his crown, and it was also his trap.",
-      "zh": "崩盘来了。几天之内，他赚下一亿美元。那是他的王冠，也是他的陷阱。"
-     },
-     {
-      "k": "dial",
-      "who": "Livermore",
-      "g": "M",
-      "en": "I went bankrupt four times. Not because the market changed. Because I never changed.",
-      "zh": "我破产过四次。不是因为市场变了，是因为我一直没变。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "His hardest lesson was about himself. Wall Street has nothing new. Human nature never changes. I always fell in the same place, where I broke my own rules.",
-      "zh": "他最痛的教训是关于他自己：华尔街没有新鲜事，人性不变。所以我总在同一个地方跌倒——不守纪律的地方。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "rothschild-early",
-    "tag_zh": "金融世家心得",
-    "tag_en": "Banking Family Secret",
-    "title_zh": "我是靠卖得太早赚的钱",
-    "title_en": "I Made My Fortune by Selling Too Early",
-    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
-    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 9.891,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 10.691,
-      "dur": 6.004,
-      "k": "dial",
-      "who": "Broker",
-      "g": "M2"
-     },
-     {
-      "start": 17.245,
-      "dur": 6.511,
-      "k": "dial",
-      "who": "Livermore",
-      "g": "M"
-     },
-     {
-      "start": 24.307,
-      "dur": 9.654,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 34.511,
-      "dur": 5.743,
-      "k": "dial",
-      "who": "Livermore",
-      "g": "M"
-     },
-     {
-      "start": 40.804,
-      "dur": 14.499,
       "k": "narr",
       "who": "Narrator",
       "g": "N"
