@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-09 07:24",
-  "latest": "2026-11-09",
+  "updated_at": "2026-11-10 07:28",
+  "latest": "2026-11-10",
   "count": 18,
-  "mt_calls": 22
+  "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-10",
+   "weekday_en": "Tuesday",
+   "weekday_zh": "周二",
+   "generated_at": "2026-11-10 07:28",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3660.79,
+     "chg_pct": 0.32
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11145.49,
+     "chg_pct": -0.27
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2458.56,
+     "chg_pct": -0.27
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1256.96,
+     "chg_pct": 0.3
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 24448.95,
+     "chg_pct": -0.13
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 52389.75,
+     "chg_pct": 2.15
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25253.14,
+     "chg_pct": 2.74
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7549.94,
+     "chg_pct": 2.35
+    }
+   ],
+   "items": [
+    {
+     "ts": 1794266828,
+     "source": "华尔街见闻",
+     "title_zh": "华尔街见闻早餐 | 2026年11月10日",
+     "body_zh": "黄仁勋风波未阻AI交易回暖，纳指涨近3%，英伟达逆市跌超4%；美伊和谈信号重创原油。 特朗普在会晤卡塔尔首相后表示，伊朗战争正走向结束。报道称美伊核谈判重大进展，就伊朗铀浓缩丰度达成一致。布油盘中跌近8%。 美众议员向众议院提交决议，要求弹劾国防部长赫格塞思。 Anthropic路演最快本周二启动，AI抛售潮后IPO定价迎大考。 美官员称与黄仁勋婚外情女子为中国情报机构工作，中国外交部：纯属捕风捉影。",
+     "url": "https://wallstreetcn.com/livenews/3197214",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:27",
+     "title_en": "Breakfast on Wall Street | November 10, 2026.",
+     "body_en": "Huang Renxun's turmoil did not prevent AI trading from recovering, with the Nanjing index up nearly 3% and Nvidia falling more than 4% against the market; the US-Iraq peace talks signal hit crude oil hard. After meeting with the Qatari prime minister, Trump said the Iran war was coming to an end. Reported that the United States and Iran nuclear negotiations have made significant progress and reached an agreement on Iran's uranium enrichment. The oil pan fell by nearly 8%. U.S. lawmakers submitted a resolution to the House of Representatives calling for the impeachment of Defense Secretary Heggeseth. Anthropic roadshow kicks off as soon as Tuesday, with IPO pricing set to take shape after the AI sell-off. US officials said that the woman who had an extramarital affair with Huang Renxun worked for China's intelligence agencies. China's Ministry of Foreign Affairs: It was purely to catch the wind and capture the shadows.",
+     "id": "wscn-3197214"
+    },
+    {
+     "ts": 1794264273,
+     "source": "华尔街见闻",
+     "title_zh": "中证报：公开市场灵活“削峰填谷”，呵护流动性充裕",
+     "body_zh": "“近期在公开市场操作上，人民银行在不同期限的净投放出现一定分化。”天风证券首席固收分析师谭逸鸣分析，一是短期逆回购连日净回笼，节奏上相对符合月初规律；二是3个月期买断式逆回购缩量续作，为下半年首次；三是10月国债买卖净投放1500亿元，为再度启用后的新高。着眼11月资金面，招商证券首席宏观分析师张静静预计，将呈现“月初宽松修复、月中扰动增加、整体平稳偏松”格局，资金利率中枢有望进一步下移。",
+     "url": "https://wallstreetcn.com/livenews/3197208",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:44",
+     "title_en": "China Securities Report: Flexible \"peak cutting and valley filling\" in the open market to care for abundant liquidity.",
+     "body_en": "\"Recently, in the operation of the open market, the net placements of the People's Bank of China in different periods have diverged to a certain extent. Tan Yiming, chief fixed income analyst at Tianfeng Securities, analyzed that the first is the short-term reverse share buyback net return cage, which is relatively in line with the law at the beginning of the month; the second is the 3-month buyout type reverse share buyback contraction sequel, which is the first time in the second half of the year; the third is the net investment of 150 billion yuan in the purchase and sale of treasury bonds in October, which is a new high after re-opening. Looking at the capital side in November, Zhang Jingjing, chief macro analyst of China Merchants Securities, expects to show a pattern of\" loose repair at the beginning of the month, increased disturbances in the middle of the month, and overall stable and loose \", and the capital interest rate center is expected to move further down.",
+     "id": "wscn-3197208"
+    },
+    {
+     "ts": 1794265527,
+     "source": "华尔街见闻",
+     "title_zh": "AI算力拉动订单高增，PCB产业链迎来量价齐升",
+     "body_zh": "近期，不少PCB领域上市公司公开表示，AI领域PCB产品订单饱满。一些上市公司表示，AI领域部分产品交付安排较为紧张。以科翔股份为代表的部分上市公司公告对AI算力用PCB进行扩产。“目前，PCB的高景气度依然存在。”有头部PCB行业上市公司高管告诉记者，“特别是AI领域的PCB订单饱满。今年以来，汽车、AI服务器、通信领域的PCB订单整体较好，消费电子需求也比较平稳。",
+     "url": "https://wallstreetcn.com/livenews/3197212",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:05",
+     "title_en": "AI computing power drove high order growth, and the PCB industry chain ushered in a rise in volume and price.",
+     "body_en": "Recently, many listed companies in the PCB field have publicly stated that their orders for PCB products in the AI field are full. Some listed companies said that the delivery schedule of some products in the AI field is relatively tight. Some listed companies represented by Kexiang Co., Ltd. announced the expansion of production of AI computing power with PCB. “At present, the high boom of PCB still exists.\" Executives of listed companies in the PCB industry told reporters, \"In particular, PCB orders in the AI field are full. Since this year, PCB orders in the automotive, AI server, and communication fields have been generally good, and consumer electronics demand has also been relatively stable.",
+     "id": "wscn-3197212"
+    },
+    {
+     "ts": 1794266114,
+     "source": "华尔街见闻",
+     "title_zh": "再贷款政策持续发力，低成本资金助力上市公司回购增持",
+     "body_zh": "Wind数据显示，截至目前，A股11月以来共有26家公司公告取得上市公司股票回购增持贷款承诺函。其中，青鸟智控取得的贷款承诺金额居前。多位受访人士称，市净率低、资本投入回报率较高的公司、有明确市值管理考核需求的央国企、分红比例较高的上市公司具有较强的股份回购动力，向银行申请回购专项贷的意愿较高。（中证报）",
+     "url": "https://wallstreetcn.com/livenews/3197213",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:15",
+     "title_en": "Re-lending policy continues to strengthen, low-cost funds help listed companies share buyback increase.",
+     "body_en": "Wind data shows that as of now, a total of 26 companies have announced that they have obtained share buyback loan commitment letters from listed companies since November. Among them, the loan commitment amount obtained by Bluebird Intelligent Control ranks first. Several interviewees said that companies with low price-to-net ratios and high return on capital investment, central state-owned enterprises with clear market value management needs, and listed companies with high dividend ratios have strong share buyback incentives, and are more willing to apply to banks for share buyback special loans. (China Securities Report).",
+     "id": "wscn-3197213"
+    },
+    {
+     "ts": 1794258629,
+     "source": "华尔街见闻",
+     "title_zh": "加拿大财政部长",
+     "body_zh": "加拿大调整关税减免措施，将对美关税的横向减免延长一年，至2028年6月30日。",
+     "url": "https://wallstreetcn.com/livenews/3197167",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:10",
+     "title_en": "Head of the Ministry of Finance, Canada.",
+     "body_en": "Canada adjusted its tariff relief measures to extend the horizontal reduction of tariffs on the United States for one year, until June 30, 2028.",
+     "id": "wscn-3197167"
+    },
+    {
+     "ts": 1794251427,
+     "source": "华尔街见闻",
+     "title_zh": "特朗普政府将不发布美国10月CPI与核心CPI的同比数据",
+     "body_zh": "本周这份备受关注的消费者价格指数（CPI）报告将缺少一项关键数字：12个月同比变化。 通常，美国劳工统计局（BLS）的CPI报告会同时显示价格较上月和较去年同期的变化。后者——9月为3.7%——通常是公众理解通胀的主要口径。 由于2025年政府停摆，周二发布的10月数据将不提供这一指标。 停摆导致BLS未能采集2025年10月的部分价格数据，且该机构无法事后追溯补采这些数据。",
+     "url": "https://wallstreetcn.com/livenews/3197117",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "03:10",
+     "title_en": "The Trump Administration will not release year-over-year data for U.S. October CPI vs. core CPI.",
+     "body_en": "This week's closely watched Consumer Price Index (CPI) report will be missing a key figure: 12-month year-on-year changes. Typically, the CPI report from the U.S. Bureau of Labor Statistics (BLS) shows both price changes from the previous month and year-over-year. The latter - 3.7% in September - is often the main calibre for public understanding of inflation. Due to the government shutdown in 2025, the October data released on Tuesday will not provide this indicator. The shutdown caused BLS to fail to collect some of the October 2025 price data, and the agency was unable to retroactively make up for the data.",
+     "id": "wscn-3197117"
+    },
+    {
+     "ts": 1794259042,
+     "source": "华尔街见闻",
+     "title_zh": "纳指ETF收涨超3.4%，领跑美股大类资产类ETF，布油基金跌约5.3%",
+     "body_zh": "周一（11月9日），纳斯达克100 ETF收涨3.44%，罗素2000指数ETF涨3.23%，新兴市场ETF、标普500 ETF、道指ETF至少涨2.17%，黄金ETF、巴克莱美国可转债ETF、美国房地产ETF至多涨1.88%，欧元做多、日元做多、美国国债20+年ETF至多涨0.76%。",
+     "url": "https://wallstreetcn.com/livenews/3197174",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:17",
+     "title_en": "The index ETF closed higher than 3.4%, leading the US asset class ETF, and the oil fund fell by about 5.3%.",
+     "body_en": "On Monday (November 9), the Nasdaq 100 ETF closed up 3.44%, the Russell 2000 Index ETF rose 3.23%, emerging market ETFs, S&P 500 ETFs, and Dow ETFs rose at least 2.17%, gold ETFs, Barclays US Convertible ETFs, and US real estate ETFs rose at most 1.88%, the euro was long, the yen was long, and US Treasury 20 + year ETFs rose at most 0.76%.",
+     "id": "wscn-3197174"
+    },
+    {
+     "ts": 1794261012,
+     "source": "华尔街见闻",
+     "title_zh": "英国最大水务企业推出新一轮债务融资以自救",
+     "body_zh": "英国最大水务企业泰晤士水务9日宣布启动新一轮优先级债务融资安排，首期计划落实6亿英镑(约合53.74亿元人民币)新增借款，把企业可用流动性支撑周期延长至2027年秋季，以此争取重组时间，应对持续已久的财务危机。根据本次融资方案，泰晤士水务已经取得债权人许可，保障管网改造、污水治理等基础水务投入项目持续推进。泰晤士水务目前背负约200亿英镑(约合1791亿元人民币)债务。",
+     "url": "https://wallstreetcn.com/livenews/3197188",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:50",
+     "title_en": "UK's largest water utility launches new round of debt financing to save itself.",
+     "body_en": "Thames Water, the UK's largest water utility, announced the launch of a new round of priority debt financing arrangements on the 9th, with an initial plan to implement 600 million pounds (about 5.374 billion yuan) of new borrowing to extend the company's available liquidity support cycle to the autumn of 2027, in order to buy restructuring time and cope with the long-lasting financial crisis. According to this financing plan, Thames Water has obtained the creditor's permission to ensure the continuous progress of basic water investment projects such as pipe network transformation and sewage treatment. Thames Water is currently saddled with debts of around 20 billion pounds (179.1 billion yuan).",
+     "id": "wscn-3197188"
+    },
+    {
+     "ts": 1794259881,
+     "source": "华尔街见闻",
+     "title_zh": "AST SpaceMobile Inc.（ASTS）三季度营收4230万美元",
+     "body_zh": "AST SpaceMobile Inc.（ASTS）三季度营收4230万美元，分析师预期4610万美元。 三季度净亏损1.324亿美元，分析师预期亏损1.279亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3197182",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:31",
+     "title_en": "AST SpaceMobile Inc. (ASTS) third quarter revenue of $42.3 million.",
+     "body_en": "AST SpaceMobile Inc. (ASTS) posted third-quarter revenue of $42.3 million and analysts expected $46.1 million. Net loss for the third quarter was $132.4 million and analysts expected a loss of $127.9 million.",
+     "id": "wscn-3197182"
+    },
+    {
+     "ts": 1794259794,
+     "source": "华尔街见闻",
+     "title_zh": "中概股美团、阿里至少跌约4%，阿特斯跌超3%，再鼎医药涨超5%，日月光半导体涨超8%，碳博士控股涨约66%",
+     "body_zh": "纳斯达克金龙中国指数收跌1.32%，报5766.05点。 热门中概股里，美团ADR收跌7.34%，Boss直聘跌4.53%，阿里巴巴跌3.72%，大全新能源、阿特斯太阳能至多跌3.24%，比亚迪ADR跌3.07%，拼多多跌3.05%，京东、新东方跌2.51%，B站、贝壳、汽车之家、腾讯音乐、晶科控股、华住、理想、唯品会、名创优品、百度至少跌1.03%，小米集团ADR跌1.29%，金山云、携程至少跌0.74%，腾讯控股…",
+     "url": "https://wallstreetcn.com/livenews/3197181",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:29",
+     "title_en": "Zhongguo Meituan and Ali fell by at least about 4%, Artes fell by more than 3%, ZaiDing Pharmaceutical rose by more than 5%, ASE Semiconductor rose by more than 8%, and Carbon Dr. Holdings rose by about 66%.",
+     "body_en": "The Nasdaq Golden Dragon China Index closed down 1.32% at 5766.05. Among the popular stocks, Meituan ADR fell 7.34%, Boss direct employment fell 4.53%, Alibaba fell 3.72%, Daqin New Energy and Artes Solar fell 3.24% at most, BYD ADR fell 3.07%, Pinduoduo fell 3.05%, Jingdong and New Oriental fell 2.51%, B Station, Shell, Automobile Home, Tencent Music, Jinke Holding, Huazhu, Ideal, Weipinhui, Mingchuang Excellent Products, Baidu fell at least 1.03%, Xiaomi Group ADR fell 1.29%, Jinshan Yun, Ctrip fell at least 0.74%, Tencent Holding...",
+     "id": "wscn-3197181"
+    },
+    {
+     "ts": 1794259594,
+     "source": "华尔街见闻",
+     "title_zh": "300万美元对冲周二到期，目标锁定美国CPI发布日的债市抛售",
+     "body_zh": "美国国债周度期权（Weekly options）市场出现大笔资金流，目标似乎是在周二收盘前押注债市抛售，并把10月CPI数据这一关键事件风险纳入其中。该头寸支付的权利金约300万美元，从盘口看应属新增风险敞口。据一位美国交易员称，美东时间下午2:54，有资金以10个tick（跳动点）的价格买入19,649手“周二到期的周度10年期107.00看跌期权”，该对冲将于周二收盘时到期。",
+     "url": "https://wallstreetcn.com/livenews/3197180",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:26",
+     "title_en": "$3M hedge expires on Tuesday targeting bond market sell-offs on US CPI release date.",
+     "body_en": "The weekly options market for U.S. Treasury bonds saw large flows, with the goal of closing in premarket trading on Tuesday and taking into account the risk of a key event, October CPI data. The royalty paid for this position is about $3 million, which should be regarded as an additional risk exposure from the perspective of the market. According to one US trader, at 2:54 pm ET, funds were available to buy 19,649 lots of “weekly 10-year 107.00 put options that expire on Tuesday” at 10 ticks, a hedge that will expire at the close of trading on Tuesday.",
+     "id": "wscn-3197180"
+    },
+    {
+     "ts": 1794251613,
+     "source": "华尔街见闻",
+     "title_zh": "美国银行",
+     "body_zh": "预计美国2027年高评级债券销售规模将缩水至1.9万亿美元。 超大规模云服务商（Hyperscalers）正将其融资渠道多样化，企业并购活动也在放缓。",
+     "url": "https://wallstreetcn.com/livenews/3197119",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "03:13",
+     "title_en": "US bank.",
+     "body_en": "U.S. sales of highly rated bonds are expected to shrink to $1.9 trillion in 2027. Hyperscalers are diversifying their funding channels and corporate M&A activity is slowing.",
+     "id": "wscn-3197119"
+    },
+    {
+     "ts": 1794258588,
+     "source": "华尔街见闻",
+     "title_zh": "周一（11月9日），美股行业ETF普遍上涨，全球航空业ETF收涨5.15%，",
+     "body_zh": "周一（11月9日），美股行业ETF普遍上涨，全球航空业ETF收涨5.15%，半导体ETF涨5.05%，科技行业ETF涨3.73%，能源业ETF涨0.52%。 标普500指数的11个板块中，工业板块涨3.78%，可选消费板块涨3.05%，信息技术/科技板块涨2.87%，能源板块涨0.41%。",
+     "url": "https://wallstreetcn.com/livenews/3197165",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:09",
+     "title_en": "On Monday (November 9), US equity ETFs generally rose, and global aviation ETFs closed up 5.15%.",
+     "body_en": "On Monday (November 9), US equity ETFs generally rose, with global aviation ETFs up 5.15%, semiconductor ETFs up 5.05%, technology ETFs up 3.73%, and energy ETFs up 0.52%. Among the 11 sectors of the S&P 500 index, the industrial sector was up 3.78%, the optional consumer sector was up 3.05%, the information technology/technology sector was up 2.87%, and the energy sector was up 0.41%.",
+     "id": "wscn-3197165"
+    },
+    {
+     "ts": 1794260875,
+     "source": "华尔街见闻",
+     "title_zh": "OpenAI",
+     "body_zh": "控制室配合失准监测系统运行，在决定介入以停止或暂停任务后35秒内停止模型输出。",
+     "url": "https://wallstreetcn.com/livenews/3197186",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:47",
+     "title_en": "© <g id=\"319\">OpenAI</g>.",
+     "body_en": "The control room cooperates with the misalignment monitoring system to stop the model output within 35 seconds after the decision to intervene to stop or suspend the task.",
+     "id": "wscn-3197186"
+    },
+    {
+     "ts": 1794259182,
+     "source": "华尔街见闻",
+     "title_zh": "周一（11月9日），彭博电动汽车价格回报指数涨0.10%，报2906.18点",
+     "body_zh": "周一（11月9日），彭博电动汽车价格回报指数涨0.10%，报2906.18点，全天实现V形反转，港股盘初涨至2927.54点刷新日高。",
+     "url": "https://wallstreetcn.com/livenews/3197177",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:19",
+     "title_en": "On Monday (November 9), the Bloomberg EV Price Return Index rose 0.10% to 2906.18 points.",
+     "body_en": "On Monday (November 9), the Bloomberg Electric Vehicle Price Return Index rose 0.10% to 2906.18 points, achieving a V-shaped reversal throughout the day, and the Hong Kong stock market initially rose to a record high of 2927.54 points.",
+     "id": "wscn-3197177"
+    },
+    {
+     "ts": 1794246679,
+     "source": "华尔街见闻",
+     "title_zh": "LME期铜收涨128美元，报13896美元/吨",
+     "body_zh": "LME期铝收涨4美元，报3066美元/吨。 LME期锌收涨20美元，报3731美元/吨。 LME期铅收平，报1886美元/吨。 LME期镍收跌128美元，报16225美元/吨。 LME期锡收跌28美元，报46439美元/吨。 LME期钴收平，报33525美元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3197091",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:51",
+     "title_en": "LME copper closed up $128 at $13,896/t.",
+     "body_en": "LME aluminium closed up $4 at $3,066/t. LME-phase zinc closed up $20 at $3,731/t. Lead leveled off in LME, reported at $1,886/t. Nickel ended the LME period down $128 at $16,225/t. LME tin closed down $28 at $46,439/t. LME cobalt flattened to $33,525/t.",
+     "id": "wscn-3197091"
+    },
+    {
+     "ts": 1794246126,
+     "source": "华尔街见闻",
+     "title_zh": "凯斯纽（CNH）维持超过13%的涨幅，这家农机制造商改造工厂，为美国农业复苏",
+     "body_zh": "凯斯纽（CNH）维持超过13%的涨幅，这家农机制造商改造工厂，为美国农业复苏做准备。 由于美国农业行业经历多年低迷，CNH Industrial NV已放缓其拉辛（Racine）工厂的拖拉机生产，如今一台拖拉机大约需要五天才能驶下装配线。 该公司正投资5,000万美元对拉辛工厂进行现代化改造，引入自动化机器人以协助工人装配拖拉机，这是其到2030年50亿美元研发投入的一部分。",
+     "url": "https://wallstreetcn.com/livenews/3197087",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:42",
+     "title_en": "CNH maintained a gain of more than 13% as the machinery maker transformed its factories to contribute to the U.S. agricultural recovery.",
+     "body_en": "CNH maintained a gain of more than 13% as the farm machinery maker retrofitted its factories to prepare for a U.S. agricultural recovery. CNH Industrial NV has slowed down the production of tractors at its Racine plant because of years of downturn in the US agricultural industry, and it now takes about five days for a tractor to come off the assembly line. The company is investing $50 million to modernize the Racine plant and introduce automated robots to assist workers in assembling tractors as part of its $5 billion R&D investment by 2030.",
+     "id": "wscn-3197087"
+    },
+    {
+     "ts": 1794244650,
+     "source": "华尔街见闻",
+     "title_zh": "德国两年期国债收益率涨2个基点，投资者权衡股市上涨与油价下跌",
+     "body_zh": "周一（11月9日）欧市尾盘，德国10年期国债收益率涨0.9个基点，报3.264%，日内交投于3.220%-3.276%区间，整体呈现出N形走势。 两年期德债收益率涨2个基点，报3.011%，日内交投于2.966%-3.024%区间，美股开盘以来持续反弹；30年期德债收益率涨0.4个基点，报3.636%。 2/10年期德债收益率利差跌1.044个基点，报+24.927个基点。",
+     "url": "https://wallstreetcn.com/livenews/3197078",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:17",
+     "title_en": "Germany's two-year Treasury yields rose 2 basis points as investors weighed stock market gains against lower oil prices.",
+     "body_en": "At the end of the European market on Monday (November 9), Germany's 10-year Treasury yields rose 0.9 basis points to 3.264%, and intra-day trading was in the range of 3.220% -3.276%, showing an overall trend of N-shape. The two-year German bond yield rose 2 basis points, to 3.011%, and the intra-day trading was in the range of 2.966% -3.024%. Since the opening of the US stock market, it has continued to rebound. The 30-year German bond yield rose 0.4 basis points, to 3.636%. The 2/10-year German bond yield spread fell 1.044 basis points, to +24.927 basis points.",
+     "id": "wscn-3197078"
+    }
+   ],
+   "story": {
+    "id": "soros-pound",
+    "name_zh": "乔治·索罗斯",
+    "name_en": "George Soros",
+    "era": "1992 · 伦敦",
+    "title_zh": "一夜之间，与英格兰银行对赌的人",
+    "title_en": "The Night He Bet Against the Bank of England",
+    "body_zh": "一九九二年，英镑被固定汇率锁在偏高的位置。索罗斯判断英国撑不住。九月十六日英国一天加息两次仍挡不住卖盘，当晚英镑暴跌。他的基金净赚约十亿美元，报纸标题写着打垮了英格兰银行。",
+    "body_en": "In nineteen ninety-two, the British pound was locked into a fixed exchange rate that was too high. On September sixteenth, Britain raised rates twice in one day. It was not enough. That evening, the pound crashed. His fund made about one billion dollars.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "London, September, nineteen ninety-two. Black Wednesday is only hours away.",
+      "zh": "伦敦，1992 年 9 月。距离黑色星期三，只剩几个小时了。"
+     },
+     {
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2",
+      "en": "George, the Bank of England keeps defending the pound. Rates went up again this morning.",
+      "zh": "乔治，英格兰银行还在死守英镑，今天上午又加息了。"
+     },
+     {
+      "k": "dial",
+      "who": "Soros",
+      "g": "M",
+      "en": "A weak economy cannot defend an overvalued currency forever. Increase the position.",
+      "zh": "疲软的经济，守不住高估的货币。继续加仓。"
+     },
+     {
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2",
+      "en": "All of it? This is the Bank of England we are betting against.",
+      "zh": "全部押上？我们赌的对手可是英格兰银行。"
+     },
+     {
+      "k": "dial",
+      "who": "Soros",
+      "g": "M",
+      "en": "When a trade is right, go for the jugular.",
+      "zh": "当一笔交易是对的，就要直取要害。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "That evening Britain gave up, and the pound crashed out of the system. His fund made about one billion dollars. Newspapers said he broke the Bank of England.",
+      "zh": "当晚，英国投降了，英镑暴跌退出汇率机制。他的基金净赚约十亿美元。报纸标题写着：他打垮了英格兰银行。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "bull-bear-pig",
+    "tag_zh": "老交易员口头禅",
+    "tag_en": "Old Trader's Chant",
+    "title_zh": "牛市赚钱，熊市赚钱，猪被宰",
+    "title_en": "Bulls Win, Bears Win, Pigs Get Slaughtered",
+    "body_zh": "华尔街有句老话：牛市能赚钱，熊市也能赚钱，只有猪会被宰。牛是看涨的人，熊是看跌的人，猪是指贪得无厌的人。这句话的重点不是让你判断方向，而是提醒你：方向从来不是死因，贪心才是。涨了还想更多，亏了想一夜翻本，这类动作才最危险。行情永远都在，本金没了就真的没了。",
+    "body_en": "Wall Street has an old chant. Bulls make money. Bears make money. Pigs get slaughtered. Bulls expect prices to rise. Bears expect prices to fall. And pigs are the greedy ones. The lesson is not about picking a direction. Direction is rarely what kills an account. Greed is. Holding for more when you are up. Doubling down to win it all back overnight. Markets are always open. But lost capital does not come back."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 7.921,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 8.721,
+      "dur": 6.132,
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2"
+     },
+     {
+      "start": 15.403,
+      "dur": 5.549,
+      "k": "dial",
+      "who": "Soros",
+      "g": "M"
+     },
+     {
+      "start": 21.503,
+      "dur": 4.76,
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2"
+     },
+     {
+      "start": 26.813,
+      "dur": 2.781,
+      "k": "dial",
+      "who": "Soros",
+      "g": "M"
+     },
+     {
+      "start": 30.143,
+      "dur": 12.662,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "f41088771b33",
+    "item-00.mp3": "311ce7aec44b",
+    "item-01.mp3": "6e8590ace21e",
+    "item-02.mp3": "b46cf973de85",
+    "item-03.mp3": "205d4f4015fa",
+    "item-04.mp3": "7377f2481b53",
+    "item-05.mp3": "0e944b895148",
+    "item-06.mp3": "b5644a52e4a4",
+    "item-07.mp3": "27fc7838ce27",
+    "item-08.mp3": "629e294335e2",
+    "item-09.mp3": "b0aaf0ae67ff",
+    "item-10.mp3": "6eadc1f9b5c1",
+    "item-11.mp3": "98aacdae45dc",
+    "item-12.mp3": "d6b71f9acf62",
+    "item-13.mp3": "456780c4e487",
+    "item-14.mp3": "bd8e051228eb",
+    "item-15.mp3": "ed75c4b02972",
+    "item-16.mp3": "1ee545002b54",
+    "item-17.mp3": "988bb783dadc",
+    "story.mp3": "3bbf1923bf61",
+    "joke.mp3": "29dc8a8148c0"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.033
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 8.933,
+      "dur": 72.264
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 82.097,
+      "dur": 67.597
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 150.594,
+      "dur": 65.816
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 217.31,
+      "dur": 45.628
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 263.838,
+      "dur": 15.724
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 280.462,
+      "dur": 53.595
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 334.957,
+      "dur": 50.379
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 386.236,
+      "dur": 54.111
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 441.247,
+      "dur": 30.822
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 472.969,
+      "dur": 75.843
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 549.711,
+      "dur": 52.862
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 603.473,
+      "dur": 16.269
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 620.643,
+      "dur": 55.686
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 677.229,
+      "dur": 16.195
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 694.323,
+      "dur": 38.08
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 733.303,
+      "dur": 42.946
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 777.149,
+      "dur": 55.545
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 833.595,
+      "dur": 62.136
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-09",
    "weekday_en": "Monday",
@@ -3343,548 +3899,6 @@
      {
       "start": 36.673,
       "dur": 13.601,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
-  },
-  {
-   "date": "2026-11-03",
-   "weekday_en": "Tuesday",
-   "weekday_zh": "周二",
-   "generated_at": "2026-11-03 07:27",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3638.03,
-     "chg_pct": 1.08
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11010.68,
-     "chg_pct": 1.63
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2458.7,
-     "chg_pct": 1.87
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1196.94,
-     "chg_pct": 3.11
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23393.32,
-     "chg_pct": 0.42
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 51983.98,
-     "chg_pct": 0.41
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 25164.36,
-     "chg_pct": -1.07
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7541.4,
-     "chg_pct": -0.51
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793661726,
-     "source": "新浪财经",
-     "title_zh": "韩国通胀居高不下 为进一步加息提供依据",
-     "body_zh": "韩国通胀10月依然居高不下，凸显价格压力，时值韩国央行上月按兵不动后正考虑进一步加息。 韩国数据与统计部周二公布的数据显示，当月消费者价格指数（CPI）同比上涨2.8%...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyh6820324.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:22",
-     "title_en": "South Korea's persistently high inflation provides a basis for further rate hikes.",
-     "body_en": "South Korea's inflation remained high in October, underscoring price pressures as the PBOC in South Korea considered further rate hikes after staying put last month. According to data released by the Ministry of Data and Statistics of Korea on Tuesday, the consumer price index (CPI) rose by 2.8% year-on-year in the month...",
-     "id": "sina-comos:nixkzyh6820324"
-    },
-    {
-     "ts": 1793658684,
-     "source": "华尔街见闻",
-     "title_zh": "机构称A股市场处于反弹孕育期，业绩确定性成配置主线",
-     "body_zh": "机构人士认为，外部流动性偏紧、短期风险偏好仍受压制，市场难免反复，但A股正处于反弹的孕育期，而非行情的终点。三季报盈利面持续修复，产业资本以真金白银回购增持，确认底部区域，构成中期支撑；随着外部不确定性出清，风险偏好有望修复。操作上，机构建议以红利资产打底、绩优成长接力，短期把握修复窗口，中期锚定业绩确定性，在风险偏好修复中顺势布局。（中证报）",
-     "url": "https://wallstreetcn.com/livenews/3192871",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:31",
-     "title_en": "The agency said that the A-share market is in the rebound incubation period, and performance certainty is the main line of allocation.",
-     "body_en": "Institutional insiders believe that external liquidity is tight and short-term risk appetite is still suppressed, which makes it inevitable for the market to repeat itself, but A-shares are in the gestation period of rebound, not the end of the market. The profitability of the third quarter report continued to recover, and the industrial capital increased its holdings with real gold and silver share buyback, confirming the bottom area and constituting medium-term support; with external uncertainty clearing, risk appetite is expected to recover. In terms of operation, the institution recommends that bonus assets be bottoming out, performance growth relay, short-term grasp of the repair window, anchor performance certainty in the medium term, and be laid out in the risk appetite repair. (China Securities Report).",
-     "id": "wscn-3192871"
-    },
-    {
-     "ts": 1793658281,
-     "source": "华尔街见闻",
-     "title_zh": "苹果首席财务官",
-     "body_zh": "若无关税退款，受内存成本高企影响，毛利率本会下降。 由于研发投资，运营费用攀升21%。 其毛利率预测已将存储芯片成本和Siri人工智能成本的影响纳入考量。 业绩展望已考虑到第三方授权和汇率带来的不利因素。",
-     "url": "https://wallstreetcn.com/livenews/3192867",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:24",
-     "title_en": "Chief Financial Officer, Apple.",
-     "body_en": "If there were no tariff refunds, the gross profit margin would have declined due to high memory costs. Operating expenses climbed 21% due to R&D investment. Its gross margin forecast takes into account the impact of memory chip costs and Siri AI costs. The outlook takes into account the disadvantages associated with third-party authorizations and exchange rates.",
-     "id": "wscn-3192867"
-    },
-    {
-     "ts": 1793661432,
-     "source": "新浪财经",
-     "title_zh": "贝森特与委内瑞拉官员就能源及金融领域展开讨论",
-     "body_zh": "据美国财政部发表的一份声明称，美国财政部长斯科特·贝森特今日与委内瑞拉外交部长奥利弗·布兰科（Oliver Blanco）举行会晤。会上...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyf0041837.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:17",
-     "title_en": "Besent discusses energy and finance with Venezuelan officials.",
-     "body_en": "According to a statement issued by the U.S. Ministry of Finance, U.S. Minister of Finance Scott Besent met with Venezuelan Foreign Minister Oliver Blanco today at a...",
-     "id": "sina-comos:nixkzyf0041837"
-    },
-    {
-     "ts": 1793656800,
-     "source": "新浪财经",
-     "title_zh": "油价暴跌削弱美联储加息预期！美债持续走强 10年期收益率跌破4.87%",
-     "body_zh": "美国国债周一延续上涨势头，此前美债刚刚录得两年多来最大单月涨幅。随着国际油价大幅下跌，市场对能源价格推动通胀进一步上升、迫使美联储继续加息的担忧有所缓解...",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-03/doc-inixkzyh6799583.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:00",
-     "title_en": "The collapse in oil prices has weakened the Federal Reserve's expectations for rate hikes! US Treasuries continue to strengthen 10-year yields fell below 4.87%.",
-     "body_en": "Treasuries continued their rally on Monday after recording their biggest monthly gain in more than two years. As international oil prices have fallen sharply, fears that energy prices are pushing inflation higher and forcing the Federal Reserve to keep raising interest rates have eased...",
-     "id": "sina-comos:nixkzyh6799583"
-    },
-    {
-     "ts": 1793655045,
-     "source": "华尔街见闻",
-     "title_zh": "苹果第四财季营收1144.8亿美元，分析师预期1134.7亿美元",
-     "body_zh": "iPhone营收575.8亿美元，分析师预期564.9亿美元。 苹果盘后涨0.4%。",
-     "url": "https://wallstreetcn.com/livenews/3192854",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:30",
-     "title_en": "Apple Q4 revenue $114.48 billion, analysts expect $113.47 billion.",
-     "body_en": "iPhone revenue was $57.58 billion, with analysts expecting $56.49 billion. Apple after the bell rose 0.4%.",
-     "id": "wscn-3192854"
-    },
-    {
-     "ts": 1793658536,
-     "source": "华尔街见闻",
-     "title_zh": "苹果在电话会上预计第一财季营收将增长7%-10%，分析师预期增长6.1%",
-     "body_zh": "苹果在电话会上预计第一财季营收将增长7%-10%，分析师预期增长6.1%",
-     "url": "https://wallstreetcn.com/livenews/3192869",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:28",
-     "title_en": "Apple expects revenue growth of 7% -10% in the first quarter and analysts expect growth of 6.1% during the call.",
-     "body_en": "Apple expects revenue growth of 7% -10% in the first quarter and analysts expect growth of 6.1% during the call.",
-     "id": "wscn-3192869"
-    },
-    {
-     "ts": 1793656500,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价涨约1.9%，一度逼近4000美元关口",
-     "body_zh": "周一（11月2日）纽约尾盘，现货黄金涨1.88%，报3947.57美元/盎司，全天处于上涨状态，亚太盘初至北京时间21:16大致持稳于3900美元附近，之后显著扩大涨幅、00:44达到3970.34美元，脱离上周五底部3870.26美元。 现货白银涨3.12%，报50.6170美元/盎司。 COMEX铜期货涨0.94%，报6.5430美元/磅。",
-     "url": "https://wallstreetcn.com/livenews/3192861",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:55",
-     "title_en": "International gold prices rose by about 1.9%, once approaching the $4,000 mark.",
-     "body_en": "Spot gold rose 1.88% to $3,947.57 an ounce at the end of New York on Monday (November 2), rising throughout the day, with the Asia-Pacific market roughly holding steady near $3,900 at 21:16 Beijing time, before expanding significantly to reach $3,970.34 at 00:44, off last Friday's bottom of $3,870.26. spot silver rose 3.12% to $50.6170 an ounce. COMEX copper futures rose 0.94% to $6.5430/lb.",
-     "id": "wscn-3192861"
-    },
-    {
-     "ts": 1793655038,
-     "source": "华尔街见闻",
-     "title_zh": "苹果公司第四财季营收1144.8亿美元，分析师预期1134.7亿美元",
-     "body_zh": "第四财季美洲营收486.8亿美元（分析师预期485.1亿美元），大中华区营收175.4亿美元（预期187.5亿美元）。 第四财季产品营收829亿美元（分析师预期818.5亿美元），Mac营收107.9亿美元（预期97亿美元），iPad营收62.3亿美元（预期68.9亿美元），可穿戴设备、居家、周边营收83亿美元（预期90亿美元）。 第四财季iPhone营收575.8亿美元，分析师预期564.9亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3192853",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:30",
-     "title_en": "Apple's fourth quarter revenue of $114.48 billion, analysts expect $113.47 billion.",
-     "body_en": "Americas revenue in the fourth quarter was $48.68 billion (analysts expected $48.51 billion) and Greater China revenue was $17.54 billion (expected $18.75 billion). In the fourth quarter, product revenue was $82.9 billion (analysts expected $81.85 billion), Mac revenue was $10.79 billion (expected $9.7 billion), iPad revenue was $6.23 billion (expected $6.89 billion), and wearables, home, and peripherals revenue was $8.3 billion (expected $9 billion). iPhone revenue in Q4 was $57.58 billion, with analysts expecting $56.49 billion.",
-     "id": "wscn-3192853"
-    },
-    {
-     "ts": 1793654041,
-     "source": "华尔街见闻",
-     "title_zh": "标普500指数的11个板块中，能源板块收跌3.97%，信息技术/科技板块跌2",
-     "body_zh": "标普500指数的11个板块中，能源板块收跌3.97%，信息技术/科技板块跌2.66%，电信板块跌0.21%，房地产、工业、日用消费品、金融、原材料板块至多涨1.83%，可选消费板块涨2.25%。",
-     "url": "https://wallstreetcn.com/livenews/3192845",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:14",
-     "title_en": "Among the 11 sectors of the S&P 500, the energy sector closed down 3.97%, and the information technology/technology sector fell 2%.",
-     "body_en": "Among the 11 sectors of the S&P 500 index, the energy sector fell 3.97%, the information technology/technology sector fell 2.66%, the telecommunications sector fell 0.21%, the real estate, industrial, consumer goods, finance, and raw materials sectors rose at most 1.83%, and the optional consumer sector rose 2.25%.",
-     "id": "wscn-3192845"
-    },
-    {
-     "ts": 1793642663,
-     "source": "华尔街见闻",
-     "title_zh": "美联储研究结果显示：厄尔尼诺现象带来2027年通胀上升的“实质性风险”",
-     "body_zh": "根据美国旧金山联储发表的研究，可能在未来几个月导致海洋温度创纪录上升的厄尔尼诺气候模式，带来了2027年美国通胀上升的“实质性风险”，尽管它也可能增加就业。 世界气象组织在10月份预测，当前的厄尔尼诺现象可能是历史上有记录以来最强的一次，会在某些地区造成干旱，在其他地区造成洪涝，并导致全球许多地区气温升高。",
-     "url": "https://wallstreetcn.com/livenews/3192784",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "02:04",
-     "title_en": "the Federal Reserve Study Finds El Niño Brings' Substantial Risk 'of Rising Inflation in 2027.",
-     "body_en": "According to research published by the US Federal Reserve in San Francisco, the El Niño climate pattern, which could lead to record increases in ocean temperatures in the coming months, poses a “substantial risk” of rising US inflation in 2027, although it could also increase employment. In October, the World Meteorological Organization predicted that the current El Niño could be the strongest on record, causing droughts in some areas, flooding in others, and rising temperatures in many parts of the world.",
-     "id": "wscn-3192784"
-    },
-    {
-     "ts": 1793653793,
-     "source": "华尔街见闻",
-     "title_zh": "周一（11月2日），能源业ETF收跌3.96%，领跌美股行业ETF，科技行业",
-     "body_zh": "周一（11月2日），能源业ETF收跌3.96%，领跌美股行业ETF，科技行业ETF跌2.94%，半导体ETF、全球科技股指数ETF、网络股指数ETF至多跌2.71%，可选消费ETF则涨2.41%，全球航空业ETF涨4.16%。",
-     "url": "https://wallstreetcn.com/livenews/3192842",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:09",
-     "title_en": "On Monday (November 2), the energy sector ETF closed down 3.96%, leading the decline in the US equity sector ETF, the technology sector.",
-     "body_en": "On Monday (November 2), energy ETFs fell 3.96%, leading the decline in US equity ETFs, technology ETFs fell 2.94%, semiconductor ETFs, global technology index ETFs, and network index ETFs fell at most 2.71%, optional consumer ETFs rose 2.41%, and global aviation ETFs rose 4.16%.",
-     "id": "wscn-3192842"
-    },
-    {
-     "ts": 1793638288,
-     "source": "华尔街见闻",
-     "title_zh": "英国中长期国债收益率至少跌8个基点，油价下跌削弱加息预期",
-     "body_zh": "周一（11月2日）欧市尾盘，英国10年期国债收益率下跌8.6个基点，报5.197%，全天呈现出低开低走行情，北京时间00:23跌至5.184%。 两年期英债收益率跌6.4个基点，报4.803%。 30年期英债收益率跌8个基点，报5.634%；50年期英债收益率跌8个基点，报5.043%。 2/10年期英债收益率利差跌2.258个基点，报+39.329个基点。",
-     "url": "https://wallstreetcn.com/livenews/3192761",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "00:51",
-     "title_en": "Treasury yields in the UK fell at least 8bps in the medium to long term, with lower oil prices undermining expectations of rate hikes.",
-     "body_en": "On Monday (November 2), at the end of the European market, the UK's 10-year Treasury yields fell 8.6 basis points to 5.197%, showing a low opening and low market throughout the day, falling to 5.184% at 00:23 Beijing time. The two-year yield fell 6.4 basis points to 4.803%; the 30-year yield fell 8 basis points to 5.634%; the 50-year yield fell 8 basis points to 5.043%; and the 2/10-year yield spread fell 2.258 basis points to +39.329 basis points.",
-     "id": "wscn-3192761"
-    },
-    {
-     "ts": 1793652615,
-     "source": "华尔街见闻",
-     "title_zh": "周一（11月2日）纽约尾盘，彭博电动汽车价格回报指数涨1.59%，报2912",
-     "body_zh": "周一（11月2日）纽约尾盘，彭博电动汽车价格回报指数涨1.59%，报2912.93点，北京时间10:00以来持续上涨、23:44刷新日高至2935.15点。 成分股中，地平线H股收涨8.05%，“特斯拉劲敌”Rivian目前涨7.5%，小米集团H股收涨6.12%暂时表现第三。",
-     "url": "https://wallstreetcn.com/livenews/3192833",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "04:50",
-     "title_en": "Bloomberg Electric Vehicle Price Return Index rose 1.59% to 2912 at the end of New York on Monday (November 2).",
-     "body_en": "At the close of New York trading on Monday (November 2), the Bloomberg Electric Vehicle Price Return Index rose 1.59% to 2,912.93 points, rising continuously since 10:00 Beijing time and reaching a daily high of 2,935.15 points at 23:44. Among the constituent stocks, Horizon H shares closed up 8.05%, \"Tesla's rival\" Rivian is currently up 7.5%, and Xiaomi Group H shares closed up 6.12% for the third time.",
-     "id": "wscn-3192833"
-    },
-    {
-     "ts": 1793594156,
-     "source": "华尔街见闻",
-     "title_zh": "早间要闻汇总：创业板指半日涨超3%，全市场上涨个股超4800只，部分宽基E",
-     "body_zh": "创业板指半日涨超3%，全市场上涨个股超4800只，部分宽基ETF显著放量。 恒指半日涨0.61%，恒生科技指数涨2.85%，MINIMAX、地平线机器人涨超8%。 亚洲股市探底回升，韩国首尔综指盘中涨3%；国际油价跌3%。 铠侠本季利润指引逊预期，股价一度跌约15%。 中国10月RatingDog制造业PMI为52，连续11个月扩张，产出增速创六个月新高。 中国多只宽基ETF十月资金流入创纪录。",
-     "url": "https://wallstreetcn.com/livenews/3192241",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "12:35",
-     "title_en": "Morning news summary: The gem index rose by more than 3% in half a day, the whole market rose by more than 4,800 stocks, and some broad-based E.",
-     "body_en": "The gem refers to a rise of more than 3% in half a day, a rise of more than 4,800 stocks in the whole market, and a significant increase in some broad-based ETFs. The HSI rose 0.61% in half a day, the Hang Seng Technology Index rose 2.85%, and MINIMAX and Horizon Robot rose more than 8%. Asian equities bottomed out, with South Korea's Seoul Composite Index up 3% and international oil prices down 3%. Kioxia's profit guidance for the quarter was weaker than expected, with the share price falling by about 15% at one point. China's RatingDog manufacturing PMI was 52 in October, expanding for 11 consecutive months, and output growth hit a six-month high. Multiple broad-based ETFs in China saw record inflows in October.",
-     "id": "wscn-3192241"
-    },
-    {
-     "ts": 1793656748,
-     "source": "华尔街见闻",
-     "title_zh": "德英将深化人工智能等领域防务合作",
-     "body_zh": "德国国防部长皮斯托里乌斯与英国国防大臣斯特里廷2日在柏林举行会谈，双方同意进一步深化人工智能、远程精确打击及太空等领域的防务合作。（新华社）",
-     "url": "https://wallstreetcn.com/livenews/3192863",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:59",
-     "title_en": "Germany and Britain will deepen defense cooperation in areas such as artificial intelligence.",
-     "body_en": "German Defense Minister Pistorius and British Defense Secretary Streiten held talks in Berlin on the 2nd, and the two sides agreed to further deepen defense cooperation in areas such as artificial intelligence, long-range precision strikes and space. (Xinhua News Agency).",
-     "id": "wscn-3192863"
-    },
-    {
-     "ts": 1793651581,
-     "source": "华尔街见闻",
-     "title_zh": "10年期美债价格上涨，临近美股收盘时回吐涨幅",
-     "body_zh": "周一（11月2日）纽约尾盘，美国10年期国债收益率跌1.64个基点，报4.9125%，亚太盘初上扬至4.9537%刷新日高，随后持续震荡下行，北京时间02:09刷新日低至4.8653%，随着美国总统特朗普讲话而收复部分失地，WTI原油期货持续扩大跌幅、02:10跌至95.15美元逼近10月15日底部92.46美元。",
-     "url": "https://wallstreetcn.com/livenews/3192828",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "04:33",
-     "title_en": "Prices of 10-year Treasury bonds rose, returning gains near the close of the US stock market.",
-     "body_en": "At the end of New York on Monday (November 2), the US 10-year Treasury yields fell 1.64 basis points, or 4.9125%. The Asia-Pacific market initially rose to a new high of 4.9537%, and then continued to shock the downtrend. Beijing time 02:09 refreshed the daily low to 4.8653%. As US President Trump spoke and recovered some of the lost ground, WTI crude oil futures continued to expand and fell, falling to $95.15 at 02:10, approaching the bottom of $92.46 on October 15.",
-     "id": "wscn-3192828"
-    },
-    {
-     "ts": 1793641928,
-     "source": "华尔街见闻",
-     "title_zh": "伦铜价格上涨，得益于美元走软、智利下调产量预期",
-     "body_zh": "LME期铜收涨190美元，报14345美元/吨。 LME期铝收涨25美元，报3094美元/吨。 LME期锌收涨50美元，报3892美元/吨。 LME期铅收跌4美元，报1906美元/吨。 LME期镍收涨285美元，报15556美元/吨。 LME期锡收涨786美元，报49659美元/吨。 LME期钴收涨15美元，报33525美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3192779",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:52",
-     "title_en": "Copper prices rose on the back of a weaker dollar and lower production expectations in Chile.",
-     "body_en": "Copper closed up $190 at $14,345/t in the LME. LME aluminium closed up $25 at $3,094/t. LME-phase zinc closed up $50 at $3,892/t. LME lead closed down $4 at $1,906/t. Nickel in the LME closed up $285 at $15,556/t. LME tin closed up $786 at $49,659/t. LME cobalt closed up $15 at $33,525/t.",
-     "id": "wscn-3192779"
-    }
-   ],
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "637091f93d4e",
-    "item-00.mp3": "534682cfb7c6",
-    "item-01.mp3": "903616e8ca44",
-    "item-02.mp3": "4942a1940539",
-    "item-03.mp3": "c6ee962e4010",
-    "item-04.mp3": "bc206ad43a80",
-    "item-05.mp3": "c23351472512",
-    "item-06.mp3": "ef5c9c781789",
-    "item-07.mp3": "744e86027e0b",
-    "item-08.mp3": "c43f3809a398",
-    "item-09.mp3": "eb283d8de1f2",
-    "item-10.mp3": "13145420c285",
-    "item-11.mp3": "ec7d23dc21aa",
-    "item-12.mp3": "b0a7dcf9b435",
-    "item-13.mp3": "c1625ffbdd72",
-    "item-14.mp3": "21b39635373c",
-    "item-15.mp3": "bc7032e2e89e",
-    "item-16.mp3": "80459ae88cb1",
-    "item-17.mp3": "17fa721f7d70",
-    "story.mp3": "7ecce05fb0f0",
-    "joke.mp3": "2cc05a0246f5"
-   },
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.353
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.253,
-      "dur": 31.035
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 41.188,
-      "dur": 59.164
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 101.252,
-      "dur": 31.203
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 133.355,
-      "dur": 16.931
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 151.186,
-      "dur": 32.191
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 184.277,
-      "dur": 20.029
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 205.205,
-      "dur": 19.899
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 226.004,
-      "dur": 52.539
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 279.443,
-      "dur": 71.083
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 351.425,
-      "dur": 41.228
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 393.553,
-      "dur": 45.647
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 440.101,
-      "dur": 40.196
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 481.197,
-      "dur": 57.601
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 539.697,
-      "dur": 47.645
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 588.242,
-      "dur": 73.471
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 662.613,
-      "dur": 24.036
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 687.549,
-      "dur": 54.462
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 742.911,
-      "dur": 50.415
-     }
-    ]
-   },
-   "story": {
-    "id": "fisher-scuttlebutt",
-    "name_zh": "菲利普·费雪",
-    "name_en": "Philip Fisher",
-    "era": "1950s · 美国加州",
-    "title_zh": "不读财报的调研法：去和对手闲聊",
-    "title_en": "The Scuttlebutt Method",
-    "body_zh": "费雪调研公司有个怪招：不急着看报表，先去闲聊。找离职员工、供应商、同行工程师，一家公司的真实成色就浮出来了。他管这叫闲聊法，靠它拿了摩托罗拉十多年。",
-    "body_en": "Philip Fisher had an odd way to research a company. Before reading reports, he went out and chatted. Former employees, salesmen, suppliers, rival engineers. From these talks, the truth surfaced. He called it the scuttlebutt method.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "California, nineteen fifty. While other analysts read annual reports, Philip Fisher does something strange. He goes out for coffee, and small talk.",
-      "zh": "加州，1950 年。别的分析师在读年报，菲利普·费雪却在干一件怪事：出门喝咖啡、闲聊。"
-     },
-     {
-      "k": "dial",
-      "who": "Fisher",
-      "g": "M2",
-      "en": "You used to work at their plant. Was the new product real quality, or just a good story?",
-      "zh": "你以前在他们的厂里干过。新品是真有实力，还是故事讲得好？"
-     },
-     {
-      "k": "dial",
-      "who": "Ex-employee",
-      "g": "F",
-      "en": "Honestly? The lab is serious. But the boss loses his temper, and good people keep leaving.",
-      "zh": "说实话？实验室是认真的。但老板脾气大，能干的人一直在走。"
-     },
-     {
-      "k": "dial",
-      "who": "Fisher",
-      "g": "M2",
-      "en": "And the competitors say the same thing, from the other side. Now the picture is complete.",
-      "zh": "竞争对手从另一头说出来的，也是同样的话。拼图这就完整了。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "He called it the scuttlebutt method. It led him to hold Motorola for decades. His advice shaped Buffett too. If it is a wonderful company, almost never sell.",
-      "zh": "他管这叫闲聊法。靠它，他拿住了摩托罗拉十多年。这条建议也影响了巴菲特：真正的好公司，几乎永远别卖。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "truman-recession",
-    "tag_zh": "总统的定义",
-    "tag_en": "A President's Definition",
-    "title_zh": "邻居失业叫衰退，自己失业叫萧条",
-    "title_en": "A Recession Is When Your Neighbor Loses His Job",
-    "body_zh": "据说杜鲁门总统这样区分经济术语：邻居失业，叫衰退；自己失业，才叫萧条。一句话戳破了宏大叙事——经济数据再漂亮，落到每个具体的人身上，感受是完全不同的。这也提醒我们读新闻时留个心眼：报表上的百分比，都是别人的人生。理解经济，要从理解一个具体的人开始。",
-    "body_en": "President Truman supposedly explained economic terms this way. A recession is when your neighbor loses his job. A depression is when you lose yours. One sentence, and all the big words collapse. Growth rates look beautiful on paper. But every percentage point is somebody's real life. It is a good habit when reading the news. Behind every statistic, there is a person. Economics starts with people, not charts."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 14.275,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 15.075,
-      "dur": 6.58,
-      "k": "dial",
-      "who": "Fisher",
-      "g": "M2"
-     },
-     {
-      "start": 22.205,
-      "dur": 6.305,
-      "k": "dial",
-      "who": "Ex-employee",
-      "g": "F"
-     },
-     {
-      "start": 29.06,
-      "dur": 6.068,
-      "k": "dial",
-      "who": "Fisher",
-      "g": "M2"
-     },
-     {
-      "start": 35.678,
-      "dur": 14.755,
       "k": "narr",
       "who": "Narrator",
       "g": "N"
