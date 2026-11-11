@@ -3,12 +3,568 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-11 07:25",
-  "latest": "2026-11-11",
+  "updated_at": "2026-11-12 07:40",
+  "latest": "2026-11-12",
   "count": 18,
   "mt_calls": 35
  },
  "editions": [
+  {
+   "date": "2026-11-12",
+   "weekday_en": "Thursday",
+   "weekday_zh": "周四",
+   "generated_at": "2026-11-12 07:40",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3680.64,
+     "chg_pct": 0.46
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 11389.74,
+     "chg_pct": 1.32
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2572.07,
+     "chg_pct": 3.11
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1300.38,
+     "chg_pct": 2.8
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 24315.92,
+     "chg_pct": -0.98
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 52486.49,
+     "chg_pct": 0.49
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25466.19,
+     "chg_pct": 1.6
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7619.38,
+     "chg_pct": 1.31
+    }
+   ],
+   "items": [
+    {
+     "ts": 1794437644,
+     "source": "华尔街见闻",
+     "title_zh": "美加息预期强化，机构把脉金价走向",
+     "body_zh": "美国最新发布的通胀数据超出市场预期，不仅强化了市场对美联储货币政策的鹰派预期，也令国际黄金价格调整，失守4100美元/盎司关口。高盛等机构近日下调金价目标，但有观点表示，全球央行购金与储备多元化需求仍为黄金提供结构性支撑，短期承压与中长期逻辑并存，市场正进入多空因素交织的观察窗口。（中证报）",
+     "url": "https://wallstreetcn.com/livenews/3198660",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:54",
+     "title_en": "Expectations of U.S. interest rate hikes intensify, institutions gauge the direction of gold prices.",
+     "body_en": "The latest inflation data released by the United States exceeded market expectations, not only reinforcing market expectations of a hawkish stance on the Federal Reserve's monetary policy but also causing an adjustment in international gold prices, which fell below the $4,100/ounce mark. Institutions such as Goldman Sachs have recently lowered their gold price targets. However, some analysts argue that global demand for gold purchases and reserve diversification by the PBOC still provides structural support for gold. Short-term pressure coexists with medium- to long-term fundamentals, and the market is entering an observation window where bullish and bearish factors are intertwined. (China Securities Journal).",
+     "id": "wscn-3198660"
+    },
+    {
+     "ts": 1794436548,
+     "source": "华尔街见闻",
+     "title_zh": "上证报头版文章：政策工具优化迭代，稳市机制加快完善",
+     "body_zh": "金融管理部门部署推动支持资本市场两项工具调整优化、加力实施，一周多来，超过10家券商已在第三批证券、基金、保险公司互换便利项下买入股票，银行机构两日即申报股票回购增持再贷款额度超过2000亿元，上市公司密集抛出回购增持方案，政策红利正快速转化为真金白银的稳市力量。",
+     "url": "https://wallstreetcn.com/livenews/3198655",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:35",
+     "title_en": "Shanghai Securities News Front-Page Article: Optimization and Iteration of Policy Tools, Accelerated Improvement of Market Stabilization Mechanisms.",
+     "body_en": "Financial regulators have deployed two tools to support the capital markets, adjusting, optimizing, and intensifying their implementation. Over the past week, more than 10 securities firms have purchased stocks under the third round of the Securities, Funds, and Insurance Companies Swap Facility. Within two days, banking institutions reported share buyback and increased holding re-lending quotas exceeding RMB 200 billion. Listed companies have been intensively announcing share buyback and increased holding plans. The policy benefits are rapidly translating into real, tangible stabilizing forces for the market.",
+     "id": "wscn-3198655"
+    },
+    {
+     "ts": 1794439236,
+     "source": "华尔街见闻",
+     "title_zh": "华尔街见闻早餐 | 2026年11月12日",
+     "body_zh": "AI交易重燃，纳指收涨1.6%，CoreWeave飙升24%；美元续涨，黄金跌破4000美元关口；英伟达盘后跌超8%。 王毅同美国国务卿鲁比奥通电话，双方就中美关系及两国元首互动深入交换意见。 中国央行Q3货政报告：坚持实施好适度宽松的货币政策，保持人民币汇率在合理均衡水平上的基本稳定；用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行。",
+     "url": "https://wallstreetcn.com/livenews/3198667",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:20",
+     "title_en": "Wall Street Journal Breakfast | November 12, 2026.",
+     "body_en": "AI trading has reignited, with the Nasdaq closing up 1.6% and CoreWeave surging 24%. The U.S. dollar continued to rise, and gold fell below the $4,000 mark. Nvidia fell by more than 8% after the bell. Wang Yi had a phone call with U.S. Secretary of State Rubio, during which the two sides had an in-depth exchange of views on China-U.S. relations and the interactions between the leaders of the two countries. China's PBOC Q3 Monetary Policy Report: Continue to effectively implement a moderately accommodative monetary policy and maintain the RMB exchange rate's basic stability at a reasonable and balanced level; make good use of the bond market's non-bank large-scale redemption swap facility to ensure the smooth operation of financial markets such as stocks, bonds, and foreign exchange.",
+     "id": "wscn-3198667"
+    },
+    {
+     "ts": 1794436999,
+     "source": "华尔街见闻",
+     "title_zh": "报道：CoreWeave打算通过高评级贷款募集至少40亿美元",
+     "body_zh": "在人工智能（AI）算力供应商CoreWeave上调年度营收预测后，该公司计划通过一笔投资级贷款发行募集至少40亿美元，缓解了投资者对其高负债商业模式的担忧。 据知情人士透露，摩根士丹利和三菱日联金融集团正牵头这笔潜在融资，该融资将分阶段向投资者进行银团化。该交易最早可能于下周进入市场，但计划尚未最终确定，仍可能发生变化。",
+     "url": "https://wallstreetcn.com/livenews/3198658",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:43",
+     "title_en": "Report: CoreWeave plans to raise at least $4 billion through high-rated loans.",
+     "body_en": "After AI computing power provider CoreWeave raised its annual revenue forecast, the company plans to raise at least $4 billion through an investment-grade loan issuance, alleviating investors' concerns about its highly leveraged business model. According to sources, Morgan Stanley and Mitsubishi UFJ Financial Group are leading this potential financing, which will be syndicated to investors in stages. The deal could hit the market as early as next week, but the plans have not been finalized and are still subject to change.",
+     "id": "wscn-3198658"
+    },
+    {
+     "ts": 1794410666,
+     "source": "华尔街见闻",
+     "title_zh": "SOFR期权交易对冲12月美联储加息50个基点的可能性",
+     "body_zh": "由于美国周三（11月11日）假日导致现金市场休市，SOFR期权的资金流仍然清淡，不过已成交的几笔交易似乎延续了周二的主题：市场参与者希望在即将到来的美联储政策会议之前，进一步加码加息溢价的对冲。 一位伦敦交易员表示，在SOFR 2026年12月期权中，SFRZ6 95.75看跌期权以7.25的报价被直接买入10,000手。",
+     "url": "https://wallstreetcn.com/livenews/3198523",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "23:24",
+     "title_en": "SOFR options trading hedges the possibility of a 50-basis-point rate hike by the Federal Reserve in December.",
+     "body_en": "Cash flows for SOFR options remained light due to the closure of cash markets on Wednesday (November 11) for the U.S. holiday. However, the few trades that did take place seemed to continue the trend from Tuesday: market participants are looking to further increase their hedges against rate hike premiums ahead of the upcoming Federal Reserve policy meeting. A London-based trader said that in the SOFR December 2026 options, 10,000 contracts of the SFRZ6 95.75 put option were directly purchased at a bid price of 7.25.",
+     "id": "wscn-3198523"
+    },
+    {
+     "ts": 1794439406,
+     "source": "新浪财经",
+     "title_zh": "江西铜业股份拟回购公司A股股份",
+     "body_zh": "江西铜业股份（00358）发布公告，为践行“以投资者为本”的上市公司发展理念，维护公司价值和全体股东利益，基于对公司未来发展的信心及价值认可，经综合考虑公司经营情况...",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniymmzp1907626.shtml",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:23",
+     "title_en": "Jiangxi Copper Co., Ltd. proposes A-shares buyback of the company's A-shares.",
+     "body_en": "Jiangxi Copper Company Limited (00358) issued an announcement stating that, in order to implement the listed company's development philosophy of \"putting investors first\" and to safeguard the company's value and the interests of all shareholders, based on confidence in the company's future development and recognition of its value, and after comprehensively considering the company's operating conditions...",
+     "id": "sina-comos:niymmzp1907626"
+    },
+    {
+     "ts": 1794434546,
+     "source": "华尔街见闻",
+     "title_zh": "周三（11月11日）纽约尾盘，现货黄金跌1.11%，报3987.88美元/盎",
+     "body_zh": "周三（11月11日）纽约尾盘，现货黄金跌1.11%，报3987.88美元/盎司，亚太盘初以来持续上扬、北京时间15:25涨至4067美元刷新日高，随后持续下挫、04:06刷新日低至3982.73美元。 现货白银涨0.3%，报51.6871美元/盎司，全天冲高回落、15:24也曾刷新日高至53.1855美元。 COMEX铜期货涨0.54%，报6.2680美元/磅。",
+     "url": "https://wallstreetcn.com/livenews/3198640",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:02",
+     "title_en": "At the close of trading in New York on Wednesday (November 11), spot gold fell by 1.11% to $3,987.88/oz.",
+     "body_en": "At the close of trading in New York on Wednesday (November 11), spot gold fell by 1.11% to $3,987.88/oz. It had been rising steadily since the start of the Asia-Pacific session, reaching a new intraday high of $4,067 at 15:25 Beijing time, before continuing to decline and hitting a new intraday low of $3,982.73 at 04:06. Spot silver rose by 0.3% to $51.6871/oz, experiencing a rise and fall throughout the day, and also reaching a new intraday high of $53.1855 at 15:24. COMEX copper futures rose 0.54% to $6.2680/lb.",
+     "id": "wscn-3198640"
+    },
+    {
+     "ts": 1794398980,
+     "source": "华尔街见闻",
+     "title_zh": "瑞银资管称AI投资热潮催生“债务网络”，相关风险被市场严重低估",
+     "body_zh": "瑞银资产管理欧洲负责人表示，人工智能(AI)投资热潮正在催生一个相互关联的风险网络，而市场明显低估了相关风险。同时担任该公司投资与实物资产联席主管的Sonja Laud表示，大多数投资者并不清楚自己在公开市场、私募市场以及股票投资中，通过一张“债务网络”究竟承担了多少真实的人工智能敞口。我认为，我们需要非常警惕，因为这些投资最终的回报可能并不会完全达到此前预期，这已经从一个股票叙事演变成一个资产负债表的叙事。",
+     "url": "https://wallstreetcn.com/livenews/3198431",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "20:09",
+     "title_en": "UBS Asset Management states that the AI investment boom has given rise to a \"web of debt,\" and the associated risks are severely underestimated by the market.",
+     "body_en": "The head of UBS Asset Management Europe stated that the investment boom in artificial intelligence (AI) is creating an interconnected network of risks, and the market is clearly underestimating the associated risks. Sonja Laud, who also serves as the firm's co-head of Investments and Real Assets, said that most investors are unaware of the true extent of their AI exposure through a \"web of debt\" in public markets, private markets, and equity investments. I believe we need to be very cautious, as the ultimate returns on these investments may not fully meet previous expectations. This has evolved from a stock-based narrative to a balance sheet-based narrative.",
+     "id": "wscn-3198431"
+    },
+    {
+     "ts": 1794421379,
+     "source": "华尔街见闻",
+     "title_zh": "纳斯达克100指数涨幅扩大至3%，成分股CoreWeave涨26.7%，Ne",
+     "body_zh": "纳斯达克100指数涨幅扩大至3%，成分股CoreWeave涨26.7%，Nebius涨19.3%，闪迪、Lumentum、Arm控股、美光、希捷科技、迈威尔科技、MPWR等至多涨17.1%，英伟达涨5%；亚马逊跌1.5%，微软跌2.1%。 标普涨1.6%，道指涨超0.4%，纳指涨2.3%，半导体指数维持7.5%的涨幅。",
+     "url": "https://wallstreetcn.com/livenews/3198583",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "02:22",
+     "title_en": "The Nasdaq 100 Index rose by 3%, with its constituent stock CoreWeave surging by 26.7%, and Ne...",
+     "body_en": "The Nasdaq 100 Index extended its gains to 3%, with constituent stocks CoreWeave rising 26.7% and Nebius rising 19.3%. SanDisk, Lumentum, Arm Holdings, Micron, Seagate Technology, Marvell Technology, MPWR, and others rose by up to 17.1%, and Nvidia rose 5%. Amazon fell 1.5%, and Microsoft fell 2.1%. The S&P rose 1.6%, the Dow Jones rose over 0.4%, the Nasdaq rose 2.3%, and the Semiconductor Index maintained a 7.5% gain.",
+     "id": "wscn-3198583"
+    },
+    {
+     "ts": 1794431667,
+     "source": "华尔街见闻",
+     "title_zh": "新兴市场ETF收涨超2.4%，领跑美股大类资产类ETF，黄金ETF跌超1.1%",
+     "body_zh": "周三（11月11日），新兴市场ETF收涨2.43%，纳斯达克100 ETF涨2.31%，巴克莱美国可转债ETF、标普500 ETF至少涨1.32%，罗素2000指数ETF、做多美元指数、美国布伦特油价基金、道指ETF、农产品基金、大豆基金、美国国债20+年ETF至多涨0.89%。 美国房地产ETF则收跌0.06%，欧元做多、日元做多至多跌0.74%，黄金ETF跌1.13%，恐慌指数做多跌6.23%。",
+     "url": "https://wallstreetcn.com/livenews/3198627",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:14",
+     "title_en": "Emerging market ETFs closed up more than 2.4%, leading the way among U.S. stock broad asset class ETFs, while gold ETFs fell more than 1.1%.",
+     "body_en": "On Wednesday (November 11), the Emerging Markets ETF closed up 2.43%, the Nasdaq 100 ETF rose 2.31%, the Barclays U.S. Convertible Bond ETF and the S&P 500 ETF rose at least 1.32%, and the Russell 2000 Index ETF, the Long U.S. Dollar Index ETF, the U.S. Brent Oil Price Fund, the Dow Jones ETF, the Agricultural Products Fund, the Soybean Fund, and the U.S. Treasury 20+ Year ETF rose by up to 0.89%. The U.S. Real Estate ETF closed down 0.06%, long positions in the euro and the Japanese yen fell by up to 0.74%, the Gold ETF fell 1.13%, and long positions in the VIX Index fell 6.23%.",
+     "id": "wscn-3198627"
+    },
+    {
+     "ts": 1794431496,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块中，信息技术/科技板块涨2.71%，能源板块涨1.",
+     "body_zh": "标普500指数的11个板块中，信息技术/科技板块涨2.71%，能源板块涨1.83%，工业板块涨1.32%，电信板块涨0.91%，可选消费板块则跌0.36%。 在标普科技板块，成分股闪迪、戴尔科技、美光科技、Lumentum、希捷科技、迈威尔科技/美满电子领涨，铿腾电子、福思第一太阳能、埃森哲、微软表现最差。",
+     "url": "https://wallstreetcn.com/livenews/3198626",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:11",
+     "title_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector rose by 2.71%, and the Energy sector rose by 1.",
+     "body_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector rose by 2.71%, the Energy sector rose by 1.83%, the Industrial sector rose by 1.32%, the Telecommunications sector rose by 0.91%, and the Consumer Discretionary sector fell by 0.36%. In the S&P Technology sector, constituent stocks SanDisk, Dell Technologies, Micron Technology, Lumentum, Seagate Technology, and Marvell Technology/Marvell Technology Group led the gains, while Qorvo, First Solar, Accenture, and Microsoft performed the worst.",
+     "id": "wscn-3198626"
+    },
+    {
+     "ts": 1794407482,
+     "source": "华尔街见闻",
+     "title_zh": "美股开盘：纳斯达克100指数涨超1.8%，CoreWeave业绩报告重塑投资者对AI的信心",
+     "body_zh": "美股盘初，英伟达涨2.9%，CoreWeave涨16%——创9月份以来最大盘中涨幅、Nebius Group涨134%，闪迪、希捷科技、西部数据、SK海力士ADR、美光、英特尔、迈威尔科技等至多涨约8%。SpaceX涨0.5%。 费城半导体指数涨4.7%，收复11月5日暴跌以来的全部失地。",
+     "url": "https://wallstreetcn.com/livenews/3198492",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "22:31",
+     "title_en": "U.S. Stocks Open: Nasdaq 100 Index Rises Over 1.8%, CoreWeave's Earnings Report Restores Investor Confidence in AI.",
+     "body_en": "At the start of U.S. trading, Nvidia rose 2.9%, CoreWeave rose 16% — its largest intraday gain since September, Nebius Group rose 134%, and SanDisk, Seagate Technology, Western Digital, SK Hynix ADR, Micron, Intel, Marvell Technology, and others rose by up to about 8%. SpaceX rose 0.5%. The Philadelphia Semiconductor Index rose 4.7%, recovering all of the ground lost since its sharp decline on November 5.",
+     "id": "wscn-3198492"
+    },
+    {
+     "ts": 1794439619,
+     "source": "新浪财经",
+     "title_zh": "股海导航_2026年11月12日_沪深股市公告与交易提示",
+     "body_zh": "【停牌】 600185珠免集团 【复牌】 无 【热点】 卫星化学（002648）：拟约207亿元投建丙烯及下游高端新材料项目 3连板东方环宇：公司基本面未发生重大变化...",
+     "url": "https://finance.sina.com.cn/stock/s/2026-11-12/doc-iniymmzr4005361.shtml",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:26",
+     "title_en": "Stock Market Guide_November 12, 2026_Shanghai and Shenzhen Stock Market Announcements and Trading Notices.",
+     "body_en": "【Trading Suspension】 600185 Zhuhai Duty Free Group 【Trading Resumption】 None 【Hot Topics】 Satellite Petrochemical (002648): Plans to invest approximately RMB 20.7 billion in the construction of a propylene and downstream high-end new materials project. Dongfang Huayu (002002): No significant changes in the company's fundamentals...",
+     "id": "sina-comos:niymmzr4005361"
+    },
+    {
+     "ts": 1794434231,
+     "source": "华尔街见闻",
+     "title_zh": "英伟达盘后跌超3%，报道称黄仁勋与英伟达副总裁发生过婚外情",
+     "body_zh": "英伟达美股盘后跌3.1%，纽约时报援引知情人士报道称，英伟达CEO黄仁勋可能与直接向他汇报的公司高管金伯利·鲍威尔发生过婚外情。 今年3月在加州圣何塞一家酒店举行的英伟达会议期间，有人拍到英伟达首席执行官和鲍威尔举止亲密的视频。",
+     "url": "https://wallstreetcn.com/livenews/3198639",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:57",
+     "title_en": "Nvidia fell over 3% after the bell. Reports indicate that Jensen Huang had an extramarital affair with a Nvidia vice president.",
+     "body_en": "Nvidia's U.S. stock fell 3.1% after the bell. The New York Times, citing sources, reported that Nvidia CEO Jensen Huang may have had an extramarital affair with Kimberly Jerome Powell, a company executive who reports directly to him. During an Nvidia conference held at a hotel in San Jose, California, in March of this year, a video was captured showing the Nvidia CEO and Jerome Powell behaving intimately.",
+     "id": "wscn-3198639"
+    },
+    {
+     "ts": 1794433902,
+     "source": "华尔街见闻",
+     "title_zh": "加拿大重质原油因油轮运费下降而反弹",
+     "body_zh": "随着油轮运费飙升势头消退、国际油价下跌，加拿大重质原油已从八年最弱水平回升。 截至周三，加拿大西部精选原油（WCS）在阿尔伯塔省相对美国原油期货月度均价的折价已收窄至每桶26.50美元，低于11月3日的近32美元。周一该折价一度收窄至每桶25美元，为10月初以来最窄水平。本月WTI原油期货因市场对美国与伊朗战争结束的乐观情绪下跌约16%，带动折价同步收窄。",
+     "url": "https://wallstreetcn.com/livenews/3198638",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:51",
+     "title_en": "Canadian heavy crude oil rebounds due to lower tanker freight rates.",
+     "body_en": "As the surge in tanker freight rates subsides and international oil prices fall, Canadian heavy crude oil has rebounded from its weakest level in eight years. As of Wednesday, the discount of Western Canadian Select (WCS) crude oil in Alberta relative to the monthly average price of U.S. crude oil futures had narrowed to $26.50 per barrel, down from nearly $32 on November 3. On Monday, the discount narrowed to $25 per barrel, the narrowest level since early October. This month, WTI crude oil futures fell by about 16% due to market optimism about the end of the war between the United States and Iran, leading to a simultaneous narrowing of the discount.",
+     "id": "wscn-3198638"
+    },
+    {
+     "ts": 1794424888,
+     "source": "华尔街见闻",
+     "title_zh": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）",
+     "body_zh": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）签署铜勘探项目协议。",
+     "url": "https://wallstreetcn.com/livenews/3198601",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "03:21",
+     "title_en": "Codelco (Chile) and Adani Group (India).",
+     "body_en": "Chile's state-owned copper company Codelco has signed an agreement with India's Adani Group for a copper exploration project.",
+     "id": "wscn-3198601"
+    },
+    {
+     "ts": 1794434820,
+     "source": "华尔街见闻",
+     "title_zh": "博通美股盘后涨1.4%，投资者关注英伟达消息",
+     "body_zh": "博通美股盘后涨1.4%，投资者关注英伟达消息",
+     "url": "https://wallstreetcn.com/livenews/3198643",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:07",
+     "title_en": "Broadcom's U.S. stock rises 1.4% after the bell as investors focus on Nvidia news.",
+     "body_en": "Broadcom's U.S. stock rises 1.4% after the bell as investors focus on Nvidia news.",
+     "id": "wscn-3198643"
+    },
+    {
+     "ts": 1794406389,
+     "source": "华尔街见闻",
+     "title_zh": "彭博美元指数创2025年5月份以来新高，日内当前涨约0.4%，报1232.23点",
+     "body_zh": "ICE美元指数涨0.6%，报102.87点，逼近10月14日顶部102.94点，2025年4月份曾达到104.37点。",
+     "url": "https://wallstreetcn.com/livenews/3198479",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "22:13",
+     "title_en": "The Bloomberg Dollar Index hit a new high since May 2025, currently up about 0.4% intraday at 1232.23 points.",
+     "body_en": "The ICE U.S. Dollar Index rose 0.6% to 102.87 points, approaching its October 14 high of 102.94 points, having reached 104.37 points in April 2025.",
+     "id": "wscn-3198479"
+    }
+   ],
+   "story": {
+    "id": "morgan-1907",
+    "name_zh": "J.P. 摩根",
+    "name_en": "J.P. Morgan",
+    "era": "1907 · 纽约",
+    "title_zh": "把银行家锁进书房，直到他们答应救市",
+    "title_en": "The Night He Locked the Bankers In",
+    "body_zh": "一九〇七年十月纽约股市崩盘，没有央行兜底的美国眼看滑向恐慌。六十九岁的摩根把几十位银行总裁锁进书房，逼出两千五百万美元救市资金，凌晨签下协议，恐慌停了。五年后美联储成立。",
+    "body_en": "In October nineteen oh seven, New York was in panic. America had no central bank. J.P. Morgan, sixty-nine years old, summoned bank presidents to his library and locked the doors. The deal was signed after midnight. The panic stopped. Five years later, the Federal Reserve was born.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "New York, October, nineteen oh seven. Depositors are lining up in the streets. America has no central bank, and the panic is spreading.",
+      "zh": "纽约，1907 年 10 月。储户在街头排起长队。美国没有央行，恐慌正在蔓延。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "So the most powerful banker in America did something nobody would dare today.",
+      "zh": "于是，全美最有权势的银行家做了一件今天没人敢做的事。"
+     },
+     {
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2",
+      "en": "Gentlemen, you will all come to my library tonight. Bring your real numbers, not the ones for newspapers.",
+      "zh": "诸位，今晚都到我的书房来。带上真实的账目，别带给报纸看的那份。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He questioned each president one by one, behind closed doors, until the true holes were on the table.",
+      "zh": "他关门一个个逼问各位总裁，直到真实的窟窿全部摆上桌面。"
+     },
+     {
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2",
+      "en": "It is almost twelve o'clock. Nobody leaves this room until the papers are signed.",
+      "zh": "现在快十二点了。文件不签完，谁也别想出这个门。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "After midnight, twenty-five million dollars was pledged. The panic stopped. Five years later, partly because of this night, the Federal Reserve was born.",
+      "zh": "午夜过后，两千五百万美元的救市资金凑齐了。恐慌停了。五年后，正因为这一夜，美联储诞生了。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "lost-interest",
+    "tag_zh": "华尔街双关",
+    "tag_en": "Wall Street Wordplay",
+    "title_zh": "银行家为什么辞职？他失去了“利息”",
+    "title_en": "Why Did the Banker Quit? He Lost Interest",
+    "body_zh": "一位年轻银行家在大银行干满一年就辞职了。朋友都问他为什么，他只说了一句：我失去了利息。这个笑话妙在双关。英文里利息和兴趣是同一个词。对银行家来说，这两样东西缺一样都干不下去。所以下次见到闷闷不乐的银行家，你可以关心地问一句：是利息的问题，还是兴趣的问题？",
+    "body_en": "A young banker worked at a big bank for exactly one year. Then he quit. His friends all asked why. He gave them a one line answer. I lost interest. The joke works in two ways. In English, the money a bank pays you, and the feeling of caring, are the same word. A banker cannot survive without either one. So next time you meet a sad banker, ask politely. Is it the interest, or the interest?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 13.477,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 14.277,
+      "dur": 5.035,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 19.863,
+      "dur": 7.525,
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2"
+     },
+     {
+      "start": 27.938,
+      "dur": 8.526,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 37.014,
+      "dur": 5.869,
+      "k": "dial",
+      "who": "Morgan",
+      "g": "M2"
+     },
+     {
+      "start": 43.433,
+      "dur": 13.699,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "a0a7e3461fbc",
+    "item-00.mp3": "de4d95ec22ae",
+    "item-01.mp3": "c86907272df7",
+    "item-02.mp3": "1cf2b90ab35b",
+    "item-03.mp3": "b74d7c0c0769",
+    "item-04.mp3": "e0e6d4cd035a",
+    "item-05.mp3": "1ec84c4992dc",
+    "item-06.mp3": "95ab482b5e4e",
+    "item-07.mp3": "9c73d3403503",
+    "item-08.mp3": "ba8c2721f950",
+    "item-09.mp3": "31dd921fc8ad",
+    "item-10.mp3": "4c9b793a47d1",
+    "item-11.mp3": "85981beb687c",
+    "item-12.mp3": "15e460de8c93",
+    "item-13.mp3": "b4664e13b27a",
+    "item-14.mp3": "45431b3e34d2",
+    "item-15.mp3": "239700a1320e",
+    "item-16.mp3": "ec72ba3af726",
+    "item-17.mp3": "0e781eba3778",
+    "story.mp3": "e965e6950383",
+    "joke.mp3": "30d525cc0c92"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.203
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.103,
+      "dur": 62.435
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 72.438,
+      "dur": 51.875
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 125.213,
+      "dur": 71.307
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 197.42,
+      "dur": 39.691
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 238.011,
+      "dur": 53.873
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 292.783,
+      "dur": 31.617
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 325.3,
+      "dur": 72.729
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 398.929,
+      "dur": 53.146
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 452.975,
+      "dur": 60.375
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 514.25,
+      "dur": 73.026
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 588.176,
+      "dur": 64.097
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 653.173,
+      "dur": 48.239
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 702.311,
+      "dur": 40.706
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 743.917,
+      "dur": 39.033
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 783.851,
+      "dur": 59.391
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 844.141,
+      "dur": 12.353
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 857.395,
+      "dur": 16.647
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 874.941,
+      "dur": 28.867
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-11",
    "weekday_en": "Wednesday",
@@ -3350,562 +3906,6 @@ window.__BRIEF__ = {
     ]
    },
    "audio_ready": true,
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
-  },
-  {
-   "date": "2026-11-05",
-   "weekday_en": "Thursday",
-   "weekday_zh": "周四",
-   "generated_at": "2026-11-05 07:31",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3686.17,
-     "chg_pct": 2.16
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11335.69,
-     "chg_pct": 4.22
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2544.73,
-     "chg_pct": 6.4
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1265.47,
-     "chg_pct": 9.92
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23919.5,
-     "chg_pct": 1.67
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 53356.12,
-     "chg_pct": 3.03
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 25736.51,
-     "chg_pct": 1.44
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7688.62,
-     "chg_pct": 1.58
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793830702,
-     "source": "新浪财经",
-     "title_zh": "央行缩量续做3个月期买断式逆回购",
-     "body_zh": "本报记者刘琪 11月4日，中国人民银行发布公开市场买断式逆回购招标公告。公告显示，为保持银行体系流动性充裕，2026年11月5日，中国人民银行将以固定数量、利率招标...",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixrqea8960742.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:18",
-     "title_en": "the PBOC shrinkage continues with 3-month buyout reverse share buyback.",
-     "body_en": "On November 4, the People's Bank of China issued an open market buyout reverse share buyback tender announcement. According to the announcement, in order to maintain sufficient liquidity in the banking system, on November 5, 2026, the People's Bank of China will bid at a fixed number and interest rate...",
-     "id": "sina-comos:nixrqea8960742"
-    },
-    {
-     "ts": 1793834234,
-     "source": "新浪财经",
-     "title_zh": "芯片出口强劲，韩国9月经常帐顺差突破610亿美元创历史新高",
-     "body_zh": "韩国央行周四发布的数据显示，受半导体出口强劲的推动，韩国9月份经常账户顺差超过600亿美元，创下历史新高。 根据韩国央行发布的数据，9月份经常账户顺差总计614...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqek9695284.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:17",
-     "title_en": "Chip exports are strong, with South Korea's current account surplus hitting a record high of $61 billion in September.",
-     "body_en": "South Korea posted a record current account surplus of more than $60 billion in September, driven by strong semiconductor exports, according to data released by the PBOC on Thursday. According to data released by the PBOC in South Korea, the current account surplus for September totaled 614...",
-     "id": "sina-comos:nixrqek9695284"
-    },
-    {
-     "ts": 1793831748,
-     "source": "华尔街见闻",
-     "title_zh": "锂电企业业绩会释放趋势信号：储能市场增量明确，固态电池成必然方向",
-     "body_zh": "近日，锂电企业在三季报业绩会上释放多重趋势信号：储能市场增长预期确定性增强、固态电池中试稳步推进、高端产品供应偏紧……折射出行业竞争重心从规模扩张转向结构性增长。同时，多家企业对明年市场需求给出偏乐观预判。“随着动力电池、储能电池需求的增长，以及交通、算力等下游领域对绿色能源、稳定能源供应的需求释放，2027年锂电池产业链的市场规模仍将保持稳定增长。”有企业负责人表示。（中证报）",
-     "url": "https://wallstreetcn.com/livenews/3194540",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:35",
-     "title_en": "The performance of lithium battery companies will release trend signals: the increment of the energy storage market is clear, and solid-state batteries are an inevitable direction.",
-     "body_en": "Recently, lithium battery companies released multiple trend signals at the third quarterly earnings meeting: increased certainty in energy storage market growth expectations, steady progress in solid-state battery trials, and tight supply of high-end products... Reflecting the industry's competitive focus from scale expansion to structural growth. At the same time, many companies gave optimistic forecasts for market demand next year. \"With the growth of demand for power batteries and energy storage batteries, as well as the release of demand for green energy and stable energy supply in downstream fields such as transportation and computing power, the market size of the lithium battery industry chain will continue to grow steadily in 2027.\" The person in charge of the enterprise said. (China Securities Journal).",
-     "id": "wscn-3194540"
-    },
-    {
-     "ts": 1793831535,
-     "source": "新浪财经",
-     "title_zh": "Snap股价盘后重挫10%：Q3营收不及预期，日活用户流失",
-     "body_zh": "Snap周三公布第三季度财报，营收和日活跃用户均不及预期，盘后下跌逾10%。 Snap第三季度销售额同比增长14%，净利润为5，600万美元，而去年同期净亏损1.04亿美元。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqek9675149.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:32",
-     "title_en": "Snap's share price after the bell plunged by 10%: Q3 revenue fell short of expectations and daily active users were lost.",
-     "body_en": "Snap reported third-quarter results on Wednesday, with both revenue and daily active users falling short of expectations, after the bell fell more than 10 percent. Snap's third-quarter sales were up year on year at 14%, with a net profit of $56 million, compared to a net loss of $104 million in the same period last year.",
-     "id": "sina-comos:nixrqek9675149"
-    },
-    {
-     "ts": 1793802692,
-     "source": "华尔街见闻",
-     "title_zh": "美股开盘：道指飙涨超千点，半导体指数跌0.9%，中概指数涨3.2%，阿里涨4.7%",
-     "body_zh": "美股盘初，特斯拉跌5.2%，SpaceX跌5.3%，特朗普媒体科技跌9.6%。Palantir跌5.8%，希捷科技、西部数据、Nebius、闪迪至少跌超3%，英伟达跌1.2%，AMD跌1%，台积电跌0.8%。 Meta涨2.3%，谷歌A涨3.2%，苹果涨3.9%，微软涨4.8%，亚马逊涨7.4%。 纳斯达克金龙中国指数涨3.2%。",
-     "url": "https://wallstreetcn.com/livenews/3194325",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "22:31",
-     "title_en": "Opening of US stocks: The Dow surged more than 1,000 points, the semiconductor index fell 0.9%, the Zhongguo index rose 3.2%, and Alibaba rose 4.7%.",
-     "body_en": "At the beginning of the session, Tesla fell 5.2%, SpaceX fell 5.3%, and Trump Media Technology fell 9.6%. Palantir fell 5.8%, Seagate Technologies, Western Digital, Nebius, and SanDisk fell at least 3%, Nvidia fell 1.2%, AMD fell 1%, and TSMC fell 0.8%. Meta up 2.3%, Google A up 3.2%, Apple up 3.9%, Microsoft up 4.8%, Amazon up 7.4%. The Nasdaq Golden Dragon China Index was up 3.2%.",
-     "id": "wscn-3194325"
-    },
-    {
-     "ts": 1793809231,
-     "source": "华尔街见闻",
-     "title_zh": "民主党夺下美国参议院，特朗普重塑美联储之路再添屏障",
-     "body_zh": "随着美国民主党赢得参议院控制权，总统特朗普试图重塑美联储、让利率政策顺从其意愿的行动遭遇了一道强有力的屏障。这实际上阻断了白宫让忠于特朗普的人选获得确认、进入由七名理事组成的美联储理事会的路径，也使特朗普政府失去了进一步加强对美国央行控制最直接的手段。 在民主党占据多数后，马萨诸塞州参议员伊丽莎白·沃伦可能出任参议院银行委员会主席。",
-     "url": "https://wallstreetcn.com/livenews/3194393",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "00:20",
-     "title_en": "Democrats take the U.S. Senate, and Trump adds another barrier to reshaping the Federal Reserve.",
-     "body_en": "With the Democrats winning control of the Senate, President Trump's attempt to reshape the Federal Reserve and bend interest rate policy to his wishes has met with a powerful barrier. This effectively blocked the White House's path to confirmation of Trump loyalists and access to the seven-member Federal Reserve Council, and deprived the Trump administration of the most direct means to further strengthen its control over the PBOC in the United States. Massachusetts Senator Elizabeth Warren is likely to chair the Senate Banking Committee after the Democratic majority.",
-     "id": "wscn-3194393"
-    },
-    {
-     "ts": 1793828227,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价涨超3.3%，现货白银涨约4.9%",
-     "body_zh": "周三（11月4日）纽约尾盘，现货黄金涨3.32%，报4060.18美元/盎司，亚太早盘大致持平，北京时间13:00以来持续上涨，16:00以来持稳于4040美元附近。 现货白银涨4.87%，报52.2265美元/盎司。 COMEX铜期货涨0.25%，报6.4180美元/磅，亚太时段呈现出V形反转。 在美股时段交易的费城金银指数收涨8.21%，原材料指数收涨2.52%，金属与矿业指数收跌0.19%。",
-     "url": "https://wallstreetcn.com/livenews/3194521",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:37",
-     "title_en": "International gold prices rose more than 3.3%, spot silver rose by about 4.9%.",
-     "body_en": "Spot gold rose 3.32% to $4,060.18 per ounce at the close of New York trading on Wednesday (November 4), with the Asia-Pacific morning trading broadly flat, continuing to rise since 13:00 Beijing time and holding steady near $4,040 since 16:00. Spot silver rose 4.87% to $52.2265 per ounce. COMEX copper futures rose 0.25% to $6.4180/lb, showing a V-shaped reversal in Asia Pacific. The Philadelphia Bullion Index closed up 8.21%, the Raw Materials Index closed up 2.52%, and the Metals & Mining Index closed down 0.19%.",
-     "id": "wscn-3194521"
-    },
-    {
-     "ts": 1793827644,
-     "source": "华尔街见闻",
-     "title_zh": "黄金ETF收涨将近3.7%，与地产ETF领跑美股大类资产类ETF，布油基金跌超8.6%",
-     "body_zh": "周三（11月4日），黄金ETF收涨3.68%，美国房地产ETF涨3.18%，道指ETF涨3.1%，标普500 ETF、罗素2000指数ETF至少涨1.51%，纳斯达克100 ETF涨0.97%，新兴市场ETF涨0.85%，美国国债20+年ETF涨0.8%，欧元做多、日元做多至多涨0.35%。",
-     "url": "https://wallstreetcn.com/livenews/3194519",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:27",
-     "title_en": "The gold ETF closed up nearly 3.7%, with the real estate ETF leading the US asset class ETF, and the oil fund fell more than 8.6%.",
-     "body_en": "On Wednesday (November 4), gold ETFs closed up 3.68%, US real estate ETFs up 3.18%, Dow ETFs up 3.1%, S&P 500 ETFs, Russell 2000 ETFs up at least 1.51%, Nasdaq 100 ETFs up 0.97%, emerging market ETFs up 0.85%, US Treasury 20 + year ETFs up 0.8%, the euro long, the yen long at most 0.35%.",
-     "id": "wscn-3194519"
-    },
-    {
-     "ts": 1793827592,
-     "source": "华尔街见闻",
-     "title_zh": "标普500指数的11个板块中，可选消费板块收涨4.27%，金融、房地产、原材",
-     "body_zh": "标普500指数的11个板块中，可选消费板块收涨4.27%，金融、房地产、原材料、保健板块至少涨3.04%，电信板块涨2.95%，信息技术/科技板块涨0.55%，工业板块跌1.11%，能源板块跌4.77%。",
-     "url": "https://wallstreetcn.com/livenews/3194518",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:26",
-     "title_en": "Among the 11 sectors of the S&P 500 index, the optional consumer sector closed up 4.27%, financial, real estate, raw materials.",
-     "body_en": "Among the 11 sectors of the S&P 500 index, the optional consumer sector closed up 4.27%, the financial, real estate, raw materials, and health care sectors rose at least 3.04%, the telecommunications sector rose 2.95%, the information technology/technology sector rose 0.55%, the industrial sector fell 1.11%, and the energy sector fell 4.77%.",
-     "id": "wscn-3194518"
-    },
-    {
-     "ts": 1793829306,
-     "source": "华尔街见闻",
-     "title_zh": "高通CEO",
-     "body_zh": "数据中心业务开始放量，预计12月当季营收将超过6.5亿美元. 到2027财年，QCT非手机业务收入将同比增长超过60%。 展望未来，我们的计划假设2027日历年全球手机出货量将持平至下降。 定制加速器将于10月开始出货，我们与亚马逊云科技的连接解决方案将于本月晚些时候加速推进。",
-     "url": "https://wallstreetcn.com/livenews/3194525",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:55",
-     "title_en": "Qualcomm CEO.",
-     "body_en": "The data center business began to expand, and revenue in the December quarter is expected to exceed $650 million. By FY2027, QCT's non-phone business revenue will be up year on year by more than 60%. Going forward, our plan assumes that global mobile phone shipments will be flat to declining in calendar year 2027. Custom accelerators will begin shipping in October, and our connectivity solution with Amazon Cloud Technologies will accelerate later this month.",
-     "id": "wscn-3194525"
-    },
-    {
-     "ts": 1793834644,
-     "source": "华尔街见闻",
-     "title_zh": "国内海拔最高超超临界火电项目完成试运行，今天正式投产",
-     "body_zh": "今天（5日），国内海拔最高超超临界火电项目——青海华电格尔木一期火电项目1号机组顺利完成168小时试运行，正式投入商业运营。华电格尔木公司项目总负责人赵发林表示，项目全容量投产后，年发电量可达60亿千瓦时，能满足约660万居民一年的用电需求，将有效提升青海电网安全稳定支撑能力，为新能源大规模消纳提供调峰保障。（央视新闻）",
-     "url": "https://wallstreetcn.com/livenews/3194554",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:24",
-     "title_en": "Domestic highest altitude ultra-supercritical thermal power project completed trial operation, officially put into operation today.",
-     "body_en": "Today (5th), Qinghai Huadian Golmud Phase I Thermal Power Project, the highest-altitude ultra-supercritical thermal power project in China, successfully completed 168 hours of trial operation and officially put into commercial operation. Zhao Falin, general manager of the project of Huadian Golmud Company, said that after the full capacity of the project is put into operation, the annual power generation capacity can reach 6 billion kilowatt hours, which can meet the electricity demand of about 6.6 million residents for one year, which will effectively enhance the safety and stability support capacity of the Qinghai power grid and provide peak adjustment guarantee for the large-scale consumption of new energy. (CCTV News).",
-     "id": "wscn-3194554"
-    },
-    {
-     "ts": 1793824817,
-     "source": "华尔街见闻",
-     "title_zh": "花旗策略师Daniel Tobon",
-     "body_zh": "随着注意力重新集中到美联储利率路径，美国中期选举过后的美元疲软问题将快速消退。",
-     "url": "https://wallstreetcn.com/livenews/3194496",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "04:40",
-     "title_en": "Daniel Tobon, Citi Strategist.",
-     "body_en": "As attention refocuses on the Federal Reserve interest rate path, the weakening of the dollar after the US midterm elections will fade quickly.",
-     "id": "wscn-3194496"
-    },
-    {
-     "ts": 1793834416,
-     "source": "新浪财经",
-     "title_zh": "股海导航_2026年11月5日_沪深股市公告与交易提示",
-     "body_zh": "【停牌】 300237 ST美晨 【复牌】 无 【品大事】 宏和科技：黄石宏和高性能特种电子纱因市场供不应求已在建设中 11月4日，在三季报业绩会上，宏和科技董事长毛嘉明介绍...",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-05/doc-inixrqek9699405.shtml",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:20",
-     "title_en": "Stock Navigation_November 5, 2026_Shanghai-Shenzhen Stock Market Announcement and Trading Tips.",
-     "body_en": "[Suspension] 300237 ST Meichen [Resumption] No [Product Event] Honghe Technology: Huang Shihong and high-performance special electronic yarns have been under construction due to market shortage on November 4. At the third quarterly report meeting, Honghe Technology Chairman Mao Jiaming introduced...",
-     "id": "sina-comos:nixrqek9699405"
-    },
-    {
-     "ts": 1793814714,
-     "source": "华尔街见闻",
-     "title_zh": "LME期铜收跌25美元，报14011美元/吨",
-     "body_zh": "LME期铝收涨2美元，报3047美元/吨。 LME期锌收涨16美元，报3807美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3194433",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:51",
-     "title_en": "LME copper closed down $25 at $14,011/t.",
-     "body_en": "LME aluminium closed up $2 at $3,047/t. LME-phase zinc closed up $16 at $3,807/t.",
-     "id": "wscn-3194433"
-    },
-    {
-     "ts": 1793811647,
-     "source": "华尔街见闻",
-     "title_zh": "国际铜夜盘收涨0.26%，沪铜收涨0.31%，沪铝收涨0.02%，沪锌收涨0",
-     "body_zh": "国际铜夜盘收涨0.26%，沪铜收涨0.31%，沪铝收涨0.02%，沪锌收涨0.08%，沪铅收涨0.86%，沪镍收涨2.37%，沪锡收涨0.06%。 氧化铝夜盘收跌0.08%，铝合金收涨0.56%。 不锈钢夜盘收涨1.38%。",
-     "url": "https://wallstreetcn.com/livenews/3194412",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:00",
-     "title_en": "International copper and night trading closed up 0.26%, Shanghai copper closed up 0.31%, Shanghai aluminum closed up 0.02%, Shanghai zinc closed up 0%.",
-     "body_en": "The international copper night market closed up 0.26%, Shanghai copper closed up 0.31%, Shanghai aluminum closed up 0.02%, Shanghai zinc closed up 0.08%, Shanghai lead closed up 0.86%, Shanghai nickel closed up 2.37%, and Shanghai tin closed up 0.06%. Alumina closed 0.08% lower and aluminium ended 0.56% higher. Stainless steel closed up 1.38% at night.",
-     "id": "wscn-3194412"
-    },
-    {
-     "ts": 1793808127,
-     "source": "华尔街见闻",
-     "title_zh": "CoreWeave债券跌至新低，民主党胜选令德州数据中心前景蒙阴",
-     "body_zh": "CoreWeave Inc.债券大跌，部分价格创下新低，因多名主张放缓数据中心建设的美国民主党候选人在州长选举中获胜，其中包括得克萨斯州。Trace定价数据显示，这家AI云计算提供商2031年到期的无担保债券周三在高收益债券发行人中表现垫底，交易价格最低跌至面值的79.5%。其2030年和2032年到期债券也下跌，目前价格徘徊在市场普遍认为财务处于困境的水平，收益率超过15%。",
-     "url": "https://wallstreetcn.com/livenews/3194385",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "00:02",
-     "title_en": "CoreWeave bonds fell to a new low, and the Democratic victory clouded the prospects for Texas data centers.",
-     "body_en": "CoreWeave Inc. bonds plunged, with some prices hitting new lows, as a number of Democratic candidates, including Texas, who advocated a slowdown in data center construction, won the gubernatorial election. The AI cloud computing provider's unsecured bonds due in 2031 underperformed among high-yield issuers on Wednesday, trading at a minimum of 79.5% of par, according to Trace pricing data. Its 2030 and 2032 maturities have also fallen, with prices currently hovering around what the market generally sees as financial distress, yielding more than 15%.",
-     "id": "wscn-3194385"
-    },
-    {
-     "ts": 1793820654,
-     "source": "华尔街见闻",
-     "title_zh": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元",
-     "body_zh": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元/桶，逼近10月7日收报87.55美元、9月4日收报85.46美元，北京时间17:10以来平缓地持续下跌，23:52-01:38加速下跌；较10月30日收盘价累计回撤超过15.36%。 布伦特1月原油期货收跌8.98美元，跌幅将近8.87%，报94.62美元/桶。 NYMEX 12月天然气期货收报2.9590美元/百万英热单位。",
-     "url": "https://wallstreetcn.com/livenews/3194470",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "03:30",
-     "title_en": "WTI December crude oil futures closed down $7.97, or more than 8.29%, at $88.12.",
-     "body_en": "WTI crude oil futures closed the month down $7.97, or more than 8.29%, at $88.12 per barrel, approaching $87.55 on October 7 and $85.46 on September 4. It has been declining steadily since 17:10 Beijing time, accelerating its decline from 23:52 to 01:38; the cumulative retracement from the closing price on October 30 exceeded 15.36%. Brent crude oil futures closed January down $8.98, or nearly 8.87%, at $94.62 per barrel. NYMEX natural gas futures closed December at $2.9590/mbtu.",
-     "id": "wscn-3194470"
-    },
-    {
-     "ts": 1793834866,
-     "source": "华尔街见闻",
-     "title_zh": "首张成年脊椎动物全细胞转录组图谱绘成",
-     "body_zh": "美国麻省理工学院怀特黑德研究所团队在最新一期《科学》发表研究，以体长约1厘米的透明小丹鱼属Danionella cerebrum为模型，绘制出首张成年脊椎动物全细胞转录组图谱。研究累计分析超过60万个来自脑、脊髓、眼、内脏、鳍及头躯干的细胞，为理解脊椎动物如何以细胞为单位协同运作提供了全新的分子底图，也为研究脊椎动物大脑开辟了新的可能性。（科技日报）",
-     "url": "https://wallstreetcn.com/livenews/3194555",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:27",
-     "title_en": "First adult vertebrate whole-cell transcriptome mapping.",
-     "body_en": "The team at mit's Whitehead Institute published a study in the latest issue of Science, which mapped the first adult vertebrate whole-cell transcriptome using Danionella cerebrum, a hyaluronan fish about 1 cm in length, as a model. The cumulative analysis of more than 600,000 cells from the brain, spinal cord, eyes, viscera, fins and head trunk provides a new molecular basis for understanding how vertebrates work together in cells and opens up new possibilities for studying vertebrate brains. (Science and Technology Daily).",
-     "id": "wscn-3194555"
-    }
-   ],
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "81515cefc21d",
-    "item-00.mp3": "94510559e41c",
-    "item-01.mp3": "0f5b0b2952f6",
-    "item-02.mp3": "8572ab411e04",
-    "item-03.mp3": "0b8256679401",
-    "item-04.mp3": "f98daf803a44",
-    "item-05.mp3": "ea9d98b97986",
-    "item-06.mp3": "222e9fd62e60",
-    "item-07.mp3": "5007bf31d621",
-    "item-08.mp3": "ebeacc071d50",
-    "item-09.mp3": "bfc7291f8a83",
-    "item-10.mp3": "f680a94e78c7",
-    "item-11.mp3": "a6b7526dbdf4",
-    "item-12.mp3": "d9366e7ad4e6",
-    "item-13.mp3": "eafa20a323c2",
-    "item-14.mp3": "e70a8f2aea48",
-    "item-15.mp3": "dd03405899f2",
-    "item-16.mp3": "d89309ed3154",
-    "item-17.mp3": "664dd7f5a38e",
-    "story.mp3": "62d4e4805473",
-    "joke.mp3": "4fcd6996e863"
-   },
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.587
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.487,
-      "dur": 28.503
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 38.891,
-      "dur": 28.447
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 68.238,
-      "dur": 71.28
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 140.418,
-      "dur": 30.886
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 172.204,
-      "dur": 62.535
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 235.639,
-      "dur": 41.407
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 277.947,
-      "dur": 64.218
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 343.065,
-      "dur": 47.663
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 391.627,
-      "dur": 48.132
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 440.659,
-      "dur": 35.278
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 476.837,
-      "dur": 65.698
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 543.435,
-      "dur": 11.877
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 556.213,
-      "dur": 32.046
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 589.159,
-      "dur": 17.219
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 607.278,
-      "dur": 54.701
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 662.879,
-      "dur": 47.527
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 711.307,
-      "dur": 68.186
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 780.393,
-      "dur": 40.242
-     }
-    ]
-   },
-   "story": {
-    "id": "kostolany-dog",
-    "name_zh": "安德烈·科斯托拉尼",
-    "name_en": "André Kostolany",
-    "era": "欧洲 · 布达佩斯投机家",
-    "title_zh": "经济和股市，是主人和狗",
-    "title_en": "The Economy and the Dog on a Leash",
-    "body_zh": "科斯托拉尼有个流传最广的比喻：经济是主人，股市是狗。狗前后乱跑，但拴着绳，最终都会跟着主人回家。他从不因股市涨跌过度兴奋或恐慌，只盯着绳子另一头。他的忠告：有耐心的人才会赢。",
-    "body_en": "André Kostolany left behind his most famous picture. The economy is the owner. The stock market is the dog. The dog runs ahead, then falls behind. But the leash connects them, and both arrive home together. Patience wins. Money alone does not.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "A park in Europe. An old speculator is walking a big restless dog, and a young admirer is walking beside him.",
-      "zh": "欧洲某公园。一个老投机家牵着一只躁动的大狗散步，身边跟着个仰慕他的年轻人。"
-     },
-     {
-      "k": "dial",
-      "who": "Young man",
-      "g": "F2",
-      "en": "Monsieur, the market ran up three percent this week, then fell back two. What should I do?",
-      "zh": "先生，这周股市涨了百分之三，又跌回去两个点。我该怎么办？"
-     },
-     {
-      "k": "dial",
-      "who": "Kostolany",
-      "g": "M",
-      "en": "Look at my dog. He runs ahead of me, then falls behind. Up and down, back and forth.",
-      "zh": "看我的狗。他一会儿冲到我前面，一会儿又落在后面。上蹿下跳，来回折腾。"
-     },
-     {
-      "k": "dial",
-      "who": "Young man",
-      "g": "F2",
-      "en": "But he always ends up where you end up?",
-      "zh": "但最后他都跟着您走到同一个地方？"
-     },
-     {
-      "k": "dial",
-      "who": "Kostolany",
-      "g": "M",
-      "en": "Exactly. The economy is the owner. The market is the dog. Watch the far end of the leash, not the dog.",
-      "zh": "正是。经济是主人，股市是狗。盯住绳子另一头的主人，别盯狗。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "After seventy years in markets, his advice was simple. Patience wins. Money alone does not.",
-      "zh": "在股海浮沉七十年后，他的忠告只有一句：有耐心的人才会赢，光有钱不行。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "einstein-compound",
-    "tag_zh": "传说的第八大奇迹",
-    "tag_en": "The Legendary Eighth Wonder",
-    "title_zh": "爱因斯坦说复利是第八大奇迹？",
-    "title_en": "Did Einstein Call Compounding the Eighth Wonder?",
-    "body_zh": "据说爱因斯坦讲过：复利是世界第八大奇迹，懂的人赚它，不懂的人付它。这句话他大概率没说过，却成了金融圈流传最广的名言。真假不重要，道理是真的：时间+利率，是普通人和财富之间最诚实的一条路。反过来也一样，利滚利的债，也会按同样的数学惩罚不守纪律的人。",
-    "body_en": "People say Einstein once called compound interest the eighth wonder of the world. Those who understand it earn it. Those who do not, pay it. He probably never said it. But the quote refuses to die, because the math is real. Time, plus a steady rate, is the most honest road to wealth for ordinary people. And the road works both ways. Debt compounds too, with the same mathematics, punishing those who break their rules."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 9.46,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 10.26,
-      "dur": 8.251,
-      "k": "dial",
-      "who": "Young man",
-      "g": "F2"
-     },
-     {
-      "start": 19.061,
-      "dur": 6.973,
-      "k": "dial",
-      "who": "Kostolany",
-      "g": "M"
-     },
-     {
-      "start": 26.583,
-      "dur": 2.667,
-      "k": "dial",
-      "who": "Young man",
-      "g": "F2"
-     },
-     {
-      "start": 29.801,
-      "dur": 8.163,
-      "k": "dial",
-      "who": "Kostolany",
-      "g": "M"
-     },
-     {
-      "start": 38.513,
-      "dur": 9.547,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
    "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)"
   }
  ]
