@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-13 07:30",
-  "latest": "2026-11-13",
+  "updated_at": "2026-11-14 07:30",
+  "latest": "2026-11-14",
   "count": 18,
-  "mt_calls": 34
+  "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-14",
+   "weekday_en": "Saturday",
+   "weekday_zh": "周六",
+   "generated_at": "2026-11-14 07:30",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3634.35,
+     "chg_pct": -0.59
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10968.79,
+     "chg_pct": -2.05
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2426.08,
+     "chg_pct": -3.32
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1279.66,
+     "chg_pct": -2.3
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 23637.6,
+     "chg_pct": -1.55
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 52347.55,
+     "chg_pct": 0.1
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25136.27,
+     "chg_pct": -0.91
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7561.67,
+     "chg_pct": -0.4
+    }
+   ],
+   "items": [
+    {
+     "ts": 1794579563,
+     "source": "华尔街见闻",
+     "title_zh": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
+     "body_zh": "中国人民银行公布2026年10月金融数据。10月末，社会融资规模存量为469.16万亿元，同比增长7.2%；广义货币（M2）余额359.06万亿元，同比增长7.1%。两项指标均高于名义GDP增速，同经济增长、价格总水平预期目标相匹配。",
+     "url": "https://wallstreetcn.com/livenews/3199857",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "22:19",
+     "title_en": "At the end of October, both total social financing and M2 growth exceeded 7%. Expert: The likelihood of interest rate cuts and RRR cuts within the year has decreased.",
+     "body_en": "The People's Bank of China released financial data for October 2026. At the end of October, the outstanding total social financing (TSF) stood at RMB 469.16 trillion, up 7.2% year-on-year; the broad money supply (M2) balance was RMB 359.06 trillion, up 7.1% year-on-year. Both indicators are higher than the nominal GDP growth rate and are consistent with the expected targets for economic growth and the general price level.",
+     "id": "wscn-3199857"
+    },
+    {
+     "ts": 1794607849,
+     "source": "新浪财经",
+     "title_zh": "11月14日外盘头条：美国联邦航空管理局发布全国范围地面停飞指令 OpenAI撤销独立机器人研究团队",
+     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国联邦航空管理局发布全国范围地面停飞指令 2、美联储12月加息基本锁定 市场焦点转向明年1月 3...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryfm0815827.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:10",
+     "title_en": "November 14 Overseas Headlines: The U.S. Federal Aviation Administration issues a nationwide ground stop order. OpenAI disbands its independent robotics research team.",
+     "body_en": "The main headlines that global financial media were focusing on last night and this morning are: 1. The U.S. Federal Aviation Administration issued a nationwide grounding order. 2. The December interest rate hike by the Federal Reserve is essentially confirmed, and market attention is shifting to January. 3...",
+     "id": "sina-comos:niyryfm0815827"
+    },
+    {
+     "ts": 1794560519,
+     "source": "华尔街见闻",
+     "title_zh": "中国央行：11月16日将开展2000亿元买断式逆回购操作 期限为6个月",
+     "body_zh": "中国人民银行公告，2026年11月16日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展2000亿元买断式逆回购操作，期限为6个月（180天），到期日为2027年5月15日（遇节假日顺延）。",
+     "url": "https://wallstreetcn.com/livenews/3199686",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:01",
+     "title_en": "China's PBOC: A RMB 200 billion outright reverse share buyback operation will be conducted on November 16, with a term of 6 months.",
+     "body_en": "The People's Bank of China announced that on November 16, 2026, it will conduct a RMB 200 billion outright reverse share buyback operation with a fixed amount, interest rate tender, and multiple price levels. The term of the operation is 6 months (180 days), with a maturity date of May 15, 2027 (extended if it falls on a public holiday).",
+     "id": "wscn-3199686"
+    },
+    {
+     "ts": 1794603869,
+     "source": "华尔街见闻",
+     "title_zh": "美联储：人工智能（AI）和过高的资产估值可能引发潜在脆弱性",
+     "body_zh": "美联储在周五发布的一份半年度金融稳定报告中指出，人工智能（AI）和过高的资产估值可能引发潜在脆弱性。 “资产估值压力持续处于高位。股票估值指标一直居高不下，部分原因是市场对‘超级智能’（super intelligence）的狂热，”美联储在报告中使用了唐纳德·特朗普（Donald Trump）总统对AI的偏好称呼。央行补充称，这种狂热情绪已因市场对企业资本支出和债务发行计划的担忧而有所降温。",
+     "url": "https://wallstreetcn.com/livenews/3200016",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:04",
+     "title_en": "The Federal Reserve: Artificial Intelligence (AI) and Overvalued Assets May Create Potential Vulnerabilities.",
+     "body_en": "In a semi-annual Financial Stability Report released on Friday, the Federal Reserve noted that artificial intelligence (AI) and excessively high asset valuations could create potential vulnerabilities. “Asset valuation pressures remain elevated. Stock valuation metrics have remained elevated, partly due to market enthusiasm for \"super intelligence,\" the Federal Reserve noted in its report, using President Donald Trump's preferred term for AI. The PBOC added that this enthusiasm has cooled somewhat due to market concerns about corporate capital expenditure and debt issuance plans.",
+     "id": "wscn-3200016"
+    },
+    {
+     "ts": 1794603698,
+     "source": "华尔街见闻",
+     "title_zh": "美联储警示：AI推升资产估值过高带来潜在风险",
+     "body_zh": "美联储发布半年度金融稳定报告。报告指出，人工智能（AI）和过高的资产估值可能引发潜在脆弱性。 “资产估值压力持续处于高位。股票估值指标一直居高不下，部分原因是市场对‘超级智能’（super intelligence）的狂热，”美联储在报告中使用了美国总统特朗普对AI的偏好称呼。该央行补充称，这种狂热情绪已因市场对企业资本支出和债务发行计划的担忧而有所降温。",
+     "url": "https://wallstreetcn.com/livenews/3200013",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:01",
+     "title_en": "Federal Reserve Warning: AI-Driven Overvaluation of Assets Poses Potential Risks.",
+     "body_en": "The Federal Reserve released its semi-annual Financial Stability Report. The report points out that artificial intelligence (AI) and excessively high asset valuations could lead to potential vulnerabilities. “Asset valuation pressures remain elevated. Stock valuation indicators have remained high, partly due to market enthusiasm for \"super intelligence,\" the Federal Reserve said in its report, using U.S. President Trump's preferred term for AI. The PBOC added that this enthusiasm has cooled somewhat due to market concerns about corporate capital expenditure and debt issuance plans.",
+     "id": "wscn-3200013"
+    },
+    {
+     "ts": 1794604723,
+     "source": "新浪财经",
+     "title_zh": "美联储12月加息基本锁定 市场焦点转向明年1月",
+     "body_zh": "对美国货币政策的讨论焦点已经转向明年1月。 美联储官员本周密集发表讲话和接受采访，基本锁定了市场对12月加息的预期，并开启了自2023年以来首次连续加息的可能性。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxp0925587.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:18",
+     "title_en": "The Federal Reserve's December rate hike is essentially set, and market focus is shifting to January next year.",
+     "body_en": "The focus of discussions on U.S. monetary policy has shifted to January next year. Federal Reserve officials have been giving speeches and conducting interviews in quick succession this week, essentially confirming market expectations for a December rate hike and opening up the possibility of consecutive rate hikes for the first time since 2023.",
+     "id": "sina-comos:niyrtxp0925587"
+    },
+    {
+     "ts": 1794581971,
+     "source": "华尔街见闻",
+     "title_zh": "纳斯达克100指数跌超1%，标普跌0.4%，半导体指数下跌将近4%",
+     "body_zh": "英伟达跌2.3%，Cerebras涨幅收窄至11.3%，谷歌A涨1.1%，AMD跌7.6%，CoreWeave跌9.4%，Nebius跌10.6%，闪迪跌6.1%。 投资者权衡芯片板块和美国PPI通胀数据。",
+     "url": "https://wallstreetcn.com/livenews/3199872",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "22:59",
+     "title_en": "The Nasdaq 100 Index fell by over 1%, the S&P 500 Index fell by 0.4%, and the Semiconductor Index fell by nearly 4%.",
+     "body_en": "Nvidia fell 2.3%, Cerebras' gain narrowed to 11.3%, Google A rose 1.1%, AMD fell 7.6%, CoreWeave fell 9.4%, Nebius fell 10.6%, and SanDisk fell 6.1%. Investors are weighing the chip sector against U.S. PPI inflation data.",
+     "id": "wscn-3199872"
+    },
+    {
+     "ts": 1794608422,
+     "source": "华尔街见闻",
+     "title_zh": "两年期美债收益率本周涨33个基点，美联储12月加息基本锁定，市场焦点转向明年1月",
+     "body_zh": "周五（11月13日）纽约尾盘，美国10年期基准国债收益率涨0.81个基点，报5.1352%，本周累计上涨27.78个基点，整体持续走高，交投于4.8287%-5.1718%区间。 两年期美债收益率跌3.95个基点，报4.8419%，本周累涨33.04个基点，交投于4.5009%-4.8886%区间。 三年期美债收益率累涨32.28个基点，五年期美债收益率涨31.67个基点，七年期美债收益率涨30.07个基点。",
+     "url": "https://wallstreetcn.com/livenews/3200045",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:20",
+     "title_en": "The yield on two-year U.S. Treasury bonds rose by 33 basis points this week, with a December rate hike by the Federal Reserve essentially confirmed. The market's focus has now shifted to January next year.",
+     "body_en": "At the close of trading in New York on Friday (November 13), the U.S. 10-year benchmark Treasury yields rose by 0.81 basis points to 5.1352%. They have risen by a cumulative 27.78 basis points this week, continuing their overall upward trend, trading within the range of 4.8287%–5.1718%. The two-year U.S. Treasury yield fell by 3.95 basis points to 4.8419%, rising by a cumulative 33.04 basis points this week and trading within the 4.5009%-4.8886% range. The 3-year U.S. Treasury yield rose by a cumulative 32.28 basis points, the 5-year U.S. Treasury yield rose by 31.67 basis points, and the 7-year U.S. Treasury yield rose by 30.07 basis points.",
+     "id": "wscn-3200045"
+    },
+    {
+     "ts": 1794599487,
+     "source": "华尔街见闻",
+     "title_zh": "桑坦德上调美联储加息预期，料12月和明年3月各加息25个基点",
+     "body_zh": "桑坦德的美国首席经济学家Stephen Stanley上调了对美联储加息的预期，理由是通胀压力加剧。他将对美联储政策的预测调整为12月和明年3月各加息25个基点，此前预计仅12月加息，2027年不会采取行动。Stanley在一份报告中表示，此次调整预测基于经济强劲、通胀压力扩大、美联储对中性政策立场的评估似乎已从大约3.5%上升，以及美联储官员近期言论中越来越多地谈及投入成本向价格传导将很快给通胀带来上行推动。",
+     "url": "https://wallstreetcn.com/livenews/3199988",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "03:51",
+     "title_en": "Santander raises its expectations for Federal Reserve rate hikes, forecasting increases of 25 basis points in December and March next year.",
+     "body_en": "Stephen Stanley, Santander's Chief U.S. Economist, has raised his expectations for Federal Reserve interest rate hikes, citing heightened inflationary pressures. He revised his forecast for the Federal Reserve's policy to include 25-basis-point rate hikes in both December and March of next year, whereas he had previously anticipated a rate hike only in December and no action in 2027. In a report, Stanley stated that this revised forecast is based on a strong economy, increasing inflationary pressures, the Federal Reserve's assessment of a neutral policy stance that appears to have risen from around 3.5%, and the fact that Federal Reserve officials have increasingly mentioned in recent statements that the pass-through of input costs to prices will soon exert upward pressure on inflation.",
+     "id": "wscn-3199988"
+    },
+    {
+     "ts": 1794595793,
+     "source": "华尔街见闻",
+     "title_zh": "英伟达势创18个月来最差单周表现，市值蒸发逾6200亿美元",
+     "body_zh": "英伟达股价势将创下逾18个月来最差单周表现，在黄仁勋从这家芯片巨头离职后，公司股价持续承压。 英伟达周五一度下跌4.7%，本周累计跌幅扩大至约14%，势将创下2025年4月以来最差单周表现，当时美国总统特朗普宣布大范围加征关税的计划，引发全球股市震荡。英伟达本周市值已蒸发逾6200亿美元，这一损失超过标普500指数中97%的成分股各自的市值。",
+     "url": "https://wallstreetcn.com/livenews/3199968",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "02:49",
+     "title_en": "Nvidia on track for worst weekly performance in 18 months, with market capitalization down by over $620 billion.",
+     "body_en": "Nvidia's stock is on track for its worst weekly performance in over 18 months, with the company's share price continuing to come under pressure following Jensen Huang's departure from the chip giant. Nvidia fell by 4.7% at one point on Friday, with its cumulative decline for the week widening to about 14%. This is set to be its worst weekly performance since April 2025, when U.S. President Trump announced plans for widespread tariff increases, triggering global stock market turmoil. Nvidia's market capitalization has evaporated by over $620 billion this week, a loss that exceeds the individual market capitalization of 97% of the stocks in the S&P 500 Index.",
+     "id": "wscn-3199968"
+    },
+    {
+     "ts": 1794608222,
+     "source": "新浪财经",
+     "title_zh": "美国股市：标普500指数收跌 英伟达风波与利率前景牵动市场",
+     "body_zh": "标普500指数在经历了震荡的一周后周五收跌。投资者在英伟达风波后重新审视人工智能交易，同时关注美联储利率前景。 以科技股为主的纳斯达克100指数周五收跌1.2%...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryff0523159.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:17",
+     "title_en": "U.S. Stock Market: S&P 500 Index Closes Down Amid Nvidia Turmoil and Interest Rate Outlook Concerns.",
+     "body_en": "The S&P 500 Index closed lower on Friday after a turbulent week. Investors are reevaluating AI-related trades in the wake of the Nvidia turmoil, while also keeping an eye on the Federal Reserve's interest rate outlook. The tech-heavy Nasdaq 100 Index closed down 1.2% on Friday...",
+     "id": "sina-comos:niyryff0523159"
+    },
+    {
+     "ts": 1794591321,
+     "source": "华尔街见闻",
+     "title_zh": "2/10年期德债收益率利差短暂“转负”！本周均至少涨超12个基点",
+     "body_zh": "周五（11月13日）欧市尾盘，德国10年期国债收益率涨3.0个基点，报3.377%，本周累计上涨12.2个基点，11月9-10日大部分时间持稳——10日北京时间22:00微跌至3.20%，随后持续上扬，13日发布美国PPI通胀数据时达到3.390%，本周累计上涨12.2个基点。",
+     "url": "https://wallstreetcn.com/livenews/3199946",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:35",
+     "title_en": "The yield spread between 2-year and 10-year German government bonds briefly \"turned negative\"! This week, they have all risen by at least 12 basis points.",
+     "body_en": "At the close of European trading hours on Friday (November 13), the German 10-year Treasury yield rose by 3.0 basis points to 3.377%. It rose by a cumulative 12.2 basis points this week, remaining stable for most of November 9–10. On November 10, at 22:00 Beijing time, it edged down to 3.20% and then continued to rise, reaching 3.390% when the U.S. PPI inflation data was released on November 13. It rose by a cumulative 12.2 basis points this week.",
+     "id": "wscn-3199946"
+    },
+    {
+     "ts": 1794605485,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块中，信息技术/科技板块收跌1.7%，可选消费板块跌",
+     "body_zh": "标普500指数的11个板块中，信息技术/科技板块收跌1.7%，可选消费板块跌0.45%，电信板块涨0.26%，能源板块涨0.96%。",
+     "url": "https://wallstreetcn.com/livenews/3200027",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:31",
+     "title_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector fell by 1.7%, and the Consumer Discretionary sector fell.",
+     "body_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector fell by 1.7%, the Consumer Discretionary sector fell by 0.45%, the Telecommunications sector rose by 0.26%, and the Energy sector rose by 0.96%.",
+     "id": "wscn-3200027"
+    },
+    {
+     "ts": 1794605336,
+     "source": "华尔街见闻",
+     "title_zh": "周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行",
+     "body_zh": "周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行业ETF跌2.01%，全球科技股指数ETF、网络股指数ETF至多跌1.67%，能源业ETF涨0.98%。",
+     "url": "https://wallstreetcn.com/livenews/3200026",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:28",
+     "title_en": "On Friday (November 13), the Semiconductor ETF closed down 2.99%, leading the decline among U.S. stock sector ETFs, with the Technology sector.",
+     "body_en": "On Friday (November 13), the Semiconductor ETF closed down 2.99%, leading the decline among U.S. stock sector ETFs. The Technology Sector ETF fell 2.01%, while the Global Technology Stock Index ETF and the Internet Stock Index ETF fell by up to 1.67%. The Energy Sector ETF rose 0.98%.",
+     "id": "wscn-3200026"
+    },
+    {
+     "ts": 1794592284,
+     "source": "华尔街见闻",
+     "title_zh": "LME期铜收跌189美元，报13399美元/吨",
+     "body_zh": "LME期铝收跌20美元，报3010美元/吨。 LME期锌收跌6美元，报3710美元/吨。 LME期铅收涨8美元，报1894美元/吨。 LME期镍收跌241美元，报15985美元/吨。 LME期锡收涨48美元，报46700美元/吨。 LME期钴收平，报33525美元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3199951",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:51",
+     "title_en": "LME Copper Futures Close Down $189 at $13,399/Metric Ton.",
+     "body_en": "LME aluminum futures closed down $20 at $3,010/ton. LME zinc futures closed down $6 at $3,710/ton. LME lead futures closed up $8 at $1,894/ton. LME nickel futures closed down $241 at $15,985/ton. LME tin futures closed up $48 at $46,700/ton. LME cobalt futures closed flat at US$33,525/ton.",
+     "id": "wscn-3199951"
+    },
+    {
+     "ts": 1794612375,
+     "source": "华尔街见闻",
+     "title_zh": "美国参议院商务委员会主席克鲁兹",
+     "body_zh": "全美范围内的地面停飞虽属罕见，但影响重大，此事似乎与联邦航空管理局（FAA）的空中交通管制中心（ARTCC）有关。 FAA将向国会和航空旅客通报这一问题，但此次事件凸显出有必要将ARTCC的现代化置于其他项目之上。 自约翰逊执政以来，美国再未新建过ARTCC。",
+     "url": "https://wallstreetcn.com/livenews/3200061",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:26",
+     "title_en": "Ted Cruz, Chairman of the U.S. Senate Committee on Commerce.",
+     "body_en": "Although nationwide ground stops are rare, they have a significant impact, and this incident appears to be related to the Federal Aviation Administration's (FAA) Air Route Traffic Control Center (ARTCC). The FAA will inform Congress and air travelers about this issue, but this incident underscores the need to prioritize the modernization of ARTCCs over other projects. The U.S. has not built a new ARTCC since the Johnson administration.",
+     "id": "wscn-3200061"
+    },
+    {
+     "ts": 1794611163,
+     "source": "华尔街见闻",
+     "title_zh": "美国航空协会声明",
+     "body_zh": "安全始终是我们的首要任务。 目前，在全国范围内航班停飞期间，我们正与美国交通部和联邦航空管理局保持密切沟通。 我们感谢旅客的耐心，也感谢一线员工在这一情况下的尽职尽责。受影响的旅客请联系所乘航空公司，获取实时信息。",
+     "url": "https://wallstreetcn.com/livenews/3200056",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:06",
+     "title_en": "Statement from the Aircraft Owners and Pilots Association (AOPA).",
+     "body_en": "Safety is always our top priority. Currently, during the nationwide grounding of flights, we are maintaining close communication with the U.S. Department of Transportation and the Federal Aviation Administration. We appreciate our passengers' patience and the dedication of our frontline staff during this situation. Affected passengers are advised to contact their airline for real-time updates.",
+     "id": "wscn-3200056"
+    },
+    {
+     "ts": 1794611081,
+     "source": "华尔街见闻",
+     "title_zh": "美国总统特朗普",
+     "body_zh": "我正在与共和党与民主党人合作，共同推进《电影、电视和娱乐振兴法案》。 推动这件事、把娱乐产业带回美国所获得的支持和受欢迎程度令人难以置信！好莱坞以及许多其他地方，几乎被其他国家提供的税收优惠和其他政策“掏空”了。",
+     "url": "https://wallstreetcn.com/livenews/3200054",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:04",
+     "title_en": "U.S. President Trump.",
+     "body_en": "I am working with both Republicans and Democrats to advance the Film, Television, and Entertainment Revitalization Act. The support and popularity for advancing this initiative and bringing the entertainment industry back to the United States are truly astonishing! Hollywood, and many other places, have been almost \"gutted\" by tax incentives and other policies offered by other countries.",
+     "id": "wscn-3200054"
+    }
+   ],
+   "story": {
+    "id": "lynch-lipstick",
+    "name_zh": "彼得·林奇",
+    "name_en": "Peter Lynch",
+    "era": "1980s · 富达麦哲伦基金",
+    "title_zh": "口红卖得越好，经济可能越差",
+    "title_en": "When Lipstick Sells, Watch Out",
+    "body_zh": "林奇管麦哲伦基金时发现：经济越不景气，口红反而卖得越好。钱紧的时候，女人买不起新衣服，就买支口红让自己开心一下。机会藏在生活里，超市里什么卖得好，往往比研报更早告诉你答案。",
+    "body_en": "Peter Lynch noticed something strange at Fidelity. The worse the economy felt, the better lipstick sold. When money is tight, lipstick is the cheapest happiness. Great ideas hide in daily life. He beat the market for thirteen years.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Boston, nineteen eighty. The star manager of the Magellan Fund is walking through a department store, not a trading floor.",
+      "zh": "波士顿，1980 年。麦哲伦基金的明星经理逛的不是交易厅，是百货商场。"
+     },
+     {
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M",
+      "en": "Peter, why are you looking at the cosmetics counter? We invest in companies, not makeup.",
+      "zh": "彼得，你看化妆品柜台干什么？我们投的是公司，不是口红。"
+     },
+     {
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2",
+      "en": "Look at the sales data. The worse the economy feels, the better lipstick sells.",
+      "zh": "你看看销售数据。经济越差，口红反而卖得越好。"
+     },
+     {
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M",
+      "en": "That makes no sense. Why would anyone buy lipstick in a recession?",
+      "zh": "这不合理啊。经济衰退谁还买口红？"
+     },
+     {
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2",
+      "en": "When money is tight, she skips the new dress. But a lipstick is the cheapest happiness she can still afford.",
+      "zh": "钱紧的时候，新衣服不买了。但口红，是她还买得起的、最便宜的开心。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "People later called it the lipstick effect. Lynch's real lesson was this. Great ideas hide in daily life, and he beat the market for thirteen years by paying attention.",
+      "zh": "后来人们把这叫作口红效应。林奇真正的心得是：机会藏在生活里。他靠这份留心，跑赢市场十三年。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "efficient-hundred",
+    "tag_zh": "街头十美元",
+    "tag_en": "The Ten Dollar Bill",
+    "title_zh": "地上有一张十美元，经济学家为什么不捡",
+    "title_en": "Why Economists Never Pick Up Money",
+    "body_zh": "两个经济学家走在街上，看见地上躺着一张十美元。年轻的说，快去捡。老的说，不可能，如果是真的，早就被人捡走了。这是对有效市场理论最经典的调侃：所有信息都已经反映在价格里，天上不会掉馅饼。玩笑归玩笑，它也留了个真实的尾巴——市场大多数时候确实很有效，但偶尔，地上的钱是真的。",
+    "body_en": "Two economists walk down the street. They spot a ten dollar bill on the ground. The young one says, pick it up. The old one says, it cannot be real. If it were real, someone would have picked it up already. This is the classic joke about efficient markets. All information is already in the price. Free money does not lie on the street. But here is the twist. Markets are efficient most of the time. Only most. Once in a while, the money on the ground is real."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 10.382,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 11.182,
+      "dur": 6.16,
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M"
+     },
+     {
+      "start": 17.892,
+      "dur": 5.727,
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2"
+     },
+     {
+      "start": 24.169,
+      "dur": 4.056,
+      "k": "dial",
+      "who": "Analyst",
+      "g": "M"
+     },
+     {
+      "start": 28.775,
+      "dur": 7.348,
+      "k": "dial",
+      "who": "Lynch",
+      "g": "M2"
+     },
+     {
+      "start": 36.673,
+      "dur": 13.601,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "875e507f0ca6",
+    "item-00.mp3": "4bd735e285d7",
+    "item-01.mp3": "3f7c60106877",
+    "item-02.mp3": "97645f8dfcbd",
+    "item-03.mp3": "feef3c247f43",
+    "item-04.mp3": "acc75c62daa7",
+    "item-05.mp3": "a004a29928a0",
+    "item-06.mp3": "76756261af9a",
+    "item-07.mp3": "461fc2b2b3cd",
+    "item-08.mp3": "e11988158e1b",
+    "item-09.mp3": "a0268269552b",
+    "item-10.mp3": "e1425a652cb9",
+    "item-11.mp3": "c45c73645ef9",
+    "item-12.mp3": "8fc1f6e90038",
+    "item-13.mp3": "f5be3a5013b4",
+    "item-14.mp3": "f03edc138231",
+    "item-15.mp3": "9a3950146f16",
+    "item-16.mp3": "77b074eb79bd",
+    "item-17.mp3": "9150d0c88d1c",
+    "story.mp3": "064bf7650a72",
+    "joke.mp3": "d9ba3d383609"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.246
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.146,
+      "dur": 55.071
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 65.117,
+      "dur": 36.673
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 102.69,
+      "dur": 41.543
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 145.133,
+      "dur": 46.689
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 192.722,
+      "dur": 50.257
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 243.879,
+      "dur": 30.071
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 274.849,
+      "dur": 37.436
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 313.185,
+      "dur": 80.26
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 394.345,
+      "dur": 69.97
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 465.215,
+      "dur": 56.953
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 523.069,
+      "dur": 33.33
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 557.299,
+      "dur": 51.266
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 609.465,
+      "dur": 37.803
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 648.167,
+      "dur": 40.881
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 689.949,
+      "dur": 52.091
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 742.94,
+      "dur": 34.489
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 778.329,
+      "dur": 33.823
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 813.052,
+      "dur": 27.505
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-13",
    "weekday_en": "Friday",
@@ -3333,576 +3889,6 @@
       "file": "item-17.mp3",
       "start": 888.819,
       "dur": 31.341
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-07",
-   "weekday_en": "Saturday",
-   "weekday_zh": "周六",
-   "generated_at": "2026-11-07 07:26",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3649.18,
-     "chg_pct": -1.1
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11175.78,
-     "chg_pct": -2.57
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2465.23,
-     "chg_pct": -3.96
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1253.2,
-     "chg_pct": -2.6
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 24481.86,
-     "chg_pct": -1.27
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 51285.73,
-     "chg_pct": -0.46
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 24579.42,
-     "chg_pct": 1.09
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7376.86,
-     "chg_pct": 0.31
-    }
-   ],
-   "items": [
-    {
-     "ts": 1793999760,
-     "source": "新浪财经",
-     "title_zh": "11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
-     "body_zh": "周五美股企稳，三大指数涨跌不一。尽管经济数据强化了美联储将在12月加息的预期，但逢低买盘继续涌入市场，芯片股反弹，进而推动大盘走高。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakk5001971.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:16",
-     "title_en": "Closing on November 7: Three major indices rise and fall, but chip stocks rebound AI regulatory concerns remain.",
-     "body_en": "On Friday, US stocks stabilized, with the three major indices rising and falling. While economic data reinforced expectations that the Federal Reserve would raise interest rates in December, low-buy orders continued to pour into the market and chip stocks rebounded, pushing the broader market higher.",
-     "id": "sina-comos:nixwakk5001971"
-    },
-    {
-     "ts": 1794002334,
-     "source": "新浪财经",
-     "title_zh": "11月7日外盘头条：美国10月非农大超预期 特朗普任命米勒出任白宫幕僚长 特斯拉将逐步停产Cybertruck",
-     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲 2、中期选举失利后...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8483750.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:58",
-     "title_en": "November 7: USDA Exceeds Expectations for October Trump Appoints Miller as White House Chief of Staff Tesla to Phase Out Cybertruck.",
-     "body_en": "Headlines in the global financial media last night and this morning focused on: 1. 165,000 new non-agricultural workers in the United States in October, far exceeding expectations. The unemployment rate fell to 4.1%. 2. After losing the midterm elections...",
-     "id": "sina-comos:nixwakn8483750"
-    },
-    {
-     "ts": 1793998822,
-     "source": "华尔街见闻",
-     "title_zh": "本周（美国中期选举+非农），标普累跌2.4%，道指跌0.9%，纳指跌3.4%",
-     "body_zh": "本周（美国中期选举+非农），标普累跌2.4%，道指跌0.9%，纳指跌3.4%，纳斯达克100指数跌5%；半导体指数跌12.4%，存储芯片指数跌21.5%。 标普500指数初步收涨0.3%，科技板块涨1.1%，电信板块涨0.6%，日用消费品板块跌1.2%。",
-     "url": "https://wallstreetcn.com/livenews/3196221",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:00",
-     "title_en": "This week (US midterm elections + non-farm), S&P fell 2.4%, the Dow fell 0.9%, and the Navarro fell 3.4%.",
-     "body_en": "This week (US midterm elections + non-farm), the S&P fell 2.4%, the Dow fell 0.9%, the Nasdaq fell 3.4%, and the Nasdaq 100 fell 5%; the semiconductor index fell 12.4%, and the memory chip index fell 21.5%. The S&P 500 initially closed up 0.3%, the technology sector up 1.1%, the telecommunications sector up 0.6%, and the consumer goods sector down 1.2%.",
-     "id": "wscn-3196221"
-    },
-    {
-     "ts": 1794002840,
-     "source": "新浪财经",
-     "title_zh": "大宗商品综述：油价走势震荡 铜价下跌 金价走低",
-     "body_zh": "油价走势震荡，交易员关注伊朗战争降级前景。铜价跌至7月以来最低水平，美国政治格局变化可能削弱两大看涨因素。金价下跌，强劲的美国非农就业数据强化了市场对美联储将加...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8486854.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:07",
-     "title_en": "Commodity Roundup: Oil Prices Shake Copper Prices Fall Gold Prices Fall.",
-     "body_en": "Oil prices were volatile, and traders were concerned about the prospect of a de-escalation of the war in Iran. Copper prices fell to their lowest level since July, and changes in the US political landscape could weaken two bullish factors. Gold prices fell, and strong U.S. nonfarm payroll data reinforced market sentiment that the Federal Reserve would add...",
-     "id": "sina-comos:nixwakn8486854"
-    },
-    {
-     "ts": 1793999316,
-     "source": "新浪财经",
-     "title_zh": "美国债市：国债下跌 收益率曲线趋平 芯片股反弹削弱避险需求",
-     "body_zh": "美国国债周五收跌，短端领跌，推动收益率曲线趋平，因芯片制造商股价反弹带动美股上涨。强劲的10月就业报告虽仅短暂影响市场，但仍略微强化了对美联储12月加息的定价。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8463164.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:08",
-     "title_en": "US Treasury Market: Treasury Yield Curve Flattening Chip Stock Rally Weakens Hedge Demand.",
-     "body_en": "U.S. Treasuries closed lower on Friday, with the short end leading the decline, pushing the yield curve flat as a rebound in chipmaker shares pushed U.S. stocks higher. The strong October jobs report, while only briefly impacting markets, slightly strengthened the pricing of the Federal Reserve's December rate hike.",
-     "id": "sina-comos:nixwakn8463164"
-    },
-    {
-     "ts": 1794005633,
-     "source": "新浪财经",
-     "title_zh": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日在阿布扎比举行",
-     "body_zh": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakh8379297.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:53",
-     "title_en": "Overnight news on November 7: US stocks rise and fall, the index rises by more than 1%, oil prices fluctuate, gold prices fall, and the tripartite talks between Russia, the United States and Ukraine will be held in Abu Dhabi on November 10.",
-     "body_en": "Market close on November 7: Three major indices rose and fell, and the rebound of chip stocks AI regulatory concerns still remain. On November 7, most of the popular medium-sized stocks rose, TSMC rose more than 6%, and the ideal car rose more than 5%. Summary of commodities: The trend of oil prices shocked Copper prices fell...",
-     "id": "sina-comos:nixwakh8379297"
-    },
-    {
-     "ts": 1793999194,
-     "source": "新浪财经",
-     "title_zh": "日本央行行长植田和男：若未来遭遇严重冲击 可能不得不动用QE工具",
-     "body_zh": "日本央行行长植田和男早在1990年代末就是量化宽松政策的先驱之一。他表示，尽管非常规措施不如传统降息有效，但如果未来遭遇重大冲击，日本央行可能会再次动用这些工具。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8462258.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:06",
-     "title_en": "kazuo Ueda, President of the Bank of Japan: If there is a serious impact in the future, you may have to use QE tools.",
-     "body_en": "kazuo Ueda, president of the Bank of Japan, was one of the pioneers of quantitative easing as early as the late 1990s. He said that although unconventional measures are not as effective as traditional rate cuts, the Bank of Japan may use these tools again if there is a major shock in the future.",
-     "id": "sina-comos:nixwakn8462258"
-    },
-    {
-     "ts": 1793986661,
-     "source": "华尔街见闻",
-     "title_zh": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
-     "body_zh": "微软公司正逐步终止向甲骨文公司租用人工智能（AI）算力的安排，这是其对价值数十亿美元的云合作伙伴关系进行更大范围重估的一部分。 据知情人士透露，近几个月来，微软在拒绝续约后，已开始陆续关闭从甲骨文租用的算力。随着时间推移，微软租用的这批算力变得不再好用，因为它已不再符合公司的规格要求。他们称，甲骨文这批硬件使用的是英伟达较旧一代的芯片。",
-     "url": "https://wallstreetcn.com/livenews/3196151",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "01:37",
-     "title_en": "Report: Deprecated chips are not new enough, Microsoft is winding down arrangements to lease AI cloud power from Oracle.",
-     "body_en": "Microsoft is winding down its arrangement to lease artificial intelligence (AI) computing power from Oracle as part of a broader revaluation of its multi-billion-dollar cloud partnership. In recent months, Microsoft has begun shutting down the computing power leased from Oracle after refusing to renew the contract, according to people familiar with the matter. Over time, this batch of computing power rented by Microsoft has become no longer easy to use because it no longer meets the company's specifications. The Oracle hardware, they say, uses older Nvidia chips.",
-     "id": "wscn-3196151"
-    },
-    {
-     "ts": 1794003227,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价在非农日走低，本周累涨5%，纽约铜本周跌3.8%",
-     "body_zh": "周五（11月6日）纽约尾盘，现货黄金跌0.4%，报4071.39美元/盎司，亚太早盘曾短暂地微幅上涨，北京时间09:17以来持续处于下跌状态，21:30发布美国非农就业报告时显著下跌、刷新日低至4028.49美元，本周累计上涨5.06%，11月4-5日（至亚太中午）持续扩大涨幅、11:30达到4146.97美元。 COMEX黄金期货累涨4.65%，报4080.10美元/盎司。",
-     "url": "https://wallstreetcn.com/livenews/3196250",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:13",
-     "title_en": "International gold prices fell on off-farm days, rising 5% this week, and copper in New York fell 3.8% this week.",
-     "body_en": "At the end of New York on Friday (November 6), spot gold fell 0.4% to $4,071.39 per ounce. The Asia-Pacific morning market had briefly risen slightly, and it has continued to decline since 09:17 Beijing time. At 21:30, the US non-farm payroll employment report fell significantly, refreshing as low as $4,028.49, rising 5.06% this week. On November 4-5 (until midday in Asia-Pacific), the increase continued to expand, reaching $4,146.97 at 11:30. COMEX gold futures were up 4.65% at $4080.10/oz.",
-     "id": "wscn-3196250"
-    },
-    {
-     "ts": 1793999924,
-     "source": "华尔街见闻",
-     "title_zh": "标普500指数的11个板块普遍收跌，信息技术/科技板块涨1.26%，电信、工",
-     "body_zh": "标普500指数的11个板块普遍收跌，信息技术/科技板块涨1.26%，电信、工业、可选消费板块至多涨0.51%，房地产板块则跌0.64%，金融板块跌0.68%，日用消费品板块跌1.21%。",
-     "url": "https://wallstreetcn.com/livenews/3196233",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:18",
-     "title_en": "11 sectors of the S&P 500 index generally closed lower, the information technology/technology sector rose 1.26%, telecommunications, industrial.",
-     "body_en": "The 11 sectors of the S&P 500 index generally closed down, with the information technology/technology sector up 1.26%, the telecommunications, industrial, and optional consumer sectors up 0.51% at most, the real estate sector down 0.64%, the financial sector down 0.68%, and the consumer goods sector down 1.21%.",
-     "id": "wscn-3196233"
-    },
-    {
-     "ts": 1793997218,
-     "source": "华尔街见闻",
-     "title_zh": "美国商品期货交易委员会（CFTC）",
-     "body_zh": "11月3日当周，投机者所持COMEX黄金净多头头寸减少3,107手合约，至104,297手合约，创最近21周新低；多头绝对值123,437手合约，创大约七个月新低。 所持COMEX白银净多头头寸降低至2,665手合约，创约三年来新低。 所持COMEX铜净多头头寸减少至34,444手合约，创逾14个月新低。 转而持有NYMEX铂金净空头头寸1,076手合约，创最近逾17个月新高。",
-     "url": "https://wallstreetcn.com/livenews/3196214",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "04:33",
-     "title_en": "Commodity Futures Trading Commission (CFTC).",
-     "body_en": "During the week of November 3, speculators' net long positions in COMEX gold decreased by 3,107 contracts to 104,297 contracts, hitting a new low in the last 21 weeks; the absolute value of long contracts was 123,437 contracts, hitting a new low of about seven months. The net long position in COMEX silver was reduced to 2,665 contracts, a three-year low. The COMEX copper net long position was reduced to 34,444 lots, a record low of more than 14 months. Switched to the NYMEX platinum net short position of 1,076 lots, a recent high of more than 17 months.",
-     "id": "wscn-3196214"
-    },
-    {
-     "ts": 1794000047,
-     "source": "华尔街见闻",
-     "title_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳",
-     "body_zh": "周五（11月6日），新兴市场ETF收涨2.2%，领跑美股大类资产类ETF，纳斯达克100 ETF涨1.4%，罗素2000指数ETF、做多美元指数、巴克莱美国可转债ETF、标普500 ETF至少涨0.31%，大豆基金涨0.08%。 美国国债20+年ETF收跌0.01%，农产品基金跌0.19%，道指ETF跌0.4%，日元做多跌0.45%，美国布伦特油价基金跌0.5%，美国房地产ETF、欧元做多、黄金ETF至多跌0.79%…",
-     "url": "https://wallstreetcn.com/livenews/3196234",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:20",
-     "title_en": "Emerging market ETFs closed up 2.2% on Friday (Nov. 6), leading US large cap ETFs.",
-     "body_en": "On Friday (November 6), emerging market ETFs closed up 2.2%, leading the US large-category asset class ETFs, with Nasdaq 100 ETFs up 1.4%, Russell 2000 Index ETFs, long-dollar indexes, Barclays US Convertible Bond ETFs, S&P 500 ETFs up at least 0.31%, and soybean funds up 0.08%. US Treasury 20 + year ETFs were down 0.01%, Agricultural Funds were down 0.19%, Dow ETFs were down 0.4%, Yen was down 0.45%, US Brent Oil Funds were down 0.5%, US Real Estate ETFs, Euro were long, Gold ETFs were down up to 0.79%...",
-     "id": "wscn-3196234"
-    },
-    {
-     "ts": 1794001441,
-     "source": "华尔街见闻",
-     "title_zh": "明晟公司MSCI新兴市场股票指数跌2.7%，创4月份以来新低，本周累计下跌4",
-     "body_zh": "明晟公司MSCI新兴市场股票指数跌2.7%，创4月份以来新低，本周累计下跌4.1%，连续第六周走弱，中期选举结果让投资者对美国民主党将收紧对人工智能（AI）行业监管的风险感到惶恐不安。 MSCI发展中国家外汇指数大致持平。",
-     "url": "https://wallstreetcn.com/livenews/3196243",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:44",
-     "title_en": "Mingcheng's MSCI Emerging Markets Equity Index fell 2.7%, a new low since April and a cumulative decline this week 4.",
-     "body_en": "Mingsheng's MSCI Emerging Markets Equity Index fell 2.7 per cent to a new low since April, falling 4.1 per cent this week for a sixth straight week of weakness as midterm election results rattled investors about the risk that the Democratic Party will tighten regulation of the artificial intelligence (AI) industry. The MSCI Developing Countries FX Index was broadly flat.",
-     "id": "wscn-3196243"
-    },
-    {
-     "ts": 1793992000,
-     "source": "华尔街见闻",
-     "title_zh": "巴西将稀土置于关键矿产战略核心",
-     "body_zh": "巴西批准了首份关键与战略矿产清单，这是新国家政策的一部分，旨在吸引投资、扩大国内加工能力，以回应西方国家日益增长的资源需求——后者希望减少对中国的依赖。 这份包含27种矿产的清单于周四在”关键与战略矿产国家工业化委员会”（简称CIMCE）的首次会议上获批，总统路易斯·伊纳西奥·卢拉·达席尔瓦出席了会议。政府希望利用巴西丰富的矿产资源，在本土建设更多加工与制造能力，而非主要以原材料形式出口。",
-     "url": "https://wallstreetcn.com/livenews/3196191",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "03:06",
-     "title_en": "Brazil puts rare earths at the heart of its key mineral strategy.",
-     "body_en": "Brazil has approved its first list of key and strategic minerals as part of a new national policy aimed at attracting investment and expanding domestic processing capacity in response to the growing demand for resources in Western countries, which want to reduce their dependence on China. The list of 27 minerals was approved on Thursday at the inaugural meeting of the Committee for the Industrialization of Critical and Strategic Mineral States (CIMCE), attended by President Luiz Inácio Lula da Silva. The government hopes to use Brazil's abundant mineral resources to build more processing and manufacturing capacity at home, rather than exporting mainly in the form of raw materials.",
-     "id": "wscn-3196191"
-    },
-    {
-     "ts": 1793972576,
-     "source": "华尔街见闻",
-     "title_zh": "国泰君安国际私有化月底表决，若通过将于明年2月在港股退市",
-     "body_zh": "国泰海通旗下国泰海通金融控股有限公司与国泰君安国际在香港联交所联合发布私有化计划文件，披露了私有化预期时间表、董事会函件、独立董事委员会函件、独立财务顾问函件及股东大会安排等内容。",
-     "url": "https://wallstreetcn.com/livenews/3196040",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "21:42",
-     "title_en": "Guotai Junan International Privatization Vote at the end of the month, if passed, it will be delisted in Hong Kong stocks in February next year.",
-     "body_en": "Guotai Haitong Financial Holdings Limited, a subsidiary of Guotai Haitong, and Guotai Junan International jointly released a privatization plan document on the Hong Kong Stock Exchange, disclosing the expected timetable for privatization, board of directors letters, independent board committee letters, independent financial advisors letters, and arrangements for shareholders' meetings.",
-     "id": "wscn-3196040"
-    },
-    {
-     "ts": 1793990582,
-     "source": "华尔街见闻",
-     "title_zh": "洲际交易所（ICE）",
-     "body_zh": "11月3日当周，投机者所持ICE布伦特原油净多头头寸减少63,487手合约，至181,970手合约，创大约三个月新低。 所持柴油净多头头寸降低至60,745手合约，创最近18周新低。 所持伦敦可可净空头头寸增加至12,514手合约，创最近19周新高。 所持白糖净多头头寸减少至46,553手合约，创19周新低。 所持罗布斯塔咖啡净空头头寸增加至16,968手合约，创大约四年新高。",
-     "url": "https://wallstreetcn.com/livenews/3196181",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "02:43",
-     "title_en": "Intercontinental Exchange (ICE).",
-     "body_en": "During the week of November 3, speculators' net long positions in ice Brent crude oil decreased by 63,487 lots to 181,970 lots, a new low of about three months. The net long position in diesel fell to 60,745 contracts, a new low in the last 18 weeks. Holdings of London cocoa net short increased to 12,514 contracts, a new high in the last 19 weeks. The net long position in White Sugar was reduced to 46,553 contracts, a 19-week low. The net short position in Robusta Coffee increased to 16,968 contracts, a four-year high.",
-     "id": "wscn-3196181"
-    },
-    {
-     "ts": 1794002426,
-     "source": "华尔街见闻",
-     "title_zh": "巴拉圭国会通过对总统培尼亚的弹劾议案",
-     "body_zh": "（新华社）",
-     "url": "https://wallstreetcn.com/livenews/3196245",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:00",
-     "title_en": "Paraguay's Congress passes impeachment motion against President Peña.",
-     "body_en": "",
-     "id": "wscn-3196245"
-    },
-    {
-     "ts": 1794002414,
-     "source": "华尔街见闻",
-     "title_zh": "巴拉圭参议院因Ueno银行丑闻而解除总统Pena的职务",
-     "body_zh": "巴拉圭参议院因Ueno银行丑闻而解除总统Pena的职务",
-     "url": "https://wallstreetcn.com/livenews/3196244",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:00",
-     "title_en": "Paraguay's Senate removes President Pena over Ueno bank scandal.",
-     "body_en": "Paraguay's Senate removes President Pena over Ueno bank scandal.",
-     "id": "wscn-3196244"
-    }
-   ],
-   "story": {
-    "id": "graham-1929",
-    "name_zh": "本杰明·格雷厄姆",
-    "name_en": "Benjamin Graham",
-    "era": "1929 · 华尔街",
-    "title_zh": "在大崩盘里亏光的人，写出了投资教科书",
-    "title_en": "The Man Who Lost It All in 1929, Then Wrote the Textbook",
-    "body_zh": "格雷厄姆年轻时是华尔街的明星，一九二九年股灾来了，他加了杠杆的账户几乎归零。痛苦让他想通了一件事：预测市场靠不住，能靠的只有价格和价值的差距。后来他写出《证券分析》，提出安全边际——用五毛钱买一块钱的东西。",
-    "body_en": "Benjamin Graham was a rising star on Wall Street. Then came the crash of nineteen twenty-nine. His leveraged account was almost wiped out. The pain taught him one thing. You can only rely on the gap between price and value. He wrote Security Analysis, and invented the margin of safety. Buy a dollar for fifty cents.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "New York, autumn, nineteen twenty-nine. The party on Wall Street is about to end.",
-      "zh": "纽约，1929 年秋。华尔街这场狂欢，马上就要散场了。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Benjamin Graham was a rising star. He used borrowed money, and he was sure he was right.",
-      "zh": "本杰明·格雷厄姆是当红新星，他借钱加杠杆，自以为万无一失。"
-     },
-     {
-      "k": "dial",
-      "who": "Client",
-      "g": "F",
-      "en": "Mr. Graham, the market is falling every day. What do we do now?",
-      "zh": "格雷厄姆先生，市场天天在跌，我们现在怎么办？"
-     },
-     {
-      "k": "dial",
-      "who": "Graham",
-      "g": "M2",
-      "en": "Hold on. It has to come back. It always comes back.",
-      "zh": "再撑一撑，会回来的，一直都回来的。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "It did not come back fast enough. His account was almost wiped out. It took him years to recover.",
-      "zh": "可它回来得太慢了。他的账户几乎归零，用了好几年才缓过来。"
-     },
-     {
-      "k": "dial",
-      "who": "Graham",
-      "g": "M2",
-      "en": "I was wrong about one thing. You cannot predict the market. You can only measure the gap between price and value.",
-      "zh": "我想明白一件事：预测市场靠不住。能靠的，只有价格和价值之间的差距。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "So he wrote the book that fed generations of investors. His rule is famous. Buy a dollar for fifty cents.",
-      "zh": "于是他写出了那本养活几代投资者的书。规则很有名：用五毛钱，买一块钱的东西。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "efficient-hundred",
-    "tag_zh": "街头十美元",
-    "tag_en": "The Ten Dollar Bill",
-    "title_zh": "地上有一张十美元，经济学家为什么不捡",
-    "title_en": "Why Economists Never Pick Up Money",
-    "body_zh": "两个经济学家走在街上，看见地上躺着一张十美元。年轻的说，快去捡。老的说，不可能，如果是真的，早就被人捡走了。这是对有效市场理论最经典的调侃：所有信息都已经反映在价格里，天上不会掉馅饼。玩笑归玩笑，它也留了个真实的尾巴——市场大多数时候确实很有效，但偶尔，地上的钱是真的。",
-    "body_en": "Two economists walk down the street. They spot a ten dollar bill on the ground. The young one says, pick it up. The old one says, it cannot be real. If it were real, someone would have picked it up already. This is the classic joke about efficient markets. All information is already in the price. Free money does not lie on the street. But here is the twist. Markets are efficient most of the time. Only most. Once in a while, the money on the ground is real."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 8.157,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 8.957,
-      "dur": 7.988,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 17.495,
-      "dur": 5.366,
-      "k": "dial",
-      "who": "Client",
-      "g": "F"
-     },
-     {
-      "start": 23.411,
-      "dur": 5.061,
-      "k": "dial",
-      "who": "Graham",
-      "g": "M2"
-     },
-     {
-      "start": 29.021,
-      "dur": 8.751,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 38.323,
-      "dur": 8.09,
-      "k": "dial",
-      "who": "Graham",
-      "g": "M2"
-     },
-     {
-      "start": 46.963,
-      "dur": 9.541,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "e87cf94404ba",
-    "item-00.mp3": "0c6bd742152b",
-    "item-01.mp3": "abcb9fead3c4",
-    "item-02.mp3": "edde1271e8aa",
-    "item-03.mp3": "e5e408b7a939",
-    "item-04.mp3": "6e1fd3f5ed55",
-    "item-05.mp3": "d547d833e1db",
-    "item-06.mp3": "8cd183e06bc1",
-    "item-07.mp3": "6df258e74583",
-    "item-08.mp3": "3c2393859a00",
-    "item-09.mp3": "147028b3b032",
-    "item-10.mp3": "47863edcdf9d",
-    "item-11.mp3": "736a3b6c73c8",
-    "item-12.mp3": "6432522271ea",
-    "item-13.mp3": "4b97b20623c3",
-    "item-14.mp3": "79aba74dfafb",
-    "item-15.mp3": "4a131bf85c07",
-    "item-16.mp3": "17b7e3864037",
-    "item-17.mp3": "a44b80d117d9",
-    "story.mp3": "ef89641d4425",
-    "joke.mp3": "d9ba3d383609"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.545
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.445,
-      "dur": 30.886
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 41.231,
-      "dur": 31.447
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 73.577,
-      "dur": 50.381
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 124.858,
-      "dur": 29.283
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 155.041,
-      "dur": 29.717
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 185.658,
-      "dur": 41.46
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 228.018,
-      "dur": 30.991
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 259.909,
-      "dur": 46.838
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 307.647,
-      "dur": 66.557
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 375.105,
-      "dur": 41.719
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 417.723,
-      "dur": 55.782
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 474.405,
-      "dur": 63.401
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 538.707,
-      "dur": 39.654
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 579.261,
-      "dur": 47.505
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 627.666,
-      "dur": 37.759
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 666.325,
-      "dur": 47.692
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 714.917,
-      "dur": 4.737
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 720.553,
-      "dur": 8.451
      }
     ]
    }
