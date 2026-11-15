@@ -2,12 +2,554 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-15 07:24",
-  "latest": "2026-11-15",
+  "updated_at": "2026-11-16 07:33",
+  "latest": "2026-11-16",
   "count": 18,
-  "mt_calls": 24
+  "mt_calls": 25
  },
  "editions": [
+  {
+   "date": "2026-11-16",
+   "weekday_en": "Monday",
+   "weekday_zh": "周一",
+   "generated_at": "2026-11-16 07:33",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3634.35,
+     "chg_pct": -0.59
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10968.79,
+     "chg_pct": -2.05
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2426.08,
+     "chg_pct": -3.32
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1279.66,
+     "chg_pct": -2.3
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 23637.6,
+     "chg_pct": -1.55
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 52347.55,
+     "chg_pct": 0.1
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 25136.27,
+     "chg_pct": -0.91
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7561.67,
+     "chg_pct": -0.4
+    }
+   ],
+   "items": [
+    {
+     "ts": 1794579563,
+     "source": "华尔街见闻",
+     "title_zh": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
+     "body_zh": "中国人民银行公布2026年10月金融数据。10月末，社会融资规模存量为469.16万亿元，同比增长7.2%；广义货币（M2）余额359.06万亿元，同比增长7.1%。两项指标均高于名义GDP增速，同经济增长、价格总水平预期目标相匹配。",
+     "url": "https://wallstreetcn.com/livenews/3199857",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "22:19",
+     "title_en": "At the end of October, both total social financing and M2 growth exceeded 7%. Expert: The likelihood of interest rate cuts and RRR cuts within the year has decreased.",
+     "body_en": "The People's Bank of China released financial data for October 2026. At the end of October, the outstanding total social financing (TSF) stood at RMB 469.16 trillion, up 7.2% year-on-year; the broad money supply (M2) balance was RMB 359.06 trillion, up 7.1% year-on-year. Both indicators are higher than the nominal GDP growth rate and are consistent with the expected targets for economic growth and the general price level.",
+     "id": "wscn-3199857"
+    },
+    {
+     "ts": 1794560519,
+     "source": "华尔街见闻",
+     "title_zh": "中国央行：11月16日将开展2000亿元买断式逆回购操作 期限为6个月",
+     "body_zh": "中国人民银行公告，2026年11月16日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展2000亿元买断式逆回购操作，期限为6个月（180天），到期日为2027年5月15日（遇节假日顺延）。",
+     "url": "https://wallstreetcn.com/livenews/3199686",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "17:01",
+     "title_en": "China's PBOC: A RMB 200 billion outright reverse share buyback operation will be conducted on November 16, with a term of 6 months.",
+     "body_en": "The People's Bank of China announced that on November 16, 2026, it will conduct a RMB 200 billion outright reverse share buyback operation with a fixed amount, interest rate tender, and multiple price levels. The term of the operation is 6 months (180 days), with a maturity date of May 15, 2027 (extended if it falls on a public holiday).",
+     "id": "wscn-3199686"
+    },
+    {
+     "ts": 1794781154,
+     "source": "华尔街见闻",
+     "title_zh": "三星将在美国生产SpaceX卫星芯片",
+     "body_zh": "三星电子将扩建位于得克萨斯州奥斯汀的芯片工厂，为马斯克旗下太空企业SpaceX生产星链卫星搭载的STM32V8微控制器（MCU）。三星已经在得州布局晶圆代工基地，如今在原有客户（特斯拉、英伟达、AMD的AI芯片订单）之外新增SpaceX卫星芯片业务，其美国业务版图正快速拓展至航天与国防领域。",
+     "url": "https://wallstreetcn.com/livenews/3200232",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:19",
+     "title_en": "Samsung to Manufacture SpaceX Satellite Chips in the United States.",
+     "body_en": "Samsung Electronics will expand its chip factory in Austin, Texas, to produce the STM32V8 microcontrollers (MCUs) used in SpaceX's Starlink satellites. Samsung has already established a wafer foundry base in Texas. Now, in addition to its existing customers (AI chip orders from Tesla, Nvidia, and AMD), it has added SpaceX's satellite chip business. Its U.S. business footprint is rapidly expanding into the aerospace and defense sectors.",
+     "id": "wscn-3200232"
+    },
+    {
+     "ts": 1794755274,
+     "source": "华尔街见闻",
+     "title_zh": "黄仁勋去职后，贝森特称英伟达需要“重大重组”",
+     "body_zh": "美国财政部长斯科特·贝森特表示，在首席执行官黄仁勋被罢免之后，英伟达的领导层需要经历一场“剧烈重组”。 贝森特暗示，英伟达应该从公司外部寻找新的领导人。 （被罢免的）黄仁勋是了不起的创新者，英伟达非常出色。 上级与下属建立恋爱关系是企业大忌。（福克斯新闻）",
+     "url": "https://wallstreetcn.com/livenews/3200212",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "23:07",
+     "title_en": "After Jensen Huang's departure, Bessent said Nvidia needs a \"major restructuring.\"",
+     "body_en": "U.S. Treasury Secretary Scott Bessent stated that Nvidia's leadership needs to undergo a \"dramatic restructuring\" following the ousting of CEO Jensen Huang. Bassett suggested that Nvidia should look outside the company for a new leader. (The ousted) Jensen Huang is a remarkable innovator, and Nvidia is an outstanding company. Romantic relationships between superiors and subordinates are a major taboo in companies. (Fox News).",
+     "id": "wscn-3200212"
+    },
+    {
+     "ts": 1794782630,
+     "source": "华尔街见闻",
+     "title_zh": "美国堪萨斯城联储主席：美联储在降低通胀方面还有更多工作要做",
+     "body_zh": "美国堪萨斯城联储主席Jeff Schmid表示，通胀仍然过热，决策者还有更多工作要做。他周日在为夏威夷一场会议准备的讲稿中表示，正如美联储主席凯文·沃什8月所说，“美联储在通胀问题上还有一些工作要做，不幸的是，自那以来，我们的工作变得更加艰难。”美联储偏爱的价格指标9月同比上涨3.6%，Schmid称这一水平“令人不安地”高于央行2%的目标，而且“朝着错误的方向发展”。",
+     "url": "https://wallstreetcn.com/livenews/3200238",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:43",
+     "title_en": "President of the Federal Reserve Bank of Kansas City: The Federal Reserve has more work to do to reduce inflation.",
+     "body_en": "Federal Reserve Bank of Kansas City President Jeff Schmid stated that inflation remains overheated, and policymakers still have more work to do. In his speech prepared for a conference in Hawaii on Sunday, he stated, as Federal Reserve Chairman Kevin Warsh said in August, \"The Federal Reserve still has some work to do on inflation, and unfortunately, our task has become even more challenging since then.\" The Federal Reserve's preferred price index rose by 3.6% year-over-year in September. Schmid described this level as \"disturbingly\" higher than the Federal Reserve's 2% target and \"moving in the wrong direction.\"",
+     "id": "wscn-3200238"
+    },
+    {
+     "ts": 1794581971,
+     "source": "华尔街见闻",
+     "title_zh": "纳斯达克100指数跌超1%，标普跌0.4%，半导体指数下跌将近4%",
+     "body_zh": "英伟达跌2.3%，Cerebras涨幅收窄至11.3%，谷歌A涨1.1%，AMD跌7.6%，CoreWeave跌9.4%，Nebius跌10.6%，闪迪跌6.1%。 投资者权衡芯片板块和美国PPI通胀数据。",
+     "url": "https://wallstreetcn.com/livenews/3199872",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "22:59",
+     "title_en": "The Nasdaq 100 Index fell by over 1%, the S&P 500 Index fell by 0.4%, and the Semiconductor Index fell by nearly 4%.",
+     "body_en": "Nvidia fell 2.3%, Cerebras' gain narrowed to 11.3%, Google A rose 1.1%, AMD fell 7.6%, CoreWeave fell 9.4%, Nebius fell 10.6%, and SanDisk fell 6.1%. Investors are weighing the chip sector against U.S. PPI inflation data.",
+     "id": "wscn-3199872"
+    },
+    {
+     "ts": 1794745539,
+     "source": "华尔街见闻",
+     "title_zh": "李强抵马尼拉出席中国－东盟领导人会议",
+     "body_zh": "应东盟轮值主席国菲律宾总统马科斯邀请，国务院总理李强乘包机于11月15日晚抵达马尼拉尼诺伊·阿基诺国际机场，将出席中国－东盟领导人会议。菲律宾财政部长吴诗泽和中国驻菲律宾大使井泉、驻东盟大使王擎等到机场迎接。李强是在结束对泰国正式访问后赴马尼拉的。离开曼谷时，泰国副总理兼财政部长艾尼迪和中国驻泰国大使张建卫等到机场送行。 (新华社)",
+     "url": "https://wallstreetcn.com/livenews/3200198",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "20:25",
+     "title_en": "Li Qiang Arrives in Manila to Attend the China–ASEAN Leaders' Meeting.",
+     "body_en": "At the invitation of President Marcos of the Philippines, the rotating chair of ASEAN, Premier Li Qiang of the State Council arrived at Ninoy Aquino International Airport in Manila on the evening of November 15 on a chartered flight to attend the China–ASEAN Leaders' Meeting. Philippine Secretary of Finance Ralph Recto, Chinese Ambassador to the Philippines Huang Xilian, and Chinese Ambassador to ASEAN Wang Qingtian were among those who greeted him at the airport. Li Qiang traveled to Manila after concluding his official visit to Thailand. Upon his departure from Bangkok, Thai Deputy Prime Minister and Minister of Finance Pichai Chunhavajira, along with Chinese Ambassador to Thailand Han Jianwei, were present at the airport to see him off. (Xinhua News Agency).",
+     "id": "wscn-3200198"
+    },
+    {
+     "ts": 1794614433,
+     "source": "华尔街见闻",
+     "title_zh": "美联储副主席Jefferson：通胀将决定利率决策",
+     "body_zh": "美联储副主席Philip Jefferson表示，在考虑进一步加息时，通胀已成为政策制定者最重要的衡量指标。近期美国经济活动和劳动力市场状况一直稳健，但价格压力依然顽固，10月份的物价数据与远高于目标的通胀水平相一致。货币政策可以影响周期性状况，但无法解决决定长期就业率的结构性因素，例如工人技能与雇主需求之间的错配。",
+     "url": "https://wallstreetcn.com/livenews/3200064",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "08:00",
+     "title_en": "Federal Reserve Vice Chair Jefferson: Inflation will determine interest rate decisions.",
+     "body_en": "Federal Reserve Vice Chair Philip Jefferson stated that inflation has become the most important metric for policymakers when considering further interest rate hikes. Recently, U.S. economic activity and labor market conditions have remained robust, but price pressures persist. October's price data aligns with inflation levels well above the target. Monetary policy can influence cyclical conditions, but it cannot address the structural factors that determine long-term employment rates, such as the mismatch between workers' skills and employers' needs.",
+     "id": "wscn-3200064"
+    },
+    {
+     "ts": 1794608422,
+     "source": "华尔街见闻",
+     "title_zh": "两年期美债收益率本周涨33个基点，美联储12月加息基本锁定，市场焦点转向明年1月",
+     "body_zh": "周五（11月13日）纽约尾盘，美国10年期基准国债收益率涨0.81个基点，报5.1352%，本周累计上涨27.78个基点，整体持续走高，交投于4.8287%-5.1718%区间。 两年期美债收益率跌3.95个基点，报4.8419%，本周累涨33.04个基点，交投于4.5009%-4.8886%区间。",
+     "url": "https://wallstreetcn.com/livenews/3200045",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "06:20",
+     "title_en": "The yield on two-year U.S. Treasury bonds rose by 33 basis points this week, with a December rate hike by the Federal Reserve essentially confirmed. The market's focus has now shifted to January next year.",
+     "body_en": "At the close of trading in New York on Friday (November 13), the U.S. 10-year benchmark Treasury yields rose by 0.81 basis points to 5.1352%. They have risen by a cumulative 27.78 basis points this week, continuing their overall upward trend, trading within the range of 4.8287%–5.1718%. The two-year U.S. Treasury yield fell by 3.95 basis points to 4.8419%, with a cumulative increase of 33.04 basis points this week, trading within the range of 4.5009%-4.8886%.",
+     "id": "wscn-3200045"
+    },
+    {
+     "ts": 1794783966,
+     "source": "华尔街见闻",
+     "title_zh": "英特尔股价暴跌29%后遭股东起诉",
+     "body_zh": "英特尔遭到股东起诉，这些股东指控这家美国芯片制造商通过隐瞒个人电脑销售长期放缓的影响来欺诈他们，导致其股价单日暴跌近29%。在周五提交至加利福尼亚州圣何塞联邦法院的一份拟议集体诉讼中，由密歇根州一家养老基金领衔的股东们称，英特尔在披露个人电脑销量放缓和库存过剩将如何拖累营收方面反应迟缓。",
+     "url": "https://wallstreetcn.com/livenews/3200246",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:06",
+     "title_en": "Intel sued by shareholders after its share price plummeted by 29%.",
+     "body_en": "Intel has been sued by shareholders who accuse the U.S. chipmaker of defrauding them by concealing the impact of a prolonged slowdown in PC sales, causing its share price to plummet nearly 29% in a single day. In a proposed class-action lawsuit filed on Friday in federal court in San Jose, California, shareholders led by a Michigan pension fund alleged that Intel was slow to disclose how the slowdown in PC sales and excess inventory would weigh on revenue.",
+     "id": "wscn-3200246"
+    },
+    {
+     "ts": 1794783645,
+     "source": "华尔街见闻",
+     "title_zh": "一线调研培育钻石产业：毛坯价格上涨与终端饰品打折并行",
+     "body_zh": "近期，国际金价出现较为明显的回调，黄金珠宝零售市场迎来促销窗口，多家主流黄金品牌加大优惠力度，推出克减、满减、折扣等多种活动，优惠力度较平日明显放大。记者调研发现，随着金价回落，钻石饰品折扣力度较大，一些品牌钻石类产品5折起步，其中既包括天然钻石也包括培育钻石。与此同时，培育钻石毛坯出现涨价苗头。",
+     "url": "https://wallstreetcn.com/livenews/3200243",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:00",
+     "title_en": "Frontline Research on the Lab-Grown Diamond Industry: Rising Rough Diamond Prices and Simultaneous Discounts on Finished Jewelry.",
+     "body_en": "Recently, international gold prices have experienced a relatively significant pullback, opening up a window of opportunity for promotions in the gold and jewelry retail market. Several major gold brands have intensified their promotional efforts, launching various campaigns such as price reductions per gram, discounts for reaching certain spending thresholds, and other special offers. The scale of these promotions is notably larger than usual. Our investigation revealed that, as gold prices have declined, diamond jewelry has seen significant discounts. Some brands are offering diamond products at 50% off or more, including both natural and lab-grown diamonds. At the same time, there are signs of price increases for rough lab-grown diamonds.",
+     "id": "wscn-3200243"
+    },
+    {
+     "ts": 1794771995,
+     "source": "华尔街见闻",
+     "title_zh": "报道：黄仁勋与盟友讨论重返英伟达担任CEO",
+     "body_zh": "英国金融时报援引多位知情人士报道称，黄仁勋正考虑重返英伟达担任首席执行官。黄仁勋在硅谷的盟友正在向英伟达董事会施压，要求恢复他的职务。黄仁勋盟友表示，他们正在组建一个由硅谷企业高管组成的“战情室”，以游说推动黄仁勋重返公司，并将努力争取白宫方面的支持。 英伟达暗盘出现V形走势，目前大致持平，北京时间23:19曾跌超2%——美国总统特朗普的财长声称英伟达需要“剧烈重组”。",
+     "url": "https://wallstreetcn.com/livenews/3200223",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "03:46",
+     "title_en": "Report: Jensen Huang discusses returning to Nvidia as CEO with allies.",
+     "body_en": "The Financial Times, citing multiple sources, reported that Jensen Huang is considering returning to Nvidia as CEO. Jensen Huang's allies in Silicon Valley are pressuring Nvidia's board of directors to reinstate him. Huang's allies said they are forming a \"war room\" of Silicon Valley business executives to lobby for Huang's return to the company and will work to secure support from the White House. Nvidia's after-hours trading showed a V-shaped trend and is currently roughly flat. At 23:19 Beijing time, it had fallen by more than 2% — U.S. President Trump's Treasury Secretary claimed that Nvidia needs a \"radical restructuring.\"",
+     "id": "wscn-3200223"
+    },
+    {
+     "ts": 1794784518,
+     "source": "新浪财经",
+     "title_zh": "股海导航_2026年11月16日_沪深股市公告与交易提示",
+     "body_zh": "【停牌】 605255 天普股份 【复牌】 000831 中国稀土 002129 TCL中环 【品大事】 *ST闻泰：企业法庭就安世境外追加临时措施申请作出裁定...",
+     "url": "https://finance.sina.com.cn/stock/s/2026-11-16/doc-iniywnmh9085371.shtml",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:15",
+     "title_en": "Stock Market Guide_November 16, 2026_Shanghai and Shenzhen Stock Market Announcements and Trading Reminders.",
+     "body_en": "【Trading Suspension】 605255 Tianpu Shares 【Trading Resumption】 000831 China Rare Earth 002129 TCL Zhonghuan 【Major News】 *ST Wentai: The Enterprise Court has ruled on Nexperia's application for additional interim measures overseas...",
+     "id": "sina-comos:niywnmh9085371"
+    },
+    {
+     "ts": 1794775704,
+     "source": "华尔街见闻",
+     "title_zh": "美国交通部长点名军工承包商L3Harris，怀疑其造成最近的全美航班中断",
+     "body_zh": "近日，美国交通部长肖恩·达菲表示，官员们正在调查航空航天和国防承包商L3Harris Technologies Inc.是否对空中交通管制系统瘫痪负有责任。此次故障导致全美航班停飞超过四个小时。L3Harris上周五在美国联邦航空管理局（FAA）的一个偏远站点将一条铜线更换为光纤时，一台路由器每四到五秒就向其他路由器发起超过1,000次连接请求，导致与飞机的通信以及部分雷达数据传输受到干扰。",
+     "url": "https://wallstreetcn.com/livenews/3200226",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "04:48",
+     "title_en": "The U.S. Secretary of Transportation singled out military contractor L3Harris, suspecting it of causing the recent nationwide flight disruptions.",
+     "body_en": "Recently, U.S. Secretary of Transportation Sean Duffy stated that officials are investigating aerospace and defense contractor L3Harris Technologies Inc.for its possible responsibility in the air traffic control system outage. This malfunction led to the grounding of flights across the United States for over four hours. When L3Harris replaced a copper wire with a fiber-optic cable at a remote Federal Aviation Administration (FAA) site last Friday, a router sent over 1,000 connection requests to other routers every four to five seconds, disrupting communications with aircraft and the transmission of some radar data.",
+     "id": "wscn-3200226"
+    },
+    {
+     "ts": 1794748064,
+     "source": "华尔街见闻",
+     "title_zh": "国泰海通资管澄清网传不实信息：从未曾以私募基金作为交易对手开展交易",
+     "body_zh": "网络近日流传有关“某机构资金委托某公司投顾管理、与私募基金开展协议式回购并发生回购违约”等传言。对此，国泰海通资管11月14日发布公告澄清称，该网传内容与上海国泰海通证券资产管理有限公司无关，网传业务并非国泰海通资管开展。",
+     "url": "https://wallstreetcn.com/livenews/3200201",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "21:07",
+     "title_en": "Cathay Haitong Asset Management clarifies false information circulating online: It has never engaged in transactions with private equity funds as counterparties.",
+     "body_en": "Recently, rumors have been circulating online about \"an institution entrusting its funds to a certain company for investment advisory management, conducting an agreed share buyback with a private equity fund, and a default occurring in the share buyback.\" In response, Guotai Haitong Asset Management issued an announcement on November 14, clarifying that the content circulating online is unrelated to Shanghai Guotai Haitong Securities Asset Management Co., Ltd., and that the business mentioned online is not conducted by Guotai Haitong Asset Management.",
+     "id": "wscn-3200201"
+    },
+    {
+     "ts": 1794591321,
+     "source": "华尔街见闻",
+     "title_zh": "2/10年期德债收益率利差短暂“转负”！本周均至少涨超12个基点",
+     "body_zh": "周五（11月13日）欧市尾盘，德国10年期国债收益率涨3.0个基点，报3.377%，本周累计上涨12.2个基点，11月9-10日大部分时间持稳——10日北京时间22:00微跌至3.20%，随后持续上扬，13日发布美国PPI通胀数据时达到3.390%，本周累计上涨12.2个基点。",
+     "url": "https://wallstreetcn.com/livenews/3199946",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:35",
+     "title_en": "The yield spread between 2-year and 10-year German government bonds briefly \"turned negative\"! This week, they have all risen by at least 12 basis points.",
+     "body_en": "At the close of European trading hours on Friday (November 13), the German 10-year Treasury yield rose by 3.0 basis points to 3.377%. It rose by a cumulative 12.2 basis points this week, remaining stable for most of November 9–10. On November 10, at 22:00 Beijing time, it edged down to 3.20% and then continued to rise, reaching 3.390% when the U.S. PPI inflation data was released on November 13. It rose by a cumulative 12.2 basis points this week.",
+     "id": "wscn-3199946"
+    },
+    {
+     "ts": 1794654835,
+     "source": "华尔街见闻",
+     "title_zh": "高盛预计2027年日本以外亚洲股市回报率将达19%",
+     "body_zh": "高盛集团预计，尽管人工智能（AI）领域的不确定性可能加剧市场波动，但企业盈利增长仍将推动MSCI日本以外亚洲指数（MSCI Asia ex-Japan Index）明年以美元计价实现19%的回报率。该行将中国H股和印度股市的评级上调至“超配”，维持对韩国和日本股市的“超配”观点。",
+     "url": "https://wallstreetcn.com/livenews/3200127",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "19:13",
+     "title_en": "Goldman Sachs expects returns of 19% from Asian stock markets outside Japan in 2027.",
+     "body_en": "Goldman Sachs Group expects that, although uncertainties in the field of artificial intelligence (AI) may exacerbate market volatility, corporate earnings growth will still drive the MSCI Asia ex-Japan Index to achieve a 19% return in U.S. dollar terms next year. The bank upgraded its ratings for Chinese H-shares and Indian equities to \"overweight\" and maintained its \"overweight\" stance on South Korean and Japanese equities.",
+     "id": "wscn-3200127"
+    },
+    {
+     "ts": 1794634829,
+     "source": "华尔街见闻",
+     "title_zh": "北京15日正式供暖",
+     "body_zh": "11月15日，北京地区将正式供暖。随着供暖季的临近，国网北京市电力公司全力落实度冬供电保障重点举措。国网北京电力调度控制中心预测，今冬北京电网最大负荷可达2900万千瓦，预计较冬季历史最大负荷增长约8.29%。（北京日报）",
+     "url": "https://wallstreetcn.com/livenews/3200109",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "13:40",
+     "title_en": "Beijing's official heating starts on the 15th.",
+     "body_en": "On November 15, heating will officially begin in the Beijing area. With the heating season approaching, State Grid Beijing Electric Power Company is making every effort to implement key measures to ensure power supply during the winter. The State Grid Beijing Electric Power Dispatching and Control Center forecasts that Beijing's power grid will reach a maximum load of 29 million kilowatts this winter, an expected increase of approximately 8.29% compared to the historical winter peak load. (Beijing Daily).",
+     "id": "wscn-3200109"
+    }
+   ],
+   "story": {
+    "id": "fisher-scuttlebutt",
+    "name_zh": "菲利普·费雪",
+    "name_en": "Philip Fisher",
+    "era": "1950s · 美国加州",
+    "title_zh": "不读财报的调研法：去和对手闲聊",
+    "title_en": "The Scuttlebutt Method",
+    "body_zh": "费雪调研公司有个怪招：不急着看报表，先去闲聊。找离职员工、供应商、同行工程师，一家公司的真实成色就浮出来了。他管这叫闲聊法，靠它拿了摩托罗拉十多年。",
+    "body_en": "Philip Fisher had an odd way to research a company. Before reading reports, he went out and chatted. Former employees, salesmen, suppliers, rival engineers. From these talks, the truth surfaced. He called it the scuttlebutt method.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "California, nineteen fifty. While other analysts read annual reports, Philip Fisher does something strange. He goes out for coffee, and small talk.",
+      "zh": "加州，1950 年。别的分析师在读年报，菲利普·费雪却在干一件怪事：出门喝咖啡、闲聊。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "You used to work at their plant. Was the new product real quality, or just a good story?",
+      "zh": "你以前在他们的厂里干过。新品是真有实力，还是故事讲得好？"
+     },
+     {
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F",
+      "en": "Honestly? The lab is serious. But the boss loses his temper, and good people keep leaving.",
+      "zh": "说实话？实验室是认真的。但老板脾气大，能干的人一直在走。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "And the competitors say the same thing, from the other side. Now the picture is complete.",
+      "zh": "竞争对手从另一头说出来的，也是同样的话。拼图这就完整了。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He called it the scuttlebutt method. It led him to hold Motorola for decades. His advice shaped Buffett too. If it is a wonderful company, almost never sell.",
+      "zh": "他管这叫闲聊法。靠它，他拿住了摩托罗拉十多年。这条建议也影响了巴菲特：真正的好公司，几乎永远别卖。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "nine-of-five",
+    "tag_zh": "经济学家的预言",
+    "tag_en": "Economist Forecast",
+    "title_zh": "过去五次衰退，经济学家预测中了九次",
+    "title_en": "Nine of the Last Five Recessions",
+    "body_zh": "经济学家萨缪尔森讲过一个流传至今的玩笑：股市在过去五次衰退里，预测中了九次。意思是股市总在喊狼来了，喊的次数远比狼真的来的次数多。所以听到谁信誓旦旦地预测崩盘，不用太紧张，也不用太得意，先数一数他之前喊过几次。预测市场这件事，连最聪明的人也常常只是运气好。",
+    "body_en": "The economist Paul Samuelson left us a joke that never gets old. The stock market has predicted nine of the last five recessions. Read that again. Nine predictions. Five real recessions. The market cries wolf far more often than the wolf arrives. So when someone loudly predicts the next crash, stay calm. Count how many times they called it before. Predicting the market is hard. Even for the smartest people in the room."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 14.275,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 15.075,
+      "dur": 6.58,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 22.205,
+      "dur": 6.305,
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F"
+     },
+     {
+      "start": 29.06,
+      "dur": 6.068,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 35.678,
+      "dur": 14.755,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "867780fd3132",
+    "item-00.mp3": "4bd735e285d7",
+    "item-01.mp3": "95affd5f324c",
+    "item-02.mp3": "4244fd995546",
+    "item-03.mp3": "2a749c1ff2dc",
+    "item-04.mp3": "b2968e05d0b9",
+    "item-05.mp3": "17194b332ce6",
+    "item-06.mp3": "c1cd613ca9cc",
+    "item-07.mp3": "b13fcc6a72c3",
+    "item-08.mp3": "f8ea9040e0a3",
+    "item-09.mp3": "2c89674130db",
+    "item-10.mp3": "862585d9390c",
+    "item-11.mp3": "ca90cff380c4",
+    "item-12.mp3": "4429f393b402",
+    "item-13.mp3": "beaa7cd6a0c7",
+    "item-14.mp3": "b3d897a2e56a",
+    "item-15.mp3": "c45c73645ef9",
+    "item-16.mp3": "d6ba18458734",
+    "item-17.mp3": "210be0387b41",
+    "story.mp3": "7ecce05fb0f0",
+    "joke.mp3": "413eddb0741e"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.097
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 8.997,
+      "dur": 55.071
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 64.968,
+      "dur": 36.594
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 102.462,
+      "dur": 42.161
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 145.523,
+      "dur": 35.775
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 182.199,
+      "dur": 51.305
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 234.403,
+      "dur": 34.151
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 269.454,
+      "dur": 59.702
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 330.056,
+      "dur": 42.796
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 373.752,
+      "dur": 67.865
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 442.517,
+      "dur": 36.684
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 480.101,
+      "dur": 64.107
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 545.109,
+      "dur": 48.33
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 594.339,
+      "dur": 34.107
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 629.345,
+      "dur": 55.275
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 685.52,
+      "dur": 52.367
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 738.787,
+      "dur": 51.266
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 790.953,
+      "dur": 41.775
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 833.628,
+      "dur": 36.904
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-15",
    "weekday_en": "Sunday",
@@ -3340,562 +3882,6 @@
       "file": "item-17.mp3",
       "start": 833.595,
       "dur": 62.136
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-09",
-   "weekday_en": "Monday",
-   "weekday_zh": "周一",
-   "generated_at": "2026-11-09 07:24",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3649.18,
-     "chg_pct": -1.1
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 11175.78,
-     "chg_pct": -2.57
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2465.23,
-     "chg_pct": -3.96
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1253.2,
-     "chg_pct": -2.6
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 24481.86,
-     "chg_pct": -1.27
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 51285.73,
-     "chg_pct": -0.46
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 24579.42,
-     "chg_pct": 1.09
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7376.86,
-     "chg_pct": 0.31
-    }
-   ],
-   "items": [
-    {
-     "ts": 1794179427,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年11月9日",
-     "body_zh": "强劲非农提振加息预期，上周五美元大涨，纳指反弹1%，芯片股技术性反弹。 美国10月非农就业新增16.5万人，远超预期，失业率降至4.1%，市场对12月加息25个基点的押注升至八成。 中国国常会提出完善资本市场稳市机制，增强股市内在稳定性，加快重大项目和”六张网”建设实施进度。",
-     "url": "https://wallstreetcn.com/livenews/3196532",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:10",
-     "title_en": "Breakfast on Wall Street | November 9, 2026.",
-     "body_en": "Strong non-farm interest rate hikes boosted expectations, with the dollar rising sharply on Friday, the index rebounding by 1%, and chip stocks rebounding technologically. Non-farm payrolls added 165,000 jobs in October, far exceeding expectations, the unemployment rate fell to 4.1%, and the market's bet on a 25 basis point hike in December rose to 80%. China's Standing Committee has proposed to improve the market stability mechanism of the capital market, enhance the inherent stability of the stock market, and accelerate the implementation of major projects and the construction of the \"six networks\".",
-     "id": "wscn-3196532"
-    },
-    {
-     "ts": 1794178379,
-     "source": "华尔街见闻",
-     "title_zh": "月内深市回购增持动作密集",
-     "body_zh": "近期，深圳证券交易所市场回购增持动作密集，真金白银传递产业信心。数据显示，11月份以来，截至目前，深市合计披露回购增持计划及进展相关公告305单。其中，新增回购计划35单，回购金额上限合计76.66亿元，回购进展公告238单；新增增持计划16单，增持金额上限25.88亿元，增持进展公告16单。",
-     "url": "https://wallstreetcn.com/livenews/3196527",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:52",
-     "title_en": "The increase in share buyback in Shenzhen during the month is intensive.",
-     "body_en": "Recently, the share buyback of the Shenzhen Stock Exchange market has been intensively increased, and real gold and silver have conveyed industrial confidence. The data shows that since November, as of now, the Shenzhen market has disclosed the share buyback increase plan and 305 orders related to progress. Among them, 35 new share buyback plans were added, with a total share buyback amount cap of 7.666 billion yuan, and 238 share buyback progress announcements; 16 new share buyback plans were added, with a cap of 2.588 billion yuan, and 16 share buyback progress announcements were added.",
-     "id": "wscn-3196527"
-    },
-    {
-     "ts": 1794177879,
-     "source": "新浪财经",
-     "title_zh": "11月9日周末要闻：鲁比奥称伊朗要求不可接受 美再袭伊格什姆岛 英伟达千万美元货物被盗",
-     "body_zh": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyaqqn3523524.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:44",
-     "title_en": "November 9th Weekend Highlights: Rubio Says Iran Demands Unacceptable $10 Million Cargo Stolen From Nvidia, Igishm Island.",
-     "body_en": "Market close on November 7: Three major indices rose and fell, and the rebound of chip stocks AI regulatory concerns still remain. On November 7, most of the popular medium-sized stocks rose, TSMC rose more than 6%, and the ideal car rose more than 5%. Summary of commodities: The trend of oil prices shocked Copper prices fell...",
-     "id": "sina-comos:niyaqqn3523524"
-    },
-    {
-     "ts": 1794165529,
-     "source": "华尔街见闻",
-     "title_zh": "美财政部要求伊拉克关闭与伊朗之间大部分边境口岸",
-     "body_zh": "当地时间11月8日，伊拉克外交部长侯赛因称，美国财政部要求伊拉克关闭与伊朗之间的大部分边境口岸，仅保留两个口岸开放。（央视新闻）",
-     "url": "https://wallstreetcn.com/livenews/3196511",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "03:18",
-     "title_en": "The U.S. Ministry of Finance has demanded that Iraq close most of its border crossings with Iran.",
-     "body_en": "On November 8, local time, Iraqi Foreign Minister Hussein said that the Ministry of Finance of the United States requires Iraq to close most border crossings with Iran and only keep two ports open. (CCTV News).",
-     "id": "wscn-3196511"
-    },
-    {
-     "ts": 1794178506,
-     "source": "华尔街见闻",
-     "title_zh": "澳洲联储助理主席Hunter",
-     "body_zh": "人工智能需求对消费者价格指数（CPI）的传导影响相当有限。 人工智能对生产力的拉动作用仍需数年时间方能显现。 过去一年与人工智能相关的投资强于预期。 围绕人工智能项目管线的风险整体“平衡”。 短期内未见人工智能对生产力产生重大拉动作用。",
-     "url": "https://wallstreetcn.com/livenews/3196529",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:55",
-     "title_en": "Hunter, assistant chairman of the Reserve Bank of Australia.",
-     "body_en": "The conduction impact of AI demand on the Consumer Price Index (CPI) is quite limited. The pull of AI on productivity is still years away. Investment related to AI has been stronger than expected in the past year. The overall “balance” of risk around the AI project pipeline. There is no significant boost to productivity from AI in the short term.",
-     "id": "wscn-3196529"
-    },
-    {
-     "ts": 1793998703,
-     "source": "华尔街见闻",
-     "title_zh": "报道：OpenAI完成110亿美元新融资，估值1.25万亿美元，软银、红杉资本等参投",
-     "body_zh": "据知情人士透露，OpenAI已完成约110亿美元的新融资，这是本轮估值1.25万亿美元融资的首笔部分。 资金已于周五划入公司账户。本轮剩余部分——总额可能增至最高200亿美元——预计将在未来数周内完成。 在推迟了首次公开募股（IPO）计划后，这家AI开发商已就一轮大额融资洽谈了一个多月。OpenAI最初计划以1.4万亿美元估值融资300亿美元或更多，随后在AI板块遭遇公开市场暴跌的背景下缩减了计划。",
-     "url": "https://wallstreetcn.com/livenews/3196217",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "04:58",
-     "title_en": "Report: OpenAI raises $11 billion, valued at $1.25 trillion, with participation from SoftBank, Sequoia Capital, and others.",
-     "body_en": "OpenAI has closed about $11 billion in new funding, the first part of a $1.25 trillion round, according to people familiar with the matter. Funds were transferred to the company's account on Friday. The remainder of this round - which could total up to $20 billion - is expected to be completed in the coming weeks. The AI developer has been negotiating a large funding round for more than a month after postponing plans for an initial public offering (IPO). OpenAI, which initially planned to raise $30 billion or more at a $1.4 trillion valuation, later scaled back its plans against the backdrop of a public-market plunge in the AI sector.",
-     "id": "wscn-3196217"
-    },
-    {
-     "ts": 1793986661,
-     "source": "华尔街见闻",
-     "title_zh": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
-     "body_zh": "微软公司正逐步终止向甲骨文公司租用人工智能（AI）算力的安排，这是其对价值数十亿美元的云合作伙伴关系进行更大范围重估的一部分。 据知情人士透露，近几个月来，微软在拒绝续约后，已开始陆续关闭从甲骨文租用的算力。随着时间推移，微软租用的这批算力变得不再好用，因为它已不再符合公司的规格要求。他们称，甲骨文这批硬件使用的是英伟达较旧一代的芯片。",
-     "url": "https://wallstreetcn.com/livenews/3196151",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "01:37",
-     "title_en": "Report: Deprecated chips are not new enough, Microsoft is winding down arrangements to lease AI cloud power from Oracle.",
-     "body_en": "Microsoft is winding down its arrangement to lease artificial intelligence (AI) computing power from Oracle as part of a broader revaluation of its multi-billion-dollar cloud partnership. In recent months, Microsoft has begun shutting down the computing power leased from Oracle after refusing to renew the contract, according to people familiar with the matter. Over time, this batch of computing power rented by Microsoft has become no longer easy to use because it no longer meets the company's specifications. The Oracle hardware, they say, uses older Nvidia chips.",
-     "id": "wscn-3196151"
-    },
-    {
-     "ts": 1794010006,
-     "source": "华尔街见闻",
-     "title_zh": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-     "body_zh": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。",
-     "url": "https://wallstreetcn.com/livenews/3196269",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "08:06",
-     "title_en": "He Lifeng held a video call with Besent, Director of the Ministry of Finance of the United States, and Trade Representative Greer.",
-     "body_en": "On the evening of November 6, Beijing time, the Chinese leader of China-US economic and trade, the Vice Premier of the State Council, He Lifeng, held a video call with the US leader, the Director of the Ministry of Finance of the United States, Besent, and Trade Representative Greer. The two sides had frank, in-depth and constructive exchanges on important economic and trade issues of mutual concern around the implementation of the important consensus reached at the China-US Summit in Beijing and Washington, D.C., and the outcomes of the economic and trade consultations. The Chinese side expressed serious concerns about the recent restrictions on US trade with China.",
-     "id": "wscn-3196269"
-    },
-    {
-     "ts": 1794003227,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价在非农日走低，本周累涨5%，纽约铜本周跌3.8%",
-     "body_zh": "周五（11月6日）纽约尾盘，现货黄金跌0.4%，报4071.39美元/盎司，亚太早盘曾短暂地微幅上涨，北京时间09:17以来持续处于下跌状态，21:30发布美国非农就业报告时显著下跌、刷新日低至4028.49美元，本周累计上涨5.06%，11月4-5日（至亚太中午）持续扩大涨幅、11:30达到4146.97美元。 COMEX黄金期货累涨4.65%，报4080.10美元/盎司。",
-     "url": "https://wallstreetcn.com/livenews/3196250",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "06:13",
-     "title_en": "International gold prices fell on off-farm days, rising 5% this week, and copper in New York fell 3.8% this week.",
-     "body_en": "At the end of New York on Friday (November 6), spot gold fell 0.4% to $4,071.39 per ounce. The Asia-Pacific morning market had briefly risen slightly, and it has continued to decline since 09:17 Beijing time. At 21:30, the US non-farm payroll employment report fell significantly, refreshing as low as $4,028.49, rising 5.06% this week. On November 4-5 (until midday in Asia-Pacific), the increase continued to expand, reaching $4,146.97 at 11:30. COMEX gold futures were up 4.65% at $4080.10/oz.",
-     "id": "wscn-3196250"
-    },
-    {
-     "ts": 1793997218,
-     "source": "华尔街见闻",
-     "title_zh": "美国商品期货交易委员会（CFTC）",
-     "body_zh": "11月3日当周，投机者所持COMEX黄金净多头头寸减少3,107手合约，至104,297手合约，创最近21周新低；多头绝对值123,437手合约，创大约七个月新低。 所持COMEX白银净多头头寸降低至2,665手合约，创约三年来新低。 所持COMEX铜净多头头寸减少至34,444手合约，创逾14个月新低。 转而持有NYMEX铂金净空头头寸1,076手合约，创最近逾17个月新高。",
-     "url": "https://wallstreetcn.com/livenews/3196214",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "04:33",
-     "title_en": "Commodity Futures Trading Commission (CFTC).",
-     "body_en": "During the week of November 3, speculators' net long positions in COMEX gold decreased by 3,107 contracts to 104,297 contracts, hitting a new low in the last 21 weeks; the absolute value of long contracts was 123,437 contracts, hitting a new low of about seven months. The net long position in COMEX silver was reduced to 2,665 contracts, a three-year low. The COMEX copper net long position was reduced to 34,444 lots, a record low of more than 14 months. Switched to the NYMEX platinum net short position of 1,076 lots, a recent high of more than 17 months.",
-     "id": "wscn-3196214"
-    },
-    {
-     "ts": 1794163213,
-     "source": "华尔街见闻",
-     "title_zh": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放",
-     "body_zh": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放",
-     "url": "https://wallstreetcn.com/livenews/3196507",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "02:40",
-     "title_en": "Iraq's Foreign Minister says the U.S. Ministry of Finance is demanding that Iraq close most of its border crossings with Iran, leaving only two open.",
-     "body_en": "Iraq's Foreign Minister says the U.S. Ministry of Finance is demanding that Iraq close most of its border crossings with Iran, leaving only two open.",
-     "id": "wscn-3196507"
-    },
-    {
-     "ts": 1794037132,
-     "source": "华尔街见闻",
-     "title_zh": "美国多名国会议员说将推动撤销不合理关税政策",
-     "body_zh": "11月7日消息，鉴于美国选民对高生活成本和高通胀反应强烈，随着民主党在中期选举中取得压倒性胜利，多名民主党籍国会议员表示将致力于推动撤销现行的不合理关税政策。尽管这些民主党籍国会议员表达了推动撤销不合理关税措施的意愿，但也有分析认为，虽然民主党在中期选举中获得国会参议院和众议院的控制权，但美国总统特朗普可以通过对国会立法行使否决权等进行有效制衡，现有关税措施短期内或难以出现实质性松动。（新华社）",
-     "url": "https://wallstreetcn.com/livenews/3196369",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "15:38",
-     "title_en": "US lawmakers say they will push for the removal of unjustified tariffs.",
-     "body_en": "On Nov. 7, as voters reacted strongly to the high cost of living and high inflation in the United States and as Democrats scored a landslide victory in the midterm elections, a number of Democratic lawmakers expressed their commitment to pushing for the removal of the current unjustified tariffs. Although these Democratic members of Congress have expressed their willingness to push for the withdrawal of unreasonable tariff measures, some analysts believe that although Democrats have gained control of the Senate and House of Representatives in the mid-term elections, US President Trump can effectively check and balance the existing tariff measures by exercising veto power over Congressional legislation, etc. It may be difficult to see substantive loosening in the short term. (Xinhua News Agency).",
-     "id": "wscn-3196369"
-    },
-    {
-     "ts": 1794033163,
-     "source": "华尔街见闻",
-     "title_zh": "香港证监会收紧误导性称衔，降低投资者误判风险",
-     "body_zh": "11月6日，香港证券及期货事务监察委员会发表咨询总结，就进一步限制不受规管的机构使用具误导性的名称以保障投资者，相关修订建议获市场广泛支持。香港证监会表示，将扩大受限制称衔清单，并建立更快更新清单的机制，同时把监管覆盖延伸至虚拟资产领域，从源头减少投资者因机构名称产生误判，夯实投资者保护防线。",
-     "url": "https://wallstreetcn.com/livenews/3196364",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "14:32",
-     "title_en": "Hong Kong's the CSRC tightens misleading titles to reduce the risk of investor misjudgment.",
-     "body_en": "On November 6, the Hong Kong Securities and Futures Commission issued an advisory summary on further restricting the use of misleading names by unregulated institutions to protect investors. The relevant amendment proposal was widely supported by the market. The CSRC in Hong Kong said it would expand the list of restricted titles and establish a mechanism to update the list more quickly, while extending regulatory coverage to the virtual asset sector, reducing investor misjudgment due to institutional names from the source, and strengthening investor protection lines.",
-     "id": "wscn-3196364"
-    },
-    {
-     "ts": 1794137302,
-     "source": "华尔街见闻",
-     "title_zh": "中信建投：维持对北美算力和国产AI算力产业链长期看好",
-     "body_zh": "中信建投证券发布通信行业2027年度投资策略报告称，大模型商业化在2026年快速扩张，截至2026年9月底，OpenAI和Anthropic两家ARR合计约1240亿美元。北美四大CSP厂商2026年第三季度合计资本开支约2087亿美元，同比增长84.2%，AI基础设施投资保持高强度。",
-     "url": "https://wallstreetcn.com/livenews/3196478",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "19:28",
-     "title_en": "CITIC Construction and Investment: Maintain long-term optimism about the North American hashrate and domestic AI hashrate industry chain.",
-     "body_en": "CITIC Securities released the 2027 Annual Investment Strategy Report of the Communications Industry, saying that the commercialization of the large model expanded rapidly in 2026, and as of the end of September 2026, the combined ARRs of OpenAI and Anthropic were about $124 billion. The four largest CSP vendors in North America have a total capital expenditure of about 208.7 billion US dollars in the third quarter of 2026, up year on year 84.2%, and AI infrastructure investment remains strong.",
-     "id": "wscn-3196478"
-    },
-    {
-     "ts": 1794133523,
-     "source": "华尔街见闻",
-     "title_zh": "AI辅助设计禽流感疫苗动物实验获进展",
-     "body_zh": "英国剑桥大学日前发布公报说，该校团队借助人工智能（AI）设计的一种新型广谱禽流感疫苗，在动物实验中对多种禽流感病毒变异株展现出防护效力。这款候选疫苗由剑桥大学与其衍生企业共同研发。研究人员收集全球监测项目记录的禽流感病毒基因序列数据，利用AI工具整合分析，设计出一系列包含这类病毒共同抗原特征的“超级抗原”。",
-     "url": "https://wallstreetcn.com/livenews/3196473",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "18:25",
-     "title_en": "Advances in AI-assisted design of animal experiments for avian influenza vaccines.",
-     "body_en": "A new broad-spectrum avian influenza vaccine designed by the artificial intelligence (AI) team has shown protective efficacy against a variety of avian influenza virus variants in animal experiments, the University of Cambridge said in a communique recently. The vaccine candidate was jointly developed by the University of Cambridge and its derivatives. The researchers collected the avian influenza virus gene sequence data recorded by the global surveillance project, and used AI tools to integrate and analyze them to design a series of \"superantigens\" containing the common antigen characteristics of such viruses.",
-     "id": "wscn-3196473"
-    },
-    {
-     "ts": 1794165054,
-     "source": "华尔街见闻",
-     "title_zh": "伊拉克外长",
-     "body_zh": "伊拉克已与美国达成谅解，允许石油通过霍尔木兹海峡经靠近阿曼的航道出口，出口业务仍在持续进行。 伊拉克因伊朗战争及石油出口业务中断造成的损失已达600亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3196510",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "03:10",
-     "title_en": "Minister for Foreign Affairs of Iraq.",
-     "body_en": "Iraq has reached an understanding with the United States to allow oil to be exported through the Strait of Hormuz via a waterway close to Oman, and export operations continue. Iraq has suffered $60 billion in damages as a result of the war in Iran and the disruption of its oil export business.",
-     "id": "wscn-3196510"
-    },
-    {
-     "ts": 1794146663,
-     "source": "华尔街见闻",
-     "title_zh": "乌方称俄军袭击致多地紧急停电",
-     "body_zh": "乌克兰国家电力公司8日在社交媒体发文称，俄军对乌能源基础设施的持续袭击导致乌电网面临严峻困难，哈尔科夫州、苏梅州和波尔塔瓦州当天紧急停电。乌私营能源企业DTEK公司8日在社交媒体发文称，基辅市和基辅州当天上午再次紧急停电。该公司称，第聂伯罗彼得罗夫斯克州再次遭到大规模袭击，巴甫洛格勒等地超过60万居民断电。",
-     "url": "https://wallstreetcn.com/livenews/3196486",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "22:04",
-     "title_en": "The Ukrainian side said that the Russian attack caused emergency power outages in many places.",
-     "body_en": "The Ukrainian State Electricity Corporation said in a social media post on the 8th that the Ukrainian power grid faced serious difficulties due to the continuous attacks of the Russian military on the energy infrastructure of Ukraine, and the emergency power outages in Kharkiv, Samui and Poltava oblasts on the same day. Ukrainian private energy company DTEK said in a social media post on the 8th that Kiev City and Kiev State again had an emergency power outage that morning. The company said that Dnipropetrovsk Oblast was again hit by a large-scale attack, and more than 600,000 residents in Pavlograd and other places lost power.",
-     "id": "wscn-3196486"
-    },
-    {
-     "ts": 1794145362,
-     "source": "华尔街见闻",
-     "title_zh": "进博会上海交易团意向成交额连续8年居全国地方交易团第一",
-     "body_zh": "上海市政府副秘书长、上海交易团副团长朱民指出，历经九载发展，进博会成交与首发成果丰硕，上海交易团意向成交额已连续八年居全国地方交易团第一，本届展会规模再创新高，而大型零售采购商联盟作为上海交易团重要组成部分，会员已从成立之初21家发展至45家，践行着“在上海、买全球、卖全球”。一批重点采购项目代表进行现场推介，聚焦进口优质消费品引进，充分释放进博会溢出效应。据不完全统计，本届进博会上零售联盟已达成72个采购意向。",
-     "url": "https://wallstreetcn.com/livenews/3196484",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "21:42",
-     "title_en": "Expo Shanghai Trading Group's intention to turnover ranked first in the national local trading group for 8 consecutive years.",
-     "body_en": "Zhu Min, deputy secretary-general of the Shanghai Municipal Government and deputy head of the Shanghai Trading Group, pointed out that after nine years of development, the transactions and initial results of the Expo have been fruitful. The Shanghai Trading Group's intended turnover has ranked first in the national local trading groups for eight consecutive years. The scale of this exhibition has reached a new high. As an important part of the Shanghai Trading Group, the large retail buyers' alliance has grown from 21 to 45 members, practicing \"buying in Shanghai, selling globally\". A group of key procurement project representatives carried out on-site promotion, focusing on the introduction of imported high-quality consumer goods, and fully released the spillover effect of the Expo. According to incomplete statistics, the retail alliance has reached 72 purchasing intentions at this Expo.",
-     "id": "wscn-3196484"
-    }
-   ],
-   "story": {
-    "id": "carnegie-telegraph",
-    "name_zh": "安德鲁·卡内基",
-    "name_en": "Andrew Carnegie",
-    "era": "1850s · 美国匹兹堡",
-    "title_zh": "从每周一美元二毛，到钢铁大王",
-    "title_en": "From a Dollar Twenty a Week to Steel",
-    "body_zh": "卡内基十三岁移民美国，第一份工每周挣一美元二毛。当电报信童时，他背下全城商户的名字和脸。二十几岁把全部身家压进钢铁，建成世界最大钢铁厂。晚年捐出九成财产。",
-    "body_en": "Andrew Carnegie arrived in America from Scotland at thirteen. His first job paid one dollar and twenty cents a week. As a messenger boy, he memorized every business in town. In his thirties he bet everything on steel, built the largest steel company in the world, then gave away ninety percent of it.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Pittsburgh, eighteen fifty. A thirteen year old Scottish immigrant starts his first job. It pays one dollar and twenty cents a week.",
-      "zh": "匹兹堡，1850 年。一个十三岁的苏格兰移民开始第一份工作，周薪一美元二毛。"
-     },
-     {
-      "k": "dial",
-      "who": "Foreman",
-      "g": "M2",
-      "en": "Boy, the telegraph office needs a messenger. Can you learn the streets?",
-      "zh": "小子，电报局要个信童。你能把街巷记熟吗？"
-     },
-     {
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M",
-      "en": "I will learn more than the streets, sir. I will learn every business in town, and every face behind the door.",
-      "zh": "先生，我记的不只是街巷。我要记住全城每一家商户，和每扇门后面的每张脸。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "While other boys played, he drilled himself on the telegraph key, and became the fastest ear in the city.",
-      "zh": "别的孩子去玩了，他对着电报机日夜苦练，成了全城收发电报最快的人。"
-     },
-     {
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M",
-      "en": "Save it, invest it early, and when you find your industry, bet everything on it.",
-      "zh": "把钱存下来，早一点投出去。找到属于自己的行业时，就把全部身家押上去。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "He built the largest steel company in the world. Then he gave ninety percent of it away, with one line for the history books. Dying rich is a disgrace.",
-      "zh": "他建成了世界最大的钢铁公司，然后捐出了九成财产，只留给历史一句话：带着巨富死去，是一种耻辱。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "rothschild-early",
-    "tag_zh": "金融世家心得",
-    "tag_en": "Banking Family Secret",
-    "title_zh": "我是靠卖得太早赚的钱",
-    "title_en": "I Made My Fortune by Selling Too Early",
-    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
-    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 11.019,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 11.819,
-      "dur": 5.385,
-      "k": "dial",
-      "who": "Foreman",
-      "g": "M2"
-     },
-     {
-      "start": 17.755,
-      "dur": 6.821,
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M"
-     },
-     {
-      "start": 25.126,
-      "dur": 7.843,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 33.519,
-      "dur": 5.397,
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M"
-     },
-     {
-      "start": 39.466,
-      "dur": 12.449,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "9138dc0de90c",
-    "item-00.mp3": "d39040e39e29",
-    "item-01.mp3": "3fe44bd2d580",
-    "item-02.mp3": "8ebf35caa7d9",
-    "item-03.mp3": "6bd605a3ff80",
-    "item-04.mp3": "252f985c37ef",
-    "item-05.mp3": "5a54bbc886f3",
-    "item-06.mp3": "e8c3d38370a8",
-    "item-07.mp3": "a2657ef5f41b",
-    "item-08.mp3": "3c2393859a00",
-    "item-09.mp3": "7be17cfd0c21",
-    "item-10.mp3": "b67b3303a1c8",
-    "item-11.mp3": "adb7362c6111",
-    "item-12.mp3": "e49a785eb114",
-    "item-13.mp3": "e34de1f9b901",
-    "item-14.mp3": "0c7819a53985",
-    "item-15.mp3": "7120ea78a6b7",
-    "item-16.mp3": "29d50dc932bb",
-    "item-17.mp3": "a4059f5897af",
-    "story.mp3": "43361d53e05b",
-    "joke.mp3": "45ac90111c46"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.31
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.21,
-      "dur": 52.069
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 62.179,
-      "dur": 46.352
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 109.431,
-      "dur": 37.536
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 147.867,
-      "dur": 22.709
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 171.476,
-      "dur": 31.625
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 204.001,
-      "dur": 56.163
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 261.064,
-      "dur": 52.342
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 314.306,
-      "dur": 54.357
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 369.563,
-      "dur": 66.557
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 437.021,
-      "dur": 49.915
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 487.836,
-      "dur": 22.633
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 511.369,
-      "dur": 55.35
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 567.619,
-      "dur": 48.403
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 616.922,
-      "dur": 50.462
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 668.284,
-      "dur": 53.807
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 722.991,
-      "dur": 21.379
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 745.27,
-      "dur": 55.187
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 801.357,
-      "dur": 65.53
      }
     ]
    }
