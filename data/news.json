@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-20 07:34",
-  "latest": "2026-11-20",
+  "updated_at": "2026-11-21 07:35",
+  "latest": "2026-11-21",
   "count": 18,
   "mt_calls": 35
  },
  "editions": [
+  {
+   "date": "2026-11-21",
+   "weekday_en": "Saturday",
+   "weekday_zh": "周六",
+   "generated_at": "2026-11-21 07:35",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3533.79,
+     "chg_pct": -1.23
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10256.39,
+     "chg_pct": -3.09
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2212.13,
+     "chg_pct": -3.54
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1231.09,
+     "chg_pct": -3.12
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 22410.8,
+     "chg_pct": -1.89
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 48147.33,
+     "chg_pct": -1.93
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 22617.73,
+     "chg_pct": -5.28
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 6910.39,
+     "chg_pct": -3.7
+    }
+   ],
+   "items": [
+    {
+     "ts": 1795215341,
+     "source": "新浪财经",
+     "title_zh": "黄金创3月份以来最大单周跌幅 美联储鹰派信号和AI股票大跌构成压力",
+     "body_zh": "黄金连续第五天下跌，创3月份以来最大单周跌幅，美联储释放鹰派信号，暗示还将进一步加息，而人工智能（AI）股票大跌引发金属市场普遍抛售。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwan6852758.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:55",
+     "title_en": "Gold experiences its largest weekly decline since March, pressured by hawkish signals from the Federal Reserve and a sharp drop in AI stocks.",
+     "body_en": "Gold fell for the fifth consecutive day, marking its largest weekly decline since March. The Federal Reserve signaled a hawkish stance, suggesting further interest rate hikes, while a sharp drop in artificial intelligence (AI) stocks triggered a broad sell-off in the metals market.",
+     "id": "sina-comos:nizmwan6852758"
+    },
+    {
+     "ts": 1795203171,
+     "source": "华尔街见闻",
+     "title_zh": "交易员不再充分消化美联储12月加息的情景",
+     "body_zh": "标普500指数跌3.1%，纳斯达克100指数跌4.9%，纳指跌4.6%，半导体指数跌10%，Anthropic维持大约10%的跌幅。 英伟达跌11.79%，闪迪跌16%，博通跌12.58%，美光跌13.22%，英特尔跌6.13%，AMD跌13.59%，高通跌5.29%，台积电跌9.30%，阿斯麦跌6.70%。 VIX波动率日内涨幅达22.5%，报34.85。 美国2-7年期国债收益率至少跌15个基点。",
+     "url": "https://wallstreetcn.com/livenews/3203552",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "03:32",
+     "title_en": "Traders are no longer fully factoring in the scenario of a Federal Reserve rate hike in December.",
+     "body_en": "The S&P 500 Index fell by 3.1%, the Nasdaq 100 Index fell by 4.9%, the Nasdaq Composite Index fell by 4.6%, the Semiconductor Index fell by 10%, and Anthropic maintained a decline of approximately 10%. Nvidia fell 11.79%, SanDisk fell 16%, Broadcom fell 12.58%, Micron fell 13.22%, Intel fell 6.13%, AMD fell 13.59%, Qualcomm fell 5.29%, TSMC fell 9.30%, and ASML fell 6.70%. The VIX volatility index rose by 22.5% intraday, closing at 34.85. U.S. Treasury yields for 2- to 7-year maturities fell by at least 15 basis points.",
+     "id": "wscn-3203552"
+    },
+    {
+     "ts": 1795207324,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价创一年多新低，专家：背后原因是美元走强以及美国加息预期的抬升",
+     "body_zh": "11月20日亚洲交易时段，伦敦现货黄金跌破3600美元/盎司，盘中最深下探到3514美元附近，创下一年多以来的新低；国内上海金盘中最低下探至755元/克。 这一轮持续近一年的黄金上涨行情在近期迎来深度调整，分析人士表示，市场对美联储加息预期重新升温，成为本轮行情调整的直接催化剂。财通证券研究所高级分析师张洲驰分析认为，10月中旬以来黄金呈现趋势性下跌，且不只是黄金，所有贵金属都出现了显著跌幅，其中白银跌幅更深。",
+     "url": "https://wallstreetcn.com/livenews/3203570",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "04:42",
+     "title_en": "International gold prices hit a new low in over a year. Experts: The underlying reasons are the strengthening of the U.S. dollar and rising expectations of U.S. interest rate hikes.",
+     "body_en": "During the Asian trading session on November 20, London spot gold fell below $3,600/oz, dropping as low as around $3,514 intraday, marking its lowest point in over a year. Domestically, the Shanghai Gold Exchange saw its lowest intraday price dip to RMB 755/g. This nearly year-long rally in gold prices has recently undergone a significant correction. Analysts suggest that the renewed rise in market expectations for Federal Reserve interest rate hikes has been the direct catalyst for this correction. Zhang Zhouchi, a senior analyst at the Caitong Securities Research Institute, believes that gold has been on a downward trend since mid-October. Moreover, it is not just gold; all precious metals have experienced significant declines, with silver showing an even sharper drop.",
+     "id": "wscn-3203570"
+    },
+    {
+     "ts": 1795210824,
+     "source": "新浪财经",
+     "title_zh": "11月21日收盘：纳指狂泻千点 英伟达跌14% 标普道指双双步入回调区间",
+     "body_zh": "周五美股遭遇重挫，备受瞩目的 Anthropic IPO非但未能重振由人工智能引领的涨势，反而促使投资者趁机获利了结。纳斯达克综合指数年内转跌...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmruv0035217.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:40",
+     "title_en": "November 21st Closing: The Nasdaq Plunges by 1,000 Points, Nvidia Drops 14%, and Both the S&P and Dow Enter Correction Territory.",
+     "body_en": "U.S. stocks suffered a sharp decline on Friday. The highly anticipated Anthropic IPO not only failed to revive the AI-led rally but instead prompted investors to take the opportunity to take profits. The Nasdaq Composite Index has turned negative for the year...",
+     "id": "sina-comos:nizmruv0035217"
+    },
+    {
+     "ts": 1795185088,
+     "source": "华尔街见闻",
+     "title_zh": "美股开盘：纳斯达克100指数跌1.3%，半导体指数跌3.3%",
+     "body_zh": "美股盘初，Anthropic跌9.5%，美股盘前一度跌至83.67美元——逼近IPO发行价83美元，美国IPO首日收涨17.07%。 闪迪跌4.6%，台积电、AMD、Nebius集团、希捷科技、西部数据、CoreWeave、英特尔、Cerebras系统等至多跌约4%，英伟达跌2.1%，SpaceX跌4.9%。 财捷Intuit跌8.4%，创8月26日以来最大盘中跌幅。",
+     "url": "https://wallstreetcn.com/livenews/3203425",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "22:31",
+     "title_en": "U.S. Stock Market Opens: Nasdaq 100 Index Falls 1.3%, Semiconductor Index Drops 3.3%.",
+     "body_en": "At the start of U.S. trading, Anthropic fell 9.5%. In premarket trading, U.S. shares briefly dropped to $83.67 – approaching the IPO price of $83. On the first day of its U.S. IPO, the stock closed up 17.07%. SanDisk fell 4.6%, while TSMC, AMD, Nebius Group, Seagate Technology, Western Digital, CoreWeave, Intel, Cerebras Systems, and others fell by up to about 4%. Nvidia fell 2.1%, and SpaceX fell 4.9%. Intuit fell 8.4%, marking its largest intraday decline since August 26.",
+     "id": "wscn-3203425"
+    },
+    {
+     "ts": 1795211953,
+     "source": "华尔街见闻",
+     "title_zh": "穆迪对英国的评级",
+     "body_zh": "AA3评级平衡了富裕、多元化的经济和强大的机构，以及温和的增长前景和充满挑战的财政前景。 与欧盟更紧密的经济合作以及人工智能带来的生产力提升，为经济增长带来了中期上行风险。 随着通胀放缓，预计债务负担能力将趋于稳定，但利息支出相对于财政收入仍将处于高位。 预计英国财政赤字将在2026年收窄至4.5%，2027年收窄至4%。 到本十年末，英国政府债务将从2025年占GDP的102%升至106%。",
+     "url": "https://wallstreetcn.com/livenews/3203602",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "05:59",
+     "title_en": "Moody's rating of the UK.",
+     "body_en": "The AA3 rating balances a wealthy, diversified economy and strong institutions with a moderate growth outlook and challenging fiscal prospects. Closer economic cooperation with the EU and productivity gains from artificial intelligence present medium-term upside risks to economic growth. As inflation slows, debt sustainability is expected to stabilize, but interest expenditure will remain high relative to fiscal revenue. The UK's fiscal deficit is expected to narrow to 4.5% in 2026 and 4% in 2027. By the end of this decade, U.K. government debt will rise from 102% of GDP in 2025 to 106%.",
+     "id": "wscn-3203602"
+    },
+    {
+     "ts": 1795195347,
+     "source": "华尔街见闻",
+     "title_zh": "欧洲股市创2025年以来最大周跌幅，科技股重挫",
+     "body_zh": "随着市场对人工智能（AI）热潮能否持续的疑虑再度升温，从股票到铜等全球资产均受到冲击，欧洲股市录得2025年4月以来最大单周跌幅。 斯托克欧洲600指数收盘下跌2%，本周累计跌幅扩大至5.8%。科技分类指数本周重挫11%，创2020年3月以来最大单周跌幅。随着铜和黄金价格下跌，矿业股也走低。 投资者转而买入个人护理、食品和医疗保健等更具防御性的板块。",
+     "url": "https://wallstreetcn.com/livenews/3203498",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:22",
+     "title_en": "European stock markets experience their largest weekly decline since 2025, with tech stocks taking a significant hit.",
+     "body_en": "As market doubts about the sustainability of the artificial intelligence (AI) boom resurface, global assets ranging from stocks to copper have been impacted, with European stock markets recording their largest weekly decline since April 2025. The STOXX Europe 600 Index closed down 2%, bringing its cumulative decline for the week to 5.8%. The technology sector index plummeted by 11% this week, marking its largest weekly decline since March 2020. As copper and gold prices fell, mining stocks also declined. Investors have shifted to buying more defensive sectors such as personal care, food, and healthcare.",
+     "id": "wscn-3203498"
+    },
+    {
+     "ts": 1795208483,
+     "source": "华尔街见闻",
+     "title_zh": "美股七巨头收盘播报｜周五（11月20日），美国科技股七巨头（Magnific",
+     "body_zh": "美股七巨头收盘播报｜周五（11月20日），美国科技股七巨头（Magnificent 7）指数跌5.01%，报194.71点，本周累计下跌10.28%，11月16-18日维持小幅下跌昨天，19日（Anthropic美国IPO首日）以来持续扩大跌幅。 英伟达收盘重挫14%，创2025年1月份以来最大单日跌幅；本周重挫23%，创2008年10月份以来最大单周跌幅。",
+     "url": "https://wallstreetcn.com/livenews/3203579",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:01",
+     "title_en": "Closing Report on the U.S. Magnificent Seven Stocks | On Friday (November 20), the U.S. Magnificent Seven tech stocks.",
+     "body_en": "U.S. Magnificent 7 Closing Report｜On Friday (November 20), the Magnificent 7 index of U.S. tech stocks fell 5.01% to 194.71 points, down 10.28% cumulatively this week. It remained slightly down from November 16–18 and has continued to decline since yesterday, November 19 (the first day of Anthropic's U.S. IPO). Nvidia closed down 14%, marking its largest single-day decline since January 2025. It fell 23% this week, its biggest weekly drop since October 2008.",
+     "id": "wscn-3203579"
+    },
+    {
+     "ts": 1795216241,
+     "source": "新浪财经",
+     "title_zh": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周跌幅 避险买盘推动美债大涨",
+     "body_zh": "市场 11月21日收盘：纳指狂泻千点 英伟达跌14% 标普道指双双步入回调区间 11月21日热门中概股普跌，台积电跌超9%，阿里巴巴跌2.68% 欧洲股市创2025年以来最大周跌幅...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwaq3638651.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:10",
+     "title_en": "Overnight News for November 21: U.S. stocks fall across the board, Nvidia drops out of the top three in market capitalization, gold experiences its largest weekly decline since March, and safe-haven buying drives a surge in U.S. Treasury bonds.",
+     "body_en": "Market close on November 21: The Nasdaq plummeted by 1,000 points, Nvidia fell by 14%, and both the S&P and Dow Jones entered correction territory. On November 21, popular Chinese ADRs generally declined, with TSMC falling over 9% and Alibaba dropping 2.68%. European stock markets recorded their largest weekly decline since 2022...",
+     "id": "sina-comos:nizmwaq3638651"
+    },
+    {
+     "ts": 1795215842,
+     "source": "新浪财经",
+     "title_zh": "伊朗外长阿拉格齐：有可能就高浓缩铀找到解决方案",
+     "body_zh": "据伊朗国营《伊朗报》刊登的一篇采访，伊朗外交部长阿巴斯·阿拉格齐表示，伊朗的红线是相关材料不得运出境，而且必须用于满足伊朗自身需要，“无论我们如何界定这些需要”。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwan6857514.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:04",
+     "title_en": "Iranian Foreign Minister Araghchi: A solution for highly enriched uranium is possible.",
+     "body_en": "According to an interview published in the Iranian state-run newspaper Iran Daily, Iranian Foreign Minister Abbas Araghchi stated that Iran's red line is that the relevant materials must not be transported out of the country and must be used to meet Iran's own needs, \"however we define those needs.\"",
+     "id": "sina-comos:nizmwan6857514"
+    },
+    {
+     "ts": 1795208454,
+     "source": "华尔街见闻",
+     "title_zh": "Anthropic收跌8.5%，报88.91美元，北京时间01",
+     "body_zh": "49曾跌至83.05美元，距离83美元的IPO发行价仅仅一步之遥。 11月19日（该公司美国IPO首日）收涨17.07%，报97.17美元，开盘后一度达到115.10美元。",
+     "url": "https://wallstreetcn.com/livenews/3203578",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:00",
+     "title_en": "Anthropic closed down 8.5% at $88.91, 01 Beijing time.",
+     "body_en": "49 once fell to $83.05, just a hair's breadth away from its IPO price of $83. On November 19 (the company's first day of its U.S. IPO), the stock closed up 17.07% at $97.17, and after the bell, it even reached $115.10.",
+     "id": "wscn-3203578"
+    },
+    {
+     "ts": 1795189559,
+     "source": "华尔街见闻",
+     "title_zh": "科技股抛售搅动市场，AI信用风险指标恶化，谷歌CDS创历史新高",
+     "body_zh": "由于人工智能（AI）交易的动摇引发全球市场波动，周五，部分最大规模超大规模云厂商（hyperscalers）和芯片制造商的信用风险指标攀升，同时其债券价格走弱。 根据ICE数据服务（ICE Data Services）的数据，为甲骨文公司债务提供五年期违约保护的成本最多攀升4.2个基点，达到327.9个基点，创10月20日以来最高水平。",
+     "url": "https://wallstreetcn.com/livenews/3203463",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "23:45",
+     "title_en": "Tech stock sell-off shakes up the market, AI credit risk indicators worsen, and Google CDS hits an all-time high.",
+     "body_en": "On Friday, credit risk indicators for some of the largest hyperscalers and chip manufacturers rose, while their bond prices weakened, as fluctuations in artificial intelligence (AI) trading triggered volatility in global markets. According to ICE Data Services, the cost of five-year default protection on Oracle's debt rose by up to 4.2 basis points to 327.9 basis points, the highest level since October 20.",
+     "id": "wscn-3203463"
+    },
+    {
+     "ts": 1795205836,
+     "source": "华尔街见闻",
+     "title_zh": "报道：Anthropic IPO散户认购需求高达1200亿美元，超过SpaceX",
+     "body_zh": "据知情人士透露，Anthropic PBC首次公开募股(IPO)吸引了散户投资者约1150亿至1200亿美元的认购需求，超过SpaceX上市时散户的认购金额。这家前沿AI实验室的IPO吸引了机构投资者超过5000亿美元的认购需求，是SpaceX机构认购金额的两倍多。Anthropic此次IPO规模创下历史纪录，公司及其七名联合创始人通过IPO筹集935亿美元，包括超额配售部分，使之轻松超过SpaceX的862亿美元。",
+     "url": "https://wallstreetcn.com/livenews/3203558",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "04:17",
+     "title_en": "Report: Retail investor demand for Anthropic's IPO reaches $120 billion, surpassing SpaceX.",
+     "body_en": "According to sources, Anthropic PBC's initial public offering (IPO) attracted approximately $115 billion to $120 billion in subscription demand from retail investors, surpassing the amount subscribed by retail investors when SpaceX went public. The IPO of this cutting-edge AI lab attracted over $500 billion in subscription demand from institutional investors, more than double the amount of institutional subscriptions for SpaceX. Anthropic's IPO was the largest in history, with the company and its seven co-founders raising $935 billion through the IPO, including the over-allotment portion, easily surpassing SpaceX's $862 billion.",
+     "id": "wscn-3203558"
+    },
+    {
+     "ts": 1795211137,
+     "source": "华尔街见闻",
+     "title_zh": "美国卫生部长RFK Jr.的健康顾问委员会考虑利用人工智能（AI）来加速数据评估",
+     "body_zh": "美国卫生部长RFK Jr.的健康顾问委员会考虑利用人工智能（AI）来加速数据评估",
+     "url": "https://wallstreetcn.com/livenews/3203596",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:45",
+     "title_en": "U.S. Secretary of Health and Human Services RFK Jr.The Health Advisory Committee is considering using artificial intelligence (AI) to accelerate data evaluation.",
+     "body_en": "U.S. Secretary of Health and Human Services RFK Jr.The Health Advisory Committee is considering using artificial intelligence (AI) to accelerate data evaluation.",
+     "id": "wscn-3203596"
+    },
+    {
+     "ts": 1795189931,
+     "source": "华尔街见闻",
+     "title_zh": "CoreWeave破发，一度跌穿2025年3月份美国IPO发行价40美元，跌",
+     "body_zh": "CoreWeave破发，一度跌穿2025年3月份美国IPO发行价40美元，跌幅大约11%。2025年4月份，一度跌至33.52美元。",
+     "url": "https://wallstreetcn.com/livenews/3203465",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "23:52",
+     "title_en": "CoreWeave's share price fell below its March 2025 U.S. IPO price of $40 at one point, dropping.",
+     "body_en": "CoreWeave's share price fell below its March 2025 U.S. IPO price of $40 at one point, representing a decline of approximately 11%. In April 2025, it fell to $33.52 at one point.",
+     "id": "wscn-3203465"
+    },
+    {
+     "ts": 1795208413,
+     "source": "华尔街见闻",
+     "title_zh": "标普七连跌，与道指收盘陷入回调区间，本周纳指跌10%、半导体指数跌产后阿17%",
+     "body_zh": "标普500指数收跌265.44点，跌幅3.70%，连续第七个交易日下跌——创2020年以来最长连跌天数，报6910.39点，本周累计下跌8.61%。标普500相等权重指数跌1.77%，报8566.99点，本周累跌4.13%。 道琼斯工业平均指数收跌949.73点，跌幅1.93%，报48147.33点，本周累跌8.02%，整体平滑地持续扩大跌幅。",
+     "url": "https://wallstreetcn.com/livenews/3203575",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:00",
+     "title_en": "The S&P 500 has fallen for seven consecutive days, and both it and the Dow Jones Industrial Average closed in correction territory. This week, the Nasdaq fell by 10%, and the Philadelphia Semiconductor Index fell by 17%.",
+     "body_en": "The S&P 500 Index closed down 265.44 points, or 3.70%, marking its seventh consecutive trading day of decline — the longest streak of consecutive declines since 2020 — closing at 6,910.39 points. For the week, the index fell 8.61%. The S&P 500 Equal Weight Index fell 1.77% to 8566.99 points, down 4.13% for the week. The Dow Jones Industrial Average closed down 949.73 points, or 1.93%, at 48,147.33 points, down 8.02% for the week, with the decline continuing to widen smoothly overall.",
+     "id": "wscn-3203575"
+    },
+    {
+     "ts": 1795208424,
+     "source": "华尔街见闻",
+     "title_zh": "纳斯达克金龙中国指数收跌3.37%，报5018.26点，逼近2022年11月",
+     "body_zh": "纳斯达克金龙中国指数收跌3.37%，报5018.26点，逼近2022年11月9日收盘位4959.22点、当年10月24日收盘位4468.54点（当天最低4113.85点），本周累计下跌9.13%，整体持续下挫。 热门中概股里，阿特斯太阳能初步收跌25%，日月光半导体跌14.1%，小鹏跌14%，万国数据跌9.8%，理想跌7.7%，网易跌5%，小米跌4.7%，腾讯跌3.8%，拼多多跌2.7%，阿里跌2.5%，联想跌1.5…",
+     "url": "https://wallstreetcn.com/livenews/3203577",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:00",
+     "title_en": "The Nasdaq Golden Dragon China Index closed down 3.37% at 5018.26 points, approaching its November 2022 level.",
+     "body_en": "The Nasdaq Golden Dragon China Index closed down 3.37% at 5018.26 points, approaching the closing level of 4959.22 points on November 9, 2022, and the closing level of 4468.54 points on October 24 of the same year (the intraday low was 4113.85 points). It fell by a cumulative 9.13% this week, continuing its overall downward trend. Among the popular Chinese stocks, Canadian Solar initially closed down 25%, ASE Technology Holding Co., Ltd. fell 14.1%, XPeng fell 14%, GDS Holdings Limited fell 9.8%, Li Auto fell 7.7%, NetEase fell 5%, Xiaomi fell 4.7%, Tencent fell 3.8%, Pinduoduo fell 2.7%, Alibaba fell 2.5%, and Lenovo fell 1.5%...",
+     "id": "wscn-3203577"
+    },
+    {
+     "ts": 1795212689,
+     "source": "华尔街见闻",
+     "title_zh": "最新监管文件显示",
+     "body_zh": "GTCR考虑竞购Global Payments。",
+     "url": "https://wallstreetcn.com/livenews/3203605",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:11",
+     "title_en": "The latest regulatory filings show.",
+     "body_en": "GTCR is considering bidding for Global Payments.",
+     "id": "wscn-3203605"
+    }
+   ],
+   "story": {
+    "id": "dalio-1982",
+    "name_zh": "瑞·达利欧",
+    "name_en": "Ray Dalio",
+    "era": "1982 · 桥水基金初创",
+    "title_zh": "最自信的一年，他差点赔光一切",
+    "title_en": "The Year of Total Confidence Nearly Ruined Him",
+    "body_zh": "一九八二年，达利欧公开判断美国经济将走向萧条并重仓押注。结果墨西哥违约后市场不跌反涨，公司只剩他一个人。他从此写下每笔决策的依据，把痛苦变成算法，后来的桥水成了全球最大对冲基金。",
+    "body_en": "In nineteen eighty-two, Ray Dalio predicted a depression, loudly and publicly. Then Mexico defaulted, and markets rose instead of falling. His company shrank to one person: himself. From then on, he logged every decision. Pain became an algorithm. That log built Bridgewater, the largest hedge fund in the world.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Nineteen eighty-two. A young trader goes on television, and says the word everyone fears. Depression.",
+      "zh": "1982 年。一个年轻交易员上电视，说出了所有人害怕的那个词：萧条。"
+     },
+     {
+      "k": "dial",
+      "who": "Dalio",
+      "g": "M",
+      "en": "I am completely certain. The economy is going down. I have bet everything on it.",
+      "zh": "我非常确定，经济要往下走。我把全部身家都押上了。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Then Mexico defaulted. And the market did the one thing he did not expect. It rose.",
+      "zh": "然后，墨西哥违约了。市场做了他唯一没料到的事：上涨。"
+     },
+     {
+      "k": "dial",
+      "who": "Friend",
+      "g": "F",
+      "en": "Ray, you have to close the company. You have lost everything.",
+      "zh": "瑞，你得把公司关了，你什么都赔光了。"
+     },
+     {
+      "k": "dial",
+      "who": "Dalio",
+      "g": "M",
+      "en": "I have four thousand dollars left, borrowed from my father. And one employee. Me.",
+      "zh": "我还剩向我爸借的四千美元，和一个员工——我自己。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He later called it the most valuable event of his life. From then on, he wrote down the reason behind every decision. Every mistake was logged and studied. Pain became an algorithm.",
+      "zh": "他后来称这次经历是一生中最宝贵的。从那以后，他把每个决策的依据都写下来，每个错误都记录归档。痛苦，变成了算法。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "truman-recession",
+    "tag_zh": "总统的定义",
+    "tag_en": "A President's Definition",
+    "title_zh": "邻居失业叫衰退，自己失业叫萧条",
+    "title_en": "A Recession Is When Your Neighbor Loses His Job",
+    "body_zh": "据说杜鲁门总统这样区分经济术语：邻居失业，叫衰退；自己失业，才叫萧条。一句话戳破了宏大叙事——经济数据再漂亮，落到每个具体的人身上，感受是完全不同的。这也提醒我们读新闻时留个心眼：报表上的百分比，都是别人的人生。理解经济，要从理解一个具体的人开始。",
+    "body_en": "President Truman supposedly explained economic terms this way. A recession is when your neighbor loses his job. A depression is when you lose yours. One sentence, and all the big words collapse. Growth rates look beautiful on paper. But every percentage point is somebody's real life. It is a good habit when reading the news. Behind every statistic, there is a person. Economics starts with people, not charts."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 9.91,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.71,
+      "dur": 5.765,
+      "k": "dial",
+      "who": "Dalio",
+      "g": "M"
+     },
+     {
+      "start": 17.025,
+      "dur": 7.834,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 25.409,
+      "dur": 4.105,
+      "k": "dial",
+      "who": "Friend",
+      "g": "F"
+     },
+     {
+      "start": 30.064,
+      "dur": 6.262,
+      "k": "dial",
+      "who": "Dalio",
+      "g": "M"
+     },
+     {
+      "start": 36.876,
+      "dur": 15.181,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "e2a2c27f90d2",
+    "item-00.mp3": "83b29019cf52",
+    "item-01.mp3": "f8dcc6604016",
+    "item-02.mp3": "357fc85a0748",
+    "item-03.mp3": "52b714e80888",
+    "item-04.mp3": "6d964a23eb02",
+    "item-05.mp3": "9a8f7af0ad64",
+    "item-06.mp3": "1f40095e9cf5",
+    "item-07.mp3": "d39388eafc11",
+    "item-08.mp3": "57f660c626c3",
+    "item-09.mp3": "97217129dca6",
+    "item-10.mp3": "6d2fb2da78e9",
+    "item-11.mp3": "7c93a8cf7356",
+    "item-12.mp3": "56b54344ec6b",
+    "item-13.mp3": "c893d983c297",
+    "item-14.mp3": "418c7273b679",
+    "item-15.mp3": "aa529654ec9b",
+    "item-16.mp3": "7b6ccd751126",
+    "item-17.mp3": "4fc0fd3df5c8",
+    "story.mp3": "14b36e81799b",
+    "joke.mp3": "2cc05a0246f5"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.459
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.359,
+      "dur": 29.47
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 39.729,
+      "dur": 62.988
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 103.617,
+      "dur": 78.285
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 182.803,
+      "dur": 30.357
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 214.059,
+      "dur": 64.881
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 279.84,
+      "dur": 52.027
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 332.767,
+      "dur": 58.872
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 392.539,
+      "dur": 52.544
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 445.983,
+      "dur": 52.352
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 499.235,
+      "dur": 24.221
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 524.357,
+      "dur": 35.417
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 560.674,
+      "dur": 38.109
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 599.683,
+      "dur": 65.14
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 665.723,
+      "dur": 26.743
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 693.365,
+      "dur": 28.615
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 722.881,
+      "dur": 70.575
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 794.355,
+      "dur": 87.275
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 882.531,
+      "dur": 6.083
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-20",
    "weekday_en": "Friday",
@@ -3326,562 +3882,6 @@
       "file": "item-17.mp3",
       "start": 736.21,
       "dur": 46.63
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-14",
-   "weekday_en": "Saturday",
-   "weekday_zh": "周六",
-   "generated_at": "2026-11-14 07:30",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3634.35,
-     "chg_pct": -0.59
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 10968.79,
-     "chg_pct": -2.05
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2426.08,
-     "chg_pct": -3.32
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1279.66,
-     "chg_pct": -2.3
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23637.6,
-     "chg_pct": -1.55
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 52347.55,
-     "chg_pct": 0.1
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 25136.27,
-     "chg_pct": -0.91
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7561.67,
-     "chg_pct": -0.4
-    }
-   ],
-   "items": [
-    {
-     "ts": 1794579563,
-     "source": "华尔街见闻",
-     "title_zh": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
-     "body_zh": "中国人民银行公布2026年10月金融数据。10月末，社会融资规模存量为469.16万亿元，同比增长7.2%；广义货币（M2）余额359.06万亿元，同比增长7.1%。两项指标均高于名义GDP增速，同经济增长、价格总水平预期目标相匹配。",
-     "url": "https://wallstreetcn.com/livenews/3199857",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "22:19",
-     "title_en": "At the end of October, both total social financing and M2 growth exceeded 7%. Expert: The likelihood of interest rate cuts and RRR cuts within the year has decreased.",
-     "body_en": "The People's Bank of China released financial data for October 2026. At the end of October, the outstanding total social financing (TSF) stood at RMB 469.16 trillion, up 7.2% year-on-year; the broad money supply (M2) balance was RMB 359.06 trillion, up 7.1% year-on-year. Both indicators are higher than the nominal GDP growth rate and are consistent with the expected targets for economic growth and the general price level.",
-     "id": "wscn-3199857"
-    },
-    {
-     "ts": 1794607849,
-     "source": "新浪财经",
-     "title_zh": "11月14日外盘头条：美国联邦航空管理局发布全国范围地面停飞指令 OpenAI撤销独立机器人研究团队",
-     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国联邦航空管理局发布全国范围地面停飞指令 2、美联储12月加息基本锁定 市场焦点转向明年1月 3...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryfm0815827.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:10",
-     "title_en": "November 14 Overseas Headlines: The U.S. Federal Aviation Administration issues a nationwide ground stop order. OpenAI disbands its independent robotics research team.",
-     "body_en": "The main headlines that global financial media were focusing on last night and this morning are: 1. The U.S. Federal Aviation Administration issued a nationwide grounding order. 2. The December interest rate hike by the Federal Reserve is essentially confirmed, and market attention is shifting to January. 3...",
-     "id": "sina-comos:niyryfm0815827"
-    },
-    {
-     "ts": 1794560519,
-     "source": "华尔街见闻",
-     "title_zh": "中国央行：11月16日将开展2000亿元买断式逆回购操作 期限为6个月",
-     "body_zh": "中国人民银行公告，2026年11月16日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展2000亿元买断式逆回购操作，期限为6个月（180天），到期日为2027年5月15日（遇节假日顺延）。",
-     "url": "https://wallstreetcn.com/livenews/3199686",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "17:01",
-     "title_en": "China's PBOC: A RMB 200 billion outright reverse share buyback operation will be conducted on November 16, with a term of 6 months.",
-     "body_en": "The People's Bank of China announced that on November 16, 2026, it will conduct a RMB 200 billion outright reverse share buyback operation with a fixed amount, interest rate tender, and multiple price levels. The term of the operation is 6 months (180 days), with a maturity date of May 15, 2027 (extended if it falls on a public holiday).",
-     "id": "wscn-3199686"
-    },
-    {
-     "ts": 1794603869,
-     "source": "华尔街见闻",
-     "title_zh": "美联储：人工智能（AI）和过高的资产估值可能引发潜在脆弱性",
-     "body_zh": "美联储在周五发布的一份半年度金融稳定报告中指出，人工智能（AI）和过高的资产估值可能引发潜在脆弱性。 “资产估值压力持续处于高位。股票估值指标一直居高不下，部分原因是市场对‘超级智能’（super intelligence）的狂热，”美联储在报告中使用了唐纳德·特朗普（Donald Trump）总统对AI的偏好称呼。央行补充称，这种狂热情绪已因市场对企业资本支出和债务发行计划的担忧而有所降温。",
-     "url": "https://wallstreetcn.com/livenews/3200016",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:04",
-     "title_en": "The Federal Reserve: Artificial Intelligence (AI) and Overvalued Assets May Create Potential Vulnerabilities.",
-     "body_en": "In a semi-annual Financial Stability Report released on Friday, the Federal Reserve noted that artificial intelligence (AI) and excessively high asset valuations could create potential vulnerabilities. “Asset valuation pressures remain elevated. Stock valuation metrics have remained elevated, partly due to market enthusiasm for \"super intelligence,\" the Federal Reserve noted in its report, using President Donald Trump's preferred term for AI. The PBOC added that this enthusiasm has cooled somewhat due to market concerns about corporate capital expenditure and debt issuance plans.",
-     "id": "wscn-3200016"
-    },
-    {
-     "ts": 1794603698,
-     "source": "华尔街见闻",
-     "title_zh": "美联储警示：AI推升资产估值过高带来潜在风险",
-     "body_zh": "美联储发布半年度金融稳定报告。报告指出，人工智能（AI）和过高的资产估值可能引发潜在脆弱性。 “资产估值压力持续处于高位。股票估值指标一直居高不下，部分原因是市场对‘超级智能’（super intelligence）的狂热，”美联储在报告中使用了美国总统特朗普对AI的偏好称呼。该央行补充称，这种狂热情绪已因市场对企业资本支出和债务发行计划的担忧而有所降温。",
-     "url": "https://wallstreetcn.com/livenews/3200013",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:01",
-     "title_en": "Federal Reserve Warning: AI-Driven Overvaluation of Assets Poses Potential Risks.",
-     "body_en": "The Federal Reserve released its semi-annual Financial Stability Report. The report points out that artificial intelligence (AI) and excessively high asset valuations could lead to potential vulnerabilities. “Asset valuation pressures remain elevated. Stock valuation indicators have remained high, partly due to market enthusiasm for \"super intelligence,\" the Federal Reserve said in its report, using U.S. President Trump's preferred term for AI. The PBOC added that this enthusiasm has cooled somewhat due to market concerns about corporate capital expenditure and debt issuance plans.",
-     "id": "wscn-3200013"
-    },
-    {
-     "ts": 1794604723,
-     "source": "新浪财经",
-     "title_zh": "美联储12月加息基本锁定 市场焦点转向明年1月",
-     "body_zh": "对美国货币政策的讨论焦点已经转向明年1月。 美联储官员本周密集发表讲话和接受采访，基本锁定了市场对12月加息的预期，并开启了自2023年以来首次连续加息的可能性。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxp0925587.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:18",
-     "title_en": "The Federal Reserve's December rate hike is essentially set, and market focus is shifting to January next year.",
-     "body_en": "The focus of discussions on U.S. monetary policy has shifted to January next year. Federal Reserve officials have been giving speeches and conducting interviews in quick succession this week, essentially confirming market expectations for a December rate hike and opening up the possibility of consecutive rate hikes for the first time since 2023.",
-     "id": "sina-comos:niyrtxp0925587"
-    },
-    {
-     "ts": 1794581971,
-     "source": "华尔街见闻",
-     "title_zh": "纳斯达克100指数跌超1%，标普跌0.4%，半导体指数下跌将近4%",
-     "body_zh": "英伟达跌2.3%，Cerebras涨幅收窄至11.3%，谷歌A涨1.1%，AMD跌7.6%，CoreWeave跌9.4%，Nebius跌10.6%，闪迪跌6.1%。 投资者权衡芯片板块和美国PPI通胀数据。",
-     "url": "https://wallstreetcn.com/livenews/3199872",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "22:59",
-     "title_en": "The Nasdaq 100 Index fell by over 1%, the S&P 500 Index fell by 0.4%, and the Semiconductor Index fell by nearly 4%.",
-     "body_en": "Nvidia fell 2.3%, Cerebras' gain narrowed to 11.3%, Google A rose 1.1%, AMD fell 7.6%, CoreWeave fell 9.4%, Nebius fell 10.6%, and SanDisk fell 6.1%. Investors are weighing the chip sector against U.S. PPI inflation data.",
-     "id": "wscn-3199872"
-    },
-    {
-     "ts": 1794608422,
-     "source": "华尔街见闻",
-     "title_zh": "两年期美债收益率本周涨33个基点，美联储12月加息基本锁定，市场焦点转向明年1月",
-     "body_zh": "周五（11月13日）纽约尾盘，美国10年期基准国债收益率涨0.81个基点，报5.1352%，本周累计上涨27.78个基点，整体持续走高，交投于4.8287%-5.1718%区间。 两年期美债收益率跌3.95个基点，报4.8419%，本周累涨33.04个基点，交投于4.5009%-4.8886%区间。 三年期美债收益率累涨32.28个基点，五年期美债收益率涨31.67个基点，七年期美债收益率涨30.07个基点。",
-     "url": "https://wallstreetcn.com/livenews/3200045",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:20",
-     "title_en": "The yield on two-year U.S. Treasury bonds rose by 33 basis points this week, with a December rate hike by the Federal Reserve essentially confirmed. The market's focus has now shifted to January next year.",
-     "body_en": "At the close of trading in New York on Friday (November 13), the U.S. 10-year benchmark Treasury yields rose by 0.81 basis points to 5.1352%. They have risen by a cumulative 27.78 basis points this week, continuing their overall upward trend, trading within the range of 4.8287%–5.1718%. The two-year U.S. Treasury yield fell by 3.95 basis points to 4.8419%, rising by a cumulative 33.04 basis points this week and trading within the 4.5009%-4.8886% range. The 3-year U.S. Treasury yield rose by a cumulative 32.28 basis points, the 5-year U.S. Treasury yield rose by 31.67 basis points, and the 7-year U.S. Treasury yield rose by 30.07 basis points.",
-     "id": "wscn-3200045"
-    },
-    {
-     "ts": 1794599487,
-     "source": "华尔街见闻",
-     "title_zh": "桑坦德上调美联储加息预期，料12月和明年3月各加息25个基点",
-     "body_zh": "桑坦德的美国首席经济学家Stephen Stanley上调了对美联储加息的预期，理由是通胀压力加剧。他将对美联储政策的预测调整为12月和明年3月各加息25个基点，此前预计仅12月加息，2027年不会采取行动。Stanley在一份报告中表示，此次调整预测基于经济强劲、通胀压力扩大、美联储对中性政策立场的评估似乎已从大约3.5%上升，以及美联储官员近期言论中越来越多地谈及投入成本向价格传导将很快给通胀带来上行推动。",
-     "url": "https://wallstreetcn.com/livenews/3199988",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "03:51",
-     "title_en": "Santander raises its expectations for Federal Reserve rate hikes, forecasting increases of 25 basis points in December and March next year.",
-     "body_en": "Stephen Stanley, Santander's Chief U.S. Economist, has raised his expectations for Federal Reserve interest rate hikes, citing heightened inflationary pressures. He revised his forecast for the Federal Reserve's policy to include 25-basis-point rate hikes in both December and March of next year, whereas he had previously anticipated a rate hike only in December and no action in 2027. In a report, Stanley stated that this revised forecast is based on a strong economy, increasing inflationary pressures, the Federal Reserve's assessment of a neutral policy stance that appears to have risen from around 3.5%, and the fact that Federal Reserve officials have increasingly mentioned in recent statements that the pass-through of input costs to prices will soon exert upward pressure on inflation.",
-     "id": "wscn-3199988"
-    },
-    {
-     "ts": 1794595793,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达势创18个月来最差单周表现，市值蒸发逾6200亿美元",
-     "body_zh": "英伟达股价势将创下逾18个月来最差单周表现，在黄仁勋从这家芯片巨头离职后，公司股价持续承压。 英伟达周五一度下跌4.7%，本周累计跌幅扩大至约14%，势将创下2025年4月以来最差单周表现，当时美国总统特朗普宣布大范围加征关税的计划，引发全球股市震荡。英伟达本周市值已蒸发逾6200亿美元，这一损失超过标普500指数中97%的成分股各自的市值。",
-     "url": "https://wallstreetcn.com/livenews/3199968",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "02:49",
-     "title_en": "Nvidia on track for worst weekly performance in 18 months, with market capitalization down by over $620 billion.",
-     "body_en": "Nvidia's stock is on track for its worst weekly performance in over 18 months, with the company's share price continuing to come under pressure following Jensen Huang's departure from the chip giant. Nvidia fell by 4.7% at one point on Friday, with its cumulative decline for the week widening to about 14%. This is set to be its worst weekly performance since April 2025, when U.S. President Trump announced plans for widespread tariff increases, triggering global stock market turmoil. Nvidia's market capitalization has evaporated by over $620 billion this week, a loss that exceeds the individual market capitalization of 97% of the stocks in the S&P 500 Index.",
-     "id": "wscn-3199968"
-    },
-    {
-     "ts": 1794608222,
-     "source": "新浪财经",
-     "title_zh": "美国股市：标普500指数收跌 英伟达风波与利率前景牵动市场",
-     "body_zh": "标普500指数在经历了震荡的一周后周五收跌。投资者在英伟达风波后重新审视人工智能交易，同时关注美联储利率前景。 以科技股为主的纳斯达克100指数周五收跌1.2%...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyryff0523159.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:17",
-     "title_en": "U.S. Stock Market: S&P 500 Index Closes Down Amid Nvidia Turmoil and Interest Rate Outlook Concerns.",
-     "body_en": "The S&P 500 Index closed lower on Friday after a turbulent week. Investors are reevaluating AI-related trades in the wake of the Nvidia turmoil, while also keeping an eye on the Federal Reserve's interest rate outlook. The tech-heavy Nasdaq 100 Index closed down 1.2% on Friday...",
-     "id": "sina-comos:niyryff0523159"
-    },
-    {
-     "ts": 1794591321,
-     "source": "华尔街见闻",
-     "title_zh": "2/10年期德债收益率利差短暂“转负”！本周均至少涨超12个基点",
-     "body_zh": "周五（11月13日）欧市尾盘，德国10年期国债收益率涨3.0个基点，报3.377%，本周累计上涨12.2个基点，11月9-10日大部分时间持稳——10日北京时间22:00微跌至3.20%，随后持续上扬，13日发布美国PPI通胀数据时达到3.390%，本周累计上涨12.2个基点。",
-     "url": "https://wallstreetcn.com/livenews/3199946",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:35",
-     "title_en": "The yield spread between 2-year and 10-year German government bonds briefly \"turned negative\"! This week, they have all risen by at least 12 basis points.",
-     "body_en": "At the close of European trading hours on Friday (November 13), the German 10-year Treasury yield rose by 3.0 basis points to 3.377%. It rose by a cumulative 12.2 basis points this week, remaining stable for most of November 9–10. On November 10, at 22:00 Beijing time, it edged down to 3.20% and then continued to rise, reaching 3.390% when the U.S. PPI inflation data was released on November 13. It rose by a cumulative 12.2 basis points this week.",
-     "id": "wscn-3199946"
-    },
-    {
-     "ts": 1794605485,
-     "source": "华尔街见闻",
-     "title_zh": "标普500指数的11个板块中，信息技术/科技板块收跌1.7%，可选消费板块跌",
-     "body_zh": "标普500指数的11个板块中，信息技术/科技板块收跌1.7%，可选消费板块跌0.45%，电信板块涨0.26%，能源板块涨0.96%。",
-     "url": "https://wallstreetcn.com/livenews/3200027",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:31",
-     "title_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector fell by 1.7%, and the Consumer Discretionary sector fell.",
-     "body_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector fell by 1.7%, the Consumer Discretionary sector fell by 0.45%, the Telecommunications sector rose by 0.26%, and the Energy sector rose by 0.96%.",
-     "id": "wscn-3200027"
-    },
-    {
-     "ts": 1794605336,
-     "source": "华尔街见闻",
-     "title_zh": "周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行",
-     "body_zh": "周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行业ETF跌2.01%，全球科技股指数ETF、网络股指数ETF至多跌1.67%，能源业ETF涨0.98%。",
-     "url": "https://wallstreetcn.com/livenews/3200026",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:28",
-     "title_en": "On Friday (November 13), the Semiconductor ETF closed down 2.99%, leading the decline among U.S. stock sector ETFs, with the Technology sector.",
-     "body_en": "On Friday (November 13), the Semiconductor ETF closed down 2.99%, leading the decline among U.S. stock sector ETFs. The Technology Sector ETF fell 2.01%, while the Global Technology Stock Index ETF and the Internet Stock Index ETF fell by up to 1.67%. The Energy Sector ETF rose 0.98%.",
-     "id": "wscn-3200026"
-    },
-    {
-     "ts": 1794592284,
-     "source": "华尔街见闻",
-     "title_zh": "LME期铜收跌189美元，报13399美元/吨",
-     "body_zh": "LME期铝收跌20美元，报3010美元/吨。 LME期锌收跌6美元，报3710美元/吨。 LME期铅收涨8美元，报1894美元/吨。 LME期镍收跌241美元，报15985美元/吨。 LME期锡收涨48美元，报46700美元/吨。 LME期钴收平，报33525美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3199951",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:51",
-     "title_en": "LME Copper Futures Close Down $189 at $13,399/Metric Ton.",
-     "body_en": "LME aluminum futures closed down $20 at $3,010/ton. LME zinc futures closed down $6 at $3,710/ton. LME lead futures closed up $8 at $1,894/ton. LME nickel futures closed down $241 at $15,985/ton. LME tin futures closed up $48 at $46,700/ton. LME cobalt futures closed flat at US$33,525/ton.",
-     "id": "wscn-3199951"
-    },
-    {
-     "ts": 1794612375,
-     "source": "华尔街见闻",
-     "title_zh": "美国参议院商务委员会主席克鲁兹",
-     "body_zh": "全美范围内的地面停飞虽属罕见，但影响重大，此事似乎与联邦航空管理局（FAA）的空中交通管制中心（ARTCC）有关。 FAA将向国会和航空旅客通报这一问题，但此次事件凸显出有必要将ARTCC的现代化置于其他项目之上。 自约翰逊执政以来，美国再未新建过ARTCC。",
-     "url": "https://wallstreetcn.com/livenews/3200061",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "07:26",
-     "title_en": "Ted Cruz, Chairman of the U.S. Senate Committee on Commerce.",
-     "body_en": "Although nationwide ground stops are rare, they have a significant impact, and this incident appears to be related to the Federal Aviation Administration's (FAA) Air Route Traffic Control Center (ARTCC). The FAA will inform Congress and air travelers about this issue, but this incident underscores the need to prioritize the modernization of ARTCCs over other projects. The U.S. has not built a new ARTCC since the Johnson administration.",
-     "id": "wscn-3200061"
-    },
-    {
-     "ts": 1794611163,
-     "source": "华尔街见闻",
-     "title_zh": "美国航空协会声明",
-     "body_zh": "安全始终是我们的首要任务。 目前，在全国范围内航班停飞期间，我们正与美国交通部和联邦航空管理局保持密切沟通。 我们感谢旅客的耐心，也感谢一线员工在这一情况下的尽职尽责。受影响的旅客请联系所乘航空公司，获取实时信息。",
-     "url": "https://wallstreetcn.com/livenews/3200056",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "07:06",
-     "title_en": "Statement from the Aircraft Owners and Pilots Association (AOPA).",
-     "body_en": "Safety is always our top priority. Currently, during the nationwide grounding of flights, we are maintaining close communication with the U.S. Department of Transportation and the Federal Aviation Administration. We appreciate our passengers' patience and the dedication of our frontline staff during this situation. Affected passengers are advised to contact their airline for real-time updates.",
-     "id": "wscn-3200056"
-    },
-    {
-     "ts": 1794611081,
-     "source": "华尔街见闻",
-     "title_zh": "美国总统特朗普",
-     "body_zh": "我正在与共和党与民主党人合作，共同推进《电影、电视和娱乐振兴法案》。 推动这件事、把娱乐产业带回美国所获得的支持和受欢迎程度令人难以置信！好莱坞以及许多其他地方，几乎被其他国家提供的税收优惠和其他政策“掏空”了。",
-     "url": "https://wallstreetcn.com/livenews/3200054",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "07:04",
-     "title_en": "U.S. President Trump.",
-     "body_en": "I am working with both Republicans and Democrats to advance the Film, Television, and Entertainment Revitalization Act. The support and popularity for advancing this initiative and bringing the entertainment industry back to the United States are truly astonishing! Hollywood, and many other places, have been almost \"gutted\" by tax incentives and other policies offered by other countries.",
-     "id": "wscn-3200054"
-    }
-   ],
-   "story": {
-    "id": "lynch-lipstick",
-    "name_zh": "彼得·林奇",
-    "name_en": "Peter Lynch",
-    "era": "1980s · 富达麦哲伦基金",
-    "title_zh": "口红卖得越好，经济可能越差",
-    "title_en": "When Lipstick Sells, Watch Out",
-    "body_zh": "林奇管麦哲伦基金时发现：经济越不景气，口红反而卖得越好。钱紧的时候，女人买不起新衣服，就买支口红让自己开心一下。机会藏在生活里，超市里什么卖得好，往往比研报更早告诉你答案。",
-    "body_en": "Peter Lynch noticed something strange at Fidelity. The worse the economy felt, the better lipstick sold. When money is tight, lipstick is the cheapest happiness. Great ideas hide in daily life. He beat the market for thirteen years.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Boston, nineteen eighty. The star manager of the Magellan Fund is walking through a department store, not a trading floor.",
-      "zh": "波士顿，1980 年。麦哲伦基金的明星经理逛的不是交易厅，是百货商场。"
-     },
-     {
-      "k": "dial",
-      "who": "Analyst",
-      "g": "M",
-      "en": "Peter, why are you looking at the cosmetics counter? We invest in companies, not makeup.",
-      "zh": "彼得，你看化妆品柜台干什么？我们投的是公司，不是口红。"
-     },
-     {
-      "k": "dial",
-      "who": "Lynch",
-      "g": "M2",
-      "en": "Look at the sales data. The worse the economy feels, the better lipstick sells.",
-      "zh": "你看看销售数据。经济越差，口红反而卖得越好。"
-     },
-     {
-      "k": "dial",
-      "who": "Analyst",
-      "g": "M",
-      "en": "That makes no sense. Why would anyone buy lipstick in a recession?",
-      "zh": "这不合理啊。经济衰退谁还买口红？"
-     },
-     {
-      "k": "dial",
-      "who": "Lynch",
-      "g": "M2",
-      "en": "When money is tight, she skips the new dress. But a lipstick is the cheapest happiness she can still afford.",
-      "zh": "钱紧的时候，新衣服不买了。但口红，是她还买得起的、最便宜的开心。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "People later called it the lipstick effect. Lynch's real lesson was this. Great ideas hide in daily life, and he beat the market for thirteen years by paying attention.",
-      "zh": "后来人们把这叫作口红效应。林奇真正的心得是：机会藏在生活里。他靠这份留心，跑赢市场十三年。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "efficient-hundred",
-    "tag_zh": "街头十美元",
-    "tag_en": "The Ten Dollar Bill",
-    "title_zh": "地上有一张十美元，经济学家为什么不捡",
-    "title_en": "Why Economists Never Pick Up Money",
-    "body_zh": "两个经济学家走在街上，看见地上躺着一张十美元。年轻的说，快去捡。老的说，不可能，如果是真的，早就被人捡走了。这是对有效市场理论最经典的调侃：所有信息都已经反映在价格里，天上不会掉馅饼。玩笑归玩笑，它也留了个真实的尾巴——市场大多数时候确实很有效，但偶尔，地上的钱是真的。",
-    "body_en": "Two economists walk down the street. They spot a ten dollar bill on the ground. The young one says, pick it up. The old one says, it cannot be real. If it were real, someone would have picked it up already. This is the classic joke about efficient markets. All information is already in the price. Free money does not lie on the street. But here is the twist. Markets are efficient most of the time. Only most. Once in a while, the money on the ground is real."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 10.382,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 11.182,
-      "dur": 6.16,
-      "k": "dial",
-      "who": "Analyst",
-      "g": "M"
-     },
-     {
-      "start": 17.892,
-      "dur": 5.727,
-      "k": "dial",
-      "who": "Lynch",
-      "g": "M2"
-     },
-     {
-      "start": 24.169,
-      "dur": 4.056,
-      "k": "dial",
-      "who": "Analyst",
-      "g": "M"
-     },
-     {
-      "start": 28.775,
-      "dur": 7.348,
-      "k": "dial",
-      "who": "Lynch",
-      "g": "M2"
-     },
-     {
-      "start": 36.673,
-      "dur": 13.601,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "875e507f0ca6",
-    "item-00.mp3": "4bd735e285d7",
-    "item-01.mp3": "3f7c60106877",
-    "item-02.mp3": "97645f8dfcbd",
-    "item-03.mp3": "feef3c247f43",
-    "item-04.mp3": "acc75c62daa7",
-    "item-05.mp3": "a004a29928a0",
-    "item-06.mp3": "76756261af9a",
-    "item-07.mp3": "461fc2b2b3cd",
-    "item-08.mp3": "e11988158e1b",
-    "item-09.mp3": "a0268269552b",
-    "item-10.mp3": "e1425a652cb9",
-    "item-11.mp3": "c45c73645ef9",
-    "item-12.mp3": "8fc1f6e90038",
-    "item-13.mp3": "f5be3a5013b4",
-    "item-14.mp3": "f03edc138231",
-    "item-15.mp3": "9a3950146f16",
-    "item-16.mp3": "77b074eb79bd",
-    "item-17.mp3": "9150d0c88d1c",
-    "story.mp3": "064bf7650a72",
-    "joke.mp3": "d9ba3d383609"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.246
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.146,
-      "dur": 55.071
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 65.117,
-      "dur": 36.673
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 102.69,
-      "dur": 41.543
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 145.133,
-      "dur": 46.689
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 192.722,
-      "dur": 50.257
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 243.879,
-      "dur": 30.071
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 274.849,
-      "dur": 37.436
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 313.185,
-      "dur": 80.26
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 394.345,
-      "dur": 69.97
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 465.215,
-      "dur": 56.953
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 523.069,
-      "dur": 33.33
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 557.299,
-      "dur": 51.266
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 609.465,
-      "dur": 37.803
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 648.167,
-      "dur": 40.881
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 689.949,
-      "dur": 52.091
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 742.94,
-      "dur": 34.489
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 778.329,
-      "dur": 33.823
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 813.052,
-      "dur": 27.505
      }
     ]
    }
