@@ -3,12 +3,547 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-23 07:31",
-  "latest": "2026-11-23",
+  "updated_at": "2026-11-24 07:40",
+  "latest": "2026-11-24",
   "count": 18,
-  "mt_calls": 26
+  "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-24",
+   "weekday_en": "Tuesday",
+   "weekday_zh": "周二",
+   "generated_at": "2026-11-24 07:40",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3538.95,
+     "chg_pct": 0.15
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10454.37,
+     "chg_pct": 1.93
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2280.2,
+     "chg_pct": 3.08
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1227.89,
+     "chg_pct": -0.26
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 49595.31,
+     "chg_pct": 3.01
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24089.56,
+     "chg_pct": 6.51
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7237.17,
+     "chg_pct": 4.73
+    }
+   ],
+   "items": [
+    {
+     "ts": 1795472591,
+     "source": "华尔街见闻",
+     "title_zh": "AI芯片供应链收紧，国产超节点迎发展机遇窗口",
+     "body_zh": "近日，三星开始穿透严查代工的传闻流出。向国内晶圆代工厂、芯片设计公司等多方求证获悉，该传闻并不准确，但传闻背后，是美国商务部工业和安全局（BIS）于11月16日出台新规带来的滥用出口管制。多位业内人士表示，海外流片通道进一步收紧的态势下，国产AI供应链建设势在必行。在制程技术落后于海外先进厂商的情况下，超节点有望弥补单芯片算力短板，并将迎来发展的机遇窗口。（上证报）",
+     "url": "https://wallstreetcn.com/livenews/3204533",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:23",
+     "title_en": "The AI chip supply chain is tightening, and domestic supernodes are facing a window of opportunity for development.",
+     "body_en": "Recently, rumors have emerged that Samsung has begun to thoroughly investigate its foundry operations. After seeking confirmation from various parties, including domestic wafer foundries and chip design companies, it was learned that the rumor is not accurate. However, behind the rumor is the abuse of export controls resulting from the new regulations issued by the U.S. Bureau of Industry and Security (BIS) of the Department of Commerce on November 16. Several industry insiders have stated that, given the further tightening of overseas wafer fabrication channels, the development of a domestic AI supply chain is imperative. Given that process technology lags behind that of leading overseas manufacturers, supernodes are expected to compensate for the shortcomings in single-chip computing power and will usher in a window of opportunity for development. (Shanghai Securities News).",
+     "id": "wscn-3204533"
+    },
+    {
+     "ts": 1795467979,
+     "source": "华尔街见闻",
+     "title_zh": "报道：美联储监察长调查理事鲍曼是否违反沟通规则",
+     "body_zh": "美联储内部监察机构正在调查美联储理事米歇尔·鲍曼（Michelle Bowman）出席美国银行举办的一场私人晚宴时，是否违反了该央行（与联邦公开市场委员会FOMC货币政策会议相关）的“静默期”限制。 这场晚宴发生在纽约，时间是在美联储一次政策会议召开数小时后，当时官员们仍被禁止向公众就经济或货币政策发表评论。鲍曼否认自己违反了美联储的内部限制规定，她表示自己一直遵守所有适用规则，并将继续坚定恪守。（彭博）",
+     "url": "https://wallstreetcn.com/livenews/3204508",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:06",
+     "title_en": "Report: The Federal Reserve's Inspector General is investigating whether Governor Bowman violated communication rules.",
+     "body_en": "The Federal Reserve's internal watchdog is investigating whether Federal Reserve Governor Michelle Bowman violated the PBOC's (related to the Federal Open Market Committee's FOMC monetary policy meetings) \"quiet period\" restrictions when she attended a private dinner hosted by Bank of America. The dinner took place in New York just hours after a Federal Reserve policy meeting, when officials were still prohibited from commenting publicly on economic or monetary policy. Bowman denies violating the Federal Reserve's internal restrictions, stating that she has always complied with all applicable rules and will continue to do so with unwavering commitment. (Bloomberg).",
+     "id": "wscn-3204508"
+    },
+    {
+     "ts": 1795474302,
+     "source": "华尔街见闻",
+     "title_zh": "券商密集披露增持回购进展，“真金白银”稳市场预期",
+     "body_zh": "近日，长江证券、东吴证券、国联民生、中泰证券、红塔证券5家上市券商集中披露控股股东增持或股份回购最新进展，以“真金白银”向市场传递稳预期信号。在业内人士看来，当前券商板块估值已处于历史低位，叠加稳市政策密集落地，建议把握政策催化下的估值修复机会，重点关注资本实力与业务能力较强的头部券商。（中证报）",
+     "url": "https://wallstreetcn.com/livenews/3204545",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:51",
+     "title_en": "Brokerages frequently disclose progress on share buybacks, with \"real money\" stabilizing market expectations.",
+     "body_en": "Recently, five listed brokerages – Yangtze River Securities, Soochow Securities, Guolian Minsheng Securities, Zhongtai Securities, and Hongta Securities – have collectively disclosed the latest developments regarding their controlling shareholders' increased shareholdings or share buybacks, sending a clear signal of stable expectations to the market with \"real money.\" In the view of industry insiders, the current valuations of the securities sector are at historical lows. Coupled with the intensive implementation of market stabilization policies, it is recommended to seize the opportunity for valuation recovery catalyzed by these policies, with a focus on leading securities firms with strong capital strength and business capabilities. (China Securities Journal).",
+     "id": "wscn-3204545"
+    },
+    {
+     "ts": 1795474252,
+     "source": "华尔街见闻",
+     "title_zh": "一纸承诺函“贷”动超200亿元回购增持潮",
+     "body_zh": "“这段时间我们重新梳理、排查了辖区内的上市公司客户，积极接洽客户及其主要股东在股票回购、增持方面的需求，尽可能简化业务流程，匹配客户的用款节奏。”一家股份行深圳分行相关业务负责人告诉记者。一纸《贷款承诺函》，正化作支持A股上市公司市值管理的“真金白银”。11月1日以来，已有111家上市公司披露相关主体拟获得银行专项贷款，额度合计229.56亿元，无论是公司数量还是贷款规模，均远超今年此前单月水平。",
+     "url": "https://wallstreetcn.com/livenews/3204544",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:50",
+     "title_en": "A letter of commitment \"drives\" A-shares buyback and increase in holdings wave of over RMB 20 billion.",
+     "body_en": "\"During this period, we have re-examined and screened our listed company clients within our jurisdiction, proactively engaging with clients and their major shareholders regarding their needs for share buybacks and increased shareholdings. We have simplified business processes as much as possible to align with clients' funding requirements.\"The head of relevant business at the Shenzhen branch of a joint-stock bank told reporters. A \"Loan Commitment Letter\" is being transformed into \"hard cash\" to support the market capitalization management of A-share listed companies. Since November 1, 111 listed companies have disclosed that relevant entities plan to obtain special bank loans, with a total amount of 22.956 billion yuan. Both the number of companies and the size of the loans far exceed the levels seen in any previous month this year.",
+     "id": "wscn-3204544"
+    },
+    {
+     "ts": 1795476271,
+     "source": "新浪财经",
+     "title_zh": "美联储高官遭内部调查：监管副主席鲍曼被指违反“静默期”规定",
+     "body_zh": "美联储监察长办公室（OIG）正在对美联储负责金融监管的副主席米歇尔·鲍曼（Michelle Bowman）展开调查，核实她是否因在2026年6月出席一场华尔街私人晚宴而违反了央行的沟通...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5145532.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:24",
+     "title_en": "Federal Reserve senior official under internal investigation: Vice Chair for Supervision Bowman accused of violating \"quiet period\" rules.",
+     "body_en": "The Federal Reserve's Office of the Inspector General (OIG) is investigating Michelle Bowman, the Federal Reserve's Vice Chair for Financial Supervision, to determine whether she violated the Federal Reserve's communication policies by attending a private Wall Street dinner in June 2023...",
+     "id": "sina-comos:nizutph5145532"
+    },
+    {
+     "ts": 1795451720,
+     "source": "华尔街见闻",
+     "title_zh": "随着美联储加息预期升温，新兴市场债券ETF录得创纪录资金外流",
+     "body_zh": "随着美联储可能加息的前景抑制了整个发展中世界的风险偏好，投资者正纷纷从购买新兴市场债券的交易所交易基金（ETF）中撤资。上周，贝莱德旗下的iShares摩根大通美元新兴市场债券ETF录得超过1.35亿美元的资金流出。这标志着该基金连续第二周出现资金外流，累计流出总额达4.37亿美元，抹平了11月初录得的资金流入。",
+     "url": "https://wallstreetcn.com/livenews/3204426",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "00:35",
+     "title_en": "Emerging market bond ETFs recorded record outflows as expectations of Federal Reserve rate hikes intensified.",
+     "body_en": "As the prospect of potential interest rate hikes by the Federal Reserve dampens risk appetite across the developing world, investors are withdrawing funds from exchange-traded funds (ETFs) that invest in emerging market bonds. Last week, BlackRock's iShares JPMorgan USD Emerging Markets Bond ETF recorded outflows of over $135 million. This marks the second consecutive week of outflows from the fund, with a cumulative total of $437 million, offsetting the inflows recorded in early November.",
+     "id": "wscn-3204426"
+    },
+    {
+     "ts": 1795476966,
+     "source": "华尔街见闻",
+     "title_zh": "马斯克承认AI研发落后对手",
+     "body_zh": "据报道，SpaceX首席执行官埃隆・马斯克近日向员工表示，公司在人工智能（AI）研发方面正落后于Anthropic、OpenAI等竞争对手，因此，与其将数据中心算力全部用于自研AI产品，不如出租给竞争对手，以获得更高的商业回报。三名知情人士称，SpaceX自5月以来一直向Anthropic、谷歌等企业出租数据中心算力，相关业务每月可带来数十亿美元收入。",
+     "url": "https://wallstreetcn.com/livenews/3204554",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:36",
+     "title_en": "Musk acknowledges that AI development is lagging behind competitors.",
+     "body_en": "According to reports, SpaceX CEO Elon Musk recently told employees that the company is lagging behind competitors such as Anthropic and OpenAI in terms of artificial intelligence (AI) research and development. Therefore, instead of allocating all of the data center's computing power to its own AI products, it would be better to lease it to competitors to achieve higher commercial returns. According to three sources familiar with the matter, SpaceX has been leasing data center computing power to companies such as Anthropic and Google since May, and the related business can generate billions of dollars in revenue each month.",
+     "id": "wscn-3204554"
+    },
+    {
+     "ts": 1795470806,
+     "source": "华尔街见闻",
+     "title_zh": "国际金价涨超2.6%，美股开盘时逼近3700美元",
+     "body_zh": "周一（11月23日）纽约尾盘，现货黄金涨2.66%，报3632.53美元/盎司，全天处于上涨状态，整体震荡上行，北京时间22:30刷新日高至3689.94美元，之后回吐部分涨幅。 现货白银涨4.77%，报43.0794美元/盎司。 COMEX铜期货涨2.09%，报5.6890美元/磅，在一波短线拉升行情中、22:32达到5.8775美元。",
+     "url": "https://wallstreetcn.com/livenews/3204522",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:53",
+     "title_en": "International gold prices rise by over 2.6%, approaching $3,700 at the opening of U.S. stock markets.",
+     "body_en": "At the New York close on Monday (November 23), spot gold rose by 2.66% to $3,632.53/oz. It was in an uptrend throughout the day, with an overall volatile upward movement. At 22:30 Beijing time, it hit a new intraday high of $3,689.94, before giving back some of the gains. Spot silver rose by 4.77% to $43.0794/oz. COMEX copper futures rose by 2.09% to $5.6890/lb, reaching $5.8775 at 22:32 during a short-term rally.",
+     "id": "wscn-3204522"
+    },
+    {
+     "ts": 1795476975,
+     "source": "新浪财经",
+     "title_zh": "胜宏科技于11月23日斥资103.4万元回购9000股A股",
+     "body_zh": "胜宏科技（02476）发布公告，于2026年11月23日斥资103.4万元回购9000股A股。",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-24/doc-inizutpn7859604.shtml",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:36",
+     "title_en": "On November 23, Shenghong Technology spent RMB 1.034 million to repurchase 9,000 A-shares.",
+     "body_en": "Shenghong Technology (02476) announced that on November 23, 2026, it spent RMB 1.034 million to repurchase 9,000 A-shares.",
+     "id": "sina-comos:nizutpn7859604"
+    },
+    {
+     "ts": 1795472406,
+     "source": "华尔街见闻",
+     "title_zh": "频现增持信号，产业资本“纠偏”REITs定价",
+     "body_zh": "公募REITs市场近期正释放积极信号。11月以来，汇添富、博时、南方等多家基金公司密集披露公告，旗下REITs的原始权益人拟逆势增持份额。部分业内人士认为，本轮产业资本的“增持潮”是二级市场回调背景下的定价纠偏，叠加锁仓承诺、集团层面参与等安排，信号“含金量”在提升。（上证报）",
+     "url": "https://wallstreetcn.com/livenews/3204530",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:20",
+     "title_en": "Frequent signals of increased holdings, industrial capital \"corrects\" REITs pricing.",
+     "body_en": "The publicly offered REITs market has been sending positive signals recently. Since November, several fund companies, including Harvest Fund Management, Bosera Asset Management, and China Southern Asset Management, have frequently issued announcements stating that the original equity holders of their REITs intend to increase their holdings against the current trend. Some industry insiders believe that this round of \"buying spree\" by industrial capital is a pricing correction against the backdrop of a pullback in the secondary market. Coupled with arrangements such as lock-up commitments and participation at the group level, the \"substance\" of the signal is increasing. (Shanghai Securities News).",
+     "id": "wscn-3204530"
+    },
+    {
+     "ts": 1795471795,
+     "source": "华尔街见闻",
+     "title_zh": "美国财长贝森特",
+     "body_zh": "金融机构往往是阻止与伊朗政权有关联的资金进入美国经济的第一道防线。 财政部将继续切断该政权赖以资助其军事、武器项目和恐怖代理人的资金生命线。",
+     "url": "https://wallstreetcn.com/livenews/3204525",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:09",
+     "title_en": "U.S. Treasury Secretary Scott Bessent.",
+     "body_en": "Financial institutions are often the first line of defense in preventing funds linked to the Iranian regime from entering the U.S. economy. The Department of the Treasury will continue to cut off the financial lifelines that the regime relies on to fund its military, weapons programs, and terrorist proxies.",
+     "id": "wscn-3204525"
+    },
+    {
+     "ts": 1795455935,
+     "source": "华尔街见闻",
+     "title_zh": "黄仁勋复职点燃科技债务反弹，信贷投资者“神经紧绷”",
+     "body_zh": "全球公司债市场大幅反弹，美国恐慌指标创下数月来最大改善幅度。在英伟达董事会恢复黄仁勋的首席执行官职务后，科技公司债券出现强劲反弹。 CDX投资级指数利差录得4月8日以来最大的盘中跌幅，欧洲高评级和垃圾债指标也同步走低。 所谓“人工智能交易”中的主要标的同样迎来大涨，云计算提供商CoreWeave Inc.的债券攀升，超大规模云服务商甲骨文的相关信贷指标也大幅收紧。",
+     "url": "https://wallstreetcn.com/livenews/3204456",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "01:45",
+     "title_en": "Jensen Huang's reinstatement sparks a rebound in tech debt, leaving credit investors \"on edge\"",
+     "body_en": "The global corporate bond market has rebounded sharply, with the U.S. fear gauge recording its largest improvement in months. Tech company bonds rebounded strongly after Nvidia's board reinstated Jensen Huang as CEO. The CDX Investment Grade Index spread recorded its largest intraday decline since April 8, and European high-grade and junk bond indicators also fell in tandem. The main targets in the so-called \"AI trade\" also saw significant gains, with bonds from cloud computing provider CoreWeave Inc.Bonds rose, and the relevant credit indicators of the hyperscale cloud service provider Oracle also tightened significantly.",
+     "id": "wscn-3204456"
+    },
+    {
+     "ts": 1795469286,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块中，信息技术/科技板块收涨9.03%，电信板块涨5",
+     "body_zh": "标普500指数的11个板块中，信息技术/科技板块收涨9.03%，电信板块涨5.18%，可选消费板块涨4.27%，能源板块跌1.32%。 在科技板块，成分股英伟达收涨超31%领跑，戴尔科技涨超20.4%，美光科技涨19%表现第三，迈威尔科技、Lumentum、惠与（HPE）、MPWR、英特尔、高意公司Coherent、科磊至少涨超14.9%进入涨幅前十，ROP则收跌0.37%，CrowdStrike跌超8.95.",
+     "url": "https://wallstreetcn.com/livenews/3204516",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:28",
+     "title_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector rose by 9.03%, and the Telecommunications sector rose by 5%.",
+     "body_en": "Among the 11 sectors of the S&P 500 Index, the Information Technology/Technology sector closed up 9.03%, the Telecommunications sector rose 5.18%, the Consumer Discretionary sector rose 4.27%, and the Energy sector fell 1.32%. In the Technology sector, constituent stock Nvidia led the way with a gain of over 31%, Dell Technologies rose by over 20.4%, and Micron Technology ranked third with a gain of 19%. Marvell Technology, Lumentum, Hewlett Packard Enterprise (HPE), MPWR, Intel, Coherent, and KLA all rose by at least 14.9%, entering the top ten in terms of gains. ROP closed down 0.37%, and CrowdStrike fell by over 8.95%.",
+     "id": "wscn-3204516"
+    },
+    {
+     "ts": 1795455532,
+     "source": "华尔街见闻",
+     "title_zh": "高盛：美元明年将“温和走弱”",
+     "body_zh": "高盛集团全球外汇和利率预测主管Kamakshya Trivedi表示，随着利率上升进一步推高该货币，美元涨势具有持续性，随后将在明年“温和”走弱。 Trivedi认为处于紧缩模式的美联储将在未来几个月内支撑美元，进而对经济增长和新兴市场货币造成压力。 “当你看到由利率驱动的金融条件收紧时，美元往往在这种环境下表现良好。美元仍有余勇可贾（仍有上行动能）。",
+     "url": "https://wallstreetcn.com/livenews/3204453",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:38",
+     "title_en": "Goldman Sachs: The U.S. dollar will \"weaken moderately\" next year.",
+     "body_en": "Kamakshya Trivedi, Goldman Sachs Group's head of global foreign exchange and interest rate forecasting, said that the U.S. dollar's rally will be sustained as rising interest rates further boost the currency, followed by a \"moderate\" weakening next year. Trivedi believes that the Federal Reserve, which is in tightening mode, will support the U.S. dollar in the coming months, putting pressure on economic growth and emerging market currencies. “When you see financial conditions tightening driven by interest rates, the U.S. dollar tends to perform well in this environment. The U.S. dollar still has room to run (still has upward momentum).",
+     "id": "wscn-3204453"
+    },
+    {
+     "ts": 1795470508,
+     "source": "华尔街见闻",
+     "title_zh": "美国参议院Warner",
+     "body_zh": "总统特朗普插手企业事务的做法令人难以接受。 特朗普应当聚焦美国国家安全事务，而不是英伟达。（新浪）",
+     "url": "https://wallstreetcn.com/livenews/3204519",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:48",
+     "title_en": "U.S. Senator Warner.",
+     "body_en": "President Trump's interference in corporate affairs is unacceptable. Trump should focus on U.S. national security matters, not Nvidia. (Sina).",
+     "id": "wscn-3204519"
+    },
+    {
+     "ts": 1795467683,
+     "source": "华尔街见闻",
+     "title_zh": "美股七巨头收盘播报｜周一（11月23日），美国科技股七巨头（Magnific",
+     "body_zh": "美股七巨头收盘播报｜周一（11月23日），美国科技股七巨头（Magnificent 7）指数收涨8.2%，报210.39点，跳空高开之后持续高位窄幅震荡。成分股英伟达收涨31.48%，创2003年5月9日以来最大单日涨幅，报165.05美元，市值单日增长9520亿美元，创历史纪录。 “超大”市值科技股指数涨6.84%，报415.29点。",
+     "url": "https://wallstreetcn.com/livenews/3204505",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:01",
+     "title_en": "Closing Report on the U.S. Magnificent Seven Stocks | On Monday (November 23), the U.S. Magnificent Seven tech stocks.",
+     "body_en": "U.S. Magnificent 7 Closing Report | On Monday (November 23), the U.S. Magnificent 7 tech stocks index closed up 8.2% at 210.39 points, continuing to fluctuate within a narrow range at high levels after opening with a gap up. Nvidia, a constituent stock, closed up 31.48%, marking its largest single-day gain since May 9, 2003, at $165.05. Its market capitalization increased by $952 billion in a single day, setting a new historical record. The \"Mega-Cap\" Market Cap Tech Stock Index rose 6.84% to 415.29 points.",
+     "id": "wscn-3204505"
+    },
+    {
+     "ts": 1795456366,
+     "source": "华尔街见闻",
+     "title_zh": "LME期铜收涨330美元，报12490美元/吨",
+     "body_zh": "LME期铝收涨32美元，报2856美元/吨。 LME期锌收涨50美元，报3554美元/吨。 LME期铅收跌17美元，报1828美元/吨。 LME期镍收涨45美元，报15479美元/吨。 LME期锡收涨1785美元，报42630美元/吨。 LME期钴收平，报33525美元/吨。",
+     "url": "https://wallstreetcn.com/livenews/3204460",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:52",
+     "title_en": "LME Copper Futures Close Up $330 at $12,490/Metric Ton.",
+     "body_en": "LME aluminum futures closed up $32 at $2,856/ton. LME zinc futures closed up $50 at $3,554/ton. LME lead futures closed down $17 at $1,828/ton. LME nickel futures closed up $45 at $15,479/ton. LME tin futures closed up $1,785 at $42,630/ton. LME cobalt futures closed flat at US$33,525/ton.",
+     "id": "wscn-3204460"
+    },
+    {
+     "ts": 1795453390,
+     "source": "华尔街见闻",
+     "title_zh": "沪铜夜盘收涨将近2.8%，沪锡涨约4.6%",
+     "body_zh": "国际铜夜盘收涨0.82%，沪铜收涨2.77%，沪铝收涨0.53%，沪锌收涨1.49%，沪铅收跌0.58%，沪镍收涨0.08%，沪锡收涨4.58%。 氧化铝夜盘收跌0.85%，铝合金收涨0.26%。 不锈钢夜盘收跌0.07%。",
+     "url": "https://wallstreetcn.com/livenews/3204436",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:03",
+     "title_en": "Shanghai Copper Night Session Closes Up Nearly 2.8%, Shanghai Tin Rises About 4.6%.",
+     "body_en": "The London Metal Exchange (LME) copper night session closed up 0.82%, SHFE copper closed up 2.77%, SHFE aluminum closed up 0.53%, SHFE zinc closed up 1.49%, SHFE lead closed down 0.58%, SHFE nickel closed up 0.08%, and SHFE tin closed up 4.58%. The night session for alumina closed down 0.85%, while aluminum alloy closed up 0.26%. Stainless steel night session closed down 0.07%.",
+     "id": "wscn-3204436"
+    }
+   ],
+   "story": {
+    "id": "fisher-scuttlebutt",
+    "name_zh": "菲利普·费雪",
+    "name_en": "Philip Fisher",
+    "era": "1950s · 美国加州",
+    "title_zh": "不读财报的调研法：去和对手闲聊",
+    "title_en": "The Scuttlebutt Method",
+    "body_zh": "费雪调研公司有个怪招：不急着看报表，先去闲聊。找离职员工、供应商、同行工程师，一家公司的真实成色就浮出来了。他管这叫闲聊法，靠它拿了摩托罗拉十多年。",
+    "body_en": "Philip Fisher had an odd way to research a company. Before reading reports, he went out and chatted. Former employees, salesmen, suppliers, rival engineers. From these talks, the truth surfaced. He called it the scuttlebutt method.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "California, nineteen fifty. While other analysts read annual reports, Philip Fisher does something strange. He goes out for coffee, and small talk.",
+      "zh": "加州，1950 年。别的分析师在读年报，菲利普·费雪却在干一件怪事：出门喝咖啡、闲聊。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "You used to work at their plant. Was the new product real quality, or just a good story?",
+      "zh": "你以前在他们的厂里干过。新品是真有实力，还是故事讲得好？"
+     },
+     {
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F",
+      "en": "Honestly? The lab is serious. But the boss loses his temper, and good people keep leaving.",
+      "zh": "说实话？实验室是认真的。但老板脾气大，能干的人一直在走。"
+     },
+     {
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2",
+      "en": "And the competitors say the same thing, from the other side. Now the picture is complete.",
+      "zh": "竞争对手从另一头说出来的，也是同样的话。拼图这就完整了。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He called it the scuttlebutt method. It led him to hold Motorola for decades. His advice shaped Buffett too. If it is a wonderful company, almost never sell.",
+      "zh": "他管这叫闲聊法。靠它，他拿住了摩托罗拉十多年。这条建议也影响了巴菲特：真正的好公司，几乎永远别卖。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "nine-of-five",
+    "tag_zh": "经济学家的预言",
+    "tag_en": "Economist Forecast",
+    "title_zh": "过去五次衰退，经济学家预测中了九次",
+    "title_en": "Nine of the Last Five Recessions",
+    "body_zh": "经济学家萨缪尔森讲过一个流传至今的玩笑：股市在过去五次衰退里，预测中了九次。意思是股市总在喊狼来了，喊的次数远比狼真的来的次数多。所以听到谁信誓旦旦地预测崩盘，不用太紧张，也不用太得意，先数一数他之前喊过几次。预测市场这件事，连最聪明的人也常常只是运气好。",
+    "body_en": "The economist Paul Samuelson left us a joke that never gets old. The stock market has predicted nine of the last five recessions. Read that again. Nine predictions. Five real recessions. The market cries wolf far more often than the wolf arrives. So when someone loudly predicts the next crash, stay calm. Count how many times they called it before. Predicting the market is hard. Even for the smartest people in the room."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 14.275,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 15.075,
+      "dur": 6.58,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 22.205,
+      "dur": 6.305,
+      "k": "dial",
+      "who": "Ex-employee",
+      "g": "F"
+     },
+     {
+      "start": 29.06,
+      "dur": 6.068,
+      "k": "dial",
+      "who": "Fisher",
+      "g": "M2"
+     },
+     {
+      "start": 35.678,
+      "dur": 14.755,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "2651c7a85c86",
+    "item-00.mp3": "488e611f1148",
+    "item-01.mp3": "2ab099daea75",
+    "item-02.mp3": "6f00aedbe77f",
+    "item-03.mp3": "b03daa503dbe",
+    "item-04.mp3": "03353a937f1e",
+    "item-05.mp3": "7d1175350090",
+    "item-06.mp3": "083c3bf5e7e9",
+    "item-07.mp3": "71d120c8fbb5",
+    "item-08.mp3": "67257a816b3e",
+    "item-09.mp3": "2c2f23ca9f4b",
+    "item-10.mp3": "bd6f605c168c",
+    "item-11.mp3": "b221b5c31d27",
+    "item-12.mp3": "241365b41303",
+    "item-13.mp3": "e70172215fea",
+    "item-14.mp3": "4bad6e36dc0b",
+    "item-15.mp3": "490b1423ca58",
+    "item-16.mp3": "27cad4448ab0",
+    "item-17.mp3": "3af185ed63fa",
+    "story.mp3": "7ecce05fb0f0",
+    "joke.mp3": "413eddb0741e"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.481
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.381,
+      "dur": 73.223
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 83.504,
+      "dur": 50.123
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 134.527,
+      "dur": 63.119
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 198.545,
+      "dur": 61.604
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 261.049,
+      "dur": 30.777
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 292.727,
+      "dur": 44.576
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 338.203,
+      "dur": 51.032
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 390.135,
+      "dur": 56.783
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 447.818,
+      "dur": 27.185
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 475.903,
+      "dur": 48.133
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 524.936,
+      "dur": 27.329
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 553.165,
+      "dur": 49.928
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 603.993,
+      "dur": 80.107
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 685.0,
+      "dur": 48.079
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 733.979,
+      "dur": 14.849
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 749.727,
+      "dur": 59.418
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 810.045,
+      "dur": 52.973
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 863.918,
+      "dur": 49.567
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-23",
    "weekday_en": "Monday",
@@ -3341,562 +3876,6 @@ window.__BRIEF__ = {
       "file": "item-17.mp3",
       "start": 660.989,
       "dur": 49.005
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-17",
-   "weekday_en": "Tuesday",
-   "weekday_zh": "周二",
-   "generated_at": "2026-11-17 07:32",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3602.57,
-     "chg_pct": -0.87
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 10690.78,
-     "chg_pct": -2.53
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2320.02,
-     "chg_pct": -4.37
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1213.68,
-     "chg_pct": -5.16
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23753.84,
-     "chg_pct": 0.49
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 51608.17,
-     "chg_pct": -1.41
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 24509.76,
-     "chg_pct": -2.49
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7416.59,
-     "chg_pct": -1.92
-    }
-   ],
-   "items": [
-    {
-     "ts": 1794867511,
-     "source": "华尔街见闻",
-     "title_zh": "13F报告显示，Allianz Global Investors GmbH三",
-     "body_zh": "13F报告显示，Allianz Global Investors GmbH三季度减持奈飞、拉斯维加斯金沙、福特汽车、通用汽车等。 增持瑞银集团等。 投资组合中占比最大的依次为（重仓）英伟达、苹果、微软、谷歌A、亚马逊。",
-     "url": "https://wallstreetcn.com/livenews/3200868",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:18",
-     "title_en": "The 13F report shows that Allianz Global Investors GmbH.",
-     "body_en": "The 13F report shows that Allianz Global Investors GmbH reduced its holdings in Netflix, Las Vegas Sands, Ford Motor, General Motors, and others in the third quarter. It increased its holdings in UBS Group and others. The largest holdings in the portfolio, in descending order, are (overweighted) Nvidia, Apple, Microsoft, Google A, and Amazon.",
-     "id": "wscn-3200868"
-    },
-    {
-     "ts": 1794866400,
-     "source": "新浪财经",
-     "title_zh": "高盛黄金“过山车”预测：今年或创十余年最差年度表现，2028年底重返5600美元历史高位",
-     "body_zh": "来源：智通财经网 高盛预计，随着美联储持续收紧货币政策，黄金价格短期内仍将面临下行压力及剧烈波动，尽管全球央行持续购金有望为金价提供支撑...",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-17/doc-iniyyvsr7776765.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:00",
-     "title_en": "Goldman Sachs' gold \"roller coaster\" forecast: This year could see the worst annual performance in over a decade, with a return to the historical high of $5,600 by the end of 2028.",
-     "body_en": "Source: Zhitong Finance Network Goldman Sachs expects that, as the Federal Reserve continues to tighten monetary policy, gold prices will continue to face downward pressure and sharp fluctuations in the short term, although the PBOC's continued gold purchases are expected to provide support for gold prices...",
-     "id": "sina-comos:niyyvsr7776765"
-    },
-    {
-     "ts": 1794866861,
-     "source": "新浪财经",
-     "title_zh": "11月17日外盘头条：特朗普支持黄仁勋重掌英伟达 美联储推演AI对经济潜在影响 加州就模型失控起诉OpenAI",
-     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、俄称下轮俄美乌三方会谈仍在阿布扎比举行 时间待定 2、美联储推演AI对经济潜在影响 主席沃什称涵盖多重情景 3...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyrkr5651984.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:07",
-     "title_en": "November 17 Overseas Headlines: Trump supports Jensen Huang's return to the helm of Nvidia; the Federal Reserve explores the potential economic impact of AI; California sues OpenAI over model runaway.",
-     "body_en": "The main headlines that global financial media were focusing on last night and this morning are: 1. Russia states that the next round of trilateral talks between Russia, the United States, and Ukraine will still be held in Abu Dhabi, with the date to be determined. 2. The Federal Reserve conducts simulations on the potential impact of AI on the economy, with Chairman Kevin Warsh stating that multiple scenarios are covered. 3...",
-     "id": "sina-comos:niyyrkr5651984"
-    },
-    {
-     "ts": 1794866186,
-     "source": "华尔街见闻",
-     "title_zh": "De Shaw & Co.三季度新进SK海力士等",
-     "body_zh": "增持英特尔、Palantir、微软、卡特彼勒、阿斯利康。 清仓SpaceX、Modine等。 减持特斯拉、AMD、闪迪等。 重仓道富SPDR标普50 ETF、英伟达、英特尔、谷歌A、微软。",
-     "url": "https://wallstreetcn.com/livenews/3200864",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:56",
-     "title_en": "De Shaw & Co. added SK Hynix and others in Q3.",
-     "body_en": "Increased holdings in Intel, Palantir, Microsoft, Caterpillar, and AstraZeneca. Liquidated positions in SpaceX, Modine, etc. Reduced holdings in Tesla, AMD, SanDisk, etc. Overweight positions in State Street SPDR S&P 50 ETF, Nvidia, Intel, Google A, and Microsoft.",
-     "id": "wscn-3200864"
-    },
-    {
-     "ts": 1794865984,
-     "source": "华尔街见闻",
-     "title_zh": "Point72在三季度新进Booking、NET等",
-     "body_zh": "增持微软、英特尔、波音、英伟达。 清仓吉利德科学等。 减持Credo、AMD、阿斯麦、台积电、万机仪器MKSI。",
-     "url": "https://wallstreetcn.com/livenews/3200863",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:53",
-     "title_en": "Point72 added Booking, NET, and others in Q3.",
-     "body_en": "Increased holdings in Microsoft, Intel, Boeing, and Nvidia. Liquidated positions in Gilead Sciences, etc. Reduced holdings in Credo, AMD, ASML, TSMC, and MKS Instruments (MKSI).",
-     "id": "wscn-3200863"
-    },
-    {
-     "ts": 1794868065,
-     "source": "华尔街见闻",
-     "title_zh": "多只宽基ETF尾盘放量，机构看好A股科技板块配置价值",
-     "body_zh": "11月16日临近收盘，多只宽基ETF成交量显著增加。从近期ETF资金流向看，据Choice测算，自9月28日至11月9日，股票型ETF连续26个交易日资金净流入。不过，11月10日至13日，股票型ETF呈现资金净流出状态。中信建投证券研报表示，对市场而言，宽基ETF的持续流入、中国国新和中国诚通的增持、回购增持再贷款的低成本资金，对应本轮政策密集出台的区间，市场在10月底时的位置可视为短期底部支撑的参考点位。",
-     "url": "https://wallstreetcn.com/livenews/3200872",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:27",
-     "title_en": "Multiple broad-based ETFs saw increased trading volume at the close, with institutions optimistic about the allocation value of the A-share technology sector.",
-     "body_en": "Near the close of trading on November 16, the trading volume of several broad-based ETFs increased significantly. Looking at recent ETF fund flows, Choice estimates that from September 28 to November 9, equity ETFs experienced net inflows for 26 consecutive trading days. However, from November 10 to 13, equity ETFs experienced net outflows of funds. According to a research report by China Securities Co., Ltd., for the market, the continuous inflows into broad-based ETFs, the increased holdings by China Reform Holdings Corporation and China Chengtong Holdings Group, and the low-cost funds from share buyback-related increased holdings and refinancing correspond to the period of intensive policy announcements. The market's position at the end of October can be considered a reference point for short-term bottom support.",
-     "id": "wscn-3200872"
-    },
-    {
-     "ts": 1794868586,
-     "source": "新浪财经",
-     "title_zh": "纽约汇市：美元走强 加元和欧元触及2025年以来低点",
-     "body_zh": "随着交易员维持对美联储加息的鹰派押注，美元兑多数G10货币走强。欧元和加元兑美元均触及2025年以来最低水平。 彭博美元即期指数小幅上涨0.1%...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyvsp5535531.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:36",
-     "title_en": "New York FX Market: U.S. Dollar Strengthens, Canadian Dollar and Euro Hit Lowest Levels Since 2025.",
-     "body_en": "The U.S. dollar strengthened against most G10 currencies as traders maintained their hawkish bets on Federal Reserve rate hikes. Both the euro and the Canadian dollar have hit their lowest levels against the U.S. dollar since 2025. The Bloomberg Dollar Spot Index rose slightly by 0.1%...",
-     "id": "sina-comos:niyyvsp5535531"
-    },
-    {
-     "ts": 1794826569,
-     "source": "华尔街见闻",
-     "title_zh": "贝莱德智库负责人称市场对美联储加息的预期过于偏鹰",
-     "body_zh": "贝莱德智库(BlackRock Investment Institute)负责人Jean Boivin称，鉴于通胀压力可能会有所缓解，市场对美联储加息的定价可能比该行计划采取的行动更为偏鹰。我不认为美联储会像市场目前解读的那样鹰派，而且我认为通胀形势可能会开始缓解。我们对当前经济形势的解读可能过于偏鹰了。我认为通胀在很大程度上已经反映在市场定价中。",
-     "url": "https://wallstreetcn.com/livenews/3200642",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "18:56",
-     "title_en": "The head of BlackRock's think tank says the market's expectations for the Federal Reserve's interest rate hikes are too hawkish.",
-     "body_en": "Jean Boivin, head of the BlackRock Investment Institute, said that given the likely easing of inflationary pressures, the market's pricing of Federal Reserve rate hikes may be more hawkish than what the bank plans to do. I don't think the Federal Reserve will be as hawkish as the market currently interprets, and I believe that inflationary pressures may start to ease. Our interpretation of the current economic situation may be overly hawkish. I believe that inflation is largely reflected in market pricing.",
-     "id": "wscn-3200642"
-    },
-    {
-     "ts": 1794863292,
-     "source": "华尔街见闻",
-     "title_zh": "桥水增持美光、闪迪，重仓英伟达、博通和标普500",
-     "body_zh": "13F报告显示：桥水三季度新进Dominion Energy、Occidental（西方石油公司）、思科。 增持高通、Applovin、Qorvo、美光科技、闪迪。 清仓Union Pacific、Paccar、标普全球。 减持道富SPDR标普50 ETF、iShares核心标普500 ETF、谷歌A、Vanguard标普500 ETF、亚马逊。",
-     "url": "https://wallstreetcn.com/livenews/3200844",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:08",
-     "title_en": "Bridgewater increases its holdings in Micron and SanDisk, and holds heavy positions in Nvidia, Broadcom, and the S&P 500.",
-     "body_en": "The 13F report shows that Bridgewater newly invested in Dominion Energy, Occidental (Occidental Petroleum Corporation), and Cisco in the third quarter. Increased holdings in Qualcomm, Applovin, Qorvo, Micron Technology, and SanDisk. It completely divested its holdings in Union Pacific, Paccar, and S&P Global. Reduced holdings in State Street SPDR S&P 50 ETF, iShares Core S&P 500 ETF, Google A, Vanguard S&P 500 ETF, and Amazon.",
-     "id": "wscn-3200844"
-    },
-    {
-     "ts": 1794870671,
-     "source": "新浪财经",
-     "title_zh": "股海导航_2026年11月17日_沪深股市公告与交易提示",
-     "body_zh": "【停牌】 无 【复牌】 无 【品大事】 捷捷微电：全资子公司拟投资15亿元建设车规级高功率半导体器件芯片生产线项目 捷捷微电公告称...",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-17/doc-iniyyvsr2328070.shtml",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:11",
-     "title_en": "Stock Market Guide_November 17, 2026_Shanghai and Shenzhen Stock Market Announcements and Trading Notices.",
-     "body_en": "【Trading Suspension】 None 【Trading Resumption】 None 【Significant News】 JieJie Microelectronics: Wholly-owned subsidiary plans to invest RMB 1.5 billion to build an automotive-grade high-power semiconductor device chip production line project. JieJie Microelectronics announced...",
-     "id": "sina-comos:niyyvsr2328070"
-    },
-    {
-     "ts": 1794871578,
-     "source": "华尔街见闻",
-     "title_zh": "第三批互换便利操作加速推进，多家券商完成首批买入",
-     "body_zh": "自11月3日央行启动第三批证券、基金、保险公司互换便利（SFISF）操作以来，据不完全统计，截至11月16日，已有中信证券、国泰海通、中金公司、东方证券、中信建投、国信证券、浙商证券、国联民生证券、平安证券、长城证券等多家券商完成第三批互换便利业务首批买入。多家券商表示，将继续利用互换便利工具，发挥长期资本、耐心资本的优势作用，为资本市场稳定运行和健康发展作出积极贡献。（中证报）",
-     "url": "https://wallstreetcn.com/livenews/3200891",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:26",
-     "title_en": "The third round of swap facility operations is accelerating, and several brokerages have completed their first round of purchases.",
-     "body_en": "Since the PBOC launched the third batch of Securities, Funds, and Insurance Companies Swap Facility (SFISF) operations on November 3, according to incomplete statistics, as of November 16, several brokerages, including CITIC Securities, Guotai Junan Securities, China International Capital Corporation, Orient Securities, CITIC Securities Co., Ltd., Guosen Securities, Zheshang Securities, Guolian Securities, Ping An Securities, and Great Wall Securities, have completed the first round of purchases under the third batch of swap facility operations. Several brokerages have stated that they will continue to utilize the swap facility to leverage the advantages of long-term capital and patient capital, making a positive contribution to the stable operation and healthy development of the capital market. (China Securities Journal).",
-     "id": "wscn-3200891"
-    },
-    {
-     "ts": 1794863441,
-     "source": "华尔街见闻",
-     "title_zh": "周一（11月16日），美股行业ETF多数收跌，半导体ETF收跌5.11%，全",
-     "body_zh": "周一（11月16日），美股行业ETF多数收跌，半导体ETF收跌5.11%，全球科技股指数ETF、科技行业ETF、网络股指数ETF至多跌3.75%，能源业ETF跌1.91%，全球航空业ETF则涨0.62%。 标普500指数的11个板块中，信息技术/科技板块收跌2.98%，电信板块跌2.82%，能源、可选消费板块跌2.09%。",
-     "url": "https://wallstreetcn.com/livenews/3200846",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:10",
-     "title_en": "On Monday (November 16), most U.S. sector ETFs closed lower, with the Semiconductor ETF down 5.11%.",
-     "body_en": "On Monday (November 16), most U.S. sector ETFs closed lower. The Semiconductor ETF closed down 5.11%, while the Global Technology Index ETF, Technology Sector ETF, and Internet Stock Index ETF fell by up to 3.75%. The Energy Sector ETF declined by 1.91%, and the Global Aviation Sector ETF rose by 0.62%. Among the 11 sectors of the S&P 500 Index, the Information Technology/Tech sector closed down 2.98%, the Telecommunications sector fell 2.82%, and the Energy and Consumer Discretionary sectors fell 2.09%.",
-     "id": "wscn-3200846"
-    },
-    {
-     "ts": 1794825882,
-     "source": "华尔街见闻",
-     "title_zh": "美联储理事Barr称AI智能体或加大未来银行挤兑风险",
-     "body_zh": "美联储理事Michael Barr警告称，自主AI智能体可能会根据市场信号或利率变化自动转移客户存款，从而加大银行挤兑风险。Barr周一在米兰举行的一次会议上发表讲话时指出，大型银行已经发现有AI智能体试图在零售账户中执行未经授权的操作。过去客户需要亲自执行转账操作，而现在AI智能体能够立即检测到收益率差异或市场波动信号，并自主高速转移资金，这可能会加速几分钟内发生的挤兑，使传统的流动性管理和监管干预时限难以招架。",
-     "url": "https://wallstreetcn.com/livenews/3200631",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "18:44",
-     "title_en": "Federal Reserve Governor Barr says AI agents could increase the risk of future bank runs.",
-     "body_en": "Federal Reserve Governor Michael Barr has warned that autonomous AI agents could automatically transfer customer deposits based on market signals or interest rate changes, thereby increasing the risk of bank runs. Speaking at a conference in Milan on Monday, Barr noted that large banks have already detected AI agents attempting to perform unauthorized actions in retail accounts. In the past, customers had to personally execute transfer operations. Now, AI agents can instantly detect yield differentials or signals of market volatility and autonomously transfer funds at high speed. This could accelerate bank runs within minutes, making traditional liquidity management and regulatory intervention timelines difficult to cope with.",
-     "id": "wscn-3200631"
-    },
-    {
-     "ts": 1794862808,
-     "source": "华尔街见闻",
-     "title_zh": "纳斯达克金龙中国指数收跌1.00%，报5467.32点",
-     "body_zh": "热门中概股里，万国数据收跌14.69%，世纪互联跌11.41%，金山云跌9.01%，联想集团ADR跌8.44%，禾赛跌8.25%，阿特斯太阳能、蔚来、奇富科技至多跌7.29%，日月光半导体跌7.74%，百度跌5.37%，晶科控股、再鼎医药、B站、阿里巴巴至少跌3.98%，大全新能源跌3.76%，比亚迪ADR跌2.28%，腾讯音乐跌1.88%，京东、理想至多跌1.33%，拼多多跌1.09%，网易跌0.5%，腾讯控股AD…",
-     "url": "https://wallstreetcn.com/livenews/3200839",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:00",
-     "title_en": "The Nasdaq Golden Dragon China Index closed down 1.00% at 5467.32 points.",
-     "body_en": "Among popular Chinese stocks, GDS Holdings fell 14.69%, 21Vianet fell 11.41%, Kingsoft Cloud fell 9.01%, Lenovo Group ADR fell 8.44%, Hesai fell 8.25%, Canadian Solar, NIO, and Qifu Technology fell by up to 7.29%, ASE Technology Holding fell 7.74%, Baidu fell 5.37%, JinkoSolar Holding, Zai Lab, Bilibili, and Alibaba fell by at least 3.98%, Daqo New Energy fell 3.76%, BYD ADR fell 2.28%, Tencent Music fell 1.88%, JD.com and Li Auto fell by up to 1.33%, Pinduoduo fell 1.09%, NetEase fell 0.5%, and Tencent Holdings ADR...",
-     "id": "wscn-3200839"
-    },
-    {
-     "ts": 1794845768,
-     "source": "华尔街见闻",
-     "title_zh": "欧盟对印度、日本、土耳其等冷轧钢铁加征的关税提高至27.9%",
-     "body_zh": "欧盟对印度、日本、土耳其等冷轧钢铁加征的关税提高至27.9%",
-     "url": "https://wallstreetcn.com/livenews/3200756",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "00:16",
-     "title_en": "The EU has raised its additional tariffs on cold-rolled steel from India, Japan, Turkey, and other countries to 27.9%.",
-     "body_en": "The EU has raised its additional tariffs on cold-rolled steel from India, Japan, Turkey, and other countries to 27.9%.",
-     "id": "wscn-3200756"
-    },
-    {
-     "ts": 1794842854,
-     "source": "华尔街见闻",
-     "title_zh": "荷兰国际集团（ING）看跌美元，认为对美联储收紧货币政策的押注“定价过头”",
-     "body_zh": "荷兰国际集团（ING）看跌美元，认为对美联储收紧货币政策的押注“定价过头”",
-     "url": "https://wallstreetcn.com/livenews/3200743",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "23:27",
-     "title_en": "ING Group (ING) is bearish on the US dollar, believing that bets on the Federal Reserve tightening monetary policy are \"overpriced.\"",
-     "body_en": "ING Group (ING) is bearish on the US dollar, believing that bets on the Federal Reserve tightening monetary policy are \"overpriced.\"",
-     "id": "wscn-3200743"
-    },
-    {
-     "ts": 1794862804,
-     "source": "华尔街见闻",
-     "title_zh": "纳斯达克100指数收跌将近2.7%，半导体指数跌约5.3%",
-     "body_zh": "标普500指数收跌145.08点，跌幅1.92%，报7416.59点。标普500相等权重指数涨0.17%，报8951.35点。 道琼斯工业平均指数收跌739.38点，跌幅1.41%，报51608.17点。 纳斯达克综合指数（纳指）收跌626.515点，跌幅2.49%，报24509.758点。 纳斯达克100指数收跌746.583点，跌幅2.67%，报27197.152点。",
-     "url": "https://wallstreetcn.com/livenews/3200838",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:00",
-     "title_en": "The Nasdaq 100 Index closed down nearly 2.7%, and the Semiconductor Index fell by about 5.3%.",
-     "body_en": "The S&P 500 Index closed down 145.08 points, or 1.92%, at 7416.59 points. The S&P 500 Equal Weight Index rose 0.17% to 8951.35 points. The Dow Jones Industrial Average closed down 739.38 points, or 1.41%, at 51,608.17 points. The Nasdaq Composite Index (Nasdaq) closed down 626.515 points, or 2.49%, at 24,509.758 points. The Nasdaq 100 Index closed down 746.583 points, or 2.67%, at 27,197.152 points.",
-     "id": "wscn-3200838"
-    },
-    {
-     "ts": 1794851487,
-     "source": "华尔街见闻",
-     "title_zh": "LME期铜收跌143美元，报13256美元/吨",
-     "body_zh": "LME期铝收跌6美元，报3004美元/吨。 LME期锌收跌12美元，报3698美元/吨。 LME期铅收跌19美元，报1875美元/吨。 LME期镍收跌127美元，报15858美元/吨。 LME期锡收跌526美元，报46174美元/吨。 LME期钴收平，报33525美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3200783",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:51",
-     "title_en": "LME Copper Futures Close Down $143 at $13,256/Metric Ton.",
-     "body_en": "LME aluminum futures closed down $6 at $3,004/ton. LME zinc futures closed down $12 at $3,698/ton. LME lead futures closed down $19 at $1,875/ton. LME nickel futures closed down $127 at $15,858/ton. LME tin futures closed down $526 at $46,174/ton. LME cobalt futures closed flat at US$33,525/ton.",
-     "id": "wscn-3200783"
-    }
-   ],
-   "story": {
-    "id": "carnegie-telegraph",
-    "name_zh": "安德鲁·卡内基",
-    "name_en": "Andrew Carnegie",
-    "era": "1850s · 美国匹兹堡",
-    "title_zh": "从每周一美元二毛，到钢铁大王",
-    "title_en": "From a Dollar Twenty a Week to Steel",
-    "body_zh": "卡内基十三岁移民美国，第一份工每周挣一美元二毛。当电报信童时，他背下全城商户的名字和脸。二十几岁把全部身家压进钢铁，建成世界最大钢铁厂。晚年捐出九成财产。",
-    "body_en": "Andrew Carnegie arrived in America from Scotland at thirteen. His first job paid one dollar and twenty cents a week. As a messenger boy, he memorized every business in town. In his thirties he bet everything on steel, built the largest steel company in the world, then gave away ninety percent of it.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Pittsburgh, eighteen fifty. A thirteen year old Scottish immigrant starts his first job. It pays one dollar and twenty cents a week.",
-      "zh": "匹兹堡，1850 年。一个十三岁的苏格兰移民开始第一份工作，周薪一美元二毛。"
-     },
-     {
-      "k": "dial",
-      "who": "Foreman",
-      "g": "M2",
-      "en": "Boy, the telegraph office needs a messenger. Can you learn the streets?",
-      "zh": "小子，电报局要个信童。你能把街巷记熟吗？"
-     },
-     {
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M",
-      "en": "I will learn more than the streets, sir. I will learn every business in town, and every face behind the door.",
-      "zh": "先生，我记的不只是街巷。我要记住全城每一家商户，和每扇门后面的每张脸。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "While other boys played, he drilled himself on the telegraph key, and became the fastest ear in the city.",
-      "zh": "别的孩子去玩了，他对着电报机日夜苦练，成了全城收发电报最快的人。"
-     },
-     {
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M",
-      "en": "Save it, invest it early, and when you find your industry, bet everything on it.",
-      "zh": "把钱存下来，早一点投出去。找到属于自己的行业时，就把全部身家押上去。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "He built the largest steel company in the world. Then he gave ninety percent of it away, with one line for the history books. Dying rich is a disgrace.",
-      "zh": "他建成了世界最大的钢铁公司，然后捐出了九成财产，只留给历史一句话：带着巨富死去，是一种耻辱。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "rothschild-early",
-    "tag_zh": "金融世家心得",
-    "tag_en": "Banking Family Secret",
-    "title_zh": "我是靠卖得太早赚的钱",
-    "title_en": "I Made My Fortune by Selling Too Early",
-    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
-    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 11.019,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 11.819,
-      "dur": 5.385,
-      "k": "dial",
-      "who": "Foreman",
-      "g": "M2"
-     },
-     {
-      "start": 17.755,
-      "dur": 6.821,
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M"
-     },
-     {
-      "start": 25.126,
-      "dur": 7.843,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 33.519,
-      "dur": 5.397,
-      "k": "dial",
-      "who": "Carnegie",
-      "g": "M"
-     },
-     {
-      "start": 39.466,
-      "dur": 12.449,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "408efbc622ab",
-    "item-00.mp3": "60b5137da941",
-    "item-01.mp3": "57897c6dd13f",
-    "item-02.mp3": "e5937369c118",
-    "item-03.mp3": "34a54f38a8df",
-    "item-04.mp3": "1fe821791515",
-    "item-05.mp3": "6b371e2cff0e",
-    "item-06.mp3": "ea3db8c1484c",
-    "item-07.mp3": "75a0a66c446d",
-    "item-08.mp3": "c85da3a4c243",
-    "item-09.mp3": "29becc62f955",
-    "item-10.mp3": "0f6d35a33a40",
-    "item-11.mp3": "a29c9cd00bd8",
-    "item-12.mp3": "4d84a8b6973f",
-    "item-13.mp3": "bc469e34ef54",
-    "item-14.mp3": "f5633b4871db",
-    "item-15.mp3": "04e9ff8e0406",
-    "item-16.mp3": "4f96523871e2",
-    "item-17.mp3": "7d5dd7df3b5c",
-    "story.mp3": "43361d53e05b",
-    "joke.mp3": "45ac90111c46"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.395
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.295,
-      "dur": 37.036
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 47.231,
-      "dur": 32.589
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 80.721,
-      "dur": 48.177
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 129.798,
-      "dur": 30.903
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 161.601,
-      "dur": 25.232
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 187.733,
-      "dur": 66.039
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 254.671,
-      "dur": 33.889
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 289.46,
-      "dur": 39.615
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 329.975,
-      "dur": 52.723
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 383.599,
-      "dur": 28.946
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 413.445,
-      "dur": 73.381
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 487.725,
-      "dur": 59.037
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 547.662,
-      "dur": 60.488
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 609.05,
-      "dur": 68.196
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 678.146,
-      "dur": 21.675
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 700.721,
-      "dur": 19.2
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 720.821,
-      "dur": 74.088
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 795.809,
-      "dur": 48.827
      }
     ]
    }
