@@ -3,12 +3,568 @@ window.__BRIEF__ = {
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-24 07:40",
-  "latest": "2026-11-24",
+  "updated_at": "2026-11-25 07:39",
+  "latest": "2026-11-25",
   "count": 18,
   "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-25",
+   "weekday_en": "Wednesday",
+   "weekday_zh": "周三",
+   "generated_at": "2026-11-25 07:39",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3548.37,
+     "chg_pct": 0.27
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10423.6,
+     "chg_pct": -0.29
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2278.99,
+     "chg_pct": -0.05
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1250.09,
+     "chg_pct": 1.81
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 22219.65,
+     "chg_pct": -0.73
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 50018.7,
+     "chg_pct": 0.85
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 23733.54,
+     "chg_pct": -1.48
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7201.09,
+     "chg_pct": -0.5
+    }
+   ],
+   "items": [
+    {
+     "ts": 1795562135,
+     "source": "华尔街见闻",
+     "title_zh": "华尔街见闻早餐 | 2026年11月25日",
+     "body_zh": "AI交易疑虑未消，芯片股领跌纳指，道指涨0.8%，Anthropic破发，金属普跌。 黄仁勋复职后首场全员会道歉、承认违反英伟达行为准则，仍拒绝传统接班人计划。 Anthropic破发一度大跌14%，创始人套现逾5.6亿美元。 戴尔将全年AI优化服务器营收指引由740亿美元上调至780亿美元，三季度AI服务器订单积压1323亿美元，股价盘后涨4%。",
+     "url": "https://wallstreetcn.com/livenews/3205278",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:15",
+     "title_en": "Wall Street Journal Breakfast | November 25, 2026.",
+     "body_en": "Concerns over AI trading persist, with chip stocks leading the decline in the Nasdaq. The Dow Jones rose 0.8%, Anthropic's share price fell below its IPO price, and metals generally declined. At his first all-hands meeting since his reinstatement, Jensen Huang apologized and admitted to violating Nvidia's Code of Conduct, but still rejected the traditional succession plan. Anthropic's share price fell as much as 14% below its IPO price, and its founders cashed out over $560 million. Dell raised its full-year revenue guidance for AI-optimized servers from $74 billion to $78 billion. The backlog of AI server orders in the third quarter amounted to $132.3 billion, and the share price rose 4% after the bell.",
+     "id": "wscn-3205278"
+    },
+    {
+     "ts": 1795550976,
+     "source": "华尔街见闻",
+     "title_zh": "美联储10月贴现利率会议纪要：8家地方联储建议上调贴现利率",
+     "body_zh": "美联储当地时间周二公布的贴现利率会议纪要显示，在10月联邦公开市场委员会（FOMC）会议前，12家地方联储中有8家董事会曾建议将贴现率从4%上调至4.25%，涉及波士顿、克利夫兰、芝加哥、圣路易斯、明尼阿波利斯、里士满、堪萨斯城和达拉斯联储。其中，里士满、堪萨斯城和达拉斯联储董事会最初于10月8日支持维持利率不变，但在10月22日转而支持加息。美联储理事会最终两度批准维持贴现率在4%。",
+     "url": "https://wallstreetcn.com/livenews/3205202",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "04:09",
+     "title_en": "Federal Reserve October Discount Rate Meeting Minutes: Eight Regional Fed Banks Recommend Raising the Discount Rate.",
+     "body_en": "The Federal Reserve's discount rate meeting minutes, released on Tuesday local time, showed that prior to the October Federal Open Market Committee (FOMC) meeting, the boards of directors of 8 out of 12 regional Federal Reserve Banks had recommended raising the discount rate from 4% to 4.25%. These included the Federal Reserve Banks of Boston, Cleveland, Chicago, St. Louis, Minneapolis, Richmond, Kansas City, and Dallas. Among them, the boards of the Federal Reserve Banks of Richmond, Kansas City, and Dallas initially supported keeping interest rates unchanged on October 8, but then shifted to supporting a rate hike on October 22. The Federal Reserve Board ultimately approved keeping the discount rate at 4% on two occasions.",
+     "id": "wscn-3205202"
+    },
+    {
+     "ts": 1795560998,
+     "source": "新浪财经",
+     "title_zh": "11月25日隔夜要闻：美股涨跌不一 科技股下跌提振避险需求 油价上涨 铜价走低 金价下挫",
+     "body_zh": "市场 11月25日收盘：美股涨跌不一 芯片板块重挫 英伟达跌近6% Anthropic跌破IPO发行价 11月25日热门中概股涨跌不一，哔哩哔哩涨1.93%，台积电跌3...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1891351.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:56",
+     "title_en": "November 25 Overnight Headlines: U.S. stocks mixed, tech stocks decline, boosting safe-haven demand; oil prices rise, copper prices fall, gold prices drop.",
+     "body_en": "Market close on November 25: U.S. stocks were mixed, with the chip sector taking a heavy hit. Nvidia fell nearly 6%, and Anthropic fell below its IPO price. On November 25, popular Chinese ADRs were mixed, with Bilibili rising 1.93% and TSMC falling 3...",
+     "id": "sina-comos:nizwwnr1891351"
+    },
+    {
+     "ts": 1795559910,
+     "source": "新浪财经",
+     "title_zh": "受AI需求强劲推动，戴尔财报超预期并宣布250亿美元股票回购计划",
+     "body_zh": "戴尔科技（Dell Technologies）周二公布的第三财季业绩在营收和盈利两方面均超越华尔街预期，同时发布了强劲的第四财季业绩指引。财报公布后，戴尔股价在盘后交易中走高。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnp9655738.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:38",
+     "title_en": "Driven by strong demand for AI, Dell's financial report exceeded expectations, and the company announced a $25 billion share buyback plan.",
+     "body_en": "Dell Technologies' third-quarter results, announced on Tuesday, exceeded Wall Street's expectations in both revenue and earnings, and the company also issued strong guidance for its fourth quarter. Following the release of the financial report, Dell's share price rose in after-hours trading.",
+     "id": "sina-comos:nizwwnp9655738"
+    },
+    {
+     "ts": 1795560856,
+     "source": "华尔街见闻",
+     "title_zh": "四季度以来A股回购增持计划金额接近千亿元，注销式回购渐成常态",
+     "body_zh": "A股上市公司回购与重要股东增持持续升温。同花顺iFinD数据显示，四季度以来，以董事会预案公告日计，共新增回购计划303单，拟回购金额合计约725亿元（以金额上限计算）；新增重要股东增持242单，拟增持金额合计约234亿元（以金额上限计算）。数据显示，进入11月份，A股公司注销式回购热度不减，披露注销式回购计划的公司已达46家次，拟回购金额合计约97亿元（以金额上限计算）。（证券日报）",
+     "url": "https://wallstreetcn.com/livenews/3205268",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:54",
+     "title_en": "Since the fourth quarter, the amount of A-share buyback and increase in holdings plans has approached RMB 100 billion, and cancellation-type share buybacks have gradually become the norm.",
+     "body_en": "Share buybacks by A-share listed companies and increased holdings by major shareholders continue to gain momentum. According to data from Tonghuashun iFinD, since the fourth quarter, based on the announcement date of the board of directors' proposal, a total of 303 new share buyback plans have been added, with a total proposed share buyback amount of approximately RMB 72.5 billion (calculated based on the maximum amount); 242 new instances of major shareholders increasing their holdings have been added, with a total proposed increase in holdings of approximately RMB 23.4 billion (calculated based on the maximum amount). Data shows that as of November, the popularity of cancellation-type share buybacks by A-share companies has not waned. A total of 46 companies have disclosed cancellation-type share buyback plans, with a total proposed buyback amount of approximately RMB 9.7 billion (calculated based on the maximum amount). (Securities Daily).",
+     "id": "wscn-3205268"
+    },
+    {
+     "ts": 1795561039,
+     "source": "华尔街见闻",
+     "title_zh": "亚德诺半导体公司（ADI）收跌17.37%，领跌纳斯达克100指数的成分股",
+     "body_zh": "最新业绩报告显示，该公司第四财季营收43.7亿美元，分析师预期43.2亿美元。 第四财季调整后每股收益（EPS）为4.06美元，分析师预期3.89美元。 预计第一财季营收42.5亿-45.5亿美元，分析师预期43.6亿美元。 预计第一财季调整后EPS为3.62-4.02美元，分析师预期3.88美元。",
+     "url": "https://wallstreetcn.com/livenews/3205271",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:57",
+     "title_en": "Analog Devices, Inc. (ADI) closed down 17.37%, leading the decline among the Nasdaq 100 Index constituents.",
+     "body_en": "The latest earnings report shows that the company's revenue for the fourth fiscal quarter was $4.37 billion, compared to analysts' expectation of $4.32 billion. Adjusted earnings per share (EPS) for the fourth fiscal quarter was $4.06, compared to analysts' expectation of $3.89. Revenue for the first fiscal quarter is projected to be between $4.25 billion and $4.55 billion, while analysts anticipate $4.36 billion. Adjusted EPS for the first fiscal quarter is expected to be $3.62–$4.02, compared to analysts' expectation of $3.88.",
+     "id": "wscn-3205271"
+    },
+    {
+     "ts": 1795524284,
+     "source": "华尔街见闻",
+     "title_zh": "工商银行：截至目前回购增持贷款合同签订金额近1800亿元",
+     "body_zh": "自中国工商银行获悉，截至目前，工商银行已为超两百家上市公司提供股票回购增持贷款服务，回购增持贷款合同签订金额近1800亿元。（上证报）",
+     "url": "https://wallstreetcn.com/livenews/3205028",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "20:44",
+     "title_en": "Industrial and Commercial Bank of China: As of now, the amount of share buyback increase loan contracts signed is nearly RMB 180 billion.",
+     "body_en": "According to information from the Industrial and Commercial Bank of China (ICBC), as of now, ICBC has provided share buyback increase loan services to over 200 listed companies, with the signed amount of share buyback increase loan contracts reaching nearly 180 billion yuan. (Shanghai Securities News).",
+     "id": "wscn-3205028"
+    },
+    {
+     "ts": 1795556926,
+     "source": "华尔街见闻",
+     "title_zh": "周二（11月24日）纽约尾盘，现货黄金跌2.23%，报3553.67美元/盎司",
+     "body_zh": "现货白银跌5.12%，报40.8717美元/盎司。 COMEX铜期货跌4.19%，报5.4825美元/磅。 在美股时段交易的费城金银指数收跌1.86%，原材料指数收跌0.11%，金属与矿业指数收跌2.85%。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数跌1.36%，报2051.66点。",
+     "url": "https://wallstreetcn.com/livenews/3205243",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:48",
+     "title_en": "At the close of trading in New York on Tuesday (November 24), spot gold fell by 2.23% to $3,553.67 per ounce.",
+     "body_en": "Spot silver fell by 5.12% to $40.8717/oz. COMEX copper futures fell by 4.19% to $5.4825/lb. During U.S. trading hours, the Philadelphia Gold and Silver Index closed down 1.86%, the Raw Materials Index closed down 0.11%, and the Metals and Mining Index closed down 2.85%. The NYSE ARCA Gold Miners Index, which trades throughout the day in global markets, fell 1.36% to 2051.66 points.",
+     "id": "wscn-3205243"
+    },
+    {
+     "ts": 1795556555,
+     "source": "华尔街见闻",
+     "title_zh": "标普500指数的11个板块中，保健板块收涨2.88%，日用消费品、公用事业、",
+     "body_zh": "标普500指数的11个板块中，保健板块收涨2.88%，日用消费品、公用事业、房地产板块至多涨1.73%，电信板块跌0.46%，工业板块跌0.51%，信息技术/科技板块跌2.77%。",
+     "url": "https://wallstreetcn.com/livenews/3205239",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "05:42",
+     "title_en": "Among the 11 sectors of the S&P 500 Index, the healthcare sector closed up 2.88%, while consumer staples, utilities,.",
+     "body_en": "Among the 11 sectors of the S&P 500 Index, the healthcare sector rose by 2.88%, the consumer staples, utilities, and real estate sectors rose by up to 1.73%, the telecommunications sector fell by 0.46%, the industrials sector fell by 0.51%, and the information technology/tech sector fell by 2.77%.",
+     "id": "wscn-3205239"
+    },
+    {
+     "ts": 1795530682,
+     "source": "华尔街见闻",
+     "title_zh": "美股开盘：Anthropic破发，纳斯达克100指数跌1.7%，半导体指数跌4.3%",
+     "body_zh": "美股盘初，英伟达跌5.4%，Anthropic跌5.9%、最低至80.64美元——跌破上周美国IPO发行价83美元，美光、闪迪、AMD、SK海力士ADR、英特尔、希捷科技、Lumentum、CoreWeave、Nebius集团等至多跌约5.8%。 惠与（HPE）跌13%，创11月5日以来最大盘中跌幅。 Insmed涨14%，创1月份以来盘中新高。 美元树涨7%。",
+     "url": "https://wallstreetcn.com/livenews/3205081",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "22:31",
+     "title_en": "U.S. Stock Market Opens: Anthropic's IPO Fails, Nasdaq 100 Index Drops 1.7%, Semiconductor Index Falls 4.3%.",
+     "body_en": "At the start of U.S. trading, Nvidia fell 5.4%, Anthropic fell 5.9% to a low of $80.64 — below last week's U.S. IPO price of $83. Micron, SanDisk, AMD, SK Hynix ADR, Intel, Seagate Technology, Lumentum, CoreWeave, Nebius Group, and others fell by up to about 5.8%. Hewlett Packard Enterprise (HPE) fell 13%, marking its largest intraday decline since November 5. Insmed rose 14%, reaching a new intraday high since January. Dollar Tree rose 7%.",
+     "id": "wscn-3205081"
+    },
+    {
+     "ts": 1795538106,
+     "source": "华尔街见闻",
+     "title_zh": "伦铜创3月以来新低，科技股回撤+特朗普关税风险带来双重打击",
+     "body_zh": "LME期铜跌超5.5%，报11775美元，逼近3月23日底部11700美元。",
+     "url": "https://wallstreetcn.com/livenews/3205134",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "00:35",
+     "title_en": "LME copper hits a new low since March, with a double blow from the pullback in tech stocks and the risk of Trump tariffs.",
+     "body_en": "LME copper futures fell by over 5.5% to $11,775, approaching the low of $11,700 on March 23.",
+     "id": "wscn-3205134"
+    },
+    {
+     "ts": 1795562670,
+     "source": "华尔街见闻",
+     "title_zh": "1000千伏高阻抗特高压变压器研制成功",
+     "body_zh": "近日从中国电科院获悉，我国自主研制的1000千伏高阻抗特高压变压器样机研发成功，一次性通过全部型式试验。这将助力高端输变电装备国产化升级，为新能源大规模并网、特高压网架安全提供关键支撑，对推动特高压输电技术发展和装备产业链升级具有重要意义。（科技日报）",
+     "url": "https://wallstreetcn.com/livenews/3205281",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "07:24",
+     "title_en": "Successful Development of 1000 kV High-Impedance Ultra-High Voltage Transformer.",
+     "body_en": "Recently, it was learned from the China Electric Power Research Institute that China's independently developed 1000 kV high-impedance ultra-high-voltage transformer prototype has been successfully developed and has passed all type tests on the first attempt. This will facilitate the localization and upgrading of high-end power transmission and transformation equipment, provide key support for the large-scale grid connection of new energy sources and the safety of ultra-high-voltage grid structures, and is of great significance for promoting the development of ultra-high-voltage power transmission technology and the upgrading of the equipment industry chain. (Science and Technology Daily).",
+     "id": "wscn-3205281"
+    },
+    {
+     "ts": 1795520060,
+     "source": "华尔街见闻",
+     "title_zh": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+     "body_zh": "中央政治局委员、上海市委书记陈吉宁涉嫌严重违纪违法，目前正接受中央纪委国家监委审查调查。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3205005",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "19:34",
+     "title_en": "Chen Jining is Under Investigation by the Central Commission for Discipline Inspection and the National Supervisory Commission for Suspected Serious Violations of Discipline and the Law.",
+     "body_en": "Chen Jining, a member of the Political Bureau of the CPC Central Committee and Secretary of the CPC Shanghai Municipal Committee, is suspected of serious violations of discipline and the law and is currently under investigation by the CPC Central Commission for Discipline Inspection and the National Supervisory Commission. (Xinhua News Agency).",
+     "id": "wscn-3205005"
+    },
+    {
+     "ts": 1795540370,
+     "source": "华尔街见闻",
+     "title_zh": "报道：继Neomille之后，巴西石油公司将寻求更多玉米乙醇交易",
+     "body_zh": "据知情人士透露，在同意从CerradinhoBio手中收购Neomille 42%的股份后，巴西国有石油公司巴西石油公司（Petrobras）预计将寻求增持玉米乙醇生产商的更多股份。该公司正寻求扩大其在可再生能源领域的布局，并认为此举与生产包括可持续航空燃料（SAF）在内的其他可持续燃料的原料具有协同效应。",
+     "url": "https://wallstreetcn.com/livenews/3205148",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:12",
+     "title_en": "Report: Following Neomille, Petrobras will seek more corn ethanol deals.",
+     "body_en": "According to sources, after agreeing to acquire a 42% stake in Neomille from CerradinhoBio, Brazil's state-owned oil company Petrobras is expected to seek to increase its stake in the corn ethanol producer. The company is seeking to expand its presence in the renewable energy sector and believes that this move will create synergies with the production of feedstocks for other sustainable fuels, including sustainable aviation fuel (SAF).",
+     "id": "wscn-3205148"
+    },
+    {
+     "ts": 1795556479,
+     "source": "华尔街见闻",
+     "title_zh": "周二（11月24日），美股行业ETF多数收涨，生物科技指数ETF收涨5.17",
+     "body_zh": "周二（11月24日），美股行业ETF多数收涨，生物科技指数ETF收涨5.17%，医疗业ETF涨2.95%，能源业ETF涨0.97%，网络股指数ETF收跌1.08%，全球科技股指数ETF跌3.21%，科技行业ETF跌3.26%，半导体 ETF跌7.26%。",
+     "url": "https://wallstreetcn.com/livenews/3205238",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "05:41",
+     "title_en": "On Tuesday (November 24), most U.S. sector ETFs closed higher, with the Biotechnology Index ETF closing up 5.17%.",
+     "body_en": "On Tuesday (November 24), most U.S. sector ETFs closed higher. The Biotechnology Index ETF closed up 5.17%, the Healthcare Sector ETF rose 2.95%, and the Energy Sector ETF rose 0.97%. The Internet Stocks Index ETF closed down 1.08%, the Global Technology Stocks Index ETF fell 3.21%, the Technology Sector ETF fell 3.26%, and the Semiconductor ETF fell 7.26%.",
+     "id": "wscn-3205238"
+    },
+    {
+     "ts": 1795563302,
+     "source": "华尔街见闻",
+     "title_zh": "纳斯达克生物科技指数收涨超5.8%，成分股Tenaya Therapeuti",
+     "body_zh": "纳斯达克生物科技指数收涨超5.8%，成分股Tenaya Therapeutics收涨34.62%，Anavex Life Sciences涨29.99%，Phathom Pharma涨22.36%，Cogent Biosciences涨17.43%表现第四。",
+     "url": "https://wallstreetcn.com/livenews/3205282",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:35",
+     "title_en": "The Nasdaq Biotechnology Index closed up more than 5.8%, with its constituent stock Tenaya Therapeutics.",
+     "body_en": "The Nasdaq Biotechnology Index closed up over 5.8%. Among its constituent stocks, Tenaya Therapeutics closed up 34.62%, Anavex Life Sciences rose 29.99%, Phathom Pharma rose 22.36%, and Cogent Biosciences rose 17.43%, ranking fourth in performance.",
+     "id": "wscn-3205282"
+    },
+    {
+     "ts": 1795559829,
+     "source": "华尔街见闻",
+     "title_zh": "斯泰兰蒂斯Stellantis NV加拿大分部起诉代表加拿大安大略省Bram",
+     "body_zh": "斯泰兰蒂斯Stellantis NV加拿大分部起诉代表加拿大安大略省Brampton闲置工厂工人的工会，指控后者阻挠人们进入该工厂。",
+     "url": "https://wallstreetcn.com/livenews/3205263",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:37",
+     "title_en": "Stellantis NV Canada Division files lawsuit on behalf of Bram, Ontario, Canada.",
+     "body_en": "Stellantis NV's Canadian division has filed a lawsuit against the union representing workers at its idled plant in Brampton, Ontario, Canada, accusing the union of blocking access to the plant.",
+     "id": "wscn-3205263"
+    },
+    {
+     "ts": 1795553351,
+     "source": "华尔街见闻",
+     "title_zh": "拉美货币与股市普遍下跌，哥伦比亚比索领跌",
+     "body_zh": "多数拉丁美洲货币和股市走低，其中哥伦比亚比索领跌，市场对该国财政前景的担忧重创了本币汇率；与此同时，受财政整顿乐观情绪提振，巴西资产有望结束连续三天的跌势。 除哥伦比亚比索外，该地区所有主要货币今年均料将录得大幅年度跌幅，明晟（MSCI）拉美股票基准指数今年累计跌幅预计也将达到5%。 哥伦比亚比索目前跌3%，自今年6月以来首次跌破1美元兑3,600比索大关，恐将连续第五个交易日下跌。",
+     "url": "https://wallstreetcn.com/livenews/3205214",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "04:49",
+     "title_en": "Latin American currencies and stock markets generally declined, with the Colombian peso leading the drop.",
+     "body_en": "Most Latin American currencies and stock markets are down, with the Colombian peso leading the decline. Concerns about the country's fiscal outlook have severely impacted the local currency's exchange rate. Meanwhile, buoyed by optimism over fiscal consolidation, Brazilian assets are expected to end their three-day losing streak. With the exception of the Colombian peso, all major currencies in the region are expected to record significant annual declines this year, and the MSCI Latin America Equity Benchmark Index is also expected to see a cumulative decline of 5% this year. The Colombian peso is currently down 3%, falling below the 3,600 pesos to 1 U.S. dollar mark for the first time since June this year, and is likely to decline for the fifth consecutive trading day.",
+     "id": "wscn-3205214"
+    }
+   ],
+   "story": {
+    "id": "carnegie-telegraph",
+    "name_zh": "安德鲁·卡内基",
+    "name_en": "Andrew Carnegie",
+    "era": "1850s · 美国匹兹堡",
+    "title_zh": "从每周一美元二毛，到钢铁大王",
+    "title_en": "From a Dollar Twenty a Week to Steel",
+    "body_zh": "卡内基十三岁移民美国，第一份工每周挣一美元二毛。当电报信童时，他背下全城商户的名字和脸。二十几岁把全部身家压进钢铁，建成世界最大钢铁厂。晚年捐出九成财产。",
+    "body_en": "Andrew Carnegie arrived in America from Scotland at thirteen. His first job paid one dollar and twenty cents a week. As a messenger boy, he memorized every business in town. In his thirties he bet everything on steel, built the largest steel company in the world, then gave away ninety percent of it.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Pittsburgh, eighteen fifty. A thirteen year old Scottish immigrant starts his first job. It pays one dollar and twenty cents a week.",
+      "zh": "匹兹堡，1850 年。一个十三岁的苏格兰移民开始第一份工作，周薪一美元二毛。"
+     },
+     {
+      "k": "dial",
+      "who": "Foreman",
+      "g": "M2",
+      "en": "Boy, the telegraph office needs a messenger. Can you learn the streets?",
+      "zh": "小子，电报局要个信童。你能把街巷记熟吗？"
+     },
+     {
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M",
+      "en": "I will learn more than the streets, sir. I will learn every business in town, and every face behind the door.",
+      "zh": "先生，我记的不只是街巷。我要记住全城每一家商户，和每扇门后面的每张脸。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "While other boys played, he drilled himself on the telegraph key, and became the fastest ear in the city.",
+      "zh": "别的孩子去玩了，他对着电报机日夜苦练，成了全城收发电报最快的人。"
+     },
+     {
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M",
+      "en": "Save it, invest it early, and when you find your industry, bet everything on it.",
+      "zh": "把钱存下来，早一点投出去。找到属于自己的行业时，就把全部身家押上去。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "He built the largest steel company in the world. Then he gave ninety percent of it away, with one line for the history books. Dying rich is a disgrace.",
+      "zh": "他建成了世界最大的钢铁公司，然后捐出了九成财产，只留给历史一句话：带着巨富死去，是一种耻辱。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "rothschild-early",
+    "tag_zh": "金融世家心得",
+    "tag_en": "Banking Family Secret",
+    "title_zh": "我是靠卖得太早赚的钱",
+    "title_en": "I Made My Fortune by Selling Too Early",
+    "body_zh": "罗斯柴尔德家族的男爵说过一句反直觉的话：我是靠卖得太早，才赚到钱的。人人都怕卖早了少赚，可他偏偏说卖早是美德。背后的道理是：没人能卖在最高点，总想赚最后一分钱的人，往往连本带利还回去。留给读者一个问题：你手里的盈利，是因为贪心多等了几天，还是因为纪律提前落袋？",
+    "body_en": "Baron Rothschild said something that sounds backwards. I made my fortune by selling too early. Everyone fears selling too soon and missing the top. He called selling early a virtue. The logic is simple. Nobody sells at the exact peak. People who chase the last penny usually return everything, and more. So here is a question worth thinking about. Your last winning trade. Did you hold longer out of greed, or exit early out of discipline?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 11.019,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 11.819,
+      "dur": 5.385,
+      "k": "dial",
+      "who": "Foreman",
+      "g": "M2"
+     },
+     {
+      "start": 17.755,
+      "dur": 6.821,
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M"
+     },
+     {
+      "start": 25.126,
+      "dur": 7.843,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 33.519,
+      "dur": 5.397,
+      "k": "dial",
+      "who": "Carnegie",
+      "g": "M"
+     },
+     {
+      "start": 39.466,
+      "dur": 12.449,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "b21bb40a7b87",
+    "item-00.mp3": "99a1097a4e98",
+    "item-01.mp3": "78e50cfa9738",
+    "item-02.mp3": "36e73e02d357",
+    "item-03.mp3": "e36347f1f94d",
+    "item-04.mp3": "b4af2285b29b",
+    "item-05.mp3": "99ddeeda94e3",
+    "item-06.mp3": "1aaf43608711",
+    "item-07.mp3": "77cde3ab82ac",
+    "item-08.mp3": "cd37236dedf3",
+    "item-09.mp3": "534a29fd2a35",
+    "item-10.mp3": "45a1b6220c45",
+    "item-11.mp3": "6a0e32f5ea10",
+    "item-12.mp3": "523e3ace3816",
+    "item-13.mp3": "3aca2f15725f",
+    "item-14.mp3": "71c7083118fb",
+    "item-15.mp3": "b088d9bd7f94",
+    "item-16.mp3": "e15992cf1a61",
+    "item-17.mp3": "3c042c20d6b2",
+    "story.mp3": "43361d53e05b",
+    "joke.mp3": "45ac90111c46"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.587
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.487,
+      "dur": 64.749
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 75.136,
+      "dur": 60.924
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 136.96,
+      "dur": 39.075
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 176.935,
+      "dur": 27.181
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 205.015,
+      "dur": 87.938
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 293.853,
+      "dur": 56.921
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 351.674,
+      "dur": 33.884
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 386.458,
+      "dur": 51.477
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 438.835,
+      "dur": 40.923
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 480.658,
+      "dur": 56.57
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 538.128,
+      "dur": 20.452
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 559.48,
+      "dur": 49.829
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 610.209,
+      "dur": 38.883
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 649.991,
+      "dur": 34.419
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 685.311,
+      "dur": 54.392
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 740.603,
+      "dur": 31.597
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 773.099,
+      "dur": 22.841
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 796.841,
+      "dur": 59.721
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-24",
    "weekday_en": "Tuesday",
@@ -3320,562 +3876,6 @@ window.__BRIEF__ = {
       "file": "item-17.mp3",
       "start": 761.831,
       "dur": 42.458
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-18",
-   "weekday_en": "Wednesday",
-   "weekday_zh": "周三",
-   "generated_at": "2026-11-18 07:40",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3584.58,
-     "chg_pct": -0.5
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 10638.52,
-     "chg_pct": -0.49
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2292.2,
-     "chg_pct": -1.2
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1221.19,
-     "chg_pct": 0.62
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 23508.17,
-     "chg_pct": -1.03
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 50759.42,
-     "chg_pct": -1.64
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 24328.38,
-     "chg_pct": -0.74
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7340.53,
-     "chg_pct": -1.03
-    }
-   ],
-   "items": [
-    {
-     "ts": 1794958300,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年11月18日",
-     "body_zh": "标普、纳指四连跌，软件股重挫，盘后英伟达涨4%，美元结束五连涨。 中国商务部：中加两国同意将初步联合安排的相关豁免措施延长2年。 英伟达上季营收首破千亿，本季指引再超预期创新高，Vera Rubin爆发式开局。电话会：董事会主席称公司实力超群，不打算恢复黄仁勋的CEO职务。 黄仁勋离任后首发声，愿意重返英伟达担任CEO；将于12月1日出席美国国会听证。报道：美SEC调查英伟达。",
-     "url": "https://wallstreetcn.com/livenews/3201583",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:31",
-     "title_en": "Wall Street Journal Breakfast | November 18, 2026.",
-     "body_en": "The S&P and Nasdaq fell for the fourth consecutive day, software stocks took a heavy hit, and Nvidia rose 4% after the bell. The U.S. dollar ended its five-day winning streak. China's Ministry of Commerce: China and Canada have agreed to extend the exemption measures related to the initial joint arrangement for two years. Nvidia's revenue exceeded 100 billion for the first time last quarter, and its guidance for this quarter once again surpassed expectations, reaching a new high. Vera Rubin had an explosive start. Conference call: The Chairman of the Board stated that the company is exceptionally strong and has no plans to reinstate Jensen Huang as CEO. In his first statement since stepping down, Jensen Huang expressed his willingness to return to Nvidia as CEO. He will attend a U.S. congressional hearing on December 1. Report: The U.S. SEC is investigating Nvidia.",
-     "id": "wscn-3201583"
-    },
-    {
-     "ts": 1794958629,
-     "source": "新浪财经",
-     "title_zh": "英伟达上调财测 董事会坚决拒绝黄仁勋回归",
-     "body_zh": "英伟达给出的营收展望超过了华尔街的预期，表明需求在首席执行官黄仁勋被迫离开这个全球最大的芯片制造商后依旧强劲。 该公司在周二公布的财报中预计...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcexp7070173.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:37",
-     "title_en": "Nvidia raises financial forecast; the Board of Directors firmly rejects Jensen Huang's return.",
-     "body_en": "Nvidia's revenue forecast exceeded Wall Street's expectations, indicating that demand remains strong even after CEO Jensen Huang was forced to step down from the world's largest chipmaker. In its financial report released on Tuesday, the company projected...",
-     "id": "sina-comos:nizcexp7070173"
-    },
-    {
-     "ts": 1794952226,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达CEO更迭后首次发布乐观指引",
-     "body_zh": "英伟达公司发布的销售预测超出华尔街预期，表明在首席执行官黄仁勋（Jensen Huang）仓促离职后，需求依然强劲。 英伟达周二在一份声明中表示，第四财季营收预计为1,300亿美元，上下浮动3%。分析师的平均预期为1,253亿美元。该季度的毛利率（扣除生产成本后的销售占比）预计约为71.5%。 这一指引表明，英伟达将继续受益于人工智能计算需求的飙升——尽管公司面临的挑战日益增多。",
-     "url": "https://wallstreetcn.com/livenews/3201536",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:50",
-     "title_en": "Nvidia issues optimistic guidance for the first time since the change of CEO.",
-     "body_en": "Nvidia's sales forecast exceeded Wall Street's expectations, indicating that demand remains strong following the abrupt departure of CEO Jensen Huang. In a statement on Tuesday, Nvidia said it expects revenue of $130 billion for the fourth fiscal quarter, plus or minus 3%. Analysts, on average, had expected $125.3 billion. The gross margin for the quarter (the percentage of sales after deducting production costs) is expected to be around 71.5%. This guidance indicates that Nvidia will continue to benefit from the surging demand for AI computing — despite the growing challenges facing the company.",
-     "id": "wscn-3201536"
-    },
-    {
-     "ts": 1794958713,
-     "source": "新浪财经",
-     "title_zh": "黄仁勋离职动摇客户信心，AMD与谷歌蚕食英伟达市场份额",
-     "body_zh": "早在黄仁勋上周辞去英伟达首席执行官一职之前，来自AMD等规模较小竞争对手的人工智能（AI）芯片，就已经开始赢得用户的青睐。黄仁勋的离职很可能会进一步强化这种市场情绪...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcexp7070716.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:38",
-     "title_en": "Jensen Huang's departure shakes customer confidence, while AMD and Google erode Nvidia's market share.",
-     "body_en": "Even before Jensen Huang stepped down as Nvidia's CEO last week, AI chips from smaller competitors like AMD had already begun to gain favor with users. Jensen Huang's resignation is likely to further reinforce this market sentiment...",
-     "id": "sina-comos:nizcexp7070716"
-    },
-    {
-     "ts": 1794958015,
-     "source": "新浪财经",
-     "title_zh": "英伟达：仍在评估新出口管制的潜在影响",
-     "body_zh": "在前首席执行官黄仁勋卷入丑闻后，英伟达仍在评估更严格的出口审查将如何影响该公司。临时首席执行官科莱特·克雷斯表示，管理层已评估美国商务部本周发布的新出口管制措施...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcexp1687969.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:26",
-     "title_en": "Nvidia: Still assessing the potential impact of new export controls.",
-     "body_en": "Following the scandal involving former CEO Jensen Huang, Nvidia is still assessing how stricter export controls will affect the company. Interim CEO Colette Kress stated that management has assessed the new export control measures issued by the U.S. Department of Commerce this week...",
-     "id": "sina-comos:nizcexp1687969"
-    },
-    {
-     "ts": 1794957445,
-     "source": "新浪财经",
-     "title_zh": "股海导航_2026年11月18日_沪深股市公告与交易提示",
-     "body_zh": "【停牌】 无 【复牌】 无 【品大事】 新华传媒：股票交易异常波动，重组事项存不确定性 新华传媒发布异动公告称，公司股票于2026年11月13日、11月16日...",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-18/doc-inizcexp1688503.shtml",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:17",
-     "title_en": "Stock Market Guide_November 18, 2026_Shanghai and Shenzhen Stock Market Announcements and Trading Reminders.",
-     "body_en": "【Trading Suspension】 None 【Trading Resumption】 None 【Significant News】 Xinhua News Media: Unusual share price fluctuations, uncertainty regarding restructuring matters Xinhua News Media issued an announcement regarding the unusual fluctuations, stating that the company's stock experienced unusual fluctuations on November 13 and November 16, 2024...",
-     "id": "sina-comos:nizcexp1688503"
-    },
-    {
-     "ts": 1794950519,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达三季度营收1158亿美元，分析师预期1093.3亿美元",
-     "body_zh": "数据中心营收1076亿美元，分析师预期1018.7亿美元。英伟达盘后涨2.8%。",
-     "url": "https://wallstreetcn.com/livenews/3201524",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:21",
-     "title_en": "Nvidia's Q3 revenue was $115.8 billion, compared to analysts' expectation of $109.33 billion.",
-     "body_en": "Data center revenue was $107.6 billion, compared to analysts' expectation of $101.87 billion. Nvidia rose 2.8% after the bell.",
-     "id": "wscn-3201524"
-    },
-    {
-     "ts": 1794950481,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达三季度数据中心营收超预期，四季度指引超预期，股价盘后涨4%",
-     "body_zh": "英伟达三季度营收1158亿美元，季环比增长20.3%、同比增长103.1%，分析师预期1093.3亿美元。 三季度数据中心营收1076亿美元，分析师预期1018.7亿美元。 三季度计算、网络营收1060亿美元，分析师预期982.7亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3201522",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:21",
-     "title_en": "Nvidia's third-quarter data center revenue exceeded expectations, and its fourth-quarter guidance also exceeded expectations, causing its share price to rise by 4% after the bell.",
-     "body_en": "Nvidia's revenue for the third quarter was $115.8 billion, up 20.3% quarter-over-quarter and 103.1% year-over-year, compared to analysts' expectation of $109.33 billion. Data center revenue in Q3 was $107.6 billion, compared to analysts' expectation of $101.87 billion. Computing and networking revenue in Q3 was $106 billion, compared to analysts' expectation of $98.27 billion.",
-     "id": "wscn-3201522"
-    },
-    {
-     "ts": 1794952105,
-     "source": "华尔街见闻",
-     "title_zh": "周二（11月17日）纽约尾盘，现货黄金跌0.15%，报3850.96美元/盎司",
-     "body_zh": "现货白银涨0.84%，报47.4147美元/盎司。 COMEX铜期货跌0.13%，报6.0945美元/磅。",
-     "url": "https://wallstreetcn.com/livenews/3201535",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:48",
-     "title_en": "At the close of trading in New York on Tuesday (November 17), spot gold fell 0.15% to $3,850.96/oz.",
-     "body_en": "Spot silver rose by 0.84% to $47.4147/oz. COMEX copper futures fell by 0.13% to $6.0945/lb.",
-     "id": "wscn-3201535"
-    },
-    {
-     "ts": 1794955053,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达：预计四季度营收将为1300亿美元+/-3%",
-     "body_zh": "英伟达：预计四季度营收将为1300亿美元+/-3%",
-     "url": "https://wallstreetcn.com/livenews/3201561",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:37",
-     "title_en": "Nvidia: Q4 revenue is expected to be $130 billion +/-3%.",
-     "body_en": "Nvidia: Q4 revenue is expected to be $130 billion +/-3%.",
-     "id": "wscn-3201561"
-    },
-    {
-     "ts": 1794954916,
-     "source": "华尔街见闻",
-     "title_zh": "微软：英伟达闹剧可能会利好竞争对手的那些芯片",
-     "body_zh": "微软：英伟达闹剧可能会利好竞争对手的那些芯片",
-     "url": "https://wallstreetcn.com/livenews/3201559",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:35",
-     "title_en": "Microsoft: The Nvidia fiasco could benefit its competitors' chips.",
-     "body_en": "Microsoft: The Nvidia fiasco could benefit its competitors' chips.",
-     "id": "wscn-3201559"
-    },
-    {
-     "ts": 1794927287,
-     "source": "华尔街见闻",
-     "title_zh": "今年上海二手房网签套数已超去年全年，11月多个新房楼盘开盘“日光”",
-     "body_zh": "11月过半，上海楼市延续“银十”热度。上海市房地产交易中心官网“网上房地产”数据显示，11月14日、11月15日，上海二手房（含商业）单日网签连续突破千套；截至11月15日，全市二手房已累计网签超1.3万套，同比上涨14%。拉长全年看，据安居客上海监测，截至11月15日，2026年上海二手房累计网签已达254737套，同比上涨约16%，已超2025年全年网签总量。",
-     "url": "https://wallstreetcn.com/livenews/3201380",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "22:54",
-     "title_en": "This year, the number of online-signed second-hand housing units in Shanghai has already exceeded the total for the whole of last year. In November, several new housing developments sold out on the day of their launch.",
-     "body_en": "More than halfway through November, Shanghai's real estate market continues the momentum of \"Golden October.\" According to data from the \"Online Real Estate\" section of the official website of the Shanghai Real Estate Transaction Center, on November 14 and 15, the number of pre-contracted second-hand properties (including commercial properties) in Shanghai exceeded 1,000 units per day for two consecutive days. As of November 15, the cumulative number of pre-contracted second-hand properties across the city had surpassed 13,000 units, representing a year-on-year increase of 14%. Looking at the full year, according to Anjuke Shanghai's monitoring, as of November 15, the cumulative number of online-registered pre-owned homes in Shanghai in 2026 had reached 254,737 units, an increase of about 16% year-on-year, already surpassing the total number of online-registered homes for the entire year of 2025.",
-     "id": "wscn-3201380"
-    },
-    {
-     "ts": 1794954827,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达董事会主席",
-     "body_zh": "将从公司内部、外部寻找CEO候选人。 这将是一个“细致的过程”。 我们不会“加速”CEO的任命过程。",
-     "url": "https://wallstreetcn.com/livenews/3201558",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:33",
-     "title_en": "Nvidia Board Chair.",
-     "body_en": "CEO candidates will be sought from both within and outside the company. This will be a \"meticulous process.\" We will not \"accelerate\" the CEO appointment process.",
-     "id": "wscn-3201558"
-    },
-    {
-     "ts": 1794953088,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达董事会主席Harvey Jones Jr.在电话会议上称公司实力超群，",
-     "body_zh": "英伟达董事会主席Harvey Jones Jr.在电话会议上称公司实力超群，不打算恢复黄仁勋的CEO职务。 公司已经任命了监督委员会。 公司不会回答（投资者）与黄仁勋相关的提问。 英伟达股价盘后转跌。",
-     "url": "https://wallstreetcn.com/livenews/3201540",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "06:04",
-     "title_en": "Nvidia Board Chairman Harvey Jones Jr.During the conference call, he stated that the company is exceptionally strong,.",
-     "body_en": "Nvidia Board Chairman Harvey Jones Jr.During the conference call, he stated that the company is exceptionally strong and has no intention of reinstating Jensen Huang as CEO. The company has appointed an Oversight Committee. The company will not answer questions (from investors) related to Jensen Huang. Nvidia's share price turned lower after the bell.",
-     "id": "wscn-3201540"
-    },
-    {
-     "ts": 1794938050,
-     "source": "华尔街见闻",
-     "title_zh": "LME期铜收跌30美元，报13226美元/吨",
-     "body_zh": "LME期铝收跌70美元，报2934美元/吨。 LME期锌收跌22美元，报3675美元/吨。 LME期铅收跌3美元，报1872美元/吨。 LME期镍收涨604美元，报16462美元/吨。 LME期锡收跌1115美元，报45059美元/吨。 LME期钴收平，报33525美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3201454",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:54",
-     "title_en": "LME Copper Futures Close Down $30 at $13,226/Metric Ton.",
-     "body_en": "LME aluminum futures closed down $70 at $2,934/ton. LME zinc futures closed down $22 at $3,675/ton. LME lead futures closed down $3 at $1,872/ton. LME nickel futures closed up $604 at $16,462/ton. LME tin futures closed down $1,115 at $45,059/ton. LME cobalt futures closed flat at US$33,525/ton.",
-     "id": "wscn-3201454"
-    },
-    {
-     "ts": 1794935294,
-     "source": "华尔街见闻",
-     "title_zh": "国际铜夜盘收跌0.08%，沪铜收跌0.38%，沪铝收跌1.33%，沪锌收跌0",
-     "body_zh": "国际铜夜盘收跌0.08%，沪铜收跌0.38%，沪铝收跌1.33%，沪锌收跌0.4%，沪铅收跌0.35%，沪镍收涨3.04%，沪锡收跌1.35%。 氧化铝夜盘收跌0.31%，铝合金收跌1.01%。 不锈钢夜盘收涨2.62%。",
-     "url": "https://wallstreetcn.com/livenews/3201440",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:08",
-     "title_en": "International copper night session closed down 0.08%, Shanghai copper closed down 0.38%, Shanghai aluminum closed down 1.33%, and Shanghai zinc closed down 0%.",
-     "body_en": "The London Metal Exchange copper night session closed down 0.08%, Shanghai copper closed down 0.38%, Shanghai aluminum closed down 1.33%, Shanghai zinc closed down 0.4%, Shanghai lead closed down 0.35%, Shanghai nickel closed up 3.04%, and Shanghai tin closed down 1.35%. The night session for alumina closed down 0.31%, and aluminum alloy closed down 1.01%. The stainless steel night session closed up 2.62%.",
-     "id": "wscn-3201440"
-    },
-    {
-     "ts": 1794934473,
-     "source": "华尔街见闻",
-     "title_zh": "德鲁肯米勒称做空铜，对股市持中性立场",
-     "body_zh": "亿万富翁斯坦·德鲁肯米勒（Stan Druckenmiller）表示，他对铜持看空态度，目前基本选择远离股市。他记不清何时市场对未来一年的走向如此缺乏清晰度。 杜肯家族办公室（Duquesne Family Office）创始人德鲁肯米勒称，目前他仅持有少量美元头寸，对股市既不做多也不做空。“我们基本上选择回避，”他说。“我们现在的目标是不亏钱，而不是赚钱。”",
-     "url": "https://wallstreetcn.com/livenews/3201435",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "00:54",
-     "title_en": "Druckenmiller says he is shorting copper and taking a neutral stance on the stock market.",
-     "body_en": "Billionaire Stan Druckenmiller says he is bearish on copper and is currently largely staying away from the stock market. He cannot recall a time when the market's direction for the coming year was so unclear. Druckenmiller, the founder of Duquesne Family Office, said that he currently holds only a small U.S. dollar position and is neither long nor short on the stock market. \"We've basically chosen to stay away,\" he said. \"Our goal now is not to lose money, not to make money.\"",
-     "id": "wscn-3201435"
-    },
-    {
-     "ts": 1794949145,
-     "source": "华尔街见闻",
-     "title_zh": "报道：英伟达据报遭美国SEC，涉及公司披露是否误导投资者",
-     "body_zh": "据华尔街日报报道，在英伟达应对前首席执行官黄仁勋离任引发的后续影响之际，美国证券交易委员会(SEC)正在调查该公司。目前尚无法立即得知SEC调查的重点，但调查内容包括英伟达的信息披露是否对投资者构成误导。 黄仁勋上周披露自己有婚外情后，英伟达陷入前所未有的危机，引发公司股价大幅下挫，并导致他本人离职。他的披露还引发了潜在的国家安全担忧。",
-     "url": "https://wallstreetcn.com/livenews/3201508",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "04:59",
-     "title_en": "Report: Nvidia reportedly under investigation by the U.S. SEC over whether the company's disclosures misled investors.",
-     "body_en": "According to the Wall Street Journal, the U.S. Securities and Exchange Commission (SEC) is investigating Nvidia as the company grapples with the fallout from the departure of its former CEO, Jensen Huang. The focus of the SEC's investigation is not yet known, but it includes whether Nvidia's disclosures were misleading to investors. After Jensen Huang disclosed his extramarital affair last week, Nvidia plunged into an unprecedented crisis, causing the company's share price to plummet and leading to his resignation. His disclosure also raised potential national security concerns.",
-     "id": "wscn-3201508"
-    }
-   ],
-   "story": {
-    "id": "soros-pound",
-    "name_zh": "乔治·索罗斯",
-    "name_en": "George Soros",
-    "era": "1992 · 伦敦",
-    "title_zh": "一夜之间，与英格兰银行对赌的人",
-    "title_en": "The Night He Bet Against the Bank of England",
-    "body_zh": "一九九二年，英镑被固定汇率锁在偏高的位置。索罗斯判断英国撑不住。九月十六日英国一天加息两次仍挡不住卖盘，当晚英镑暴跌。他的基金净赚约十亿美元，报纸标题写着打垮了英格兰银行。",
-    "body_en": "In nineteen ninety-two, the British pound was locked into a fixed exchange rate that was too high. On September sixteenth, Britain raised rates twice in one day. It was not enough. That evening, the pound crashed. His fund made about one billion dollars.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "London, September, nineteen ninety-two. Black Wednesday is only hours away.",
-      "zh": "伦敦，1992 年 9 月。距离黑色星期三，只剩几个小时了。"
-     },
-     {
-      "k": "dial",
-      "who": "Trader",
-      "g": "M2",
-      "en": "George, the Bank of England keeps defending the pound. Rates went up again this morning.",
-      "zh": "乔治，英格兰银行还在死守英镑，今天上午又加息了。"
-     },
-     {
-      "k": "dial",
-      "who": "Soros",
-      "g": "M",
-      "en": "A weak economy cannot defend an overvalued currency forever. Increase the position.",
-      "zh": "疲软的经济，守不住高估的货币。继续加仓。"
-     },
-     {
-      "k": "dial",
-      "who": "Trader",
-      "g": "M2",
-      "en": "All of it? This is the Bank of England we are betting against.",
-      "zh": "全部押上？我们赌的对手可是英格兰银行。"
-     },
-     {
-      "k": "dial",
-      "who": "Soros",
-      "g": "M",
-      "en": "When a trade is right, go for the jugular.",
-      "zh": "当一笔交易是对的，就要直取要害。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "That evening Britain gave up, and the pound crashed out of the system. His fund made about one billion dollars. Newspapers said he broke the Bank of England.",
-      "zh": "当晚，英国投降了，英镑暴跌退出汇率机制。他的基金净赚约十亿美元。报纸标题写着：他打垮了英格兰银行。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "shoeshine-boy",
-    "tag_zh": "1929年的擦鞋童",
-    "tag_en": "The Shoeshine Boy, 1929",
-    "title_zh": "擦鞋童都在荐股的那天，他清仓离场",
-    "title_en": "When the Shoeshine Boy Gave Stock Tips",
-    "body_zh": "一九二九年，约瑟夫·肯尼迪让擦鞋童擦鞋，小孩却热心地给他推荐起股票来。他回到办公室立刻清仓。他的逻辑是：连擦鞋童都在荐股，说明最后一批买家已经进场，接下来只有卖盘了。没过多久，大崩盘来了。这个观察后来被称为擦鞋童理论：当所有人都在谈论某样东西时，往往意味着它已经不便宜了。",
-    "body_en": "New York, nineteen twenty-nine. Joseph Kennedy got his shoes polished, and the shoeshine boy happily gave him stock tips. Kennedy walked back to his office and sold everything. His logic was sharp. If the shoeshine boy is giving stock tips, the last buyers have already arrived. Who is left to buy? Soon after, the market crashed. People still call it the shoeshine boy theory. When everybody talks about something, it is usually no longer cheap."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 7.921,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 8.721,
-      "dur": 6.132,
-      "k": "dial",
-      "who": "Trader",
-      "g": "M2"
-     },
-     {
-      "start": 15.403,
-      "dur": 5.549,
-      "k": "dial",
-      "who": "Soros",
-      "g": "M"
-     },
-     {
-      "start": 21.503,
-      "dur": 4.76,
-      "k": "dial",
-      "who": "Trader",
-      "g": "M2"
-     },
-     {
-      "start": 26.813,
-      "dur": 2.781,
-      "k": "dial",
-      "who": "Soros",
-      "g": "M"
-     },
-     {
-      "start": 30.143,
-      "dur": 12.662,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "8f78df4b78c3",
-    "item-00.mp3": "295489605e24",
-    "item-01.mp3": "b4674ff759d8",
-    "item-02.mp3": "a84cc8538cd4",
-    "item-03.mp3": "cb42666f3423",
-    "item-04.mp3": "4f4de52cd928",
-    "item-05.mp3": "ade391205765",
-    "item-06.mp3": "5eb781475fbb",
-    "item-07.mp3": "abb6c2fc4131",
-    "item-08.mp3": "96a0c8ab79df",
-    "item-09.mp3": "1575bdc7f679",
-    "item-10.mp3": "c678d000ca12",
-    "item-11.mp3": "0ba261c554cd",
-    "item-12.mp3": "2959bc93978a",
-    "item-13.mp3": "d20d6abfd5c3",
-    "item-14.mp3": "96f548a40071",
-    "item-15.mp3": "9c54f8e9cb09",
-    "item-16.mp3": "b4880a0c2fbf",
-    "item-17.mp3": "c9acc44a3298",
-    "story.mp3": "3bbf1923bf61",
-    "joke.mp3": "e017c25b2b4f"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.246
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.146,
-      "dur": 73.783
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 83.829,
-      "dur": 23.79
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 108.519,
-      "dur": 55.125
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 164.545,
-      "dur": 22.93
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 188.375,
-      "dur": 26.815
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 216.089,
-      "dur": 33.728
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 250.717,
-      "dur": 25.746
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 277.363,
-      "dur": 48.9
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 327.163,
-      "dur": 28.185
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 356.248,
-      "dur": 13.968
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 371.116,
-      "dur": 11.024
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 383.04,
-      "dur": 80.807
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 464.747,
-      "dur": 13.575
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 479.221,
-      "dur": 30.662
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 510.783,
-      "dur": 53.634
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 565.317,
-      "dur": 53.577
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 619.795,
-      "dur": 40.294
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 660.989,
-      "dur": 49.005
      }
     ]
    }
