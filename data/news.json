@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-26 07:40",
-  "latest": "2026-11-26",
+  "updated_at": "2026-11-27 07:44",
+  "latest": "2026-11-27",
   "count": 18,
-  "mt_calls": 36
+  "mt_calls": 35
  },
  "editions": [
+  {
+   "date": "2026-11-27",
+   "weekday_en": "Friday",
+   "weekday_zh": "周五",
+   "generated_at": "2026-11-27 07:44",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3476.88,
+     "chg_pct": 0.01
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10084.04,
+     "chg_pct": -0.02
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2189.82,
+     "chg_pct": 0.29
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1169.99,
+     "chg_pct": -1.36
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 22226.88,
+     "chg_pct": 1.19
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 50182.95,
+     "chg_pct": 0.33
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 23585.8,
+     "chg_pct": -0.62
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7182.78,
+     "chg_pct": -0.25
+    }
+   ],
+   "items": [
+    {
+     "ts": 1795734731,
+     "source": "华尔街见闻",
+     "title_zh": "华尔街见闻早餐 | 2026年11月27日",
+     "body_zh": "美股休市，AI交易抛售暂缓，泛欧股指反弹近2%、科技板块涨近3%，伦铜等基本金属反弹；布油涨超2%、三连涨。 美国针对中国进口产品税率将提升20%，中国外交部：中方将继续采取必要措施捍卫自身正当权益。中国商务部：坚决反对美对中国等经济体加征301关税；望美中推动对等降税安排尽快落地实施。商务部：中方将密切关注欧方混动汽车保障措施后续调查进展。 特朗普称Q3美国GDP数据造假、被蓄意压低，称此举是为了干扰中期选举。",
+     "url": "https://wallstreetcn.com/livenews/3206655",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:12",
+     "title_en": "Wall Street Journal Breakfast | November 27, 2026.",
+     "body_en": "With U.S. markets closed, the AI-driven sell-off paused. Pan-European stock indices rebounded nearly 2%, and the tech sector rose almost 3%. Base metals, including London copper, also rebounded. Brent crude oil rose over 2%, marking its third consecutive day of gains. The U.S. will raise tariffs on Chinese imports by 20%. China's Ministry of Foreign Affairs stated that China will continue to take necessary measures to safeguard its legitimate rights and interests. China's Ministry of Commerce: We firmly oppose the U.S. imposing additional Section 301 tariffs on China and other economies; we hope that the U.S. and China will promote the implementation of reciprocal tariff reduction arrangements as soon as possible. Ministry of Commerce: China will closely monitor the progress of the EU's subsequent investigation into safeguard measures for hybrid vehicles. Trump claimed that the U.S. Q3 GDP data was falsified and deliberately suppressed, stating that this was done to interfere with the midterm elections.",
+     "id": "wscn-3206655"
+    },
+    {
+     "ts": 1795703377,
+     "source": "华尔街见闻",
+     "title_zh": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元",
+     "body_zh": "从工商银行等商业银行了解到，在中国人民银行近日会同金融监管总局、中国证监会等部门明确将股票回购增持再贷款政策由阶段性安排转为长期制度性安排，并进一步下调再贷款利率之后，工商银行、农业银行、中国银行、建设银行等多家银行迅速落实有关部署，加大股票回购增持贷款投放力度。目前，四大商业银行已签订上市公司股票回购增持贷款合同超6000亿元。（央视）",
+     "url": "https://wallstreetcn.com/livenews/3206503",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "22:29",
+     "title_en": "The four major commercial banks have signed share buyback increase loan contracts with listed companies worth over RMB 600 billion.",
+     "body_en": "According to information from commercial banks such as the Industrial and Commercial Bank of China, after the People's Bank of China, in collaboration with the National Financial Regulatory Administration, the CSRC, and other departments, recently clarified the transition of the share buyback and additional share purchase relending policy from a temporary arrangement to a long-term institutional arrangement, and further lowered the relending interest rate, several banks including the Industrial and Commercial Bank of China, Agricultural Bank of China, Bank of China, and China Construction Bank promptly implemented the relevant measures, increasing the issuance of loans for share buybacks and additional share purchases. Currently, the four major commercial banks have signed loan contracts for share buybacks and increased holdings of listed company stocks exceeding 600 billion yuan. (CCTV).",
+     "id": "wscn-3206503"
+    },
+    {
+     "ts": 1795734000,
+     "source": "新浪财经",
+     "title_zh": "金银遭遇深度回调",
+     "body_zh": "黄金走势急转直下，3500美元/盎司被击穿。11月25日晚间，在美联储加息预期升温的压力下，黄金现货价格直接被“打到”3426.32美元/盎司，较年内高点5598.75美元/盎司下跌2172...",
+     "url": "https://finance.sina.com.cn/roll/2026-11-27/doc-inkacksq7916291.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:00",
+     "title_en": "Gold and silver experience a sharp pullback.",
+     "body_en": "Gold prices plummeted, falling below $3,500 per ounce. On the evening of November 25, under the pressure of rising expectations of an interest rate hike by the Federal Reserve, the spot price of gold was directly \"driven down\" to $3,426.32/oz, a drop of $2,172 from the year's high of $5,598.75/oz...",
+     "id": "sina-comos:nkacksq7916291"
+    },
+    {
+     "ts": 1795732803,
+     "source": "华尔街见闻",
+     "title_zh": "动力电池格局重塑，二线阵营分化明显",
+     "body_zh": "据统计，今年前三季度，国内8家动力电池及锂电上市公司中，半数实现净利润同比增长。其中宁德时代以645.30亿元归母净利润居首，比亚迪223.45亿元、亿纬锂能52.40亿元紧随其后；从增幅看，鹏辉能源以928.81%领跑，中创新航、亿纬锂能分别增长99.50%和86.11%；降幅最大的为国轩高科，同比下降66.48%。",
+     "url": "https://wallstreetcn.com/livenews/3206639",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:40",
+     "title_en": "Reshaping of the power battery landscape, with clear differentiation within the second-tier camp.",
+     "body_en": "According to statistics, in the first three quarters of this year, half of the eight listed companies in China that manufacture automotive batteries and lithium-ion batteries achieved year-on-year growth in net profit. Among them, CATL led with a net profit attributable to shareholders of 64.53 billion yuan, followed closely by BYD at 22.345 billion yuan and EVE Energy at 5.24 billion yuan. In terms of growth rates, Penghui Energy led with 928.81%, while CALB and EVE Energy grew by 99.50% and 86.11%, respectively. The largest decline was seen in Gotion High-tech, which was down 66.48% year-on-year.",
+     "id": "wscn-3206639"
+    },
+    {
+     "ts": 1795698692,
+     "source": "华尔街见闻",
+     "title_zh": "中国农业银行",
+     "body_zh": "农业银行已与近200家上市公司达成合作意向，签订股票回购增持贷款合同超1500亿元。",
+     "url": "https://wallstreetcn.com/livenews/3206473",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "21:11",
+     "title_en": "Agricultural Bank of China Limited.",
+     "body_en": "The Agricultural Bank of China has reached cooperation agreements with nearly 200 listed companies and signed share buyback and shareholding increase loan contracts exceeding RMB 150 billion.",
+     "id": "wscn-3206473"
+    },
+    {
+     "ts": 1795736509,
+     "source": "新浪财经",
+     "title_zh": "东京通胀加速 日本央行警惕物价压力",
+     "body_zh": "日本首都东京通胀升至今年最高水平，日本央行持续保持警惕，力求将物价涨幅稳定在2%目标附近。 日本总务省周五公布数据，东京11月不含生鲜食品的消费者物价指数同比上涨2...",
+     "url": "https://finance.sina.com.cn/world/2026-11-27/doc-inkacqys5585937.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:41",
+     "title_en": "Tokyo inflation accelerates, Bank of Japan wary of price pressures.",
+     "body_en": "Inflation in Tokyo, Japan's capital, has risen to its highest level this year. The Bank of Japan remains vigilant, striving to stabilize price increases around its 2% target. Data released by Japan's Ministry of Internal Affairs and Communications on Friday showed that Tokyo's Consumer Price Index (excluding fresh food) rose by 2% year-on-year in November...",
+     "id": "sina-comos:nkacqys5585937"
+    },
+    {
+     "ts": 1795732419,
+     "source": "华尔街见闻",
+     "title_zh": "左侧分批右侧加码，私募激辩科技股走向",
+     "body_zh": "近期，全球科技资产大幅波动，科技股的走向已成为私募机构当下讨论的热门话题：有机构看到大资金连续增持、空头交易拥挤度升至罕见水平等情况，主张逐步加大布局力度；也有机构提示，估值出清不等于风险出清，产业层面的验证仍需时间。综合多位受访私募人士的研判，私募对本轮科技股调整的“定性”更多是高预期、高拥挤下的估值重估，而非AI产业逻辑的证伪。真正的分歧不在“要不要抄底”，而在“何时下手、买什么”。（中证报）",
+     "url": "https://wallstreetcn.com/livenews/3206636",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:33",
+     "title_en": "Selling off on the left, buying up on the right: Private equity firms fiercely debate the future of tech stocks.",
+     "body_en": "Recently, global tech assets have experienced significant fluctuations, and the direction of tech stocks has become a hot topic of discussion among private equity firms. Some firms have observed situations such as continuous large-scale buying and an unusually high level of short-selling activity, leading them to advocate for gradually increasing their investment in this sector. However, other firms have cautioned that a valuation correction does not equate to the elimination of risk, and validation at the industry level still requires time. Based on the analyses of several private equity professionals interviewed, the \"characterization\" of this round of tech stock corrections by private equity firms is more about a revaluation under high expectations and high crowding, rather than a disconfirmation of the AI industry's rationale. The real point of contention is not whether to buy at the bottom, but rather when to act and what to buy. (China Securities Journal).",
+     "id": "wscn-3206636"
+    },
+    {
+     "ts": 1795735049,
+     "source": "新浪财经",
+     "title_zh": "全球燃油供应回升，炼油利润跌至数月低点",
+     "body_zh": "来源：华尔街见闻 伊朗战争对能源市场的冲击正在退潮。随着全球炼厂开足马力补充供应、中东出口恢复以及石油消费走弱，将原油加工为燃油的利润已跌至数月来最低水平...",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkacksp1158828.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "07:17",
+     "title_en": "Global fuel supply rebounds, refining margins fall to multi-month lows.",
+     "body_en": "Source: Wall Street Journal The impact of the Iran war on the energy market is receding. As global refineries operate at full capacity to replenish supplies, Middle Eastern exports resume, and oil consumption weakens, the profit margin for refining crude oil into fuel has dropped to its lowest level in months...",
+     "id": "sina-comos:nkacksp1158828"
+    },
+    {
+     "ts": 1795731364,
+     "source": "华尔街见闻",
+     "title_zh": "固态冲刺量产，场景抢先卡位，锂电产业寻找新增长极",
+     "body_zh": "1月26日，2026（第十六届）高工锂电年会的固态电池专场座无虚席。记者在现场采访了解到，虽然全固态电池尚未大规模量产，但很多上市公司、科研机构等参会代表都紧盯与固态电池有关的技术、产业、政策等最新动向与趋势研判。不少上市公司透露了固态电池布局最新进展，亿纬锂能正开发脑机接口固态电池，国轩高科计划搭建2GWh示范线，利元亨于今年交付了数百兆瓦级全固态电池整线设备。",
+     "url": "https://wallstreetcn.com/livenews/3206629",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "06:16",
+     "title_en": "Solid-state batteries are entering mass production, securing early positions in various applications, and the lithium-ion battery industry is seeking new growth drivers.",
+     "body_en": "On January 26, the solid-state battery session at the 2026 (16th) GGII Lithium Battery Annual Conference was packed to capacity. From on-site interviews, the reporter learned that although all-solid-state batteries have not yet entered mass production, many representatives from listed companies, research institutions, and other organizations attending the conference are closely monitoring the latest developments and trends related to solid-state battery technology, industry, and policies. Many listed companies have disclosed the latest progress in their solid-state battery strategies. EVE Energy is developing a brain-computer interface solid-state battery, Gotion High-tech plans to build a 2 GWh demonstration line, and Liyuanheng delivered hundreds of megawatt-level all-solid-state battery production line equipment this year.",
+     "id": "wscn-3206629"
+    },
+    {
+     "ts": 1795730521,
+     "source": "华尔街见闻",
+     "title_zh": "巴西航空工业公司：美国对巴产飞机征收新关税或推高机票价格",
+     "body_zh": "11月26日，巴西航空工业公司首席执行官弗朗西斯科·戈麦斯·内托表示，美国对巴西产飞机征收10%的从价关税的提议可能会推高机票价格，并给美国通胀带来压力。巴航产E175飞机是目前美国运营最广泛的机型之一，对该机型征收关税将对航司产生影响，需要为飞机支付更多费用。这最终会体现在机票价格上，甚至可能影响通胀。",
+     "url": "https://wallstreetcn.com/livenews/3206623",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "06:02",
+     "title_en": "Embraer: New U.S. tariffs on Brazilian-made aircraft may push up airfare prices.",
+     "body_en": "On November 26, Embraer CEO Francisco Gomes Neto stated that the U.S. proposal to impose a 10% ad valorem tariff on Brazilian-made aircraft could drive up airfare prices and put pressure on U.S. inflation. Embraer's E175 aircraft is currently one of the most widely operated models in the United States. Imposing tariffs on this model will affect airlines, requiring them to pay more for the aircraft. This will ultimately be reflected in airfare prices and may even affect inflation.",
+     "id": "wscn-3206623"
+    },
+    {
+     "ts": 1795713243,
+     "source": "华尔街见闻",
+     "title_zh": "欧洲理事会主席Costa",
+     "body_zh": "欧元区成员国同意由推荐的原西班牙央行行长de Cos出任下一届欧洲央行行长。 欧元区成员国同意对Boone、Brunnermeier出任欧洲央行官员的推荐。 这为12月份正式任命欧洲央行相关官员的峰会铺平道路。",
+     "url": "https://wallstreetcn.com/livenews/3206568",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "01:14",
+     "title_en": "Costa, President of the European Council.",
+     "body_en": "The eurozone member states have agreed to appoint the recommended former Spanish PBOC Governor de Cos as the next ECB President. The eurozone member states have agreed to the recommendations for Boone and Brunnermeier to serve as ECB officials. This paves the way for the December summit to formally appoint the relevant ECB officials.",
+     "id": "wscn-3206568"
+    },
+    {
+     "ts": 1795701396,
+     "source": "华尔街见闻",
+     "title_zh": "土耳其调查前银监机构负责人",
+     "body_zh": "据土耳其媒体11月26日报道，土耳其财政部长迈赫迈特·希姆谢克已授权调查前银行监管机构负责人沙哈普·卡夫奇奥卢。调查涉及利用投资基金不当获利的丑闻，卡夫奇奥卢被指认涉嫌贿赂、滥用职权等不法行为。这一丑闻9月被曝光后持续发酵，涉及数百名嫌疑人，其中包括数名在任及前任高官。（新华社）",
+     "url": "https://wallstreetcn.com/livenews/3206484",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "21:56",
+     "title_en": "Turkey investigates former head of banking regulator.",
+     "body_en": "According to Turkish media reports on November 26, Turkish Minister of Finance Mehmet Şimşek has authorized an investigation into Şahap Kavcıoğlu, the former head of the banking regulator. The investigation concerns a scandal involving the improper use of investment funds for personal gain. Kavcıoğlu has been accused of illegal activities such as bribery and abuse of power. This scandal continued to escalate after it was exposed in September, involving hundreds of suspects, including several current and former high-ranking officials. (Xinhua News Agency).",
+     "id": "wscn-3206484"
+    },
+    {
+     "ts": 1795714964,
+     "source": "华尔街见闻",
+     "title_zh": "伊朗外交部",
+     "body_zh": "伊朗外长阿拉格齐在与科威特外长通话时，对事故造成的人员伤亡和财产损失表示遗憾。",
+     "url": "https://wallstreetcn.com/livenews/3206574",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "01:42",
+     "title_en": "Ministry of Foreign Affairs of Iran.",
+     "body_en": "During a phone call with his Kuwaiti counterpart, Iranian Foreign Minister Abbas Araghchi expressed regret over the casualties and property damage caused by the incident.",
+     "id": "wscn-3206574"
+    },
+    {
+     "ts": 1795705889,
+     "source": "华尔街见闻",
+     "title_zh": "特朗普在高尔夫球场称：修订后的GDP数据是“伪造的”，呼吁展开调查",
+     "body_zh": "美国总统特朗普指责其自己的政府“蓄意”压低美国经济增长数据，他利用一次常规的数据修订，在毫无证据的情况下提出了干预选举的指控。 特朗普指出，GDP数据显示经济在第三季度实现了4.3%的年化增长——较之前发布的3.4%的预估值进行了上修——并称这是一个“巨大的差异”。 “刚刚披露，选前公布的经济‘真实数据’系伪造，”他在没有提供任何证据的情况下表示。“我要求立即对此事展开调查。这并非小错，而是重大且蓄意的错误。",
+     "url": "https://wallstreetcn.com/livenews/3206523",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "23:11",
+     "title_en": "Trump claims on the golf course that the revised GDP figures are \"fabricated\" and calls for an investigation.",
+     "body_en": "U.S. President Trump accused his own administration of \"deliberately\" suppressing U.S. economic growth data, using a routine data revision to make unsubstantiated allegations of election interference. Trump pointed out that GDP data showed the economy grew at an annualized rate of 4.3% in the third quarter — an upward revision from the previously reported estimate of 3.4% — and called it a \"huge difference.\" \"It has just been revealed that the 'real' economic data released before the election was falsified,\" he said, without providing any evidence. \"I demand an immediate investigation into this matter. This is not a minor error, but a significant and deliberate one.",
+     "id": "wscn-3206523"
+    },
+    {
+     "ts": 1795734282,
+     "source": "华尔街见闻",
+     "title_zh": "法国拟削减太阳能补贴，或波及Engie旗下100兆瓦项目",
+     "body_zh": "公用事业公司Engie发言人在一份声明中表示，法国政府一项旨在终止2006-10年期间开发的太阳能项目部分补贴的提案，可能影响Engie在法国拥有的200座光伏电站中的不到15座。 受2027年预算法案修正案影响的Engie项目总装机容量约为100兆瓦，而该公司在法国的太阳能总装机容量为1.5吉瓦。",
+     "url": "https://wallstreetcn.com/livenews/3206653",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "07:04",
+     "title_en": "France plans to cut solar subsidies, which may affect Engie's 100-megawatt project.",
+     "body_en": "In a statement, a spokesperson for the utility company Engie said that a French government proposal to end partial subsidies for solar projects developed between 2006 and 2010 could affect fewer than 15 of the 200 photovoltaic power plants Engie owns in France. The total installed capacity of Engie's projects affected by the 2027 budget bill amendment is approximately 100 megawatts, while the company's total installed solar capacity in France is 1.5 gigawatts.",
+     "id": "wscn-3206653"
+    },
+    {
+     "ts": 1795711954,
+     "source": "华尔街见闻",
+     "title_zh": "巴西副总统：美国对巴西加征新关税完全不合理",
+     "body_zh": "11月26日，巴西副总统阿尔克明表示，美国提出对巴西加征的新关税完全不合理，巴西政府将尽全力扭转这一局面。阿尔克明强调，世界上不存在航空领域的关税，航空这样具有战略意义的领域不征收关税是传统。（央视）",
+     "url": "https://wallstreetcn.com/livenews/3206562",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "00:52",
+     "title_en": "Brazilian Vice President: The U.S.'s imposition of new tariffs on Brazil is completely unreasonable.",
+     "body_en": "On November 26, Brazilian Vice President Geraldo Alckmin stated that the new tariffs proposed by the United States on Brazil are completely unreasonable, and the Brazilian government will do everything in its power to reverse this situation. Alckmin emphasized that there are no tariffs in the aviation sector worldwide, and it is traditional not to impose tariffs in a strategically important sector like aviation. (CCTV).",
+     "id": "wscn-3206562"
+    },
+    {
+     "ts": 1795712416,
+     "source": "华尔街见闻",
+     "title_zh": "国际铜夜盘收跌0.19%，沪铜收涨0.56%，沪铝收涨0.43%，沪锌收涨1",
+     "body_zh": "国际铜夜盘收跌0.19%，沪铜收涨0.56%，沪铝收涨0.43%，沪锌收涨1.59%，沪铅收涨1.51%，沪镍收涨2.32%，沪锡收涨0.52%。 氧化铝夜盘收跌0.12%，铝合金收涨0.29%。 不锈钢夜盘收涨0.96%。",
+     "url": "https://wallstreetcn.com/livenews/3206576",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:00",
+     "title_en": "International copper closed down 0.19% in the night session, Shanghai copper closed up 0.56%, Shanghai aluminum closed up 0.43%, and Shanghai zinc closed up 1%.",
+     "body_en": "The London Metal Exchange (LME) copper night session closed down 0.19%, Shanghai Copper closed up 0.56%, Shanghai Aluminum closed up 0.43%, Shanghai Zinc closed up 1.59%, Shanghai Lead closed up 1.51%, Shanghai Nickel closed up 2.32%, and Shanghai Tin closed up 0.52%. The night session for alumina closed down 0.12%, while aluminum alloy closed up 0.29%. Stainless steel night session closed up 0.96%.",
+     "id": "wscn-3206576"
+    },
+    {
+     "ts": 1795730129,
+     "source": "华尔街见闻",
+     "title_zh": "报道：日本JERA与Anthropic、Meta洽谈建设数据中心",
+     "body_zh": "日本最大发电企业JERA已与Anthropic、Meta及其他美国科技巨头展开洽谈，计划在东京地区发电厂附近建设数据中心。JERA全球首席执行官兼董事长可儿行夫（Yukio Kani）近期表示，该能源集团同时也在与亚马逊、微软和谷歌进行洽谈，据《日本经济新闻》报道。",
+     "url": "https://wallstreetcn.com/livenews/3206621",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "05:55",
+     "title_en": "Report: Japan's JERA in talks with Anthropic and Meta to build data centers.",
+     "body_en": "JERA, Japan's largest power generator, has entered into discussions with Anthropic, Meta, and other U.S. tech giants to build data centers near power plants in the Tokyo area. JERA's Global CEO and Chairman, Yukio Kani, recently stated that the energy group is also in discussions with Amazon, Microsoft, and Google, according to the Nikkei.",
+     "id": "wscn-3206621"
+    }
+   ],
+   "story": {
+    "id": "rockefeller-drop",
+    "name_zh": "约翰·洛克菲勒",
+    "name_en": "John D. Rockefeller",
+    "era": "1870s · 美国俄亥俄",
+    "title_zh": "省下一滴焊料的人，成了首富",
+    "title_en": "The Man Who Saved One Drop of Solder",
+    "body_zh": "洛克菲勒参观自家炼油厂，问工人焊一个油桶用几滴焊料。答：四十滴。他让人试试三十八滴，一滴不漏。就为这两滴，工厂每年省下大笔钱。他说：巨大的财富，就是对小事的巨大认真。",
+    "body_en": "Young Rockefeller once watched workers seal oil barrels. He asked how many drops of solder each barrel took. Forty, they said. He asked them to try thirty-eight. Not a single barrel leaked. His ledgers went to three decimal places. Great wealth comes from great attention to small things.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "Ohio, eighteen seventy. A quiet man in a dark suit is watching workers seal oil barrels, one by one.",
+      "zh": "俄亥俄，1870 年。一个穿黑西装的安静男人，正看着工人们一个一个焊接油桶。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "How many drops of solder does one barrel take?",
+      "zh": "焊一个桶，要用几滴焊料？"
+     },
+     {
+      "k": "dial",
+      "who": "Worker",
+      "g": "M2",
+      "en": "Forty drops, sir. Same as always.",
+      "zh": "四十滴，先生。一直都是四十滴。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "Try thirty-eight.",
+      "zh": "试试三十八滴。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "They tried. Not a single barrel leaked. Those two drops saved the plant real money, every single year.",
+      "zh": "工人们试了。一滴都没漏。就这两滴，每年给工厂省下真金白银。"
+     },
+     {
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M",
+      "en": "Great wealth comes from great attention to small things. Saved one drop at a time.",
+      "zh": "巨大的财富，就是对小事的巨大认真，一滴一滴攒出来的。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "glass-engineer",
+    "tag_zh": "工程师的答案",
+    "tag_en": "The Engineer's Answer",
+    "title_zh": "杯子半满？工程师说杯子太大了",
+    "title_en": "Half Full? The Engineer Says the Glass Is Too Big",
+    "body_zh": "乐观主义者说杯子是半满的，悲观主义者说是半空的，工程师看了看说：这个杯子比实际需要的大了一倍。放到市场里也一样：同一个行情，多头看到机会，空头看到风险，而真正干活的人只关心一件事——估值和实际价值差多少。别急着站队，先量一量杯子。",
+    "body_en": "The optimist says the glass is half full. The pessimist says it is half empty. The engineer looks at both and says, the glass is twice as big as it needs to be. Markets work the same way. The bull sees opportunity. The bear sees risk. The person doing the actual work asks only one question. How far is the price from the real value? Do not rush to pick a side. First, measure the glass."
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 10.043,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 10.843,
+      "dur": 2.603,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     },
+     {
+      "start": 13.996,
+      "dur": 4.041,
+      "k": "dial",
+      "who": "Worker",
+      "g": "M2"
+     },
+     {
+      "start": 18.587,
+      "dur": 1.195,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     },
+     {
+      "start": 20.333,
+      "dur": 9.889,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 30.771,
+      "dur": 5.123,
+      "k": "dial",
+      "who": "Rockefeller",
+      "g": "M"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "59edc0af235f",
+    "item-00.mp3": "7f6b06f06638",
+    "item-01.mp3": "e3730eed78ab",
+    "item-02.mp3": "a45fc57c07f1",
+    "item-03.mp3": "124c90cabf50",
+    "item-04.mp3": "efb309506e97",
+    "item-05.mp3": "5bad63cbca59",
+    "item-06.mp3": "f64f387858a3",
+    "item-07.mp3": "555e5824dd5c",
+    "item-08.mp3": "e1cf961f8927",
+    "item-09.mp3": "5708ad7ccc88",
+    "item-10.mp3": "60a8deee086c",
+    "item-11.mp3": "09cde77085a8",
+    "item-12.mp3": "5b64917865f5",
+    "item-13.mp3": "2e968092e469",
+    "item-14.mp3": "b1427da2abd6",
+    "item-15.mp3": "8485d088d712",
+    "item-16.mp3": "5a79e8735940",
+    "item-17.mp3": "1c9853390081",
+    "story.mp3": "84bcba604ad8",
+    "joke.mp3": "d2530f5658c6"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.63
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.53,
+      "dur": 88.322
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 98.752,
+      "dur": 66.287
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 165.939,
+      "dur": 34.469
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 201.308,
+      "dur": 56.893
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 259.101,
+      "dur": 17.737
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 277.738,
+      "dur": 29.728
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 308.366,
+      "dur": 75.895
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 385.161,
+      "dur": 25.915
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 411.976,
+      "dur": 74.797
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 487.673,
+      "dur": 42.971
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 531.543,
+      "dur": 27.099
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 559.542,
+      "dur": 40.923
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 601.365,
+      "dur": 14.395
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 616.66,
+      "dur": 54.333
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 671.893,
+      "dur": 45.258
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 718.051,
+      "dur": 35.281
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 754.232,
+      "dur": 58.369
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 813.501,
+      "dur": 31.22
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-26",
    "weekday_en": "Thursday",
@@ -3319,562 +3875,6 @@
       "file": "item-17.mp3",
       "start": 882.531,
       "dur": 6.083
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-20",
-   "weekday_en": "Friday",
-   "weekday_zh": "周五",
-   "generated_at": "2026-11-20 07:34",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3577.62,
-     "chg_pct": -0.28
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 10583.2,
-     "chg_pct": -0.71
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2293.34,
-     "chg_pct": -0.79
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1270.78,
-     "chg_pct": 1.83
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 22841.62,
-     "chg_pct": -1.95
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 49097.06,
-     "chg_pct": -2.19
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 23879.2,
-     "chg_pct": -2.25
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 7175.83,
-     "chg_pct": -2.02
-    }
-   ],
-   "items": [
-    {
-     "ts": 1795130945,
-     "source": "华尔街见闻",
-     "title_zh": "华尔街见闻早餐 | 2026年11月20日",
-     "body_zh": "美股三大指数均跌超2%，道指跌破5万点，英伟达跌超3%；史上最大IPO首日冲高回落，Anthropic收涨约17%；黄金再跌3%。 美联储副主席杰斐逊：目前AI热潮正推高通胀，未来生产率提升或推动物价下降。美联储官员Goolsbee：通胀居高不下，不排除单次加息超常规可能。 史上最大IPO开盘狂热不足一小时，Anthropic首秀涨34%后回吐半数涨幅，市值一度突破2万亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3202865",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:29",
-     "title_en": "Wall Street Journal Breakfast | November 20, 2026.",
-     "body_en": "All three major U.S. stock indices fell by more than 2%, with the Dow Jones Industrial Average dropping below 50,000 points and Nvidia falling by over 3%. The largest IPO in history saw a surge followed by a pullback on its first day, with Anthropic closing up about 17%. Gold fell by another 3%. Federal Reserve Vice Chair Jefferson stated that the current AI boom is pushing up inflation, but future productivity gains could lead to lower prices. Federal Reserve official Goolsbee noted that inflation remains high, and a single, larger-than-usual rate hike cannot be ruled out. The opening frenzy of the largest IPO in history lasted less than an hour. After Anthropic's debut saw a 34% surge, it gave back half of its gains, with its market capitalization briefly exceeding $2 trillion.",
-     "id": "wscn-3202865"
-    },
-    {
-     "ts": 1795122883,
-     "source": "华尔街见闻",
-     "title_zh": "纳指ETF、道指ETF、小盘股指ETF收跌约2.2%，在Anthropic IPO首日领跌美股大类资产类ETF",
-     "body_zh": "周四（11月19日），纳斯达克100 ETF收跌2.19%，道指ETF跌2.18%，罗素2000指数ETF跌2.18%，标普500 ETF跌1.96%，新兴市场ETF跌1.95%，美国房地产ETF跌1.8%，黄金ETF跌1.76%，巴克莱美国可转债ETF跌1.1%，大豆基金、日元做多、欧元做多至多跌0.55%。",
-     "url": "https://wallstreetcn.com/livenews/3202815",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:14",
-     "title_en": "Nasdaq ETF, Dow Jones ETF, and Small-Cap Index ETF closed down by about 2.2%, leading the decline among U.S. equity ETFs on the first day of Anthropic's IPO.",
-     "body_en": "On Thursday (November 19), the Nasdaq 100 ETF closed down 2.19%, the Dow Jones ETF fell 2.18%, the Russell 2000 ETF fell 2.18%, the S&P 500 ETF fell 1.96%, the Emerging Markets ETF fell 1.95%, the U.S. Real Estate ETF fell 1.8%, the Gold ETF fell 1.76%, the Barclays U.S. Convertible Bond ETF fell 1.1%, and the Soybean Fund, Long JPY, and Long EUR all fell by up to 0.55%.",
-     "id": "wscn-3202815"
-    },
-    {
-     "ts": 1795130833,
-     "source": "新浪财经",
-     "title_zh": "法国巴黎银行上调美联储加息预期 料连续三次加息25个基点",
-     "body_zh": "法国巴黎银行在利率预测中新增美联储明年3月加息的预期，预计继今年12月和明年1月之后，美联储将连续第三次加息25个基点。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizitct0474689.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:27",
-     "title_en": "BNP Paribas raises expectations for Federal Reserve rate hikes, anticipating three consecutive 25-basis-point increases.",
-     "body_en": "BNP Paribas has added the expectation that the Federal Reserve will raise interest rates in March next year to its interest rate forecast, predicting that the Federal Reserve will raise interest rates by 25 basis points for the third consecutive time after December this year and January next year.",
-     "id": "sina-comos:nizitct0474689"
-    },
-    {
-     "ts": 1795126740,
-     "source": "新浪财经",
-     "title_zh": "美联储官员再放鹰，Goolsbee：通胀居高不下，不排除单次加息超常规可能",
-     "body_zh": "芝加哥联储主席Austan Goolsbee周四表示，过去数月通胀读数持续偏高，且在原本预期应有所改善的领域几乎未见进展。在美联储下月议息会议上，所有政策选项均在考量之中...",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-20/doc-inizinvq7370864.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:19",
-     "title_en": "Federal Reserve officials take a hawkish stance again. Goolsbee: Inflation remains high, and the possibility of a single, unconventional rate hike cannot be ruled out.",
-     "body_en": "Chicago Fed President Austan Goolsbee stated on Thursday that inflation readings have remained elevated over the past few months, with almost no progress in areas where improvements were expected. At the Federal Reserve's policy meeting next month, all policy options are on the table...",
-     "id": "sina-comos:nizinvq7370864"
-    },
-    {
-     "ts": 1795120608,
-     "source": "华尔街见闻",
-     "title_zh": "法国巴黎银行",
-     "body_zh": "上调对美联储加息前景的预期，现在认为3月份也将收紧货币政策，即12月、1月、3月将先后实施每次25个基点的加息。",
-     "url": "https://wallstreetcn.com/livenews/3202799",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "04:36",
-     "title_en": "BNP Paribas.",
-     "body_en": "Expectations for the Federal Reserve's interest rate hike outlook have been raised, and it is now believed that monetary policy will also be tightened in March, i.e., interest rate hikes of 25 basis points each will be implemented successively in December, January, and March.",
-     "id": "wscn-3202799"
-    },
-    {
-     "ts": 1795127348,
-     "source": "新浪财经",
-     "title_zh": "Anthropic上市首日收涨17% IPO募资1073亿美元创纪录",
-     "body_zh": "Anthropic PBC上市首日收盘上涨17%，此前公司完成史上最大规模的首次公开募股（IPO），募资1073亿美元，尽管市场对人工智能（AI）交易日益谨慎。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvq7372924.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:29",
-     "title_en": "Anthropic's stock rose 17% on its first day of trading, raising a record $107.3 billion in its IPO.",
-     "body_en": "Anthropic PBC closed up 17% on its first day of trading after completing the largest initial public offering (IPO) in history, raising $107.3 billion, despite growing caution in the market regarding artificial intelligence (AI) deals.",
-     "id": "sina-comos:nizinvq7372924"
-    },
-    {
-     "ts": 1795129541,
-     "source": "华尔街见闻",
-     "title_zh": "美国加州律师协会寻求批准使用AI分类律师投诉",
-     "body_zh": "美国加利福尼亚州律师协会理事会表示，该协会将向加州最高法院申请允许使用人工智能（AI）对律师投诉进行分类。 在加州律师协会理事会当天一致批准建议动议后，加州最高法院将审议一项框架，允许律师协会使用微软公司的Copilot AI协助管理律师纪律投诉流程。律师协会希望在2026年全年对历史案例进行严格测试后，将这一基于Copilot的方案应用于实时投诉。",
-     "url": "https://wallstreetcn.com/livenews/3202853",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "07:05",
-     "title_en": "The California State Bar seeks approval to use AI to categorize attorney complaints.",
-     "body_en": "The Board of Governors of the State Bar of California has announced that the Bar will apply to the California Supreme Court for permission to use artificial intelligence (AI) to categorize attorney complaints. Following the California State Bar Board of Governors' unanimous approval of the proposed motion on the same day, the California Supreme Court will consider a framework that would allow the State Bar to use Microsoft's Copilot AI to assist in managing the attorney disciplinary complaint process. The Bar Association hopes to apply this Copilot-based solution to real-time complaints after rigorous testing of historical cases throughout 2026.",
-     "id": "wscn-3202853"
-    },
-    {
-     "ts": 1795125558,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价跌约2.8%，现货白银跌超4.8%，纽约铜跌穿5.7美元",
-     "body_zh": "周四（11月19日）纽约尾盘，现货黄金跌2.78%，报3620.11美元/盎司，彭博数据显示，继续逼近2025年9月11日盘中最低位3614.02美元、当年9月2日底部3470.34美元。 现货白银跌4.86%，报42.8850美元/盎司，也创2025年下半年以来新低。 COMEX铜期货跌1.18%，报5.6875美元/磅，延续11月18日重挫的表现。",
-     "url": "https://wallstreetcn.com/livenews/3202820",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:59",
-     "title_en": "International gold prices fell by about 2.8%, spot silver fell by more than 4.8%, and New York copper fell below $5.7.",
-     "body_en": "At the close of trading in New York on Thursday (November 19), spot gold fell 2.78% to $3,620.11/oz. According to Bloomberg data, it continued to approach the intraday low of $3,614.02 on September 11, 2025, and the low of $3,470.34 on September 2 of that year. Spot silver fell 4.86% to $42.8850/oz, also reaching a new low since the second half of 2025. COMEX copper futures fell 1.18% to $5.6875/lb, continuing the sharp decline seen on November 18.",
-     "id": "wscn-3202820"
-    },
-    {
-     "ts": 1795127694,
-     "source": "华尔街见闻",
-     "title_zh": "基金净值透露调仓方向，机构探寻下阶段确定性",
-     "body_zh": "11月以来，海外市场波动及事件性因素扰动，A 股科技板块震荡未止，机构投资者近期的调仓动作也随之浮出水面。宽幅震荡中，主动基金的分化一览无余：部分基金仍坚守“那束光”，部分基金则转向国产芯片、物理AI以及AI应用等方向。值得注意的是，即将上市的主动ETF亦有“抄底”科技的动作。对整体依然重仓科技方向的公募而言，如何通过调结构寻找下一阶段的确定性，已经成为了年末的“压轴难题”。",
-     "url": "https://wallstreetcn.com/livenews/3202843",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "06:34",
-     "title_en": "Fund NAV reveals portfolio rebalancing direction, institutions seek certainty for the next phase.",
-     "body_en": "Since November, fluctuations in overseas markets and disruptions caused by event-driven factors have led to continued volatility in the A-share technology sector. Consequently, recent portfolio rebalancing activities by institutional investors have also come to light. Amidst wide fluctuations, the divergence among active funds is clearly evident: some funds still cling to \"that ray of light,\" while others have shifted their focus to areas such as domestic chips, physical AI, and AI applications. It is worth noting that the active ETFs that are about to be listed are also \"bottom-fishing\" in the tech sector. For mutual funds that still maintain a strong overall focus on the technology sector, figuring out how to adjust their portfolios to find certainty for the next phase has become the \"climactic challenge\" of the year-end.",
-     "id": "wscn-3202843"
-    },
-    {
-     "ts": 1795124779,
-     "source": "华尔街见闻",
-     "title_zh": "苹果公司正在开发一款自主人工智能代理，能够代表用户完成各类任务",
-     "body_zh": "根据一则招聘信息，该系统将代表用户编写代码、浏览网页、控制应用程序以及操作设备。 苹果希望最早于明年年底推出该服务，但目前开发仍处于早期阶段。",
-     "url": "https://wallstreetcn.com/livenews/3202826",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:46",
-     "title_en": "Apple is developing an autonomous AI agent capable of performing various tasks on behalf of users.",
-     "body_en": "According to a job posting, the system will write code, browse web pages, control applications, and operate devices on behalf of users. Apple hopes to launch the service as early as the end of next year, but development is still in its early stages.",
-     "id": "wscn-3202826"
-    },
-    {
-     "ts": 1795107321,
-     "source": "华尔街见闻",
-     "title_zh": "标普500指数下跌将近1%，刷新日低，此前Anthropic美国IPO首日高",
-     "body_zh": "标普500指数下跌将近1%，刷新日低，此前Anthropic美国IPO首日高开超34%。 道指下跌650点、跌幅1.3%，纳指跌0.4%，纳斯达克100指数跌0.3%，银行指数跌1.2%。",
-     "url": "https://wallstreetcn.com/livenews/3202722",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "00:55",
-     "title_en": "The S&P 500 Index fell nearly 1%, hitting a new intraday low, following Anthropic's strong first day of its U.S. IPO.",
-     "body_en": "The S&P 500 Index fell nearly 1%, hitting a new intraday low, after Anthropic's U.S. IPO opened more than 34% higher on its first day. The Dow Jones Industrial Average fell 650 points, or 1.3%, the Nasdaq Composite fell 0.4%, the Nasdaq 100 fell 0.3%, and the KBW Bank Index fell 1.2%.",
-     "id": "wscn-3202722"
-    },
-    {
-     "ts": 1795106944,
-     "source": "华尔街见闻",
-     "title_zh": "Anthropic美国IPO首日开盘上涨将近34.34%，报111.50美元",
-     "body_zh": "此前给出的IPO发行价为每股83美元，融资金额逾810亿美元，超过马斯克旗下太空探索技术公司SpaceX在今年6月创下的750亿美元的历史最高纪录。",
-     "url": "https://wallstreetcn.com/livenews/3202719",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "00:49",
-     "title_en": "Anthropic's U.S. IPO opens up nearly 34.34% on its first day, reaching $111.50.",
-     "body_en": "The previously announced IPO price was $83 per share, raising over $81 billion, surpassing the previous record of $75 billion set by Elon Musk's SpaceX in June of this year.",
-     "id": "wscn-3202719"
-    },
-    {
-     "ts": 1795125650,
-     "source": "华尔街见闻",
-     "title_zh": "英伟达将参加12月1日的瑞银集团科技与AI活动",
-     "body_zh": "英伟达将参加12月1日的瑞银集团科技与AI活动",
-     "url": "https://wallstreetcn.com/livenews/3202830",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:00",
-     "title_en": "Nvidia will participate in UBS Group's Technology and AI Event on December 1st.",
-     "body_en": "Nvidia will participate in UBS Group's Technology and AI Event on December 1st.",
-     "id": "wscn-3202830"
-    },
-    {
-     "ts": 1795103819,
-     "source": "华尔街见闻",
-     "title_zh": "报道：中国铜市逼空催生交易机会，美国巨量铜库存开始流向中国",
-     "body_zh": "知情人士透露，过去几天，物流公司收到了大量来自交易商的询盘，寻求将铜从美国运往中国，目前已有数批船货完成订舱。交易商已开始预订船只，将铜从美国运往中国，以利用中国市场的高溢价。他们表示，一些铜将由CMA CGM Cassiopeia号运往中国，该船计划本周从洛杉矶地区一个港口启航。虽然目前规模仍然较小，但这些货运标志着过去两年的趋势出现逆转。过去两年，交易商因预期美国总统特朗普可能征收进口关税，将大量铜调往美国。",
-     "url": "https://wallstreetcn.com/livenews/3202692",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "23:56",
-     "title_en": "Report: China's copper market short squeeze creates trading opportunities, and massive U.S. copper inventories begin to flow to China.",
-     "body_en": "According to sources, logistics companies have received a large number of inquiries from traders over the past few days, seeking to ship copper from the United States to China, and several shipments have already been booked. Traders have begun booking vessels to ship copper from the United States to China to take advantage of the high premium in the Chinese market. They said that some of the copper will be shipped to China by the CMA CGM Cassiopeia, which is scheduled to depart from a port in the Los Angeles area this week. Although the scale is still relatively small at present, these shipments mark a reversal of the trend over the past two years. Over the past two years, traders have shifted large quantities of copper to the United States in anticipation of possible import tariffs by U.S. President Trump.",
-     "id": "wscn-3202692"
-    },
-    {
-     "ts": 1795129712,
-     "source": "新浪财经",
-     "title_zh": "股海导航_2026年11月20日_沪深股市公告与交易提示",
-     "body_zh": "【停牌】 002122 ST汇洲 【复牌】 无 【品大事】 3连板盛剑科技：电子化学品材料业务不包括光刻胶产品 盛剑科技公告称，公司股票于2026年11月17日...",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-20/doc-inizitct0466903.shtml",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "07:08",
-     "title_en": "Stock Market Guide_November 20, 2026_Shanghai and Shenzhen Stock Market Announcements and Trading Reminders.",
-     "body_en": "【Trading Suspension】 002122 ST Huizhou 【Trading Resumption】 None 【Major News】 Shengjian Technology, which has hit the daily limit for three consecutive days: Its electronic chemical materials business does not include photoresist products. Shengjian Technology announced that the company's shares will... on November 17, 2026.",
-     "id": "sina-comos:nizitct0466903"
-    },
-    {
-     "ts": 1795114899,
-     "source": "华尔街见闻",
-     "title_zh": "厄瓜多尔可可出口商协会ANECACAO",
-     "body_zh": "由于厄尔尼诺现象带来暴雨的缘故，厄瓜多尔可出口的可可产量可能会在2027年下滑多达10%。",
-     "url": "https://wallstreetcn.com/livenews/3202765",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "03:01",
-     "title_en": "ANECACAO, the Ecuadorian Association of Cocoa Exporters.",
-     "body_en": "Ecuador's exportable cocoa production could decline by as much as 10% in 2027 due to heavy rains caused by the El Niño phenomenon.",
-     "id": "wscn-3202765"
-    },
-    {
-     "ts": 1795126060,
-     "source": "华尔街见闻",
-     "title_zh": "美国主要原油管道中断进入第六天",
-     "body_zh": "伍德麦肯兹（Wood Mackenzie Ltd.）表示，受受污染原油事件激增影响，经Enbridge Inc.美国北达科他管道运输的巴肯原油流量持续受限。该公司研究总监特里尚（John Trischan）在回应询问的一份声明中表示：“截至美东时间周四上午，该管道的流量仍处于受压状态。”Enbridge在注意到有机氯化物事件增加后，已对系统展开检测。该公司在一份声明中表示，检测工作导致管道运行延误。",
-     "url": "https://wallstreetcn.com/livenews/3202831",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:07",
-     "title_en": "Disruption of major U.S. crude oil pipeline enters its sixth day.",
-     "body_en": "Wood Mackenzie Ltd. The company stated that due to the surge in contaminated crude oil incidents,The flow of Bakken crude oil transported through the North Dakota pipeline in the United States continues to be restricted. \"As of Thursday morning Eastern Time, the pipeline's flow remains constrained,\" said John Trischan, the company's director of research, in a statement in response to an inquiry.Enbridge has begun testing its system after noticing an increase in organochloride incidents. The company stated in a statement that the testing caused delays in pipeline operations.",
-     "id": "wscn-3202831"
-    },
-    {
-     "ts": 1795110938,
-     "source": "华尔街见闻",
-     "title_zh": "LME期铜收盘反弹55美元，报12526美元/吨",
-     "body_zh": "LME期铝收涨47美元，报2870美元/吨。 LME期锌收涨85美元，报3569美元/吨。 LME期铅收涨1美元，报1866美元/吨。 LME期镍收跌264美元，报15591美元/吨。 LME期锡收跌845美元，报41947美元/吨。 LME期钴收平，报33525美元/吨。",
-     "url": "https://wallstreetcn.com/livenews/3202743",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:55",
-     "title_en": "LME Copper Futures Close with a Rebound of $55, at $12,526/Metric Ton.",
-     "body_en": "LME aluminum futures closed up $47 at $2,870/ton. LME zinc futures closed up $85 at $3,569/ton. LME lead futures closed up $1 at $1,866/ton. LME nickel futures closed down $264 at $15,591/ton. LME tin futures closed down $845 at $41,947/ton. LME cobalt futures closed flat at US$33,525/ton.",
-     "id": "wscn-3202743"
-    }
-   ],
-   "story": {
-    "id": "rockefeller-drop",
-    "name_zh": "约翰·洛克菲勒",
-    "name_en": "John D. Rockefeller",
-    "era": "1870s · 美国俄亥俄",
-    "title_zh": "省下一滴焊料的人，成了首富",
-    "title_en": "The Man Who Saved One Drop of Solder",
-    "body_zh": "洛克菲勒参观自家炼油厂，问工人焊一个油桶用几滴焊料。答：四十滴。他让人试试三十八滴，一滴不漏。就为这两滴，工厂每年省下大笔钱。他说：巨大的财富，就是对小事的巨大认真。",
-    "body_en": "Young Rockefeller once watched workers seal oil barrels. He asked how many drops of solder each barrel took. Forty, they said. He asked them to try thirty-eight. Not a single barrel leaked. His ledgers went to three decimal places. Great wealth comes from great attention to small things.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Ohio, eighteen seventy. A quiet man in a dark suit is watching workers seal oil barrels, one by one.",
-      "zh": "俄亥俄，1870 年。一个穿黑西装的安静男人，正看着工人们一个一个焊接油桶。"
-     },
-     {
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M",
-      "en": "How many drops of solder does one barrel take?",
-      "zh": "焊一个桶，要用几滴焊料？"
-     },
-     {
-      "k": "dial",
-      "who": "Worker",
-      "g": "M2",
-      "en": "Forty drops, sir. Same as always.",
-      "zh": "四十滴，先生。一直都是四十滴。"
-     },
-     {
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M",
-      "en": "Try thirty-eight.",
-      "zh": "试试三十八滴。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "They tried. Not a single barrel leaked. Those two drops saved the plant real money, every single year.",
-      "zh": "工人们试了。一滴都没漏。就这两滴，每年给工厂省下真金白银。"
-     },
-     {
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M",
-      "en": "Great wealth comes from great attention to small things. Saved one drop at a time.",
-      "zh": "巨大的财富，就是对小事的巨大认真，一滴一滴攒出来的。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "lost-interest",
-    "tag_zh": "华尔街双关",
-    "tag_en": "Wall Street Wordplay",
-    "title_zh": "银行家为什么辞职？他失去了“利息”",
-    "title_en": "Why Did the Banker Quit? He Lost Interest",
-    "body_zh": "一位年轻银行家在大银行干满一年就辞职了。朋友都问他为什么，他只说了一句：我失去了利息。这个笑话妙在双关。英文里利息和兴趣是同一个词。对银行家来说，这两样东西缺一样都干不下去。所以下次见到闷闷不乐的银行家，你可以关心地问一句：是利息的问题，还是兴趣的问题？",
-    "body_en": "A young banker worked at a big bank for exactly one year. Then he quit. His friends all asked why. He gave them a one line answer. I lost interest. The joke works in two ways. In English, the money a bank pays you, and the feeling of caring, are the same word. A banker cannot survive without either one. So next time you meet a sad banker, ask politely. Is it the interest, or the interest?"
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 10.043,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 10.843,
-      "dur": 2.603,
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M"
-     },
-     {
-      "start": 13.996,
-      "dur": 4.041,
-      "k": "dial",
-      "who": "Worker",
-      "g": "M2"
-     },
-     {
-      "start": 18.587,
-      "dur": 1.195,
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M"
-     },
-     {
-      "start": 20.333,
-      "dur": 9.889,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 30.771,
-      "dur": 5.123,
-      "k": "dial",
-      "who": "Rockefeller",
-      "g": "M"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "94241308fda4",
-    "item-00.mp3": "14140e5b8430",
-    "item-01.mp3": "043aa5095921",
-    "item-02.mp3": "3cd6e0f20619",
-    "item-03.mp3": "271e119de4a8",
-    "item-04.mp3": "0ce2180a4756",
-    "item-05.mp3": "730a6276ff08",
-    "item-06.mp3": "2d8163844baf",
-    "item-07.mp3": "d8de76de93d8",
-    "item-08.mp3": "5f35b5b5e86e",
-    "item-09.mp3": "ea59939f9a99",
-    "item-10.mp3": "d50066235166",
-    "item-11.mp3": "bb88f10dfe0f",
-    "item-12.mp3": "35e76cd084b6",
-    "item-13.mp3": "9e521c32c255",
-    "item-14.mp3": "930e216d6a9c",
-    "item-15.mp3": "0b0fb65fca28",
-    "item-16.mp3": "9ba77190b2c5",
-    "item-17.mp3": "e76650fc6f34",
-    "story.mp3": "84bcba604ad8",
-    "joke.mp3": "30d525cc0c92"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.203
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.103,
-      "dur": 68.77
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 78.773,
-      "dur": 56.578
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 136.251,
-      "dur": 31.66
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 168.811,
-      "dur": 29.011
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 198.722,
-      "dur": 22.969
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 222.591,
-      "dur": 29.063
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 252.554,
-      "dur": 54.128
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 307.582,
-      "dur": 58.99
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 367.472,
-      "dur": 67.079
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 435.451,
-      "dur": 23.17
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 459.521,
-      "dur": 41.79
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 502.211,
-      "dur": 23.854
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 526.965,
-      "dur": 13.925
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 541.79,
-      "dur": 59.439
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 602.129,
-      "dur": 36.428
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 639.457,
-      "dur": 14.864
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 655.221,
-      "dur": 45.953
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 702.074,
-      "dur": 49.453
      }
     ]
    }
