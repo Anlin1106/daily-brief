@@ -2,12 +2,568 @@
  "meta": {
   "site_zh": "英文财经早报",
   "site_en": "The Daily Brief",
-  "updated_at": "2026-11-27 07:44",
-  "latest": "2026-11-27",
+  "updated_at": "2026-11-28 07:42",
+  "latest": "2026-11-28",
   "count": 18,
-  "mt_calls": 35
+  "mt_calls": 36
  },
  "editions": [
+  {
+   "date": "2026-11-28",
+   "weekday_en": "Saturday",
+   "weekday_zh": "周六",
+   "generated_at": "2026-11-28 07:42",
+   "lead_en": "",
+   "lead_zh": "",
+   "indices": [
+    {
+     "name_zh": "上证指数",
+     "name_en": "SSE Composite",
+     "market": "CN",
+     "value": 3606.49,
+     "chg_pct": 3.73
+    },
+    {
+     "name_zh": "深证成指",
+     "name_en": "SZSE Component",
+     "market": "CN",
+     "value": 10814.02,
+     "chg_pct": 7.24
+    },
+    {
+     "name_zh": "创业板指",
+     "name_en": "ChiNext",
+     "market": "CN",
+     "value": 2443.96,
+     "chg_pct": 11.61
+    },
+    {
+     "name_zh": "科创50",
+     "name_en": "STAR 50",
+     "market": "CN",
+     "value": 1346.25,
+     "chg_pct": 15.07
+    },
+    {
+     "name_zh": "恒生指数",
+     "name_en": "Hang Seng",
+     "market": "HK",
+     "value": 22694.77,
+     "chg_pct": 2.11
+    },
+    {
+     "name_zh": "道琼斯",
+     "name_en": "Dow Jones",
+     "market": "US",
+     "value": 50774.94,
+     "chg_pct": 1.18
+    },
+    {
+     "name_zh": "纳斯达克",
+     "name_en": "Nasdaq",
+     "market": "US",
+     "value": 24129.5,
+     "chg_pct": 2.31
+    },
+    {
+     "name_zh": "标普500",
+     "name_en": "S&P 500",
+     "market": "US",
+     "value": 7297.49,
+     "chg_pct": 1.6
+    }
+   ],
+   "items": [
+    {
+     "ts": 1795812349,
+     "source": "新浪财经",
+     "title_zh": "11月28日外盘头条： 特朗普希望普京参加G20 OpenAI反诉苹果窃取商业机密 欧洲央行管委Dolenc暗示仍需加息",
+     "body_zh": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普称普京想来G20就可以来：“我希望他到场” 2、伊拉克石油部长称正与OPEC磋商 争取提高石油产量上限 3...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprq7554426.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "04:45",
+     "title_en": "November 28 Overseas Headlines: Trump wants Putin to attend the G20; OpenAI files countersuit against Apple for stealing trade secrets; ECB Governing Council member Dolenc suggests further interest rate hikes are needed.",
+     "body_en": "The main headlines that global financial media were focusing on last night and this morning are: 1. Trump says Putin can come to the G20 if he wants to: \"I hope he will be there.\" 2. Iraq's oil minister says they are in talks with OPEC to raise the oil production ceiling. 3...",
+     "id": "sina-comos:nkafprq7554426"
+    },
+    {
+     "ts": 1795803797,
+     "source": "新浪财经",
+     "title_zh": "欧元区通胀率预计出现五个月来首度放缓 但料无碍欧洲央行加息",
+     "body_zh": "欧元区通胀率可能五个月来首次放缓，但幅度料不足以打乱欧洲央行再次加息的计划。 预测中值显示，11月消费者价格可能同比上涨3.8%，低于10月的4%。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiis7611498.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "02:23",
+     "title_en": "Inflation in the eurozone is expected to slow for the first time in five months, but this is not expected to prevent the ECB from raising interest rates.",
+     "body_en": "Inflation in the eurozone may slow for the first time in five months, but the deceleration is unlikely to be sufficient to derail the ECB's plans for another rate hike. The median forecast indicates that consumer prices in November are likely to rise by 3.8% year-on-year, which is lower than the 4% recorded in October.",
+     "id": "sina-comos:nkafiis7611498"
+    },
+    {
+     "ts": 1795798820,
+     "source": "华尔街见闻",
+     "title_zh": "央企专业化整合取得积极进展，项目超1100个",
+     "body_zh": "27日，国务院国资委对外通报了央企专业化整合工作新进展，并为下一步中央企业专业化整合工作做出部署。去年以来，各央企共开展整合项目1100余个，涉及资产规模约6.8万亿元。其中，战新领域整合项目共380余个，占比35%，资产规模2.3万亿元，主要涉及生物医药、人工智能、新能源汽车等领域。 专业化整合呈现出增强核心功能和提高核心竞争力的导向，进一步推动产业升级和科技创新。",
+     "url": "https://wallstreetcn.com/livenews/3207215",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "01:00",
+     "title_en": "Positive progress has been made in the specialized integration of central enterprises, with over 1,100 projects.",
+     "body_en": "On the 27th, the State-owned Assets Supervision and Administration Commission of the State Council announced new progress in the specialized consolidation of central enterprises and made arrangements for the next phase of specialized consolidation of central enterprises. Since last year, central enterprises have carried out over 1,100 consolidation projects, involving assets worth approximately RMB 6.8 trillion. Among them, there were over 380 integration projects in strategic emerging industries, accounting for 35%, with an asset value of 2.3 trillion yuan. These projects mainly involved fields such as biomedicine, artificial intelligence, and new energy vehicles. Specialized consolidation is oriented towards strengthening core functions and enhancing core competitiveness, further driving industrial upgrading and technological innovation.",
+     "id": "wscn-3207215"
+    },
+    {
+     "ts": 1795816967,
+     "source": "新浪财经",
+     "title_zh": "11月28日隔夜要闻：道指创下2022年以来最佳单周表现 铜和金均随科技股升 OpenAI反诉苹果",
+     "body_zh": "市场 11月28日美股收盘：道指大涨近600点，创下2022年以来最佳单周表现 11月28日美股成交额前20：Anthropic收涨10.98% 创下11月19日开始交易以来的最高收盘价...",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprp0817526.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "06:02",
+     "title_en": "November 28 Overnight Headlines: The Dow Jones Industrial Average records its best weekly performance since 2022. Copper and gold both rise along with tech stocks. OpenAI files a counterclaim against Apple.",
+     "body_en": "Market November 28 U.S. stock market close: The Dow Jones Industrial Average surged nearly 600 points, marking its best weekly performance since 2022. Top 20 U.S. stocks by trading volume on November 28: Anthropic closed up 10.98%, reaching its highest closing price since it began trading on November 19...",
+     "id": "sina-comos:nkafprp0817526"
+    },
+    {
+     "ts": 1795781866,
+     "source": "华尔街见闻",
+     "title_zh": "中国央行：证监会将适时推广新模式浮动管理费率基金，提高权益类基金占比和公募基金持股市值占比",
+     "body_zh": "中国人民银行发布了《中国金融稳定报告（2026）》。报告指出，中国证监会将持续深化公募基金改革。一是完善公募基金产品谱系，推出更多中低波动、稳健收益类产品，有效对接保险资金、养老金、银行理财等投资需求，落实好权益类基金快速注册机制，推动指数化投资高质量发展，适时推广新模式浮动管理费率基金，提高权益类基金占比和公募基金持股市值占比。",
+     "url": "https://wallstreetcn.com/livenews/3207098",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "20:17",
+     "title_en": "China PBOC: The CSRC will promote new model funds with floating management fees in due course, increase the proportion of equity funds and the proportion of publicly offered funds' market capitalization.",
+     "body_en": "The People's Bank of China has released the \"China Financial Stability Report (2026).\" The report states that China's CSRC will continue to deepen the reform of publicly offered funds. Firstly, it will improve the range of publicly offered fund products, launch more products with low to moderate volatility and stable returns, effectively meet the investment needs of insurance funds, pension funds, bank wealth management, and others, implement the fast-track registration mechanism for equity funds, promote the high-quality development of index-based investments, and, at an appropriate time, promote the new model of funds with floating management fees, increasing the proportion of equity funds and the proportion of the market value of stocks held by publicly offered funds.",
+     "id": "wscn-3207098"
+    },
+    {
+     "ts": 1795798953,
+     "source": "华尔街见闻",
+     "title_zh": "智利国家铜业公司（Codelco）表示，前九个月自有铜产量为85.3万吨，税",
+     "body_zh": "智利国家铜业公司（Codelco）表示，前九个月自有铜产量为85.3万吨，税前利润亏损14亿美元。 三季度营收59.3亿美元，同比增长33%。 三季度净亏损10.5亿美元，去年同期盈利3450万美元。 三季度推断产量为28.9万吨。 公司已计提48.2亿美元的资产减值，这并不意味着现金流出，同时还进行了1.23亿美元的库存调整。",
+     "url": "https://wallstreetcn.com/livenews/3207217",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "01:02",
+     "title_en": "Codelco, the Chilean state-owned copper company, reported that its own copper production for the first nine months was 853,000 tons, with taxes.",
+     "body_en": "Chile's state-owned copper company, Codelco, reported that its own copper production for the first nine months of the year was 853,000 tons, with a pre-tax loss of $1.4 billion. Revenue in the third quarter was $5.93 billion, up 33% year-on-year. The company reported a net loss of $1.05 billion in the third quarter, compared to a profit of $34.5 million in the same period last year. The estimated production for the third quarter was 289,000 tons. The company has recognized $4.82 billion in asset impairment, which does not imply a cash outflow, and has also made an inventory adjustment of $123 million.",
+     "id": "wscn-3207217"
+    },
+    {
+     "ts": 1795804268,
+     "source": "新浪财经",
+     "title_zh": "OpenAI反诉苹果窃取商业机密",
+     "body_zh": "OpenAI已对苹果发起新的法律诉讼，指控这家大型科技巨头窃取其商业机密，并阻断其接触硬件供应商的渠道，企图“不择手段地进行不正当竞争”。",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiis7614686.shtml",
+     "category": "macro",
+     "category_zh": "宏观",
+     "category_en": "Macro",
+     "time": "02:31",
+     "title_en": "OpenAI files counterclaim against Apple for stealing trade secrets.",
+     "body_en": "OpenAI has filed a new lawsuit against Apple, accusing the tech giant of stealing its trade secrets and blocking its access to hardware suppliers in an attempt to \"engage in unfair competition by any means necessary.\"",
+     "id": "sina-comos:nkafiis7614686"
+    },
+    {
+     "ts": 1795804026,
+     "source": "华尔街见闻",
+     "title_zh": "新兴市场ETF收涨3%，与纳指ETF、黄金ETF领跑美股大类资产类ETF",
+     "body_zh": "周五（11月27日），新兴市场ETF收涨3.01%，纳斯达克100 ETF涨2.69%，黄金ETF涨2.12%，大豆基金涨2.08%，罗素2000指数ETF涨1.83%，标普500 ETF涨1.62%，农产品基金涨1.56%，道指ETF涨1.26%，巴克莱美国可转债ETF、美国房地产ETF、做多美元指数至多涨0.74%；",
+     "url": "https://wallstreetcn.com/livenews/3207244",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "02:27",
+     "title_en": "Emerging market ETFs closed up 3%, leading U.S. stock broad asset class ETFs along with Nasdaq ETFs and gold ETFs.",
+     "body_en": "On Friday (November 27), the Emerging Markets ETF closed up 3.01%, the Nasdaq 100 ETF rose 2.69%, the Gold ETF rose 2.12%, the Soybean Fund rose 2.08%, the Russell 2000 Index ETF rose 1.83%, the S&P 500 ETF rose 1.62%, the Agricultural Products Fund rose 1.56%, the Dow Jones ETF rose 1.26%, and the Barclays U.S. Convertible Bond ETF, the U.S. Real Estate ETF, and the Long U.S. Dollar Index ETF all rose by up to 0.74%.",
+     "id": "wscn-3207244"
+    },
+    {
+     "ts": 1795803823,
+     "source": "华尔街见闻",
+     "title_zh": "OpenAI以窃取商业秘密为由对苹果提起反诉",
+     "body_zh": "OpenAI于周五起诉苹果公司，指控这家科技巨头窃取其商业秘密并阻挠其接触硬件供应商。此前，苹果公司曾以OpenAI涉嫌挖角其员工以获取其技术为由起诉了OpenAI。 这家ChatGPT开发商在美国加利福尼亚州联邦法院提出反诉，称苹果的雇佣做法旨在“困住”员工，并阻止他们参与竞争对手的技术开发。",
+     "url": "https://wallstreetcn.com/livenews/3207243",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "02:23",
+     "title_en": "OpenAI files counterclaim against Apple for theft of trade secrets.",
+     "body_en": "OpenAI filed a lawsuit against Apple on Friday, accusing the tech giant of stealing its trade secrets and preventing it from contacting hardware suppliers. Previously, Apple had sued OpenAI on the grounds that OpenAI was allegedly poaching its employees to gain access to its technology. The ChatGPT developer filed a counterclaim in a federal court in California, alleging that Apple's hiring practices were designed to \"trap\" employees and prevent them from participating in competitors' technology development.",
+     "id": "wscn-3207243"
+    },
+    {
+     "ts": 1795798465,
+     "source": "华尔街见闻",
+     "title_zh": "美国10年期国债收益率涨至4.93%，刷新日高；标普涨1.5%，刷新日高",
+     "body_zh": "费城半导体指数涨4%，英伟达涨0.11%，博通涨3.89%，美光涨7.46%，英特尔涨4.01%，AMD涨3.77%，高通涨6.83%，台积电涨3.29%，阿斯麦涨0.87%。",
+     "url": "https://wallstreetcn.com/livenews/3207214",
+     "category": "bond",
+     "category_zh": "债券",
+     "category_en": "Bonds",
+     "time": "00:54",
+     "title_en": "U.S. 10-year Treasury yields rise to 4.93%, hitting a new intraday high; S&P rises 1.5%, reaching a new intraday high.",
+     "body_en": "The Philadelphia Semiconductor Index rose by 4%, Nvidia rose by 0.11%, Broadcom rose by 3.89%, Micron rose by 7.46%, Intel rose by 4.01%, AMD rose by 3.77%, Qualcomm rose by 6.83%, TSMC rose by 3.29%, and ASML rose by 0.87%.",
+     "id": "wscn-3207214"
+    },
+    {
+     "ts": 1795810509,
+     "source": "华尔街见闻",
+     "title_zh": "加拿大将向受关税重创的软木行业追加数十亿援助",
+     "body_zh": "加拿大公布了一项援助其软木生产商的计划，该行业是受美国总统唐纳德·特朗普关税政策重创的多个行业之一。 加拿大联邦能源与自然资源部长蒂姆·霍奇森（Tim Hodgson）近日表示，虽然省级政府对资源行业负有主要责任，但“鉴于挑战的规模，我们认为采取协调一致的方法将对全国林业有所帮助”。该计划和资金规模构成了“联邦政府对林业有史以来最大的承诺”。",
+     "url": "https://wallstreetcn.com/livenews/3207261",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "04:15",
+     "title_en": "Canada to provide billions in additional aid to the softwood lumber industry, which has been hit hard by tariffs.",
+     "body_en": "Canada has announced a plan to assist its softwood lumber producers, one of several industries hit hard by U.S. President Donald Trump's tariff policies. Canadian Federal Minister of Energy and Natural Resources Tim Hodgson recently stated that although provincial governments bear primary responsibility for the resource industry, \"given the scale of the challenge, we believe that a coordinated approach will benefit the national forestry sector.\" The plan and the scale of funding constitute \"the largest commitment ever made by the federal government to the forestry sector.\"",
+     "id": "wscn-3207261"
+    },
+    {
+     "ts": 1795791890,
+     "source": "华尔街见闻",
+     "title_zh": "乌克兰外交部长表示，乌克兰已向国际盟友提交了黑海停火以保障粮食出口的提议",
+     "body_zh": "石油问题只能是更广泛能源停火协议的一部分。",
+     "url": "https://wallstreetcn.com/livenews/3207175",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "23:04",
+     "title_en": "Ukraine's Foreign Minister says Ukraine has submitted a proposal to its international allies for a ceasefire in the Black Sea to secure grain exports.",
+     "body_en": "The oil issue can only be part of a broader energy ceasefire agreement.",
+     "id": "wscn-3207175"
+    },
+    {
+     "ts": 1795802587,
+     "source": "华尔街见闻",
+     "title_zh": "Anthropic收涨10.98%，创11月19日美国IPO以来最大单日涨幅",
+     "body_zh": "Anthropic收涨10.98%，创11月19日美国IPO以来最大单日涨幅，报91.88美元。 SpaceX涨4.83%。",
+     "url": "https://wallstreetcn.com/livenews/3207236",
+     "category": "a_share",
+     "category_zh": "A股",
+     "category_en": "A-Shares",
+     "time": "02:03",
+     "title_en": "Anthropic closed up 10.98%, marking its largest single-day gain since its U.S. IPO on November 19th.",
+     "body_en": "Anthropic closed up 10.98%, marking its largest single-day gain since its U.S. IPO on November 19, at $91.88. SpaceX rose by 4.83%.",
+     "id": "wscn-3207236"
+    },
+    {
+     "ts": 1795810468,
+     "source": "华尔街见闻",
+     "title_zh": "卢拉任命布拉德斯科银行董事长执掌财政部，巴西资产领涨拉美市场",
+     "body_zh": "绝大多数拉丁美洲资产在周五走高，地区货币指数有望创2024年8月以来的最大单周涨幅。在巴西总统任命布拉德斯科银行（Bradesco）董事长路易斯·卡洛斯·特拉布科（Luiz Carlos Trabuco）出任财政部长后，巴西资产领涨整个地区市场。 巴西股市一度大涨4%。不过，受国有大宗商品企业巴西国家石油公司（Petrobras）和淡水河谷（Vale）股价均跌2.7%的拖累，该指数最新涨幅收窄至0.1%。",
+     "url": "https://wallstreetcn.com/livenews/3207260",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "04:14",
+     "title_en": "Lula appoints Bradesco Bank Chairman to head the Ministry of Finance, with Brazilian assets leading the Latin American market.",
+     "body_en": "The vast majority of Latin American assets rose on Friday, with the regional currency index poised for its largest weekly gain since August 2024. Brazilian assets led the rally across the region after the country's president appointed Bradesco Chairman Luiz Carlos Trabuco as Minister of Finance. The Brazilian stock market surged by as much as 4% at one point. However, the index's latest gain narrowed to 0.1% due to a 2.7% drop in the share prices of state-owned commodities companies Petrobras and Vale.",
+     "id": "wscn-3207260"
+    },
+    {
+     "ts": 1795795787,
+     "source": "华尔街见闻",
+     "title_zh": "俄罗斯外交部",
+     "body_zh": "拉脱维亚已开放其领空，供乌克兰无人机过境，这些无人机旨在对俄罗斯目标发动袭击。 拉脱维亚正在制造人为障碍，阻碍俄罗斯粮食进入全球市场。",
+     "url": "https://wallstreetcn.com/livenews/3207201",
+     "category": "commodity",
+     "category_zh": "商品",
+     "category_en": "Commodities",
+     "time": "00:09",
+     "title_en": "Head of Division.",
+     "body_en": "Latvia has opened its airspace for Ukrainian drones to transit, which are intended to launch attacks on Russian targets. Latvia is creating artificial barriers to prevent Russian grain from entering global markets.",
+     "id": "wscn-3207201"
+    },
+    {
+     "ts": 1795808614,
+     "source": "华尔街见闻",
+     "title_zh": "AI股票遭抛售之际，彭博美元指数有望创2024年以来最长月度连涨纪录",
+     "body_zh": "人工智能（AI）交易遭遇动荡，加之利率上升刺激避险资产需求，美元势将创下两年来最长的月度连涨纪录。 周五（11月27日）纽约尾盘，ICE美元指数涨0.25%，报104.035点，亚太尾盘以来持续走高，本周累计上涨0.22%，11月份迄今累计上涨2.12%，11月2-10日大致持平，之后持续走高、23日纽约中午达到104.530点。",
+     "url": "https://wallstreetcn.com/livenews/3207255",
+     "category": "us_market",
+     "category_zh": "美股",
+     "category_en": "US Markets",
+     "time": "03:43",
+     "title_en": "As AI stocks are being sold off, the Bloomberg Dollar Index is expected to record its longest streak of monthly gains since 2024.",
+     "body_en": "The U.S. dollar is poised to record its longest streak of monthly gains in two years, driven by turbulence in artificial intelligence (AI) trading and rising interest rates that have spurred demand for safe-haven assets. On Friday (November 27), at the close of trading in New York, the ICE U.S. Dollar Index rose by 0.25% to 104.035 points. It has been steadily rising since the close of trading in the Asia-Pacific region, with a cumulative increase of 0.22% this week and 2.12% so far in November. It remained largely flat from November 2 to 10, after which it continued to rise, reaching 104.530 points at midday on November 23 in New York.",
+     "id": "wscn-3207255"
+    },
+    {
+     "ts": 1795802432,
+     "source": "华尔街见闻",
+     "title_zh": "费城半导体指数收涨约4.7%，标普创去年4月以来最大单周涨幅",
+     "body_zh": "继感恩节休市之后、美国股市在“黑色星期五”提前结束交易，标普500指数收涨114.71点，涨幅1.60%，报7297.49点，本周累计上涨5.60%，创2025年4月份以来最大单周涨幅，整体处于上涨状态、呈现出V形走势。标普500相等权重指数累涨3.97%，报8725.31点。 道琼斯工业平均指数收涨591.99点，涨幅1.18%，报50774.94点，本周累涨5.46%。",
+     "url": "https://wallstreetcn.com/livenews/3207234",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "02:00",
+     "title_en": "The Philadelphia Semiconductor Index closed up about 4.7%, and the S&P recorded its largest weekly gain since April last year.",
+     "body_en": "Following the Thanksgiving holiday closure, the U.S. stock market ended trading early on \"Black Friday.\" The S&P 500 Index closed up 114.71 points, or 1.60%, at 7,297.49 points. It rose 5.60% over the week, marking its largest weekly gain since April 2025. Overall, the market was in an uptrend, showing a V-shaped pattern. The S&P 500 Equal Weight Index rose 3.97% to 8725.31 points. The Dow Jones Industrial Average closed up 591.99 points, or 1.18%, at 50,774.94 points, with a cumulative increase of 5.46% this week.",
+     "id": "wscn-3207234"
+    },
+    {
+     "ts": 1795802952,
+     "source": "华尔街见闻",
+     "title_zh": "委内瑞拉代总统Rodriguez",
+     "body_zh": "预计年底石油产量130万桶/日。 将针对巴拿马撤销签证要求。",
+     "url": "https://wallstreetcn.com/livenews/3207238",
+     "category": "hk_market",
+     "category_zh": "港股",
+     "category_en": "HK Markets",
+     "time": "02:09",
+     "title_en": "Venezuelan Acting President Rodríguez.",
+     "body_en": "Oil production is expected to reach 1.3 million barrels per day by the end of the year. The visa requirement for Panama will be lifted.",
+     "id": "wscn-3207238"
+    }
+   ],
+   "story": {
+    "id": "soros-pound",
+    "name_zh": "乔治·索罗斯",
+    "name_en": "George Soros",
+    "era": "1992 · 伦敦",
+    "title_zh": "一夜之间，与英格兰银行对赌的人",
+    "title_en": "The Night He Bet Against the Bank of England",
+    "body_zh": "一九九二年，英镑被固定汇率锁在偏高的位置。索罗斯判断英国撑不住。九月十六日英国一天加息两次仍挡不住卖盘，当晚英镑暴跌。他的基金净赚约十亿美元，报纸标题写着打垮了英格兰银行。",
+    "body_en": "In nineteen ninety-two, the British pound was locked into a fixed exchange rate that was too high. On September sixteenth, Britain raised rates twice in one day. It was not enough. That evening, the pound crashed. His fund made about one billion dollars.",
+    "lines": [
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "London, September, nineteen ninety-two. Black Wednesday is only hours away.",
+      "zh": "伦敦，1992 年 9 月。距离黑色星期三，只剩几个小时了。"
+     },
+     {
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2",
+      "en": "George, the Bank of England keeps defending the pound. Rates went up again this morning.",
+      "zh": "乔治，英格兰银行还在死守英镑，今天上午又加息了。"
+     },
+     {
+      "k": "dial",
+      "who": "Soros",
+      "g": "M",
+      "en": "A weak economy cannot defend an overvalued currency forever. Increase the position.",
+      "zh": "疲软的经济，守不住高估的货币。继续加仓。"
+     },
+     {
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2",
+      "en": "All of it? This is the Bank of England we are betting against.",
+      "zh": "全部押上？我们赌的对手可是英格兰银行。"
+     },
+     {
+      "k": "dial",
+      "who": "Soros",
+      "g": "M",
+      "en": "When a trade is right, go for the jugular.",
+      "zh": "当一笔交易是对的，就要直取要害。"
+     },
+     {
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N",
+      "en": "That evening Britain gave up, and the pound crashed out of the system. His fund made about one billion dollars. Newspapers said he broke the Bank of England.",
+      "zh": "当晚，英国投降了，英镑暴跌退出汇率机制。他的基金净赚约十亿美元。报纸标题写着：他打垮了英格兰银行。"
+     }
+    ]
+   },
+   "joke": {
+    "id": "lost-interest",
+    "tag_zh": "华尔街双关",
+    "tag_en": "Wall Street Wordplay",
+    "title_zh": "银行家为什么辞职？他失去了“利息”",
+    "title_en": "Why Did the Banker Quit? He Lost Interest",
+    "body_zh": "一位年轻银行家在大银行干满一年就辞职了。朋友都问他为什么，他只说了一句：我失去了利息。这个笑话妙在双关。英文里利息和兴趣是同一个词。对银行家来说，这两样东西缺一样都干不下去。所以下次见到闷闷不乐的银行家，你可以关心地问一句：是利息的问题，还是兴趣的问题？",
+    "body_en": "A young banker worked at a big bank for exactly one year. Then he quit. His friends all asked why. He gave them a one line answer. I lost interest. The joke works in two ways. In English, the money a bank pays you, and the feeling of caring, are the same word. A banker cannot survive without either one. So next time you meet a sad banker, ask politely. Is it the interest, or the interest?"
+   },
+   "story_audio": {
+    "file": "story.mp3",
+    "segments": [
+     {
+      "start": 0.25,
+      "dur": 7.921,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     },
+     {
+      "start": 8.721,
+      "dur": 6.132,
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2"
+     },
+     {
+      "start": 15.403,
+      "dur": 5.549,
+      "k": "dial",
+      "who": "Soros",
+      "g": "M"
+     },
+     {
+      "start": 21.503,
+      "dur": 4.76,
+      "k": "dial",
+      "who": "Trader",
+      "g": "M2"
+     },
+     {
+      "start": 26.813,
+      "dur": 2.781,
+      "k": "dial",
+      "who": "Soros",
+      "g": "M"
+     },
+     {
+      "start": 30.143,
+      "dur": 12.662,
+      "k": "narr",
+      "who": "Narrator",
+      "g": "N"
+     }
+    ]
+   },
+   "audio_ready": true,
+   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
+   "audio_hashes": {
+    "intro.mp3": "c6a20cef7226",
+    "item-00.mp3": "ec867c6003b0",
+    "item-01.mp3": "73932de97d03",
+    "item-02.mp3": "3e5db188e183",
+    "item-03.mp3": "e520d507f2f5",
+    "item-04.mp3": "ccd1e91ab582",
+    "item-05.mp3": "7ea351dedc4c",
+    "item-06.mp3": "46e91e18663a",
+    "item-07.mp3": "6d44ae315366",
+    "item-08.mp3": "99f68e701f15",
+    "item-09.mp3": "034a0757456d",
+    "item-10.mp3": "d3f031b1b25e",
+    "item-11.mp3": "531e49fd43be",
+    "item-12.mp3": "2eb256eeb376",
+    "item-13.mp3": "f5421f57a2ae",
+    "item-14.mp3": "c1626df27dd3",
+    "item-15.mp3": "792aec89e182",
+    "item-16.mp3": "2f03b1699dc4",
+    "item-17.mp3": "b127f6fe1a66",
+    "story.mp3": "3bbf1923bf61",
+    "joke.mp3": "30d525cc0c92"
+   },
+   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
+   "broadcast": {
+    "file": "broadcast.mp3",
+    "segments": [
+     {
+      "file": "intro.mp3",
+      "start": 0.0,
+      "dur": 8.374
+     },
+     {
+      "file": "item-00.mp3",
+      "start": 9.274,
+      "dur": 38.6
+     },
+     {
+      "file": "item-01.mp3",
+      "start": 48.774,
+      "dur": 32.302
+     },
+     {
+      "file": "item-02.mp3",
+      "start": 81.976,
+      "dur": 75.447
+     },
+     {
+      "file": "item-03.mp3",
+      "start": 158.323,
+      "dur": 41.277
+     },
+     {
+      "file": "item-04.mp3",
+      "start": 200.499,
+      "dur": 71.032
+     },
+     {
+      "file": "item-05.mp3",
+      "start": 272.431,
+      "dur": 61.708
+     },
+     {
+      "file": "item-06.mp3",
+      "start": 335.039,
+      "dur": 20.688
+     },
+     {
+      "file": "item-07.mp3",
+      "start": 356.627,
+      "dur": 59.02
+     },
+     {
+      "file": "item-08.mp3",
+      "start": 416.547,
+      "dur": 43.197
+     },
+     {
+      "file": "item-09.mp3",
+      "start": 460.645,
+      "dur": 39.011
+     },
+     {
+      "file": "item-10.mp3",
+      "start": 500.556,
+      "dur": 46.741
+     },
+     {
+      "file": "item-11.mp3",
+      "start": 548.197,
+      "dur": 14.317
+     },
+     {
+      "file": "item-12.mp3",
+      "start": 563.414,
+      "dur": 25.373
+     },
+     {
+      "file": "item-13.mp3",
+      "start": 589.687,
+      "dur": 46.257
+     },
+     {
+      "file": "item-14.mp3",
+      "start": 636.843,
+      "dur": 16.246
+     },
+     {
+      "file": "item-15.mp3",
+      "start": 653.989,
+      "dur": 61.355
+     },
+     {
+      "file": "item-16.mp3",
+      "start": 716.245,
+      "dur": 73.588
+     },
+     {
+      "file": "item-17.mp3",
+      "start": 790.733,
+      "dur": 11.887
+     }
+    ]
+   }
+  },
   {
    "date": "2026-11-27",
    "weekday_en": "Friday",
@@ -3319,562 +3875,6 @@
       "file": "item-17.mp3",
       "start": 788.795,
       "dur": 67.415
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-21",
-   "weekday_en": "Saturday",
-   "weekday_zh": "周六",
-   "generated_at": "2026-11-21 07:35",
-   "lead_en": "",
-   "lead_zh": "",
-   "indices": [
-    {
-     "name_zh": "上证指数",
-     "name_en": "SSE Composite",
-     "market": "CN",
-     "value": 3533.79,
-     "chg_pct": -1.23
-    },
-    {
-     "name_zh": "深证成指",
-     "name_en": "SZSE Component",
-     "market": "CN",
-     "value": 10256.39,
-     "chg_pct": -3.09
-    },
-    {
-     "name_zh": "创业板指",
-     "name_en": "ChiNext",
-     "market": "CN",
-     "value": 2212.13,
-     "chg_pct": -3.54
-    },
-    {
-     "name_zh": "科创50",
-     "name_en": "STAR 50",
-     "market": "CN",
-     "value": 1231.09,
-     "chg_pct": -3.12
-    },
-    {
-     "name_zh": "恒生指数",
-     "name_en": "Hang Seng",
-     "market": "HK",
-     "value": 22410.8,
-     "chg_pct": -1.89
-    },
-    {
-     "name_zh": "道琼斯",
-     "name_en": "Dow Jones",
-     "market": "US",
-     "value": 48147.33,
-     "chg_pct": -1.93
-    },
-    {
-     "name_zh": "纳斯达克",
-     "name_en": "Nasdaq",
-     "market": "US",
-     "value": 22617.73,
-     "chg_pct": -5.28
-    },
-    {
-     "name_zh": "标普500",
-     "name_en": "S&P 500",
-     "market": "US",
-     "value": 6910.39,
-     "chg_pct": -3.7
-    }
-   ],
-   "items": [
-    {
-     "ts": 1795215341,
-     "source": "新浪财经",
-     "title_zh": "黄金创3月份以来最大单周跌幅 美联储鹰派信号和AI股票大跌构成压力",
-     "body_zh": "黄金连续第五天下跌，创3月份以来最大单周跌幅，美联储释放鹰派信号，暗示还将进一步加息，而人工智能（AI）股票大跌引发金属市场普遍抛售。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwan6852758.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "06:55",
-     "title_en": "Gold experiences its largest weekly decline since March, pressured by hawkish signals from the Federal Reserve and a sharp drop in AI stocks.",
-     "body_en": "Gold fell for the fifth consecutive day, marking its largest weekly decline since March. The Federal Reserve signaled a hawkish stance, suggesting further interest rate hikes, while a sharp drop in artificial intelligence (AI) stocks triggered a broad sell-off in the metals market.",
-     "id": "sina-comos:nizmwan6852758"
-    },
-    {
-     "ts": 1795203171,
-     "source": "华尔街见闻",
-     "title_zh": "交易员不再充分消化美联储12月加息的情景",
-     "body_zh": "标普500指数跌3.1%，纳斯达克100指数跌4.9%，纳指跌4.6%，半导体指数跌10%，Anthropic维持大约10%的跌幅。 英伟达跌11.79%，闪迪跌16%，博通跌12.58%，美光跌13.22%，英特尔跌6.13%，AMD跌13.59%，高通跌5.29%，台积电跌9.30%，阿斯麦跌6.70%。 VIX波动率日内涨幅达22.5%，报34.85。 美国2-7年期国债收益率至少跌15个基点。",
-     "url": "https://wallstreetcn.com/livenews/3203552",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "03:32",
-     "title_en": "Traders are no longer fully factoring in the scenario of a Federal Reserve rate hike in December.",
-     "body_en": "The S&P 500 Index fell by 3.1%, the Nasdaq 100 Index fell by 4.9%, the Nasdaq Composite Index fell by 4.6%, the Semiconductor Index fell by 10%, and Anthropic maintained a decline of approximately 10%. Nvidia fell 11.79%, SanDisk fell 16%, Broadcom fell 12.58%, Micron fell 13.22%, Intel fell 6.13%, AMD fell 13.59%, Qualcomm fell 5.29%, TSMC fell 9.30%, and ASML fell 6.70%. The VIX volatility index rose by 22.5% intraday, closing at 34.85. U.S. Treasury yields for 2- to 7-year maturities fell by at least 15 basis points.",
-     "id": "wscn-3203552"
-    },
-    {
-     "ts": 1795207324,
-     "source": "华尔街见闻",
-     "title_zh": "国际金价创一年多新低，专家：背后原因是美元走强以及美国加息预期的抬升",
-     "body_zh": "11月20日亚洲交易时段，伦敦现货黄金跌破3600美元/盎司，盘中最深下探到3514美元附近，创下一年多以来的新低；国内上海金盘中最低下探至755元/克。 这一轮持续近一年的黄金上涨行情在近期迎来深度调整，分析人士表示，市场对美联储加息预期重新升温，成为本轮行情调整的直接催化剂。财通证券研究所高级分析师张洲驰分析认为，10月中旬以来黄金呈现趋势性下跌，且不只是黄金，所有贵金属都出现了显著跌幅，其中白银跌幅更深。",
-     "url": "https://wallstreetcn.com/livenews/3203570",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "04:42",
-     "title_en": "International gold prices hit a new low in over a year. Experts: The underlying reasons are the strengthening of the U.S. dollar and rising expectations of U.S. interest rate hikes.",
-     "body_en": "During the Asian trading session on November 20, London spot gold fell below $3,600/oz, dropping as low as around $3,514 intraday, marking its lowest point in over a year. Domestically, the Shanghai Gold Exchange saw its lowest intraday price dip to RMB 755/g. This nearly year-long rally in gold prices has recently undergone a significant correction. Analysts suggest that the renewed rise in market expectations for Federal Reserve interest rate hikes has been the direct catalyst for this correction. Zhang Zhouchi, a senior analyst at the Caitong Securities Research Institute, believes that gold has been on a downward trend since mid-October. Moreover, it is not just gold; all precious metals have experienced significant declines, with silver showing an even sharper drop.",
-     "id": "wscn-3203570"
-    },
-    {
-     "ts": 1795210824,
-     "source": "新浪财经",
-     "title_zh": "11月21日收盘：纳指狂泻千点 英伟达跌14% 标普道指双双步入回调区间",
-     "body_zh": "周五美股遭遇重挫，备受瞩目的 Anthropic IPO非但未能重振由人工智能引领的涨势，反而促使投资者趁机获利了结。纳斯达克综合指数年内转跌...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmruv0035217.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:40",
-     "title_en": "November 21st Closing: The Nasdaq Plunges by 1,000 Points, Nvidia Drops 14%, and Both the S&P and Dow Enter Correction Territory.",
-     "body_en": "U.S. stocks suffered a sharp decline on Friday. The highly anticipated Anthropic IPO not only failed to revive the AI-led rally but instead prompted investors to take the opportunity to take profits. The Nasdaq Composite Index has turned negative for the year...",
-     "id": "sina-comos:nizmruv0035217"
-    },
-    {
-     "ts": 1795185088,
-     "source": "华尔街见闻",
-     "title_zh": "美股开盘：纳斯达克100指数跌1.3%，半导体指数跌3.3%",
-     "body_zh": "美股盘初，Anthropic跌9.5%，美股盘前一度跌至83.67美元——逼近IPO发行价83美元，美国IPO首日收涨17.07%。 闪迪跌4.6%，台积电、AMD、Nebius集团、希捷科技、西部数据、CoreWeave、英特尔、Cerebras系统等至多跌约4%，英伟达跌2.1%，SpaceX跌4.9%。 财捷Intuit跌8.4%，创8月26日以来最大盘中跌幅。",
-     "url": "https://wallstreetcn.com/livenews/3203425",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "22:31",
-     "title_en": "U.S. Stock Market Opens: Nasdaq 100 Index Falls 1.3%, Semiconductor Index Drops 3.3%.",
-     "body_en": "At the start of U.S. trading, Anthropic fell 9.5%. In premarket trading, U.S. shares briefly dropped to $83.67 – approaching the IPO price of $83. On the first day of its U.S. IPO, the stock closed up 17.07%. SanDisk fell 4.6%, while TSMC, AMD, Nebius Group, Seagate Technology, Western Digital, CoreWeave, Intel, Cerebras Systems, and others fell by up to about 4%. Nvidia fell 2.1%, and SpaceX fell 4.9%. Intuit fell 8.4%, marking its largest intraday decline since August 26.",
-     "id": "wscn-3203425"
-    },
-    {
-     "ts": 1795211953,
-     "source": "华尔街见闻",
-     "title_zh": "穆迪对英国的评级",
-     "body_zh": "AA3评级平衡了富裕、多元化的经济和强大的机构，以及温和的增长前景和充满挑战的财政前景。 与欧盟更紧密的经济合作以及人工智能带来的生产力提升，为经济增长带来了中期上行风险。 随着通胀放缓，预计债务负担能力将趋于稳定，但利息支出相对于财政收入仍将处于高位。 预计英国财政赤字将在2026年收窄至4.5%，2027年收窄至4%。 到本十年末，英国政府债务将从2025年占GDP的102%升至106%。",
-     "url": "https://wallstreetcn.com/livenews/3203602",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "05:59",
-     "title_en": "Moody's rating of the UK.",
-     "body_en": "The AA3 rating balances a wealthy, diversified economy and strong institutions with a moderate growth outlook and challenging fiscal prospects. Closer economic cooperation with the EU and productivity gains from artificial intelligence present medium-term upside risks to economic growth. As inflation slows, debt sustainability is expected to stabilize, but interest expenditure will remain high relative to fiscal revenue. The UK's fiscal deficit is expected to narrow to 4.5% in 2026 and 4% in 2027. By the end of this decade, U.K. government debt will rise from 102% of GDP in 2025 to 106%.",
-     "id": "wscn-3203602"
-    },
-    {
-     "ts": 1795195347,
-     "source": "华尔街见闻",
-     "title_zh": "欧洲股市创2025年以来最大周跌幅，科技股重挫",
-     "body_zh": "随着市场对人工智能（AI）热潮能否持续的疑虑再度升温，从股票到铜等全球资产均受到冲击，欧洲股市录得2025年4月以来最大单周跌幅。 斯托克欧洲600指数收盘下跌2%，本周累计跌幅扩大至5.8%。科技分类指数本周重挫11%，创2020年3月以来最大单周跌幅。随着铜和黄金价格下跌，矿业股也走低。 投资者转而买入个人护理、食品和医疗保健等更具防御性的板块。",
-     "url": "https://wallstreetcn.com/livenews/3203498",
-     "category": "commodity",
-     "category_zh": "商品",
-     "category_en": "Commodities",
-     "time": "01:22",
-     "title_en": "European stock markets experience their largest weekly decline since 2025, with tech stocks taking a significant hit.",
-     "body_en": "As market doubts about the sustainability of the artificial intelligence (AI) boom resurface, global assets ranging from stocks to copper have been impacted, with European stock markets recording their largest weekly decline since April 2025. The STOXX Europe 600 Index closed down 2%, bringing its cumulative decline for the week to 5.8%. The technology sector index plummeted by 11% this week, marking its largest weekly decline since March 2020. As copper and gold prices fell, mining stocks also declined. Investors have shifted to buying more defensive sectors such as personal care, food, and healthcare.",
-     "id": "wscn-3203498"
-    },
-    {
-     "ts": 1795208483,
-     "source": "华尔街见闻",
-     "title_zh": "美股七巨头收盘播报｜周五（11月20日），美国科技股七巨头（Magnific",
-     "body_zh": "美股七巨头收盘播报｜周五（11月20日），美国科技股七巨头（Magnificent 7）指数跌5.01%，报194.71点，本周累计下跌10.28%，11月16-18日维持小幅下跌昨天，19日（Anthropic美国IPO首日）以来持续扩大跌幅。 英伟达收盘重挫14%，创2025年1月份以来最大单日跌幅；本周重挫23%，创2008年10月份以来最大单周跌幅。",
-     "url": "https://wallstreetcn.com/livenews/3203579",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:01",
-     "title_en": "Closing Report on the U.S. Magnificent Seven Stocks | On Friday (November 20), the U.S. Magnificent Seven tech stocks.",
-     "body_en": "U.S. Magnificent 7 Closing Report｜On Friday (November 20), the Magnificent 7 index of U.S. tech stocks fell 5.01% to 194.71 points, down 10.28% cumulatively this week. It remained slightly down from November 16–18 and has continued to decline since yesterday, November 19 (the first day of Anthropic's U.S. IPO). Nvidia closed down 14%, marking its largest single-day decline since January 2025. It fell 23% this week, its biggest weekly drop since October 2008.",
-     "id": "wscn-3203579"
-    },
-    {
-     "ts": 1795216241,
-     "source": "新浪财经",
-     "title_zh": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周跌幅 避险买盘推动美债大涨",
-     "body_zh": "市场 11月21日收盘：纳指狂泻千点 英伟达跌14% 标普道指双双步入回调区间 11月21日热门中概股普跌，台积电跌超9%，阿里巴巴跌2.68% 欧洲股市创2025年以来最大周跌幅...",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwaq3638651.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:10",
-     "title_en": "Overnight News for November 21: U.S. stocks fall across the board, Nvidia drops out of the top three in market capitalization, gold experiences its largest weekly decline since March, and safe-haven buying drives a surge in U.S. Treasury bonds.",
-     "body_en": "Market close on November 21: The Nasdaq plummeted by 1,000 points, Nvidia fell by 14%, and both the S&P and Dow Jones entered correction territory. On November 21, popular Chinese ADRs generally declined, with TSMC falling over 9% and Alibaba dropping 2.68%. European stock markets recorded their largest weekly decline since 2022...",
-     "id": "sina-comos:nizmwaq3638651"
-    },
-    {
-     "ts": 1795215842,
-     "source": "新浪财经",
-     "title_zh": "伊朗外长阿拉格齐：有可能就高浓缩铀找到解决方案",
-     "body_zh": "据伊朗国营《伊朗报》刊登的一篇采访，伊朗外交部长阿巴斯·阿拉格齐表示，伊朗的红线是相关材料不得运出境，而且必须用于满足伊朗自身需要，“无论我们如何界定这些需要”。",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwan6857514.shtml",
-     "category": "macro",
-     "category_zh": "宏观",
-     "category_en": "Macro",
-     "time": "07:04",
-     "title_en": "Iranian Foreign Minister Araghchi: A solution for highly enriched uranium is possible.",
-     "body_en": "According to an interview published in the Iranian state-run newspaper Iran Daily, Iranian Foreign Minister Abbas Araghchi stated that Iran's red line is that the relevant materials must not be transported out of the country and must be used to meet Iran's own needs, \"however we define those needs.\"",
-     "id": "sina-comos:nizmwan6857514"
-    },
-    {
-     "ts": 1795208454,
-     "source": "华尔街见闻",
-     "title_zh": "Anthropic收跌8.5%，报88.91美元，北京时间01",
-     "body_zh": "49曾跌至83.05美元，距离83美元的IPO发行价仅仅一步之遥。 11月19日（该公司美国IPO首日）收涨17.07%，报97.17美元，开盘后一度达到115.10美元。",
-     "url": "https://wallstreetcn.com/livenews/3203578",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "05:00",
-     "title_en": "Anthropic closed down 8.5% at $88.91, 01 Beijing time.",
-     "body_en": "49 once fell to $83.05, just a hair's breadth away from its IPO price of $83. On November 19 (the company's first day of its U.S. IPO), the stock closed up 17.07% at $97.17, and after the bell, it even reached $115.10.",
-     "id": "wscn-3203578"
-    },
-    {
-     "ts": 1795189559,
-     "source": "华尔街见闻",
-     "title_zh": "科技股抛售搅动市场，AI信用风险指标恶化，谷歌CDS创历史新高",
-     "body_zh": "由于人工智能（AI）交易的动摇引发全球市场波动，周五，部分最大规模超大规模云厂商（hyperscalers）和芯片制造商的信用风险指标攀升，同时其债券价格走弱。 根据ICE数据服务（ICE Data Services）的数据，为甲骨文公司债务提供五年期违约保护的成本最多攀升4.2个基点，达到327.9个基点，创10月20日以来最高水平。",
-     "url": "https://wallstreetcn.com/livenews/3203463",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "23:45",
-     "title_en": "Tech stock sell-off shakes up the market, AI credit risk indicators worsen, and Google CDS hits an all-time high.",
-     "body_en": "On Friday, credit risk indicators for some of the largest hyperscalers and chip manufacturers rose, while their bond prices weakened, as fluctuations in artificial intelligence (AI) trading triggered volatility in global markets. According to ICE Data Services, the cost of five-year default protection on Oracle's debt rose by up to 4.2 basis points to 327.9 basis points, the highest level since October 20.",
-     "id": "wscn-3203463"
-    },
-    {
-     "ts": 1795205836,
-     "source": "华尔街见闻",
-     "title_zh": "报道：Anthropic IPO散户认购需求高达1200亿美元，超过SpaceX",
-     "body_zh": "据知情人士透露，Anthropic PBC首次公开募股(IPO)吸引了散户投资者约1150亿至1200亿美元的认购需求，超过SpaceX上市时散户的认购金额。这家前沿AI实验室的IPO吸引了机构投资者超过5000亿美元的认购需求，是SpaceX机构认购金额的两倍多。Anthropic此次IPO规模创下历史纪录，公司及其七名联合创始人通过IPO筹集935亿美元，包括超额配售部分，使之轻松超过SpaceX的862亿美元。",
-     "url": "https://wallstreetcn.com/livenews/3203558",
-     "category": "a_share",
-     "category_zh": "A股",
-     "category_en": "A-Shares",
-     "time": "04:17",
-     "title_en": "Report: Retail investor demand for Anthropic's IPO reaches $120 billion, surpassing SpaceX.",
-     "body_en": "According to sources, Anthropic PBC's initial public offering (IPO) attracted approximately $115 billion to $120 billion in subscription demand from retail investors, surpassing the amount subscribed by retail investors when SpaceX went public. The IPO of this cutting-edge AI lab attracted over $500 billion in subscription demand from institutional investors, more than double the amount of institutional subscriptions for SpaceX. Anthropic's IPO was the largest in history, with the company and its seven co-founders raising $935 billion through the IPO, including the over-allotment portion, easily surpassing SpaceX's $862 billion.",
-     "id": "wscn-3203558"
-    },
-    {
-     "ts": 1795211137,
-     "source": "华尔街见闻",
-     "title_zh": "美国卫生部长RFK Jr.的健康顾问委员会考虑利用人工智能（AI）来加速数据评估",
-     "body_zh": "美国卫生部长RFK Jr.的健康顾问委员会考虑利用人工智能（AI）来加速数据评估",
-     "url": "https://wallstreetcn.com/livenews/3203596",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "05:45",
-     "title_en": "U.S. Secretary of Health and Human Services RFK Jr.The Health Advisory Committee is considering using artificial intelligence (AI) to accelerate data evaluation.",
-     "body_en": "U.S. Secretary of Health and Human Services RFK Jr.The Health Advisory Committee is considering using artificial intelligence (AI) to accelerate data evaluation.",
-     "id": "wscn-3203596"
-    },
-    {
-     "ts": 1795189931,
-     "source": "华尔街见闻",
-     "title_zh": "CoreWeave破发，一度跌穿2025年3月份美国IPO发行价40美元，跌",
-     "body_zh": "CoreWeave破发，一度跌穿2025年3月份美国IPO发行价40美元，跌幅大约11%。2025年4月份，一度跌至33.52美元。",
-     "url": "https://wallstreetcn.com/livenews/3203465",
-     "category": "bond",
-     "category_zh": "债券",
-     "category_en": "Bonds",
-     "time": "23:52",
-     "title_en": "CoreWeave's share price fell below its March 2025 U.S. IPO price of $40 at one point, dropping.",
-     "body_en": "CoreWeave's share price fell below its March 2025 U.S. IPO price of $40 at one point, representing a decline of approximately 11%. In April 2025, it fell to $33.52 at one point.",
-     "id": "wscn-3203465"
-    },
-    {
-     "ts": 1795208413,
-     "source": "华尔街见闻",
-     "title_zh": "标普七连跌，与道指收盘陷入回调区间，本周纳指跌10%、半导体指数跌产后阿17%",
-     "body_zh": "标普500指数收跌265.44点，跌幅3.70%，连续第七个交易日下跌——创2020年以来最长连跌天数，报6910.39点，本周累计下跌8.61%。标普500相等权重指数跌1.77%，报8566.99点，本周累跌4.13%。 道琼斯工业平均指数收跌949.73点，跌幅1.93%，报48147.33点，本周累跌8.02%，整体平滑地持续扩大跌幅。",
-     "url": "https://wallstreetcn.com/livenews/3203575",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:00",
-     "title_en": "The S&P 500 has fallen for seven consecutive days, and both it and the Dow Jones Industrial Average closed in correction territory. This week, the Nasdaq fell by 10%, and the Philadelphia Semiconductor Index fell by 17%.",
-     "body_en": "The S&P 500 Index closed down 265.44 points, or 3.70%, marking its seventh consecutive trading day of decline — the longest streak of consecutive declines since 2020 — closing at 6,910.39 points. For the week, the index fell 8.61%. The S&P 500 Equal Weight Index fell 1.77% to 8566.99 points, down 4.13% for the week. The Dow Jones Industrial Average closed down 949.73 points, or 1.93%, at 48,147.33 points, down 8.02% for the week, with the decline continuing to widen smoothly overall.",
-     "id": "wscn-3203575"
-    },
-    {
-     "ts": 1795208424,
-     "source": "华尔街见闻",
-     "title_zh": "纳斯达克金龙中国指数收跌3.37%，报5018.26点，逼近2022年11月",
-     "body_zh": "纳斯达克金龙中国指数收跌3.37%，报5018.26点，逼近2022年11月9日收盘位4959.22点、当年10月24日收盘位4468.54点（当天最低4113.85点），本周累计下跌9.13%，整体持续下挫。 热门中概股里，阿特斯太阳能初步收跌25%，日月光半导体跌14.1%，小鹏跌14%，万国数据跌9.8%，理想跌7.7%，网易跌5%，小米跌4.7%，腾讯跌3.8%，拼多多跌2.7%，阿里跌2.5%，联想跌1.5…",
-     "url": "https://wallstreetcn.com/livenews/3203577",
-     "category": "hk_market",
-     "category_zh": "港股",
-     "category_en": "HK Markets",
-     "time": "05:00",
-     "title_en": "The Nasdaq Golden Dragon China Index closed down 3.37% at 5018.26 points, approaching its November 2022 level.",
-     "body_en": "The Nasdaq Golden Dragon China Index closed down 3.37% at 5018.26 points, approaching the closing level of 4959.22 points on November 9, 2022, and the closing level of 4468.54 points on October 24 of the same year (the intraday low was 4113.85 points). It fell by a cumulative 9.13% this week, continuing its overall downward trend. Among the popular Chinese stocks, Canadian Solar initially closed down 25%, ASE Technology Holding Co., Ltd. fell 14.1%, XPeng fell 14%, GDS Holdings Limited fell 9.8%, Li Auto fell 7.7%, NetEase fell 5%, Xiaomi fell 4.7%, Tencent fell 3.8%, Pinduoduo fell 2.7%, Alibaba fell 2.5%, and Lenovo fell 1.5%...",
-     "id": "wscn-3203577"
-    },
-    {
-     "ts": 1795212689,
-     "source": "华尔街见闻",
-     "title_zh": "最新监管文件显示",
-     "body_zh": "GTCR考虑竞购Global Payments。",
-     "url": "https://wallstreetcn.com/livenews/3203605",
-     "category": "us_market",
-     "category_zh": "美股",
-     "category_en": "US Markets",
-     "time": "06:11",
-     "title_en": "The latest regulatory filings show.",
-     "body_en": "GTCR is considering bidding for Global Payments.",
-     "id": "wscn-3203605"
-    }
-   ],
-   "story": {
-    "id": "dalio-1982",
-    "name_zh": "瑞·达利欧",
-    "name_en": "Ray Dalio",
-    "era": "1982 · 桥水基金初创",
-    "title_zh": "最自信的一年，他差点赔光一切",
-    "title_en": "The Year of Total Confidence Nearly Ruined Him",
-    "body_zh": "一九八二年，达利欧公开判断美国经济将走向萧条并重仓押注。结果墨西哥违约后市场不跌反涨，公司只剩他一个人。他从此写下每笔决策的依据，把痛苦变成算法，后来的桥水成了全球最大对冲基金。",
-    "body_en": "In nineteen eighty-two, Ray Dalio predicted a depression, loudly and publicly. Then Mexico defaulted, and markets rose instead of falling. His company shrank to one person: himself. From then on, he logged every decision. Pain became an algorithm. That log built Bridgewater, the largest hedge fund in the world.",
-    "lines": [
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Nineteen eighty-two. A young trader goes on television, and says the word everyone fears. Depression.",
-      "zh": "1982 年。一个年轻交易员上电视，说出了所有人害怕的那个词：萧条。"
-     },
-     {
-      "k": "dial",
-      "who": "Dalio",
-      "g": "M",
-      "en": "I am completely certain. The economy is going down. I have bet everything on it.",
-      "zh": "我非常确定，经济要往下走。我把全部身家都押上了。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "Then Mexico defaulted. And the market did the one thing he did not expect. It rose.",
-      "zh": "然后，墨西哥违约了。市场做了他唯一没料到的事：上涨。"
-     },
-     {
-      "k": "dial",
-      "who": "Friend",
-      "g": "F",
-      "en": "Ray, you have to close the company. You have lost everything.",
-      "zh": "瑞，你得把公司关了，你什么都赔光了。"
-     },
-     {
-      "k": "dial",
-      "who": "Dalio",
-      "g": "M",
-      "en": "I have four thousand dollars left, borrowed from my father. And one employee. Me.",
-      "zh": "我还剩向我爸借的四千美元，和一个员工——我自己。"
-     },
-     {
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N",
-      "en": "He later called it the most valuable event of his life. From then on, he wrote down the reason behind every decision. Every mistake was logged and studied. Pain became an algorithm.",
-      "zh": "他后来称这次经历是一生中最宝贵的。从那以后，他把每个决策的依据都写下来，每个错误都记录归档。痛苦，变成了算法。"
-     }
-    ]
-   },
-   "joke": {
-    "id": "truman-recession",
-    "tag_zh": "总统的定义",
-    "tag_en": "A President's Definition",
-    "title_zh": "邻居失业叫衰退，自己失业叫萧条",
-    "title_en": "A Recession Is When Your Neighbor Loses His Job",
-    "body_zh": "据说杜鲁门总统这样区分经济术语：邻居失业，叫衰退；自己失业，才叫萧条。一句话戳破了宏大叙事——经济数据再漂亮，落到每个具体的人身上，感受是完全不同的。这也提醒我们读新闻时留个心眼：报表上的百分比，都是别人的人生。理解经济，要从理解一个具体的人开始。",
-    "body_en": "President Truman supposedly explained economic terms this way. A recession is when your neighbor loses his job. A depression is when you lose yours. One sentence, and all the big words collapse. Growth rates look beautiful on paper. But every percentage point is somebody's real life. It is a good habit when reading the news. Behind every statistic, there is a person. Economics starts with people, not charts."
-   },
-   "story_audio": {
-    "file": "story.mp3",
-    "segments": [
-     {
-      "start": 0.25,
-      "dur": 9.91,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 10.71,
-      "dur": 5.765,
-      "k": "dial",
-      "who": "Dalio",
-      "g": "M"
-     },
-     {
-      "start": 17.025,
-      "dur": 7.834,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     },
-     {
-      "start": 25.409,
-      "dur": 4.105,
-      "k": "dial",
-      "who": "Friend",
-      "g": "F"
-     },
-     {
-      "start": 30.064,
-      "dur": 6.262,
-      "k": "dial",
-      "who": "Dalio",
-      "g": "M"
-     },
-     {
-      "start": 36.876,
-      "dur": 15.181,
-      "k": "narr",
-      "who": "Narrator",
-      "g": "N"
-     }
-    ]
-   },
-   "audio_ready": true,
-   "voice_plan": "intro-michael+items-michael-heart-alt-v2",
-   "audio_hashes": {
-    "intro.mp3": "e2a2c27f90d2",
-    "item-00.mp3": "83b29019cf52",
-    "item-01.mp3": "f8dcc6604016",
-    "item-02.mp3": "357fc85a0748",
-    "item-03.mp3": "52b714e80888",
-    "item-04.mp3": "6d964a23eb02",
-    "item-05.mp3": "9a8f7af0ad64",
-    "item-06.mp3": "1f40095e9cf5",
-    "item-07.mp3": "d39388eafc11",
-    "item-08.mp3": "57f660c626c3",
-    "item-09.mp3": "97217129dca6",
-    "item-10.mp3": "6d2fb2da78e9",
-    "item-11.mp3": "7c93a8cf7356",
-    "item-12.mp3": "56b54344ec6b",
-    "item-13.mp3": "c893d983c297",
-    "item-14.mp3": "418c7273b679",
-    "item-15.mp3": "aa529654ec9b",
-    "item-16.mp3": "7b6ccd751126",
-    "item-17.mp3": "4fc0fd3df5c8",
-    "story.mp3": "14b36e81799b",
-    "joke.mp3": "2cc05a0246f5"
-   },
-   "story_plan": "storycast-v1(N-fable,M-adam,M2-michael,F-bella,F2-nicole,F3-heart)",
-   "broadcast": {
-    "file": "broadcast.mp3",
-    "segments": [
-     {
-      "file": "intro.mp3",
-      "start": 0.0,
-      "dur": 8.459
-     },
-     {
-      "file": "item-00.mp3",
-      "start": 9.359,
-      "dur": 29.47
-     },
-     {
-      "file": "item-01.mp3",
-      "start": 39.729,
-      "dur": 62.988
-     },
-     {
-      "file": "item-02.mp3",
-      "start": 103.617,
-      "dur": 78.285
-     },
-     {
-      "file": "item-03.mp3",
-      "start": 182.803,
-      "dur": 30.357
-     },
-     {
-      "file": "item-04.mp3",
-      "start": 214.059,
-      "dur": 64.881
-     },
-     {
-      "file": "item-05.mp3",
-      "start": 279.84,
-      "dur": 52.027
-     },
-     {
-      "file": "item-06.mp3",
-      "start": 332.767,
-      "dur": 58.872
-     },
-     {
-      "file": "item-07.mp3",
-      "start": 392.539,
-      "dur": 52.544
-     },
-     {
-      "file": "item-08.mp3",
-      "start": 445.983,
-      "dur": 52.352
-     },
-     {
-      "file": "item-09.mp3",
-      "start": 499.235,
-      "dur": 24.221
-     },
-     {
-      "file": "item-10.mp3",
-      "start": 524.357,
-      "dur": 35.417
-     },
-     {
-      "file": "item-11.mp3",
-      "start": 560.674,
-      "dur": 38.109
-     },
-     {
-      "file": "item-12.mp3",
-      "start": 599.683,
-      "dur": 65.14
-     },
-     {
-      "file": "item-13.mp3",
-      "start": 665.723,
-      "dur": 26.743
-     },
-     {
-      "file": "item-14.mp3",
-      "start": 693.365,
-      "dur": 28.615
-     },
-     {
-      "file": "item-15.mp3",
-      "start": 722.881,
-      "dur": 70.575
-     },
-     {
-      "file": "item-16.mp3",
-      "start": 794.355,
-      "dur": 87.275
-     },
-     {
-      "file": "item-17.mp3",
-      "start": 882.531,
-      "dur": 6.083
      }
     ]
    }
